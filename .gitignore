@@ -1,0 +1,38 @@
+# Dependencies
+node_modules/
+bin/
+obj/
+*.user
+*.suo
+
+# Build outputs
+dist/
+build/
+out/
+publish/
+
+# Environment and secrets
+.env
+.env.local
+.env.*.local
+*.pfx
+*.key
+*.pem
+
+# IDE & Editor files
+.vscode/
+.idea/
+*.swp
+*~
+
+# Operating System files
+.DS_Store
+Thumbs.db
+
+# Test coverage & logs
+TestResults/
+*.log
+logs/
+
+# Scratch directory (internal agent discovery scratch scripts)
+scratch/

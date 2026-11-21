@@ -1,0 +1,190 @@
+using System;
+using System.Collections.Generic;
+using System.Net.Http;
+using System.Text;
+using System.Text.Json;
+using System.Threading;
+using System.Threading.Tasks;
+using Microsoft.Extensions.Logging;
+using PriceWise.Collector.Matching;
+using PriceWise.Collector.Models;
+
+namespace PriceWise.Collector.Storage;
+
+public class SupabaseStorageService : IStorageService
+{
+    private readonly HttpClient _httpClient;
+    private readonly string _supabaseUrl;
+    private readonly string _serviceRoleKey;
+    private readonly ProductMatcher _matcher;
+    private readonly ILogger<SupabaseStorageService> _logger;
+
+    public SupabaseStorageService(
+        HttpClient httpClient,
+        string supabaseUrl,
+        string serviceRoleKey,
+        ProductMatcher matcher,
+        ILogger<SupabaseStorageService> logger)
+    {
+        _httpClient = httpClient;
+        _supabaseUrl = supabaseUrl.TrimEnd('/');
+        _serviceRoleKey = serviceRoleKey;
+        _matcher = matcher;
+        _logger = logger;
+    }
+
+    private HttpRequestMessage CreatePostgRestRequest(HttpMethod method, string tablePath)
+    {
+        var request = new HttpRequestMessage(method, $"{_supabaseUrl}/rest/v1/{tablePath}");
+        request.Headers.Add("apikey", _serviceRoleKey);
+        request.Headers.Add("Authorization", $"Bearer {_serviceRoleKey}");
+        return request;
+    }
+
+    public async Task<List<Product>> GetCanonicalProductsAsync(CancellationToken cancellationToken = default)
+    {
+        try
+        {
+            using var request = CreatePostgRestRequest(HttpMethod.Get, "products?select=*");
+            using var response = await _httpClient.SendAsync(request, cancellationToken);
+            if (!response.IsSuccessStatusCode)
+            {
+                _logger.LogWarning("Failed to fetch products from Supabase: {Status}", response.StatusCode);
+                return new List<Product>();
+            }
+
+            var json = await response.Content.ReadAsStringAsync(cancellationToken);
+            return JsonSerializer.Deserialize<List<Product>>(json, new JsonSerializerOptions { PropertyNameCaseInsensitive = true }) ?? new List<Product>();
+        }
+        catch (Exception ex)
+        {
+            _logger.LogError(ex, "Error getting products from Supabase: {Message}", ex.Message);
+            return new List<Product>();
+        }
+    }
+
+    public async Task<List<Supermarket>> GetSupermarketsAsync(CancellationToken cancellationToken = default)
+    {
+        try
+        {
+            using var request = CreatePostgRestRequest(HttpMethod.Get, "supermarkets?select=*");
+            using var response = await _httpClient.SendAsync(request, cancellationToken);
+            if (!response.IsSuccessStatusCode)
+            {
+                _logger.LogWarning("Failed to fetch supermarkets from Supabase: {Status}", response.StatusCode);
+                return new List<Supermarket>();
+            }
+
+            var json = await response.Content.ReadAsStringAsync(cancellationToken);
+            return JsonSerializer.Deserialize<List<Supermarket>>(json, new JsonSerializerOptions { PropertyNameCaseInsensitive = true }) ?? new List<Supermarket>();
+        }
+        catch (Exception ex)
+        {
+            _logger.LogError(ex, "Error getting supermarkets from Supabase: {Message}", ex.Message);
+            return new List<Supermarket>();
+        }
+    }
+
+    public async Task SaveCollectorRunAsync(CollectorRun run, CancellationToken cancellationToken = default)
+    {
+        try
+        {
+            using var request = CreatePostgRestRequest(HttpMethod.Post, "collector_runs");
+            var payload = new
+            {
+                id = run.Id,
+                supermarket_id = run.SupermarketId,
+                started_at = run.StartedAt,
+                finished_at = run.FinishedAt,
+                status = run.Status,
+                products_checked = run.ProductsChecked,
+                products_updated = run.ProductsUpdated,
+                error_message = run.ErrorMessage
+            };
+
+            request.Content = new StringContent(JsonSerializer.Serialize(payload), Encoding.UTF8, "application/json");
+            using var response = await _httpClient.SendAsync(request, cancellationToken);
+            if (!response.IsSuccessStatusCode)
+            {
+                _logger.LogWarning("Failed to save collector run to Supabase: {Status}", response.StatusCode);
+            }
+        }
+        catch (Exception ex)
+        {
+            _logger.LogError(ex, "Error saving collector run to Supabase: {Message}", ex.Message);
+        }
+    }
+
+    public async Task SaveCollectedProductsAsync(
+        Supermarket supermarket,
+        IReadOnlyList<RawProductItem> items,
+        CancellationToken cancellationToken = default)
+    {
+        var existingCatalog = await GetCanonicalProductsAsync(cancellationToken);
+
+        foreach (var rawItem in items)
+        {
+            var matchResult = _matcher.MatchOrCreateProduct(rawItem, existingCatalog);
+            var canonical = matchResult.CanonicalProduct;
+
+            if (matchResult.IsNewProduct)
+            {
+                // Insert new canonical product
+                using var pReq = CreatePostgRestRequest(HttpMethod.Post, "products");
+                var pPayload = new
+                {
+                    id = canonical.Id,
+                    canonical_name = canonical.CanonicalName,
+                    brand = canonical.Brand,
+                    barcode = canonical.Barcode,
+                    quantity = canonical.Quantity,
+                    unit = canonical.Unit,
+                    category = canonical.Category
+                };
+                pReq.Content = new StringContent(JsonSerializer.Serialize(pPayload), Encoding.UTF8, "application/json");
+                await _httpClient.SendAsync(pReq, cancellationToken);
+                existingCatalog.Add(canonical);
+            }
+
+            // Upsert store_products
+            using var spReq = CreatePostgRestRequest(HttpMethod.Post, "store_products?on_conflict=supermarket_id,source_product_id");
+            spReq.Headers.Add("Prefer", "resolution=merge-duplicates,return=representation");
+            var spPayload = new
+            {
+                supermarket_id = supermarket.Id,
+                product_id = canonical.Id,
+                source_product_id = rawItem.SourceProductId,
+                source_product_name = rawItem.SourceProductName,
+                product_url = rawItem.ProductUrl,
+                image_url = rawItem.ImageUrl,
+                availability_status = rawItem.AvailabilityStatus,
+                last_observed_at = rawItem.ObservedAt
+            };
+            spReq.Content = new StringContent(JsonSerializer.Serialize(spPayload), Encoding.UTF8, "application/json");
+            var spResp = await _httpClient.SendAsync(spReq, cancellationToken);
+
+            var spJson = await spResp.Content.ReadAsStringAsync(cancellationToken);
+            var insertedList = JsonSerializer.Deserialize<List<StoreProductDto>>(spJson, new JsonSerializerOptions { PropertyNameCaseInsensitive = true });
+            var storeProductId = insertedList?.FirstOrDefault()?.Id ?? Guid.NewGuid();
+
+            // Insert price observation
+            using var obsReq = CreatePostgRestRequest(HttpMethod.Post, "price_observations");
+            var obsPayload = new
+            {
+                store_product_id = storeProductId,
+                price = rawItem.Price,
+                original_price = rawItem.OriginalPrice,
+                currency = rawItem.Currency,
+                observed_at = rawItem.ObservedAt,
+                source_url = rawItem.ProductUrl
+            };
+            obsReq.Content = new StringContent(JsonSerializer.Serialize(obsPayload), Encoding.UTF8, "application/json");
+            await _httpClient.SendAsync(obsReq, cancellationToken);
+        }
+    }
+
+    private class StoreProductDto
+    {
+        public Guid Id { get; set; }
+    }
+}

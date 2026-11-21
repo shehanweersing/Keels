@@ -1,0 +1,29 @@
+[
+  {
+    "Id": "a1000000-0000-0000-0000-000000000001",
+    "Name": "Cargills Food City",
+    "Slug": "cargills",
+    "WebsiteUrl": "https://cargillsonline.com/Web/",
+    "IntegrationStatus": "active",
+    "StatusReason": "Verified live public JSON search API with full product metadata and exact LKR pricing.",
+    "CreatedAt": "2026-11-21T20:24:55.7663446Z"
+  },
+  {
+    "Id": "a2000000-0000-0000-0000-000000000002",
+    "Name": "Arpico Supercentre",
+    "Slug": "arpico",
+    "WebsiteUrl": "https://myarpico.com/shop/",
+    "IntegrationStatus": "active",
+    "StatusReason": "Verified live public OpenCart search catalog permitted under robots.txt content signals.",
+    "CreatedAt": "2026-11-21T20:24:55.766564Z"
+  },
+  {
+    "Id": "a3000000-0000-0000-0000-000000000003",
+    "Name": "Keells Super",
+    "Slug": "keells",
+    "WebsiteUrl": "https://www.keellssuper.com/",
+    "IntegrationStatus": "blocked",
+    "StatusReason": "Direct API calls to zebraliveback require encrypted client session tokens and anti-bot challenge cookies. Automated collection blocked pending authorized enterprise data feed.",
+    "CreatedAt": "2026-11-21T20:24:55.7665648Z"
+  }
+]

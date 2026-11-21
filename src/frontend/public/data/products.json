@@ -1,0 +1,2252 @@
+[
+  {
+    "Id": "130297d5-c1d7-4f35-aec6-6743809e8bf6",
+    "CanonicalName": "Milkmaid Condensed Milk",
+    "Brand": "Milkmaid",
+    "Barcode": null,
+    "Quantity": 510.00,
+    "Unit": "g",
+    "Category": "Dairy",
+    "CreatedAt": "2026-11-21T20:25:03.7151418Z"
+  },
+  {
+    "Id": "53cdc2ce-8bf0-4ff0-9030-3c9849edcd2c",
+    "CanonicalName": "Milkmaid Condensed Milk",
+    "Brand": "Milkmaid",
+    "Barcode": null,
+    "Quantity": 390.00,
+    "Unit": "g",
+    "Category": "Dairy",
+    "CreatedAt": "2026-11-21T20:25:03.7163784Z"
+  },
+  {
+    "Id": "5dc93d22-626a-4ee4-be5b-cdea826ec9a1",
+    "CanonicalName": "Maliban Milky Sorties",
+    "Brand": "Maliban",
+    "Barcode": null,
+    "Quantity": 325.00,
+    "Unit": "g",
+    "Category": "Snacks \u0026 Confectionery",
+    "CreatedAt": "2026-11-21T20:25:03.7165917Z"
+  },
+  {
+    "Id": "fbd91c85-3bab-437a-9a97-c7f793836218",
+    "CanonicalName": "Milca Instant Milk Powder",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 400.00,
+    "Unit": "g",
+    "Category": "Dairy",
+    "CreatedAt": "2026-11-21T20:25:03.7165982Z"
+  },
+  {
+    "Id": "4339cc69-0880-4b39-801c-876f79263f00",
+    "CanonicalName": "Kist Milki Cookies",
+    "Brand": "Kist",
+    "Barcode": null,
+    "Quantity": 120.00,
+    "Unit": "g",
+    "Category": "Snacks \u0026 Confectionery",
+    "CreatedAt": "2026-11-21T20:25:03.7166034Z"
+  },
+  {
+    "Id": "01918d7a-456e-4072-af33-d87b2962becc",
+    "CanonicalName": "Sera Real Coconut Milk",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 500.00,
+    "Unit": "ml",
+    "Category": "Cooking Essentials",
+    "CreatedAt": "2026-11-21T20:25:03.7166133Z"
+  },
+  {
+    "Id": "01f487aa-c71c-4ff2-8d26-f3b9dea76107",
+    "CanonicalName": "Ambewela Goat Milk",
+    "Brand": "Ambewela",
+    "Barcode": null,
+    "Quantity": 190.00,
+    "Unit": "ml",
+    "Category": "Dairy",
+    "CreatedAt": "2026-11-21T20:25:03.7166178Z"
+  },
+  {
+    "Id": "05bcdcdc-c0b9-4aa7-bdec-f95d2ea934de",
+    "CanonicalName": "Capra Almond Goat Milk",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 190.00,
+    "Unit": "ml",
+    "Category": "Dairy",
+    "CreatedAt": "2026-11-21T20:25:03.7172458Z"
+  },
+  {
+    "Id": "7643395f-90c7-4218-bfde-3c372f972d48",
+    "CanonicalName": "Highland Fresh Milk UHT",
+    "Brand": "Highland",
+    "Barcode": null,
+    "Quantity": 900.00,
+    "Unit": "ml",
+    "Category": "Dairy",
+    "CreatedAt": "2026-11-21T20:25:03.7172574Z"
+  },
+  {
+    "Id": "6e3f1406-f541-40e5-a0df-4f87d010a191",
+    "CanonicalName": "Kotmale Milk Vanilla",
+    "Brand": "Kotmale",
+    "Barcode": null,
+    "Quantity": 1.00,
+    "Unit": "l",
+    "Category": "Dairy",
+    "CreatedAt": "2026-11-21T20:25:03.7172691Z"
+  },
+  {
+    "Id": "f23e1c80-a667-4489-8552-8f4dce038aef",
+    "CanonicalName": "Kotmale Pasteurized Strawberry Milk",
+    "Brand": "Kotmale",
+    "Barcode": null,
+    "Quantity": 500.00,
+    "Unit": "ml",
+    "Category": "Dairy",
+    "CreatedAt": "2026-11-21T20:25:03.7172957Z"
+  },
+  {
+    "Id": "110599ff-ec9d-458d-8440-b58a8433ccae",
+    "CanonicalName": "Highland Condensed Milk",
+    "Brand": "Highland",
+    "Barcode": null,
+    "Quantity": 520.00,
+    "Unit": "g",
+    "Category": "Dairy",
+    "CreatedAt": "2026-11-21T20:25:03.7173015Z"
+  },
+  {
+    "Id": "42627091-0955-4deb-8681-adabef2f9576",
+    "CanonicalName": "Ritzbury Cooking Chocolate Milk",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 400.00,
+    "Unit": "g",
+    "Category": "Desserts \u0026 Ingredients",
+    "CreatedAt": "2026-11-21T20:25:03.7173153Z"
+  },
+  {
+    "Id": "d8dc53f0-a337-4887-8439-c25cb1c0f154",
+    "CanonicalName": "Anods Milk Chocolate Chips",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 250.00,
+    "Unit": "g",
+    "Category": "Desserts \u0026 Ingredients",
+    "CreatedAt": "2026-11-21T20:25:03.7173214Z"
+  },
+  {
+    "Id": "aa2922d8-c293-45e1-834d-21895706510b",
+    "CanonicalName": "Highland Fresh Milk UHT",
+    "Brand": "Highland",
+    "Barcode": null,
+    "Quantity": 450.00,
+    "Unit": "ml",
+    "Category": "Dairy",
+    "CreatedAt": "2026-11-21T20:25:03.7173271Z"
+  },
+  {
+    "Id": "cebab04e-60a8-4125-bd3e-7143462094aa",
+    "CanonicalName": "Kotmale Milk Vanilla",
+    "Brand": "Kotmale",
+    "Barcode": null,
+    "Quantity": 180.00,
+    "Unit": "ml",
+    "Category": "Dairy",
+    "CreatedAt": "2026-11-21T20:25:03.7173339Z"
+  },
+  {
+    "Id": "215ffd0b-c49f-4ff4-a0c1-bb7f6222a348",
+    "CanonicalName": "Kotmale Milk Strawberry",
+    "Brand": "Kotmale",
+    "Barcode": null,
+    "Quantity": 170.00,
+    "Unit": "ml",
+    "Category": "Dairy",
+    "CreatedAt": "2026-11-21T20:25:03.7173393Z"
+  },
+  {
+    "Id": "d6b421af-659a-4c19-acba-715e5d0eace4",
+    "CanonicalName": "Ambewela Non Fat Milk",
+    "Brand": "Ambewela",
+    "Barcode": null,
+    "Quantity": 1.00,
+    "Unit": "l",
+    "Category": "Dairy",
+    "CreatedAt": "2026-11-21T20:25:03.7173485Z"
+  },
+  {
+    "Id": "09203f31-c70a-4c9e-b28a-618d6e617ed2",
+    "CanonicalName": "Maggi Coconut Milk Powder",
+    "Brand": "Maggi",
+    "Barcode": null,
+    "Quantity": 800.00,
+    "Unit": "g",
+    "Category": "Cooking Essentials",
+    "CreatedAt": "2026-11-21T20:25:03.7173541Z"
+  },
+  {
+    "Id": "84796106-fd36-48d7-beca-e94230f4f9f9",
+    "CanonicalName": "Kotmale Faluda Milk UHT",
+    "Brand": "Kotmale",
+    "Barcode": null,
+    "Quantity": 1.00,
+    "Unit": "l",
+    "Category": "Dairy",
+    "CreatedAt": "2026-11-21T20:25:03.7173632Z"
+  },
+  {
+    "Id": "46b2a7de-1766-464b-ba31-931756ee373b",
+    "CanonicalName": "Kotmale Faluda Milk UHT",
+    "Brand": "Kotmale",
+    "Barcode": null,
+    "Quantity": 180.00,
+    "Unit": "ml",
+    "Category": "Dairy",
+    "CreatedAt": "2026-11-21T20:25:03.7173734Z"
+  },
+  {
+    "Id": "7a71da59-7eaa-434d-9fa4-4aee6735f113",
+    "CanonicalName": "Anchor UHT White Milk",
+    "Brand": "Anchor",
+    "Barcode": null,
+    "Quantity": 1.00,
+    "Unit": "l",
+    "Category": "Dairy",
+    "CreatedAt": "2026-11-21T20:25:03.71738Z"
+  },
+  {
+    "Id": "271d82ea-ce37-4b97-91b9-cb9e9cef4d2f",
+    "CanonicalName": "Newdale Vanilla Flavoured Milk",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 180.00,
+    "Unit": "ml",
+    "Category": "Dairy",
+    "CreatedAt": "2026-11-21T20:25:03.7173943Z"
+  },
+  {
+    "Id": "a4ed418d-70aa-455d-8a17-35dfe863a44a",
+    "CanonicalName": "Knorr Coconut Milk Powder",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 300.00,
+    "Unit": "g",
+    "Category": "Cooking Essentials",
+    "CreatedAt": "2026-11-21T20:25:03.7174069Z"
+  },
+  {
+    "Id": "1ed07144-29ca-4aee-baca-46c06860ea1f",
+    "CanonicalName": "Kotmale Pasteurized Vanilla Milk",
+    "Brand": "Kotmale",
+    "Barcode": null,
+    "Quantity": 500.00,
+    "Unit": "ml",
+    "Category": "Dairy",
+    "CreatedAt": "2026-11-21T20:25:03.7174177Z"
+  },
+  {
+    "Id": "f18fcd7b-7837-460a-8a86-52afcb58c50e",
+    "CanonicalName": "Silvermill Coconut Milk",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 330.00,
+    "Unit": "ml",
+    "Category": "Cooking Essentials",
+    "CreatedAt": "2026-11-21T20:25:03.7174245Z"
+  },
+  {
+    "Id": "a01d6631-dbda-4f2f-abc8-149eca4f482f",
+    "CanonicalName": "Kotmale Fresh Milk",
+    "Brand": "Kotmale",
+    "Barcode": null,
+    "Quantity": 1.00,
+    "Unit": "l",
+    "Category": "Dairy",
+    "CreatedAt": "2026-11-21T20:25:03.7174387Z"
+  },
+  {
+    "Id": "f3cd90ee-9605-448e-b4d0-00492a4ea7d1",
+    "CanonicalName": "Kotmale Pasteurized Chocolate Milk",
+    "Brand": "Kotmale",
+    "Barcode": null,
+    "Quantity": 500.00,
+    "Unit": "ml",
+    "Category": "Dairy",
+    "CreatedAt": "2026-11-21T20:25:03.7174553Z"
+  },
+  {
+    "Id": "ccbc06b3-7e33-4607-8068-4dab594e0829",
+    "CanonicalName": "Kotmale Pasteurised Milk, Almond",
+    "Brand": "Kotmale",
+    "Barcode": null,
+    "Quantity": 500.00,
+    "Unit": "ml",
+    "Category": "Dairy",
+    "CreatedAt": "2026-11-21T20:25:03.7175077Z"
+  },
+  {
+    "Id": "a9deb0d8-fa13-431e-b16d-08547dfe97ba",
+    "CanonicalName": "Puredale Milk Blend",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 400.00,
+    "Unit": "g",
+    "Category": "Dairy",
+    "CreatedAt": "2026-11-21T20:25:03.7175238Z"
+  },
+  {
+    "Id": "935455fc-bdf3-4353-9f4d-145c7cc358ce",
+    "CanonicalName": "Ritzbury Revello Milk Chocolate",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 100.00,
+    "Unit": "g",
+    "Category": "Snacks \u0026 Confectionery",
+    "CreatedAt": "2026-11-21T20:25:03.717531Z"
+  },
+  {
+    "Id": "56bb5400-1a60-4d9c-8c50-a407f84e016e",
+    "CanonicalName": "M \u0026 M Milk Chocolate",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 45.00,
+    "Unit": "g",
+    "Category": "Snacks \u0026 Confectionery",
+    "CreatedAt": "2026-11-21T20:25:03.7175388Z"
+  },
+  {
+    "Id": "54458a63-a267-43af-868a-12088588b566",
+    "CanonicalName": "Newdale Chocolate Flavoured Milk",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 180.00,
+    "Unit": "ml",
+    "Category": "Dairy",
+    "CreatedAt": "2026-11-21T20:25:03.7175555Z"
+  },
+  {
+    "Id": "cb0b02d4-f75f-4298-ae26-c7332151d8f9",
+    "CanonicalName": "Munchee Milk Cream Biscuits",
+    "Brand": "Munchee",
+    "Barcode": null,
+    "Quantity": 220.00,
+    "Unit": "g",
+    "Category": "Snacks \u0026 Confectionery",
+    "CreatedAt": "2026-11-21T20:25:03.7175659Z"
+  },
+  {
+    "Id": "e85a7e8c-bff9-4e10-909b-b47541993266",
+    "CanonicalName": "Richlife Full Cream Milk",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 1.00,
+    "Unit": "l",
+    "Category": "Dairy",
+    "CreatedAt": "2026-11-21T20:25:03.7175862Z"
+  },
+  {
+    "Id": "1087a800-b90d-45b4-adef-565848109ae5",
+    "CanonicalName": "Capra Chocolate Goat Milk",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 190.00,
+    "Unit": "ml",
+    "Category": "Dairy",
+    "CreatedAt": "2026-11-21T20:25:03.7175982Z"
+  },
+  {
+    "Id": "8762e9e9-bac3-4dfb-a1f4-8394f95846fa",
+    "CanonicalName": "Kotmale Milk Chocolate",
+    "Brand": "Kotmale",
+    "Barcode": null,
+    "Quantity": 170.00,
+    "Unit": "ml",
+    "Category": "Dairy",
+    "CreatedAt": "2026-11-21T20:25:03.7176108Z"
+  },
+  {
+    "Id": "a0e435d0-2e70-401c-a8c1-f77bffc0c85c",
+    "CanonicalName": "Kotmale Milk Chocolate",
+    "Brand": "Kotmale",
+    "Barcode": null,
+    "Quantity": 1.00,
+    "Unit": "l",
+    "Category": "Dairy",
+    "CreatedAt": "2026-11-21T20:25:03.7176257Z"
+  },
+  {
+    "Id": "35e955d4-d84d-4e33-b8f2-7c2d0c96a114",
+    "CanonicalName": "Kotmale Milk Chocolate",
+    "Brand": "Kotmale",
+    "Barcode": null,
+    "Quantity": 180.00,
+    "Unit": "ml",
+    "Category": "Dairy",
+    "CreatedAt": "2026-11-21T20:25:03.7176455Z"
+  },
+  {
+    "Id": "b2906093-3094-421d-8be1-a6aa45f39804",
+    "CanonicalName": "Ambewela Fresh Milk",
+    "Brand": "Ambewela",
+    "Barcode": null,
+    "Quantity": 1.00,
+    "Unit": "l",
+    "Category": "Dairy",
+    "CreatedAt": "2026-11-21T20:25:03.7176612Z"
+  },
+  {
+    "Id": "d742d004-1cff-40da-94ce-3bb1f083a905",
+    "CanonicalName": "Ritzbury Revello Milk Chocolate",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 170.00,
+    "Unit": "g",
+    "Category": "Snacks \u0026 Confectionery",
+    "CreatedAt": "2026-11-21T20:25:03.7176696Z"
+  },
+  {
+    "Id": "d70dbebe-6df7-4e72-b764-4f8b2c7f560a",
+    "CanonicalName": "Renuka Coconut Milk",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 1.00,
+    "Unit": "l",
+    "Category": "Cooking Essentials",
+    "CreatedAt": "2026-11-21T20:25:03.7176987Z"
+  },
+  {
+    "Id": "b99a4bab-adbf-4d36-b6d9-88e2d11781c4",
+    "CanonicalName": "Sera Coconut Milk",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 1.00,
+    "Unit": "pcs",
+    "Category": "Cooking Essentials",
+    "CreatedAt": "2026-11-21T20:25:03.717707Z"
+  },
+  {
+    "Id": "391ba082-df3b-4683-bb68-4b26ac21692d",
+    "CanonicalName": "Richlife Faluda Flavoured Milk",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 180.00,
+    "Unit": "ml",
+    "Category": "Dairy",
+    "CreatedAt": "2026-11-21T20:25:03.7177281Z"
+  },
+  {
+    "Id": "d8d81b6c-38aa-4da9-9184-ab6378eca5ca",
+    "CanonicalName": "Ritzbury Milk Chocolate Blue",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 45.00,
+    "Unit": "g",
+    "Category": "Snacks \u0026 Confectionery",
+    "CreatedAt": "2026-11-21T20:25:03.7177395Z"
+  },
+  {
+    "Id": "bb752d7c-63d8-45f1-bc5c-a78b4190de77",
+    "CanonicalName": "Anods Milk Chocolate Buttons",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 250.00,
+    "Unit": "g",
+    "Category": "Desserts \u0026 Ingredients",
+    "CreatedAt": "2026-11-21T20:25:03.7177532Z"
+  },
+  {
+    "Id": "fe5655d9-6ad5-402d-9e7e-f57a78096fe3",
+    "CanonicalName": "Ensure Milk Powder Vanilla",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 400.00,
+    "Unit": "g",
+    "Category": "Health \u0026 Beauty",
+    "CreatedAt": "2026-11-21T20:25:03.7177686Z"
+  },
+  {
+    "Id": "2ca4b73d-8931-4378-8fb6-c86621c96f40",
+    "CanonicalName": "Richlife Chocolate Flavoured Milk",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 180.00,
+    "Unit": "ml",
+    "Category": "Dairy",
+    "CreatedAt": "2026-11-21T20:25:03.7177945Z"
+  },
+  {
+    "Id": "3d8fbf8e-564d-43ae-82d8-5c79a8bfb940",
+    "CanonicalName": "Capra Coffee Goat Milk",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 190.00,
+    "Unit": "ml",
+    "Category": "Dairy",
+    "CreatedAt": "2026-11-21T20:25:03.7178139Z"
+  },
+  {
+    "Id": "56a989e5-d38c-4913-92f6-26dda00ac07f",
+    "CanonicalName": "Renuka Coconut Milk Powder",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 1.00,
+    "Unit": "kg",
+    "Category": "Cooking Essentials",
+    "CreatedAt": "2026-11-21T20:25:03.7178241Z"
+  },
+  {
+    "Id": "0fa34415-b08d-40dc-ab77-c8433be0ea00",
+    "CanonicalName": "Richlife Strawberry Flavoured Milk",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 180.00,
+    "Unit": "ml",
+    "Category": "Dairy",
+    "CreatedAt": "2026-11-21T20:25:03.7178506Z"
+  },
+  {
+    "Id": "3524a946-0fc4-4eaf-a731-86f5bf63cabf",
+    "CanonicalName": "Colo Coconut Milk Powder",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 300.00,
+    "Unit": "g",
+    "Category": "Cooking Essentials",
+    "CreatedAt": "2026-11-21T20:25:03.7178655Z"
+  },
+  {
+    "Id": "16da80c9-ae1f-4605-8b9e-6e3e74af62be",
+    "CanonicalName": "Khomba Baby Soap Milk",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 90.00,
+    "Unit": "g",
+    "Category": "Baby Products",
+    "CreatedAt": "2026-11-21T20:25:03.7178752Z"
+  },
+  {
+    "Id": "823d3425-c075-4bd7-b222-11597a1cbed1",
+    "CanonicalName": "Maliban UHT Fresh Milk",
+    "Brand": "Maliban",
+    "Barcode": null,
+    "Quantity": 1.00,
+    "Unit": "l",
+    "Category": "Dairy",
+    "CreatedAt": "2026-11-21T20:25:03.7178899Z"
+  },
+  {
+    "Id": "1c4e6a8f-142b-4133-bee7-bfb2a00728fe",
+    "CanonicalName": "Kotmale Milk Vanilla",
+    "Brand": "Kotmale",
+    "Barcode": null,
+    "Quantity": 170.00,
+    "Unit": "ml",
+    "Category": "Dairy",
+    "CreatedAt": "2026-11-21T20:25:03.7179065Z"
+  },
+  {
+    "Id": "e7966885-40aa-4317-a93c-e58a2e3d3e6f",
+    "CanonicalName": "Maggi Coconut Milk Powder",
+    "Brand": "Maggi",
+    "Barcode": null,
+    "Quantity": 300.00,
+    "Unit": "g",
+    "Category": "Cooking Essentials",
+    "CreatedAt": "2026-11-21T20:25:03.7179206Z"
+  },
+  {
+    "Id": "23f3af54-ade7-4f0f-997b-9a18fcece02a",
+    "CanonicalName": "Sera Real Coconut Milk",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 180.00,
+    "Unit": "ml",
+    "Category": "Cooking Essentials",
+    "CreatedAt": "2026-11-21T20:25:03.7179518Z"
+  },
+  {
+    "Id": "96da665e-b36c-4235-973c-6b9322cb42c0",
+    "CanonicalName": "Knorr Coconut Milk Powder",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 800.00,
+    "Unit": "g",
+    "Category": "Cooking Essentials",
+    "CreatedAt": "2026-11-21T20:25:03.717969Z"
+  },
+  {
+    "Id": "635da918-a42e-41dc-87dc-0ddf7b8331ef",
+    "CanonicalName": "Maliban Milk Shortcake",
+    "Brand": "Maliban",
+    "Barcode": null,
+    "Quantity": 200.00,
+    "Unit": "g",
+    "Category": "Snacks \u0026 Confectionery",
+    "CreatedAt": "2026-11-21T20:25:03.7179801Z"
+  },
+  {
+    "Id": "20c5aff4-761b-41b5-bfde-3848f0f183ca",
+    "CanonicalName": "Sera Real Coconut Milk",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 330.00,
+    "Unit": "ml",
+    "Category": "Cooking Essentials",
+    "CreatedAt": "2026-11-21T20:25:03.717993Z"
+  },
+  {
+    "Id": "3ac9fca0-6db2-439e-a045-8dab5e190915",
+    "CanonicalName": "Zellers Milk Chocolate",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 50.00,
+    "Unit": "g",
+    "Category": "Snacks \u0026 Confectionery",
+    "CreatedAt": "2026-11-21T20:25:03.7180037Z"
+  },
+  {
+    "Id": "f48fea04-5109-422c-898c-2bfe32a6e1c2",
+    "CanonicalName": "Dilmah Premium Leaf Tea",
+    "Brand": "Dilmah",
+    "Barcode": null,
+    "Quantity": 500.00,
+    "Unit": "g",
+    "Category": "Tea \u0026 Coffee",
+    "CreatedAt": "2026-11-21T20:25:03.7180145Z"
+  },
+  {
+    "Id": "cd99ed83-51bf-49ef-8af3-451f59a96d95",
+    "CanonicalName": "Beam Ranawara Tea, 20 pcs",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 40.00,
+    "Unit": "g",
+    "Category": "Health \u0026 Beauty",
+    "CreatedAt": "2026-11-21T20:25:03.7180316Z"
+  },
+  {
+    "Id": "18f50d3e-c256-4c44-a48b-b07304a1d5e5",
+    "CanonicalName": "Ceylon Since 1844 Cinnamon Leaf Tea",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 30.00,
+    "Unit": "g",
+    "Category": "Tea \u0026 Coffee",
+    "CreatedAt": "2026-11-21T20:25:03.718048Z"
+  },
+  {
+    "Id": "c7bbf197-72ec-4c16-850d-ea56b0900830",
+    "CanonicalName": "Beam Kothala Himbutu Tea, 20 pcs",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 40.00,
+    "Unit": "g",
+    "Category": "Health \u0026 Beauty",
+    "CreatedAt": "2026-11-21T20:25:03.7180633Z"
+  },
+  {
+    "Id": "51fcae21-5f04-4b67-a23e-0ec50573cf19",
+    "CanonicalName": "Dilmah Earl Grey Tea Bags, 50pcs",
+    "Brand": "Dilmah",
+    "Barcode": null,
+    "Quantity": 100.00,
+    "Unit": "g",
+    "Category": "Tea \u0026 Coffee",
+    "CreatedAt": "2026-11-21T20:25:03.718085Z"
+  },
+  {
+    "Id": "d473db0f-cd8f-423d-b2f7-f959362f9747",
+    "CanonicalName": "Heladiv Ice Tea Syrup Peach",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 750.00,
+    "Unit": "ml",
+    "Category": "Tea \u0026 Coffee",
+    "CreatedAt": "2026-11-21T20:25:03.7181007Z"
+  },
+  {
+    "Id": "73596959-8449-498a-9841-3bd7bfe6c576",
+    "CanonicalName": "Dilmah Pear And Orange Tea Bags,20pcs",
+    "Brand": "Dilmah",
+    "Barcode": null,
+    "Quantity": 30.00,
+    "Unit": "g",
+    "Category": "Tea \u0026 Coffee",
+    "CreatedAt": "2026-11-21T20:25:03.7181179Z"
+  },
+  {
+    "Id": "857a7936-a975-4597-b900-3b6a47d8fac9",
+    "CanonicalName": "Watawala Tea",
+    "Brand": "Watawala",
+    "Barcode": null,
+    "Quantity": 400.00,
+    "Unit": "g",
+    "Category": "Tea \u0026 Coffee",
+    "CreatedAt": "2026-11-21T20:25:03.7181398Z"
+  },
+  {
+    "Id": "b7274196-7690-4893-b0f4-b1494442e3fc",
+    "CanonicalName": "Zesta Tea",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 490.00,
+    "Unit": "g",
+    "Category": "Tea \u0026 Coffee",
+    "CreatedAt": "2026-11-21T20:25:03.7181515Z"
+  },
+  {
+    "Id": "0a9c731e-d24a-4987-b4e4-87b218e8b525",
+    "CanonicalName": "Bogawanthalawa Extra Strong Tea",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 400.00,
+    "Unit": "g",
+    "Category": "Tea \u0026 Coffee",
+    "CreatedAt": "2026-11-21T20:25:03.7181796Z"
+  },
+  {
+    "Id": "dd6d6392-6549-4ad1-bcfb-920ad42ddbd9",
+    "CanonicalName": "Steuarts Rosa Kahata Tea",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 100.00,
+    "Unit": "g",
+    "Category": "Tea \u0026 Coffee",
+    "CreatedAt": "2026-11-21T20:25:03.7181975Z"
+  },
+  {
+    "Id": "fdcf23d1-3ebc-4d8a-906f-197d53f566de",
+    "CanonicalName": "Dilmah Premium Tea",
+    "Brand": "Dilmah",
+    "Barcode": null,
+    "Quantity": 200.00,
+    "Unit": "g",
+    "Category": "Tea \u0026 Coffee",
+    "CreatedAt": "2026-11-21T20:25:03.7182099Z"
+  },
+  {
+    "Id": "dde46f13-5005-4b15-9719-54a68612f103",
+    "CanonicalName": "Bogawantalawa Legend Tea",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 200.00,
+    "Unit": "g",
+    "Category": "Tea \u0026 Coffee",
+    "CreatedAt": "2026-11-21T20:25:03.7182282Z"
+  },
+  {
+    "Id": "416047b0-713b-4408-a0ed-0bafd5a46850",
+    "CanonicalName": "Bogawanthalawa Classic Tea",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 200.00,
+    "Unit": "g",
+    "Category": "Tea \u0026 Coffee",
+    "CreatedAt": "2026-11-21T20:25:03.7182484Z"
+  },
+  {
+    "Id": "dc04adb6-7f62-4bd7-9764-f1be7e80568b",
+    "CanonicalName": "Zesta Tea Bags",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 100.00,
+    "Unit": "pcs",
+    "Category": "Tea \u0026 Coffee",
+    "CreatedAt": "2026-11-21T20:25:03.7182612Z"
+  },
+  {
+    "Id": "060e94a5-fda4-455e-a169-ebe55bc3f20f",
+    "CanonicalName": "Steuarts Green Tea Bag",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 50.00,
+    "Unit": "g",
+    "Category": "Tea \u0026 Coffee",
+    "CreatedAt": "2026-11-21T20:25:03.7182761Z"
+  },
+  {
+    "Id": "a059685c-6196-46d1-97bc-37fa2ea7ea51",
+    "CanonicalName": "Steuarts Premium BOPF Tea",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 400.00,
+    "Unit": "g",
+    "Category": "Tea \u0026 Coffee",
+    "CreatedAt": "2026-11-21T20:25:03.7183082Z"
+  },
+  {
+    "Id": "5393f773-5c6c-4482-8ab1-3862a1e72efa",
+    "CanonicalName": "Zesta Tea Bags",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 50.00,
+    "Unit": "pcs",
+    "Category": "Tea \u0026 Coffee",
+    "CreatedAt": "2026-11-21T20:25:03.7183213Z"
+  },
+  {
+    "Id": "9be46ef1-b25c-4854-b96e-8779acb293dc",
+    "CanonicalName": "Zesta Tea Foil Pouch",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 190.00,
+    "Unit": "g",
+    "Category": "Tea \u0026 Coffee",
+    "CreatedAt": "2026-11-21T20:25:03.7183345Z"
+  },
+  {
+    "Id": "3d9ff68f-784e-4e70-8116-4e97f7d1eccd",
+    "CanonicalName": "Bogawanthalawa Legend Black Tea Bags",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 100.00,
+    "Unit": "pcs",
+    "Category": "Tea \u0026 Coffee",
+    "CreatedAt": "2026-11-21T20:25:03.7183505Z"
+  },
+  {
+    "Id": "ec1c82e4-3528-4e9a-94a7-5585a27638f5",
+    "CanonicalName": "Zesta Tea Bags",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 25.00,
+    "Unit": "pcs",
+    "Category": "Tea \u0026 Coffee",
+    "CreatedAt": "2026-11-21T20:25:03.7183683Z"
+  },
+  {
+    "Id": "b567b42e-7bde-4cb0-9c85-32370d878939",
+    "CanonicalName": "Dilmah Strong Tea",
+    "Brand": "Dilmah",
+    "Barcode": null,
+    "Quantity": 200.00,
+    "Unit": "g",
+    "Category": "Tea \u0026 Coffee",
+    "CreatedAt": "2026-11-21T20:25:03.7183868Z"
+  },
+  {
+    "Id": "2fd1aee3-3d54-4940-9a81-aa74ce067229",
+    "CanonicalName": "Zesta Tea Foil Pouch",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 95.00,
+    "Unit": "g",
+    "Category": "Tea \u0026 Coffee",
+    "CreatedAt": "2026-11-21T20:25:03.7184001Z"
+  },
+  {
+    "Id": "2cc14327-bf0e-496f-b55a-dfe2172f1369",
+    "CanonicalName": "Fadna Diabe Tea Sabaragamuwa",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 20.00,
+    "Unit": "pcs",
+    "Category": "Health \u0026 Beauty",
+    "CreatedAt": "2026-11-21T20:25:03.7184167Z"
+  },
+  {
+    "Id": "253a9c49-f426-4024-80d4-e0652c5ba939",
+    "CanonicalName": "Fadna Tummy Tea Bags",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 15.00,
+    "Unit": "pcs",
+    "Category": "Health \u0026 Beauty",
+    "CreatedAt": "2026-11-21T20:25:03.7184305Z"
+  },
+  {
+    "Id": "b4b34a04-ae80-48cc-9da5-e777d38d4238",
+    "CanonicalName": "Zesta Tea Foil Pouch",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 390.00,
+    "Unit": "g",
+    "Category": "Tea \u0026 Coffee",
+    "CreatedAt": "2026-11-21T20:25:03.7184464Z"
+  },
+  {
+    "Id": "c719fc5b-36ff-4ffe-881c-977f459e7a4b",
+    "CanonicalName": "Bogawanthalawa Extra Strong Tea",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 1.00,
+    "Unit": "kg",
+    "Category": "Tea \u0026 Coffee",
+    "CreatedAt": "2026-11-21T20:25:03.7184663Z"
+  },
+  {
+    "Id": "cf91ef97-9934-4e92-8e87-488cdb4687a5",
+    "CanonicalName": "Dilmah Premium Tea",
+    "Brand": "Dilmah",
+    "Barcode": null,
+    "Quantity": 400.00,
+    "Unit": "g",
+    "Category": "Tea \u0026 Coffee",
+    "CreatedAt": "2026-11-21T20:25:03.7184956Z"
+  },
+  {
+    "Id": "aa21a9c5-b235-40cd-84c7-7231c65faa73",
+    "CanonicalName": "Fadna Bittergourd Tea",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 10.00,
+    "Unit": "pcs",
+    "Category": "Health \u0026 Beauty",
+    "CreatedAt": "2026-11-21T20:25:03.7185099Z"
+  },
+  {
+    "Id": "56a06b50-24b6-4bf4-831b-e49d7bfaddbf",
+    "CanonicalName": "Steuarts Ginger Tea",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 100.00,
+    "Unit": "g",
+    "Category": "Household",
+    "CreatedAt": "2026-11-21T20:25:03.7185359Z"
+  },
+  {
+    "Id": "0db276e2-75cf-4247-97c7-f525974d8288",
+    "CanonicalName": "Bogawanthalawa Extra Strong Tea",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 200.00,
+    "Unit": "g",
+    "Category": "Tea \u0026 Coffee",
+    "CreatedAt": "2026-11-21T20:25:03.7185632Z"
+  },
+  {
+    "Id": "73d8ef0d-29e2-4fe8-8f2b-c82aa0efb934",
+    "CanonicalName": "Steuarts Premium BOPF Tea",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 200.00,
+    "Unit": "g",
+    "Category": "Tea \u0026 Coffee",
+    "CreatedAt": "2026-11-21T20:25:03.718591Z"
+  },
+  {
+    "Id": "5d676c5a-b61c-4d51-a992-33d4319ffd6a",
+    "CanonicalName": "Steuarts Rosa Kahata Tea",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 200.00,
+    "Unit": "g",
+    "Category": "Tea \u0026 Coffee",
+    "CreatedAt": "2026-11-21T20:25:03.7186281Z"
+  },
+  {
+    "Id": "eef6bd0c-5889-4445-9153-c7a26773bd59",
+    "CanonicalName": "Bogawantalawa Legend Tea",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 400.00,
+    "Unit": "g",
+    "Category": "Tea \u0026 Coffee",
+    "CreatedAt": "2026-11-21T20:25:03.7186608Z"
+  },
+  {
+    "Id": "d055c348-1c3d-436e-9c86-91cbe1b13094",
+    "CanonicalName": "Kist Tea Time Assortment",
+    "Brand": "Kist",
+    "Barcode": null,
+    "Quantity": 150.00,
+    "Unit": "g",
+    "Category": "Snacks \u0026 Confectionery",
+    "CreatedAt": "2026-11-21T20:25:03.7186763Z"
+  },
+  {
+    "Id": "b828f07b-4b1c-4430-a41d-a58c4e248f10",
+    "CanonicalName": "My Choice Black Tea",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 100.00,
+    "Unit": "g",
+    "Category": "Tea \u0026 Coffee",
+    "CreatedAt": "2026-11-21T20:25:03.7187059Z"
+  },
+  {
+    "Id": "a585f2ba-d6de-4d47-a6a3-567865c79f39",
+    "CanonicalName": "Zesta Green Tea Bags,37.5g",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 25.00,
+    "Unit": "pcs",
+    "Category": "Tea \u0026 Coffee",
+    "CreatedAt": "2026-11-21T20:25:03.7187317Z"
+  },
+  {
+    "Id": "8a4b2590-2014-4132-9943-976a30f77039",
+    "CanonicalName": "Helayu Katupila Tea",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 20.00,
+    "Unit": "pcs",
+    "Category": "Health \u0026 Beauty",
+    "CreatedAt": "2026-11-21T20:25:03.7187495Z"
+  },
+  {
+    "Id": "552ba2a1-92d2-498c-adc1-e4982173fb49",
+    "CanonicalName": "My Choice Black Tea",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 200.00,
+    "Unit": "g",
+    "Category": "Tea \u0026 Coffee",
+    "CreatedAt": "2026-11-21T20:25:03.7187853Z"
+  },
+  {
+    "Id": "b2abdf2f-12ca-46dc-b243-6ea38393adc4",
+    "CanonicalName": "Slimfast Tea Bags",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 25.00,
+    "Unit": "pcs",
+    "Category": "Health \u0026 Beauty",
+    "CreatedAt": "2026-11-21T20:25:03.718806Z"
+  },
+  {
+    "Id": "44c9eb3c-3f53-4509-9ff5-0d0d55caf400",
+    "CanonicalName": "Dilmah Premium Tea Bags",
+    "Brand": "Dilmah",
+    "Barcode": null,
+    "Quantity": 100.00,
+    "Unit": "pcs",
+    "Category": "Tea \u0026 Coffee",
+    "CreatedAt": "2026-11-21T20:25:03.7188281Z"
+  },
+  {
+    "Id": "893e38a7-ce46-46bf-9ddb-9030774199a3",
+    "CanonicalName": "Fadna Shape Up Tea Bags",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 15.00,
+    "Unit": "pcs",
+    "Category": "Health \u0026 Beauty",
+    "CreatedAt": "2026-11-21T20:25:03.7188465Z"
+  },
+  {
+    "Id": "38887690-b2ae-4191-ad4f-7bea31864421",
+    "CanonicalName": "Bogawanthalawa Legend Green Tea Bags",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 25.00,
+    "Unit": "pcs",
+    "Category": "Tea \u0026 Coffee",
+    "CreatedAt": "2026-11-21T20:25:03.718874Z"
+  },
+  {
+    "Id": "a397b5ca-8296-4bb8-8a01-639a8cf4125a",
+    "CanonicalName": "Dilmah Premium Tea Bags",
+    "Brand": "Dilmah",
+    "Barcode": null,
+    "Quantity": 50.00,
+    "Unit": "pcs",
+    "Category": "Tea \u0026 Coffee",
+    "CreatedAt": "2026-11-21T20:25:03.7188984Z"
+  },
+  {
+    "Id": "e9c21942-3b2a-405f-944b-03fa10485929",
+    "CanonicalName": "Kahata Rahata Tea",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 200.00,
+    "Unit": "g",
+    "Category": "Tea \u0026 Coffee",
+    "CreatedAt": "2026-11-21T20:25:03.7189342Z"
+  },
+  {
+    "Id": "1ec500a3-672b-4ca4-a82e-e2374eea3573",
+    "CanonicalName": "Dilmah Ginger Tea Bags, 20pcs",
+    "Brand": "Dilmah",
+    "Barcode": null,
+    "Quantity": 30.00,
+    "Unit": "g",
+    "Category": "Tea \u0026 Coffee",
+    "CreatedAt": "2026-11-21T20:25:03.7189615Z"
+  },
+  {
+    "Id": "6ed0acd5-1e8a-4286-b5e3-1184d8edd657",
+    "CanonicalName": "Dilmah Strawberry Tea Bags, 20pcs",
+    "Brand": "Dilmah",
+    "Barcode": null,
+    "Quantity": 30.00,
+    "Unit": "g",
+    "Category": "Tea \u0026 Coffee",
+    "CreatedAt": "2026-11-21T20:25:03.7189903Z"
+  },
+  {
+    "Id": "d7d55c62-300b-41a8-9410-b0cfad3301fd",
+    "CanonicalName": "Dilmah Lemon Tea Bags, 20pcs",
+    "Brand": "Dilmah",
+    "Barcode": null,
+    "Quantity": 30.00,
+    "Unit": "g",
+    "Category": "Tea \u0026 Coffee",
+    "CreatedAt": "2026-11-21T20:25:03.7190214Z"
+  },
+  {
+    "Id": "7e119c2b-c914-4db9-9b1a-85e3f725a0cc",
+    "CanonicalName": "Heladiv Ice Tea Syrup Strawberry",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 750.00,
+    "Unit": "ml",
+    "Category": "Tea \u0026 Coffee",
+    "CreatedAt": "2026-11-21T20:25:03.7190416Z"
+  },
+  {
+    "Id": "095e8c8d-055d-4e5a-996d-18ab5e83636b",
+    "CanonicalName": "Steuarts Pre BOPF Tea Bag",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 50.00,
+    "Unit": "g",
+    "Category": "Tea \u0026 Coffee",
+    "CreatedAt": "2026-11-21T20:25:03.7190659Z"
+  },
+  {
+    "Id": "3c52d39e-5321-41c7-a5b3-5b542d1fc2d3",
+    "CanonicalName": "Basmati Rice",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 1.00,
+    "Unit": "kg",
+    "Category": "Rice",
+    "CreatedAt": "2026-11-21T20:25:03.7190894Z"
+  },
+  {
+    "Id": "d8d83e71-6c1f-43ff-95cd-158dbcb472e9",
+    "CanonicalName": "Samba Rice",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 1.00,
+    "Unit": "kg",
+    "Category": "Rice",
+    "CreatedAt": "2026-11-21T20:25:03.7191126Z"
+  },
+  {
+    "Id": "ca00b6c0-5570-438a-b5f7-245c63222c32",
+    "CanonicalName": "Red Raw Rice",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 1.00,
+    "Unit": "kg",
+    "Category": "Rice",
+    "CreatedAt": "2026-11-21T20:25:03.7191421Z"
+  },
+  {
+    "Id": "f09558e6-1939-49ed-ad26-b77c7860f8fb",
+    "CanonicalName": "Kernell\u0060s Corn Rice",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 250.00,
+    "Unit": "g",
+    "Category": "Food Cupboard",
+    "CreatedAt": "2026-11-21T20:25:03.7191692Z"
+  },
+  {
+    "Id": "80462dc5-9a59-432a-9d05-527c21e84a4f",
+    "CanonicalName": "Cerelac Rice And Chicken",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 200.00,
+    "Unit": "g",
+    "Category": "Baby Products",
+    "CreatedAt": "2026-11-21T20:25:03.7192098Z"
+  },
+  {
+    "Id": "ade7f7d4-bca0-4059-b2d6-dc968bd7a6b8",
+    "CanonicalName": "Pulathisi Samba Rice",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 5.00,
+    "Unit": "kg",
+    "Category": "Rice",
+    "CreatedAt": "2026-11-21T20:25:03.7192284Z"
+  },
+  {
+    "Id": "f04d081e-e523-4efe-9723-39be4e1ad89d",
+    "CanonicalName": "Daawat Super Basmati Rice",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 1.00,
+    "Unit": "kg",
+    "Category": "Rice",
+    "CreatedAt": "2026-11-21T20:25:03.7192614Z"
+  },
+  {
+    "Id": "b16b9a2a-8bca-46ee-bd0b-58c0cce19375",
+    "CanonicalName": "Cargills Rice Blend",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 750.00,
+    "Unit": "g",
+    "Category": "Rice",
+    "CreatedAt": "2026-11-21T20:25:03.7192818Z"
+  },
+  {
+    "Id": "8e4c643c-437c-4fac-83a6-b7d6c377bcc2",
+    "CanonicalName": "Helahasa Nadu Rice",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 5.00,
+    "Unit": "kg",
+    "Category": "Rice",
+    "CreatedAt": "2026-11-21T20:25:03.7193047Z"
+  },
+  {
+    "Id": "484c2bb7-2137-44cd-9b15-2b567aa2f0f7",
+    "CanonicalName": "White Samba Kekulu Rice",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 1.00,
+    "Unit": "kg",
+    "Category": "Rice",
+    "CreatedAt": "2026-11-21T20:25:03.7194101Z"
+  },
+  {
+    "Id": "65142ee6-e90f-438f-af86-0143d02aa525",
+    "CanonicalName": "Cargills Suwandel Rice",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 750.00,
+    "Unit": "g",
+    "Category": "Rice",
+    "CreatedAt": "2026-11-21T20:25:03.7194332Z"
+  },
+  {
+    "Id": "ca9ecc35-0a9e-4fc2-b921-b8ba6952ca13",
+    "CanonicalName": "Banno Biriyani Rice",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 500.00,
+    "Unit": "g",
+    "Category": "Rice",
+    "CreatedAt": "2026-11-21T20:25:03.7194541Z"
+  },
+  {
+    "Id": "f250d9cd-070c-4037-b8f5-ca5dc9c1d0d4",
+    "CanonicalName": "Kernell\u0060s Corn Rice",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 400.00,
+    "Unit": "g",
+    "Category": "Food Cupboard",
+    "CreatedAt": "2026-11-21T20:25:03.719498Z"
+  },
+  {
+    "Id": "c2e6467b-e0f5-458a-ac8e-f3dee9e958f1",
+    "CanonicalName": "Red Nadu Rice",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 1.00,
+    "Unit": "kg",
+    "Category": "Rice",
+    "CreatedAt": "2026-11-21T20:25:03.7195393Z"
+  },
+  {
+    "Id": "af584b02-eafe-44c9-a881-3bf1e11ec6a4",
+    "CanonicalName": "Anchor Basmati Rice",
+    "Brand": "Anchor",
+    "Barcode": null,
+    "Quantity": 2.00,
+    "Unit": "kg",
+    "Category": "Rice",
+    "CreatedAt": "2026-11-21T20:25:03.7195595Z"
+  },
+  {
+    "Id": "710a80fe-e0ed-44fe-8d45-5e6e744d83d0",
+    "CanonicalName": "Golden Crop Suwandel Rice",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 1.00,
+    "Unit": "kg",
+    "Category": "Rice",
+    "CreatedAt": "2026-11-21T20:25:03.7195995Z"
+  },
+  {
+    "Id": "7c8a4c2d-7ff4-4f0a-a074-6dd8f2290862",
+    "CanonicalName": "WHG White Nadu Rice",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 5.00,
+    "Unit": "kg",
+    "Category": "Rice",
+    "CreatedAt": "2026-11-21T20:25:03.7196241Z"
+  },
+  {
+    "Id": "b67fa77b-35a8-45dd-bf81-eb5f41bde8f6",
+    "CanonicalName": "Pulathisi Nadu Rice",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 5.00,
+    "Unit": "kg",
+    "Category": "Rice",
+    "CreatedAt": "2026-11-21T20:25:03.7196543Z"
+  },
+  {
+    "Id": "ff3f265c-6c0d-4086-ad4e-01005f9b82ca",
+    "CanonicalName": "Rosa Kekulu Rice",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 1.00,
+    "Unit": "kg",
+    "Category": "Rice",
+    "CreatedAt": "2026-11-21T20:25:03.7197Z"
+  },
+  {
+    "Id": "15425a8a-6926-4896-b5f8-b1ac2894ce66",
+    "CanonicalName": "Araliya Premium Nadu Rice",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 5.00,
+    "Unit": "kg",
+    "Category": "Rice",
+    "CreatedAt": "2026-11-21T20:25:03.7197287Z"
+  },
+  {
+    "Id": "a177072a-c400-48f3-ba0c-db21c219fe04",
+    "CanonicalName": "Cargills Kuruluthuda Rice",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 750.00,
+    "Unit": "g",
+    "Category": "Rice",
+    "CreatedAt": "2026-11-21T20:25:03.7197553Z"
+  },
+  {
+    "Id": "7b354753-5d3a-48ca-8ba3-f742f5e2f613",
+    "CanonicalName": "Nikado Red Rice Flour",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 400.00,
+    "Unit": "g",
+    "Category": "Cooking Essentials",
+    "CreatedAt": "2026-11-21T20:25:03.7198013Z"
+  },
+  {
+    "Id": "9aff4416-9fc7-494a-90d2-897298ccbc4b",
+    "CanonicalName": "White Nadu Rice",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 1.00,
+    "Unit": "kg",
+    "Category": "Rice",
+    "CreatedAt": "2026-11-21T20:25:03.7198463Z"
+  },
+  {
+    "Id": "ef0e88d0-06a3-49c3-83c9-91a8adb0e3c2",
+    "CanonicalName": "Rathna White Raw Rice",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 5.00,
+    "Unit": "kg",
+    "Category": "Rice",
+    "CreatedAt": "2026-11-21T20:25:03.7198787Z"
+  },
+  {
+    "Id": "e8ebe9f1-1655-419f-96d2-d0cd5ce13965",
+    "CanonicalName": "Cargills Pachchaperumal Rice",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 750.00,
+    "Unit": "g",
+    "Category": "Rice",
+    "CreatedAt": "2026-11-21T20:25:03.7199093Z"
+  },
+  {
+    "Id": "9ce5df6d-fc4f-4d0e-8d82-80d7ee7ffaf4",
+    "CanonicalName": "Nikado White Rice Flour",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 400.00,
+    "Unit": "g",
+    "Category": "Cooking Essentials",
+    "CreatedAt": "2026-11-21T20:25:03.7199574Z"
+  },
+  {
+    "Id": "fd18c27d-101c-4435-a62b-913abbb21b52",
+    "CanonicalName": "Keeri Samba Rice",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 1.00,
+    "Unit": "kg",
+    "Category": "Rice",
+    "CreatedAt": "2026-11-21T20:25:03.720008Z"
+  },
+  {
+    "Id": "bcb51007-ffb7-4ae4-99ad-91af970bf208",
+    "CanonicalName": "Puluthisi Red Raw Rice",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 5.00,
+    "Unit": "kg",
+    "Category": "Rice",
+    "CreatedAt": "2026-11-21T20:25:03.7200439Z"
+  },
+  {
+    "Id": "28aa0d99-03b5-4077-aead-ec03ebb29043",
+    "CanonicalName": "Sewmini Keeri Samba Rice",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 5.00,
+    "Unit": "kg",
+    "Category": "Rice",
+    "CreatedAt": "2026-11-21T20:25:03.7200835Z"
+  },
+  {
+    "Id": "52c04189-3ba0-42ab-95d6-d42ad7b91f08",
+    "CanonicalName": "Golden Crop Kaluheenati Rice",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 1.00,
+    "Unit": "kg",
+    "Category": "Rice",
+    "CreatedAt": "2026-11-21T20:25:03.7201389Z"
+  },
+  {
+    "Id": "ca17ebd0-d9ad-4ea2-a1ac-767e27d77e66",
+    "CanonicalName": "Turkey Basmati Rice",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 2.00,
+    "Unit": "kg",
+    "Category": "Rice",
+    "CreatedAt": "2026-11-21T20:25:03.720163Z"
+  },
+  {
+    "Id": "2c14467e-70a6-4503-813f-589233eb16f2",
+    "CanonicalName": "Red Basmati Rice",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 1.00,
+    "Unit": "kg",
+    "Category": "Rice",
+    "CreatedAt": "2026-11-21T20:25:03.7202166Z"
+  },
+  {
+    "Id": "c03cd17d-b548-4b29-abed-5bc71870048a",
+    "CanonicalName": "Cerelac Rice And Milk",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 200.00,
+    "Unit": "g",
+    "Category": "Baby Products",
+    "CreatedAt": "2026-11-21T20:25:03.7202631Z"
+  },
+  {
+    "Id": "1710b718-91ff-4a21-a2bc-5ee38c9fd43f",
+    "CanonicalName": "My Choice White Raw Rice",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 5.00,
+    "Unit": "kg",
+    "Category": "Rice",
+    "CreatedAt": "2026-11-21T20:25:03.7203115Z"
+  },
+  {
+    "Id": "f74eb651-ef3b-4b20-a52b-b9c6760a1612",
+    "CanonicalName": "Anchor Basmati Rice",
+    "Brand": "Anchor",
+    "Barcode": null,
+    "Quantity": 5.00,
+    "Unit": "kg",
+    "Category": "Rice",
+    "CreatedAt": "2026-11-21T20:25:03.7203534Z"
+  },
+  {
+    "Id": "ca30cb46-c71f-4f46-99da-d1a6e989cb94",
+    "CanonicalName": "Hiru Nadu Rice",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 5.00,
+    "Unit": "kg",
+    "Category": "Rice",
+    "CreatedAt": "2026-11-21T20:25:03.7204013Z"
+  },
+  {
+    "Id": "bf5010af-c27d-4550-bee4-abebda229ee7",
+    "CanonicalName": "WHG Premium Samba Rice",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 5.00,
+    "Unit": "kg",
+    "Category": "Rice",
+    "CreatedAt": "2026-11-21T20:25:03.7204525Z"
+  },
+  {
+    "Id": "d03a6fb1-0244-4a18-93f0-9940dfd5b480",
+    "CanonicalName": "New Lanka Samba Raw Rice",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 5.00,
+    "Unit": "kg",
+    "Category": "Rice",
+    "CreatedAt": "2026-11-21T20:25:03.7205048Z"
+  },
+  {
+    "Id": "d29adb5b-40c4-4431-8047-2ebd6edb6a2f",
+    "CanonicalName": "White Raw Rice",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 1.00,
+    "Unit": "kg",
+    "Category": "Rice",
+    "CreatedAt": "2026-11-21T20:25:03.7205628Z"
+  },
+  {
+    "Id": "252bb0de-24d2-4754-97a6-daa141920a65",
+    "CanonicalName": "Ruhunu White Rice Flour",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 1.00,
+    "Unit": "kg",
+    "Category": "Cooking Essentials",
+    "CreatedAt": "2026-11-21T20:25:03.7206226Z"
+  },
+  {
+    "Id": "1b0bd66c-fe3d-4caf-891e-1b13f9a63ed6",
+    "CanonicalName": "Nipuna Nadu Rice",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 5.00,
+    "Unit": "kg",
+    "Category": "Rice",
+    "CreatedAt": "2026-11-21T20:25:03.7206783Z"
+  },
+  {
+    "Id": "c83f39be-a6e3-4945-86ad-78048e069953",
+    "CanonicalName": "Rathna Nadu Rice",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 5.00,
+    "Unit": "kg",
+    "Category": "Rice",
+    "CreatedAt": "2026-11-21T20:25:03.7207426Z"
+  },
+  {
+    "Id": "4ac0855a-0872-43a9-9f05-31fe9dd2ed45",
+    "CanonicalName": "Daawat Devaaya Basmati Rice",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 1.00,
+    "Unit": "kg",
+    "Category": "Rice",
+    "CreatedAt": "2026-11-21T20:25:03.7208047Z"
+  },
+  {
+    "Id": "b8ec2a94-496c-41c3-b985-45378c2c77dd",
+    "CanonicalName": "Nipuna White Raw Rice",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 5.00,
+    "Unit": "kg",
+    "Category": "Rice",
+    "CreatedAt": "2026-11-21T20:25:03.7208687Z"
+  },
+  {
+    "Id": "48a92e26-a255-464f-9e19-e2156ff9c76f",
+    "CanonicalName": "Sewmini Samba Rice",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 5.00,
+    "Unit": "kg",
+    "Category": "Rice",
+    "CreatedAt": "2026-11-21T20:25:03.7209363Z"
+  },
+  {
+    "Id": "0626fbe2-be12-4fe2-86fd-ba5b6d175379",
+    "CanonicalName": "Pulathisi White Raw Rice",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 5.00,
+    "Unit": "kg",
+    "Category": "Rice",
+    "CreatedAt": "2026-11-21T20:25:03.7210069Z"
+  },
+  {
+    "Id": "3786bf38-2e0c-4fd1-8275-ad59693e5857",
+    "CanonicalName": "Goldencrop White Suduru Rice",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 5.00,
+    "Unit": "kg",
+    "Category": "Rice",
+    "CreatedAt": "2026-11-21T20:25:03.7210731Z"
+  },
+  {
+    "Id": "3f02731e-2713-40fd-84d8-a695324ae463",
+    "CanonicalName": "Nipuna Red Raw Rice",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 5.00,
+    "Unit": "kg",
+    "Category": "Rice",
+    "CreatedAt": "2026-11-21T20:25:03.7211441Z"
+  },
+  {
+    "Id": "fed80cd9-2804-4f47-825d-4198a8ef8c75",
+    "CanonicalName": "Cargills Kalu Heeneti Rice",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 750.00,
+    "Unit": "g",
+    "Category": "Rice",
+    "CreatedAt": "2026-11-21T20:25:03.7211801Z"
+  },
+  {
+    "Id": "ac26b5bb-d799-4d7f-b245-041edbdbb49a",
+    "CanonicalName": "Daawat Devaaya Basmati Rice",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 5.00,
+    "Unit": "kg",
+    "Category": "Rice",
+    "CreatedAt": "2026-11-21T20:25:03.7212536Z"
+  },
+  {
+    "Id": "28fb8c1d-085d-4dbc-b522-18d63d9fd42b",
+    "CanonicalName": "New Lanka White Raw Rice",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 5.00,
+    "Unit": "kg",
+    "Category": "Rice",
+    "CreatedAt": "2026-11-21T20:25:03.7213291Z"
+  },
+  {
+    "Id": "8a49c4a4-9cd7-49c8-8894-2e7adbb8e209",
+    "CanonicalName": "Golden Crop Red Suduru Rice",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 5.00,
+    "Unit": "kg",
+    "Category": "Rice",
+    "CreatedAt": "2026-11-21T20:25:03.7214129Z"
+  },
+  {
+    "Id": "8ac1cdd4-9e52-4cc1-84ed-b652485aa5af",
+    "CanonicalName": "Golden Crop Sudu Suduru Rice",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 1.00,
+    "Unit": "kg",
+    "Category": "Rice",
+    "CreatedAt": "2026-11-21T20:25:03.7214802Z"
+  },
+  {
+    "Id": "04fa1c1e-4814-44e5-867e-8ab6d5ce4b7a",
+    "CanonicalName": "Araliya Supiri White Raw Rice",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 5.00,
+    "Unit": "kg",
+    "Category": "Rice",
+    "CreatedAt": "2026-11-21T20:25:03.7215647Z"
+  },
+  {
+    "Id": "21425079-3f59-4c90-8cca-0dc80f6818f9",
+    "CanonicalName": "Ma\u0060s Yellow Rice Paste",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 50.00,
+    "Unit": "g",
+    "Category": "Food Cupboard",
+    "CreatedAt": "2026-11-21T20:25:03.7216Z"
+  },
+  {
+    "Id": "0712ff88-a7eb-4dc5-9474-fc5dd1be6ed5",
+    "CanonicalName": "Golden Crop White Slender Rice",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 1.00,
+    "Unit": "kg",
+    "Category": "Rice",
+    "CreatedAt": "2026-11-21T20:25:03.7216708Z"
+  },
+  {
+    "Id": "91578158-295b-4292-8060-9d71a7d608e3",
+    "CanonicalName": "Munchee Kome Rice Cracker BBQ",
+    "Brand": "Munchee",
+    "Barcode": null,
+    "Quantity": 90.00,
+    "Unit": "g",
+    "Category": "Snacks \u0026 Confectionery",
+    "CreatedAt": "2026-11-21T20:25:03.7217021Z"
+  },
+  {
+    "Id": "d87faa59-978d-4507-95e7-313a95c12319",
+    "CanonicalName": "Araliya Supiri Red Raw Rice",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 5.00,
+    "Unit": "kg",
+    "Category": "Rice",
+    "CreatedAt": "2026-11-21T20:25:03.7217872Z"
+  },
+  {
+    "Id": "92eed461-315e-441b-bebd-cc7831c42d80",
+    "CanonicalName": "Munchee Kome Rice Cracker, Onion",
+    "Brand": "Munchee",
+    "Barcode": null,
+    "Quantity": 90.00,
+    "Unit": "g",
+    "Category": "Snacks \u0026 Confectionery",
+    "CreatedAt": "2026-11-21T20:25:03.7218229Z"
+  },
+  {
+    "Id": "f2bb4675-ed9f-4eae-a304-79d8795cf39a",
+    "CanonicalName": "New Lanka Premium Samba Rice",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 5.00,
+    "Unit": "kg",
+    "Category": "Rice",
+    "CreatedAt": "2026-11-21T20:25:03.7219109Z"
+  },
+  {
+    "Id": "949f1ca9-46c5-40f8-88b6-408bf8827204",
+    "CanonicalName": "Pedigree Adult Meat \u0026 Rice Food",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 2.80,
+    "Unit": "kg",
+    "Category": "Pet Products",
+    "CreatedAt": "2026-11-21T20:25:03.7219385Z"
+  },
+  {
+    "Id": "bcb2e8dc-9ce5-4327-9d63-6bab30196098",
+    "CanonicalName": "Cargills Ma Wee (Hangimuttan Rice)",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 750.00,
+    "Unit": "g",
+    "Category": "Rice",
+    "CreatedAt": "2026-11-21T20:25:03.7219775Z"
+  },
+  {
+    "Id": "87d46358-939d-4be8-9044-008a289f8b88",
+    "CanonicalName": "Golden Crop Red Suduru Rice",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 1.00,
+    "Unit": "kg",
+    "Category": "Rice",
+    "CreatedAt": "2026-11-21T20:25:03.7220548Z"
+  },
+  {
+    "Id": "415d4842-6f96-435f-8de5-0853b920b6d4",
+    "CanonicalName": "Golden Crop Red Fragrant Rice",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 1.00,
+    "Unit": "kg",
+    "Category": "Rice",
+    "CreatedAt": "2026-11-21T20:25:03.7221347Z"
+  },
+  {
+    "Id": "8248c1bf-05bd-41f8-84ba-491561483dbd",
+    "CanonicalName": "New Lanka Premium Nadu Rice",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 5.00,
+    "Unit": "kg",
+    "Category": "Rice",
+    "CreatedAt": "2026-11-21T20:25:03.7222325Z"
+  },
+  {
+    "Id": "e72e9567-e237-4953-87d4-9afe68ec6edb",
+    "CanonicalName": "Cargills Ceylon Traditional White Rice Flour",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 400.00,
+    "Unit": "g",
+    "Category": "Cooking Essentials",
+    "CreatedAt": "2026-11-21T20:25:03.7222945Z"
+  },
+  {
+    "Id": "c0e99afc-2587-4dbc-94d9-7cc77ab361c3",
+    "CanonicalName": "Rayin Red Rice String Hopper Flour",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 1.00,
+    "Unit": "kg",
+    "Category": "Cooking Essentials",
+    "CreatedAt": "2026-11-21T20:25:03.7223794Z"
+  },
+  {
+    "Id": "01e103e4-17f5-4fc4-8d6d-6dd955c6624d",
+    "CanonicalName": "Cargills Ceylon Traditional Red Rice Flour",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 400.00,
+    "Unit": "g",
+    "Category": "Cooking Essentials",
+    "CreatedAt": "2026-11-21T20:25:03.722445Z"
+  },
+  {
+    "Id": "09fdcb5f-d9e7-4df4-99ef-b59c14994ab5",
+    "CanonicalName": "Rayin White Rice String Hopper Flour",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 1.00,
+    "Unit": "kg",
+    "Category": "Cooking Essentials",
+    "CreatedAt": "2026-11-21T20:25:03.7225337Z"
+  },
+  {
+    "Id": "294333bc-aec9-456c-8c7a-cdfc541f82e8",
+    "CanonicalName": "Ambewela Fresh Milk 200Ml",
+    "Brand": "Ambewela",
+    "Barcode": null,
+    "Quantity": 200,
+    "Unit": "ml",
+    "Category": "General Grocery",
+    "CreatedAt": "2026-11-21T20:25:18.2857135Z"
+  },
+  {
+    "Id": "ab78a4c0-6930-4022-868a-8387665fa581",
+    "CanonicalName": "Anchor Newdale Milk Choco Pouch 150Ml",
+    "Brand": "Anchor",
+    "Barcode": null,
+    "Quantity": 150,
+    "Unit": "ml",
+    "Category": "General Grocery",
+    "CreatedAt": "2026-11-21T20:25:18.2857894Z"
+  },
+  {
+    "Id": "87796324-65db-446f-8964-9bad5776b4ae",
+    "CanonicalName": "Anchor Newdale Milk Vanilla Pouch 150Ml",
+    "Brand": "Anchor",
+    "Barcode": null,
+    "Quantity": 150,
+    "Unit": "ml",
+    "Category": "General Grocery",
+    "CreatedAt": "2026-11-21T20:25:18.2858441Z"
+  },
+  {
+    "Id": "c99a0e0e-c768-4745-94f7-8fa99798c859",
+    "CanonicalName": "Anchor Non Fat Milk Powder 400G",
+    "Brand": "Anchor",
+    "Barcode": null,
+    "Quantity": 400,
+    "Unit": "g",
+    "Category": "General Grocery",
+    "CreatedAt": "2026-11-21T20:25:18.2859242Z"
+  },
+  {
+    "Id": "f6d7c84b-2a69-4de5-b09a-eb97432b43b0",
+    "CanonicalName": "Anchor Uht Fresh Milk 1L",
+    "Brand": "Anchor",
+    "Barcode": null,
+    "Quantity": 1,
+    "Unit": "l",
+    "Category": "General Grocery",
+    "CreatedAt": "2026-11-21T20:25:18.2859664Z"
+  },
+  {
+    "Id": "e2e62677-529e-4e58-80d6-a8f0590978a5",
+    "CanonicalName": "Anlene High Calcium Low Fat Milk Powder Packet 400G",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 400,
+    "Unit": "g",
+    "Category": "General Grocery",
+    "CreatedAt": "2026-11-21T20:25:18.2860603Z"
+  },
+  {
+    "Id": "0f60e39c-09c9-4967-afd0-93fe79cce4da",
+    "CanonicalName": "Arpico Essence Milk 28Ml",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 28,
+    "Unit": "ml",
+    "Category": "General Grocery",
+    "CreatedAt": "2026-11-21T20:25:18.2860945Z"
+  },
+  {
+    "Id": "e75b9c03-4630-4705-b151-0221430ab957",
+    "CanonicalName": "Arpico Milk Toffee 150G",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 150,
+    "Unit": "g",
+    "Category": "General Grocery",
+    "CreatedAt": "2026-11-21T20:25:18.2861322Z"
+  },
+  {
+    "Id": "0450b3ad-b7a4-47aa-85ad-8a3bc8efc065",
+    "CanonicalName": "Arpico Milk Toffee 250G",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 250,
+    "Unit": "g",
+    "Category": "General Grocery",
+    "CreatedAt": "2026-11-21T20:25:18.2861752Z"
+  },
+  {
+    "Id": "6b929389-ca89-4597-aef3-50093083754a",
+    "CanonicalName": "Daily Milk Banana 180Ml",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 180,
+    "Unit": "ml",
+    "Category": "General Grocery",
+    "CreatedAt": "2026-11-21T20:25:18.2862299Z"
+  },
+  {
+    "Id": "2d0e816a-5a4d-49a0-8ee9-793139b64255",
+    "CanonicalName": "Daily Milk Chocolate 180Ml",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 180,
+    "Unit": "ml",
+    "Category": "General Grocery",
+    "CreatedAt": "2026-11-21T20:25:18.2862956Z"
+  },
+  {
+    "Id": "abc96736-66cf-4f80-a059-ab9dc288af30",
+    "CanonicalName": "Daily Milk Faluda 180Ml",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 180,
+    "Unit": "ml",
+    "Category": "General Grocery",
+    "CreatedAt": "2026-11-21T20:25:18.2863584Z"
+  },
+  {
+    "Id": "5e9a8ef8-0c98-4f48-a19e-2aaac4b8aa2d",
+    "CanonicalName": "Daily Milk Faluda 1L",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 1,
+    "Unit": "l",
+    "Category": "General Grocery",
+    "CreatedAt": "2026-11-21T20:25:18.286418Z"
+  },
+  {
+    "Id": "45bc1573-306a-4faf-81c7-97078b86e9f1",
+    "CanonicalName": "Daily Milk Strawberry 180Ml",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 180,
+    "Unit": "ml",
+    "Category": "General Grocery",
+    "CreatedAt": "2026-11-21T20:25:18.286483Z"
+  },
+  {
+    "Id": "aa5de3b9-76df-4bf0-9ff2-5459cc5c09ce",
+    "CanonicalName": "Daily Milk Vanila 180Ml",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 180,
+    "Unit": "ml",
+    "Category": "General Grocery",
+    "CreatedAt": "2026-11-21T20:25:18.2865521Z"
+  },
+  {
+    "Id": "ed8d3697-55c3-41fd-85ee-8f4c5413f49d",
+    "CanonicalName": "Ahmad Green Tea 25 Tea Bags",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 1,
+    "Unit": "pcs",
+    "Category": "General Grocery",
+    "CreatedAt": "2026-11-21T20:25:18.2865924Z"
+  },
+  {
+    "Id": "1de8b09d-03e1-4ddf-b381-5299f91b6076",
+    "CanonicalName": "Ahmad Mixbery \u0026 Hibiscus 20 Tea Bags 40G",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 40,
+    "Unit": "g",
+    "Category": "General Grocery",
+    "CreatedAt": "2026-11-21T20:25:18.2866405Z"
+  },
+  {
+    "Id": "2a2be3e6-4bff-433c-a678-5b64582c1b16",
+    "CanonicalName": "Ahmad Premium Blend Tea 200G",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 200,
+    "Unit": "g",
+    "Category": "General Grocery",
+    "CreatedAt": "2026-11-21T20:25:18.2867153Z"
+  },
+  {
+    "Id": "660f3a6f-d2ad-4b90-ad40-c547f8431e86",
+    "CanonicalName": "Ahmad Tea Camomil \u0026 Lemongrass 20 Tea Bags 40G",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 40,
+    "Unit": "g",
+    "Category": "General Grocery",
+    "CreatedAt": "2026-11-21T20:25:18.2867648Z"
+  },
+  {
+    "Id": "f838105b-bd9f-4e4e-b4ac-33d201178a93",
+    "CanonicalName": "Ahmad Tea Chai Spice 100G",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 100,
+    "Unit": "g",
+    "Category": "General Grocery",
+    "CreatedAt": "2026-11-21T20:25:18.2868217Z"
+  },
+  {
+    "Id": "5fbfd250-7ecb-4ebe-80ca-1e3f48aedd18",
+    "CanonicalName": "Ahmad Tea Rosehip Hibiscus Chery 20 Tea Bag 40G",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 40,
+    "Unit": "g",
+    "Category": "General Grocery",
+    "CreatedAt": "2026-11-21T20:25:18.2868757Z"
+  },
+  {
+    "Id": "75960d56-9225-4291-9aab-aeb1b2531a4b",
+    "CanonicalName": "Arpico Candle Tea Light With Flower 6Pcs",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 6,
+    "Unit": "pcs",
+    "Category": "General Grocery",
+    "CreatedAt": "2026-11-21T20:25:18.2869133Z"
+  },
+  {
+    "Id": "026a1a13-e8a4-4867-9975-35a3e4a79bb5",
+    "CanonicalName": "Arpico Tea Bun 70G",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 70,
+    "Unit": "g",
+    "Category": "General Grocery",
+    "CreatedAt": "2026-11-21T20:25:18.2869502Z"
+  },
+  {
+    "Id": "d65aec91-1d00-4461-a9ad-acb01682ec87",
+    "CanonicalName": "Beam Kotlahimbutu Herbal Tea 40G",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 40,
+    "Unit": "g",
+    "Category": "General Grocery",
+    "CreatedAt": "2026-11-21T20:25:18.2870103Z"
+  },
+  {
+    "Id": "5ca77ac3-7089-4336-8077-006baaadea01",
+    "CanonicalName": "Beam Tea Bagiguru Kotmalli 40G",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 40,
+    "Unit": "g",
+    "Category": "General Grocery",
+    "CreatedAt": "2026-11-21T20:25:18.2870721Z"
+  },
+  {
+    "Id": "bf3651ff-8110-4d70-9e0a-bf45b79ed6e2",
+    "CanonicalName": "Dilmah Camomile Tea Bag 30G",
+    "Brand": "Dilmah",
+    "Barcode": null,
+    "Quantity": 30,
+    "Unit": "g",
+    "Category": "General Grocery",
+    "CreatedAt": "2026-11-21T20:25:18.2871281Z"
+  },
+  {
+    "Id": "37e905ab-0123-4b98-b60e-9dea71ad2a61",
+    "CanonicalName": "Dilmah English Breakfast 50 Tea Bags 100G",
+    "Brand": "Dilmah",
+    "Barcode": null,
+    "Quantity": 100,
+    "Unit": "g",
+    "Category": "General Grocery",
+    "CreatedAt": "2026-11-21T20:25:18.2871896Z"
+  },
+  {
+    "Id": "7a3cea64-9790-4745-aaac-0e8d59dd7355",
+    "CanonicalName": "Dilmah Extra Strength 100 Tea Bags 240G",
+    "Brand": "Dilmah",
+    "Barcode": null,
+    "Quantity": 240,
+    "Unit": "g",
+    "Category": "General Grocery",
+    "CreatedAt": "2026-11-21T20:25:18.2872288Z"
+  },
+  {
+    "Id": "e8b964f3-00eb-4a9c-aac0-8a2bbd229341",
+    "CanonicalName": "Dilmah Gentleman Tea 20S",
+    "Brand": "Dilmah",
+    "Barcode": null,
+    "Quantity": 1,
+    "Unit": "pcs",
+    "Category": "General Grocery",
+    "CreatedAt": "2026-11-21T20:25:18.2873369Z"
+  },
+  {
+    "Id": "500d1fb1-415d-45f4-8369-3ba61818d909",
+    "CanonicalName": "Dilmah Green Tea Morcan 20 Tea Bags 40G",
+    "Brand": "Dilmah",
+    "Barcode": null,
+    "Quantity": 40,
+    "Unit": "g",
+    "Category": "General Grocery",
+    "CreatedAt": "2026-11-21T20:25:18.2874094Z"
+  },
+  {
+    "Id": "f19460e2-e9ec-44ce-a33a-c285832e284f",
+    "CanonicalName": "Akshata Rice Kaluheenati 800G",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 800,
+    "Unit": "g",
+    "Category": "General Grocery",
+    "CreatedAt": "2026-11-21T20:25:18.2874568Z"
+  },
+  {
+    "Id": "bbbde6b8-9e6d-417f-8254-a0dc0be8f7d8",
+    "CanonicalName": "Alli White Rice Hopper Mix 400G",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 400,
+    "Unit": "g",
+    "Category": "General Grocery",
+    "CreatedAt": "2026-11-21T20:25:18.2875435Z"
+  },
+  {
+    "Id": "d5e20693-3f78-439f-86f4-16a217dcfc62",
+    "CanonicalName": "Arpico Flour Hopper Mixture White Rice 400G",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 400,
+    "Unit": "g",
+    "Category": "General Grocery",
+    "CreatedAt": "2026-11-21T20:25:18.2876373Z"
+  },
+  {
+    "Id": "5789e44f-207f-447c-b190-3bc4ea5082ff",
+    "CanonicalName": "Arpico Noodles Rice 350G",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 350,
+    "Unit": "g",
+    "Category": "General Grocery",
+    "CreatedAt": "2026-11-21T20:25:18.2876796Z"
+  },
+  {
+    "Id": "aad664f8-3442-453b-882d-1d87a2423709",
+    "CanonicalName": "Arpico Porridge Rice Traditional 200G",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 200,
+    "Unit": "g",
+    "Category": "General Grocery",
+    "CreatedAt": "2026-11-21T20:25:18.2877501Z"
+  },
+  {
+    "Id": "8127cc36-c301-412a-9a2d-bf4d2a969938",
+    "CanonicalName": "Arpico Porridge Suwadwl Rice 200G",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 200,
+    "Unit": "g",
+    "Category": "General Grocery",
+    "CreatedAt": "2026-11-21T20:25:18.2878281Z"
+  },
+  {
+    "Id": "357c2fef-434b-419c-a498-2f303ed313c2",
+    "CanonicalName": "Arpico Rice Batapolel 800G",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 800,
+    "Unit": "g",
+    "Category": "General Grocery",
+    "CreatedAt": "2026-11-21T20:25:18.287878Z"
+  },
+  {
+    "Id": "5b67de3a-4e8e-4f75-94ff-95fac491620a",
+    "CanonicalName": "Arpico Rice Kahamaala 800G",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 800,
+    "Unit": "g",
+    "Category": "General Grocery",
+    "CreatedAt": "2026-11-21T20:25:18.2879293Z"
+  },
+  {
+    "Id": "f9553943-f854-40eb-83f8-dcab93192396",
+    "CanonicalName": "Arpico Rice Kalu Heenati 800G",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 800,
+    "Unit": "g",
+    "Category": "General Grocery",
+    "CreatedAt": "2026-11-21T20:25:18.2879831Z"
+  },
+  {
+    "Id": "6dbc9ad4-49c6-4dac-a314-733d6644cea8",
+    "CanonicalName": "Arpico Rice Kurulu Thuda 800G",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 800,
+    "Unit": "g",
+    "Category": "General Grocery",
+    "CreatedAt": "2026-11-21T20:25:18.2880417Z"
+  },
+  {
+    "Id": "58c2107d-a646-4f74-a773-6ca31e443d46",
+    "CanonicalName": "Arpico Rice Lanka Basmati 800G",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 800,
+    "Unit": "g",
+    "Category": "General Grocery",
+    "CreatedAt": "2026-11-21T20:25:18.2881024Z"
+  },
+  {
+    "Id": "3bff3805-77a5-4ab4-aae3-2ee1e0b9fbd0",
+    "CanonicalName": "Arpico Rice Suwadal 800G",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 800,
+    "Unit": "g",
+    "Category": "General Grocery",
+    "CreatedAt": "2026-11-21T20:25:18.2881681Z"
+  },
+  {
+    "Id": "09f435b2-5021-4cac-9ecc-8e7ff3da1543",
+    "CanonicalName": "Harischandra Noodles Red Rice 200G",
+    "Brand": "Harischandra",
+    "Barcode": null,
+    "Quantity": 200,
+    "Unit": "g",
+    "Category": "General Grocery",
+    "CreatedAt": "2026-11-21T20:25:18.2882417Z"
+  },
+  {
+    "Id": "07cdcd83-18ad-464e-bc73-43d865211cb8",
+    "CanonicalName": "Harischandra Papadam Wth Rice 70G",
+    "Brand": "Harischandra",
+    "Barcode": null,
+    "Quantity": 70,
+    "Unit": "g",
+    "Category": "General Grocery",
+    "CreatedAt": "2026-11-21T20:25:18.2882852Z"
+  },
+  {
+    "Id": "7de56a2b-ea2f-4ab3-aa11-4e613f7110c1",
+    "CanonicalName": "Harischandra Red Rice String Hopper Flour 700G",
+    "Brand": "Harischandra",
+    "Barcode": null,
+    "Quantity": 700,
+    "Unit": "g",
+    "Category": "General Grocery",
+    "CreatedAt": "2026-11-21T20:25:18.2883271Z"
+  }
+]

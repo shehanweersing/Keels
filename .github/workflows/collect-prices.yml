@@ -1,0 +1,70 @@
+name: Scheduled Supermarket Price Collection
+
+on:
+  schedule:
+    # Run every 15 minutes by default
+    - cron: '*/15 * * * *'
+  workflow_dispatch:
+    inputs:
+      supermarket:
+        description: 'Supermarket adapter to run (all, cargills, arpico, keells)'
+        required: true
+        default: 'all'
+        type: choice
+        options:
+          - all
+          - cargills
+          - arpico
+          - keells
+      search_terms:
+        description: 'Comma-separated search keywords'
+        required: false
+        default: 'milk,tea,rice,dhal,sugar,biscuit'
+        type: string
+
+concurrency:
+  group: price-collection
+  cancel-in-progress: false
+
+jobs:
+  collect:
+    name: Run PriceWise LK Collector
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '8.0.x'
+
+      - name: Restore Dependencies
+        run: dotnet restore src/collector/PriceWise.sln
+
+      - name: Run Quality Assurance Unit Tests
+        run: dotnet test src/collector/PriceWise.sln --no-restore --verbosity normal
+
+      - name: Execute Live Price Collection
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+          COLLECTOR_STORAGE_MODE: ${{ secrets.SUPABASE_URL && 'supabase' || 'local' }}
+          TARGET_SUPERMARKET: ${{ inputs.supermarket || 'all' }}
+          SEARCH_TERMS: ${{ inputs.search_terms || 'milk,tea,rice,dhal,sugar,biscuit' }}
+        run: |
+          dotnet run --project src/collector/PriceWise.Collector --no-restore -- \
+            --supermarket "$TARGET_SUPERMARKET" \
+            --terms "$SEARCH_TERMS"
+
+      - name: Archive Verified JSON Snapshots (Audit Evidence)
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: verified-price-snapshots
+          path: |
+            src/frontend/public/data/*.json
+            logs/*.log
+          retention-days: 14

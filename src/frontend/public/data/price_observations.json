@@ -1,0 +1,2262 @@
+[
+  {
+    "Id": "17c0c648-4ae0-431d-9968-6c4b2808acf4",
+    "StoreProductId": "b5c05a4b-ee72-417b-985f-25da6b3941fd",
+    "Price": 990.00,
+    "OriginalPrice": null,
+    "Currency": "LKR",
+    "ObservedAt": "2026-11-21T20:24:57.0202449Z",
+    "SourceUrl": "https://cargillsonline.com/Web/ProductDetails?ID=Em1GPI1wiW%2Bz9w89sKr0%2Bg%3D%3D",
+    "CreatedAt": "2026-11-21T20:25:03.7157934Z"
+  },
+  {
+    "Id": "d4590c37-bfb9-49fa-97e4-895585d663d5",
+    "StoreProductId": "3fbfda37-4290-4b78-b521-800df0d8b006",
+    "Price": 790.00,
+    "OriginalPrice": null,
+    "Currency": "LKR",
+    "ObservedAt": "2026-11-21T20:24:57.0209206Z",
+    "SourceUrl": "https://cargillsonline.com/Web/ProductDetails?ID=huAj8MCj8FqpoFjhI7ZvfA%3D%3D",
+    "CreatedAt": "2026-11-21T20:25:03.7164982Z"
+  },
+  {
+    "Id": "b18639bf-76dc-4f4f-b125-44c3dc35ffac",
+    "StoreProductId": "00c36d47-490d-46c1-8f5d-df40ae4dd43b",
+    "Price": 300.00,
+    "OriginalPrice": null,
+    "Currency": "LKR",
+    "ObservedAt": "2026-11-21T20:24:57.0209429Z",
+    "SourceUrl": "https://cargillsonline.com/Web/ProductDetails?ID=vjtKjxDAMJ5Jf6U%2B4eDT8w%3D%3D",
+    "CreatedAt": "2026-11-21T20:25:03.7165937Z"
+  },
+  {
+    "Id": "c5d8ce1d-104b-4a9c-a449-5d3b9d752a3a",
+    "StoreProductId": "611e69f5-4774-4921-8fa2-d7052f8f8658",
+    "Price": 1110.00,
+    "OriginalPrice": null,
+    "Currency": "LKR",
+    "ObservedAt": "2026-11-21T20:24:57.0209524Z",
+    "SourceUrl": "https://cargillsonline.com/Web/ProductDetails?ID=m%2BISASPEA%2BzW3yl%2FpUyEnA%3D%3D",
+    "CreatedAt": "2026-11-21T20:25:03.7165997Z"
+  },
+  {
+    "Id": "b18cc676-b67e-42ad-b860-4bb13167fd6a",
+    "StoreProductId": "a1de432c-47dd-4f43-90d3-10e605ac8321",
+    "Price": 260.00,
+    "OriginalPrice": null,
+    "Currency": "LKR",
+    "ObservedAt": "2026-11-21T20:24:57.0209777Z",
+    "SourceUrl": "https://cargillsonline.com/Web/ProductDetails?ID=jqY97z9joOsx2wkIToryTQ%3D%3D",
+    "CreatedAt": "2026-11-21T20:25:03.7166087Z"
+  },
+  {
+    "Id": "4a15e751-ff48-46bf-851e-91bf64fe5227",
+    "StoreProductId": "3e28488b-4a3f-4d16-8c52-39e8bc75913e",
+    "Price": 565.00,
+    "OriginalPrice": null,
+    "Currency": "LKR",
+    "ObservedAt": "2026-11-21T20:24:57.0209863Z",
+    "SourceUrl": "https://cargillsonline.com/Web/ProductDetails?ID=muH88PdazRvMirQzacDJdA%3D%3D",
+    "CreatedAt": "2026-11-21T20:25:03.7166143Z"
+  },
+  {
+    "Id": "08aa4797-280f-473b-9e36-54c85e269032",
+    "StoreProductId": "fb8d2f98-9ae2-4f6a-a015-78ad17591d5b",
+    "Price": 300.00,
+    "OriginalPrice": null,
+    "Currency": "LKR",
+    "ObservedAt": "2026-11-21T20:24:57.0209914Z",
+    "SourceUrl": "https://cargillsonline.com/Web/ProductDetails?ID=8DyQA1cumJIsuqo2eRwvCg%3D%3D",
+    "CreatedAt": "2026-11-21T20:25:03.7166186Z"
+  },
+  {
+    "Id": "79c67c0d-615e-4225-b9a7-2a19e7972dda",
+    "StoreProductId": "98dfdd43-8ea1-428d-b92e-6c7784ca92c3",
+    "Price": 440.00,
+    "OriginalPrice": null,
+    "Currency": "LKR",
+    "ObservedAt": "2026-11-21T20:24:57.0209971Z",
+    "SourceUrl": "https://cargillsonline.com/Web/ProductDetails?ID=deGCU6b5EWcUcOqUrc%2BI3A%3D%3D",
+    "CreatedAt": "2026-11-21T20:25:03.7172484Z"
+  },
+  {
+    "Id": "5fc6b94a-3438-42d8-9afd-88b1e3f760fb",
+    "StoreProductId": "29c84b01-33f5-4dda-b3fc-7641c0a46d18",
+    "Price": 440.00,
+    "OriginalPrice": null,
+    "Currency": "LKR",
+    "ObservedAt": "2026-11-21T20:24:57.0210067Z",
+    "SourceUrl": "https://cargillsonline.com/Web/ProductDetails?ID=oWrfkYtCxLkm2k3HpJL5dg%3D%3D",
+    "CreatedAt": "2026-11-21T20:25:03.7172623Z"
+  },
+  {
+    "Id": "8a0a8f43-8bf1-4eea-a28c-7d701c177f46",
+    "StoreProductId": "a05575d5-36f8-425e-a9ba-f7e5c11859fd",
+    "Price": 600.00,
+    "OriginalPrice": null,
+    "Currency": "LKR",
+    "ObservedAt": "2026-11-21T20:24:57.0210121Z",
+    "SourceUrl": "https://cargillsonline.com/Web/ProductDetails?ID=Og4bivo2dRxKICqlqaGeUg%3D%3D",
+    "CreatedAt": "2026-11-21T20:25:03.7172704Z"
+  },
+  {
+    "Id": "0f3a240d-170d-42ed-b3ca-8c0617f35d32",
+    "StoreProductId": "46474727-132d-4e47-a2c3-d67f330ff953",
+    "Price": 420.00,
+    "OriginalPrice": null,
+    "Currency": "LKR",
+    "ObservedAt": "2026-11-21T20:24:57.0210186Z",
+    "SourceUrl": "https://cargillsonline.com/Web/ProductDetails?ID=qD%2F%2B9EnnaB44BHIoFkVzcA%3D%3D",
+    "CreatedAt": "2026-11-21T20:25:03.7172969Z"
+  },
+  {
+    "Id": "c1e11248-0612-4f4c-83f0-f81e1c57c216",
+    "StoreProductId": "65aa4fca-0945-4e73-aab4-31a5b6fcb187",
+    "Price": 1050.00,
+    "OriginalPrice": null,
+    "Currency": "LKR",
+    "ObservedAt": "2026-11-21T20:24:57.0210234Z",
+    "SourceUrl": "https://cargillsonline.com/Web/ProductDetails?ID=CNmrTxIaB3ecA3YSLG5wSw%3D%3D",
+    "CreatedAt": "2026-11-21T20:25:03.7173025Z"
+  },
+  {
+    "Id": "2a400c1c-0a41-4340-a42b-5d1a66f62b25",
+    "StoreProductId": "a912ba10-73fe-46fa-84c5-d85ff47c7564",
+    "Price": 850.00,
+    "OriginalPrice": null,
+    "Currency": "LKR",
+    "ObservedAt": "2026-11-21T20:24:57.0210319Z",
+    "SourceUrl": "https://cargillsonline.com/Web/ProductDetails?ID=bkf0pH0j3PK1eK2ad9LPtw%3D%3D",
+    "CreatedAt": "2026-11-21T20:25:03.7173164Z"
+  },
+  {
+    "Id": "0d4de63a-2416-4874-9db7-3765632405f6",
+    "StoreProductId": "dc5490dc-6a15-4c5b-b380-89177334938c",
+    "Price": 720.00,
+    "OriginalPrice": null,
+    "Currency": "LKR",
+    "ObservedAt": "2026-11-21T20:24:57.0210384Z",
+    "SourceUrl": "https://cargillsonline.com/Web/ProductDetails?ID=8o8Ye8s5kW9Vrg733ietBQ%3D%3D",
+    "CreatedAt": "2026-11-21T20:25:03.7173224Z"
+  },
+  {
+    "Id": "f82f77c5-90bf-42ab-8544-c70f14386899",
+    "StoreProductId": "e6dcbad4-7257-450c-be56-6a2e19f2f720",
+    "Price": 230.00,
+    "OriginalPrice": null,
+    "Currency": "LKR",
+    "ObservedAt": "2026-11-21T20:24:57.0210435Z",
+    "SourceUrl": "https://cargillsonline.com/Web/ProductDetails?ID=P6yjO2Kei8IOH2srgztU7g%3D%3D",
+    "CreatedAt": "2026-11-21T20:25:03.7173281Z"
+  },
+  {
+    "Id": "1733ff4d-d276-4fc7-800a-84948728bbfd",
+    "StoreProductId": "370998b4-3ce5-4fb2-bb5e-0d4627c97550",
+    "Price": 140.00,
+    "OriginalPrice": null,
+    "Currency": "LKR",
+    "ObservedAt": "2026-11-21T20:24:57.0210488Z",
+    "SourceUrl": "https://cargillsonline.com/Web/ProductDetails?ID=DYMEIGRJeDUbNVt6bqTAqw%3D%3D",
+    "CreatedAt": "2026-11-21T20:25:03.717335Z"
+  },
+  {
+    "Id": "ddc33070-944c-457c-b811-b464c2449e00",
+    "StoreProductId": "f940656c-7306-41fd-b30d-fbb538edb9a8",
+    "Price": 100.00,
+    "OriginalPrice": null,
+    "Currency": "LKR",
+    "ObservedAt": "2026-11-21T20:24:57.0210569Z",
+    "SourceUrl": "https://cargillsonline.com/Web/ProductDetails?ID=skLSEj4pw3suBYGo3BjzSQ%3D%3D",
+    "CreatedAt": "2026-11-21T20:25:03.7173435Z"
+  },
+  {
+    "Id": "afd4b07d-3487-46cd-a40a-a1f1df1bce2e",
+    "StoreProductId": "40f916d9-c060-48b0-b22e-2748f619270d",
+    "Price": 600.00,
+    "OriginalPrice": null,
+    "Currency": "LKR",
+    "ObservedAt": "2026-11-21T20:24:57.0210614Z",
+    "SourceUrl": "https://cargillsonline.com/Web/ProductDetails?ID=ogz9mlApZIYMTFPm4X%2FJ5Q%3D%3D",
+    "CreatedAt": "2026-11-21T20:25:03.7173496Z"
+  },
+  {
+    "Id": "5be0cd5a-3592-4079-b643-6f162529c629",
+    "StoreProductId": "94539e3a-1027-49ca-a682-be54ba847b89",
+    "Price": 2805.00,
+    "OriginalPrice": null,
+    "Currency": "LKR",
+    "ObservedAt": "2026-11-21T20:24:57.021066Z",
+    "SourceUrl": "https://cargillsonline.com/Web/ProductDetails?ID=igBKcWTX78561VdmOxxjag%3D%3D",
+    "CreatedAt": "2026-11-21T20:25:03.7173552Z"
+  },
+  {
+    "Id": "195e22e8-0f59-486b-8d50-8e87c3e680b9",
+    "StoreProductId": "d1c8c550-07ea-47cb-bd2d-b6e915c0aca8",
+    "Price": 600.00,
+    "OriginalPrice": null,
+    "Currency": "LKR",
+    "ObservedAt": "2026-11-21T20:24:57.0210699Z",
+    "SourceUrl": "https://cargillsonline.com/Web/ProductDetails?ID=gyHIltGS5jF72Ljj8nV8EA%3D%3D",
+    "CreatedAt": "2026-11-21T20:25:03.7173646Z"
+  },
+  {
+    "Id": "80ae1b92-a6c4-4a49-9514-277cbd042eef",
+    "StoreProductId": "df95f240-07b3-46b6-82a8-32c3f59f7f01",
+    "Price": 140.00,
+    "OriginalPrice": null,
+    "Currency": "LKR",
+    "ObservedAt": "2026-11-21T20:24:57.0210769Z",
+    "SourceUrl": "https://cargillsonline.com/Web/ProductDetails?ID=CUeClQXdFSEO4qsVUD6n%2BA%3D%3D",
+    "CreatedAt": "2026-11-21T20:25:03.7173747Z"
+  },
+  {
+    "Id": "3854f32f-2a53-4027-a963-d7bd15d7c3fc",
+    "StoreProductId": "31c0c80f-350d-43ea-bbcd-ad6403d5f223",
+    "Price": 580.00,
+    "OriginalPrice": null,
+    "Currency": "LKR",
+    "ObservedAt": "2026-11-21T20:24:57.0210823Z",
+    "SourceUrl": "https://cargillsonline.com/Web/ProductDetails?ID=ooUr8NwyajiimAgLd0AhlA%3D%3D",
+    "CreatedAt": "2026-11-21T20:25:03.7173824Z"
+  },
+  {
+    "Id": "a00a96a3-0b43-4310-8ead-591691c530c2",
+    "StoreProductId": "da3948d4-3456-46d2-9b11-36343f0a04e9",
+    "Price": 140.00,
+    "OriginalPrice": null,
+    "Currency": "LKR",
+    "ObservedAt": "2026-11-21T20:24:57.021087Z",
+    "SourceUrl": "https://cargillsonline.com/Web/ProductDetails?ID=MQsv6q30Wooi671Xva1XsA%3D%3D",
+    "CreatedAt": "2026-11-21T20:25:03.7173955Z"
+  },
+  {
+    "Id": "4e013fed-2106-42df-b450-ebde9a149ad9",
+    "StoreProductId": "537634bf-ac8f-46c4-85c3-8f11b0e5bc0e",
+    "Price": 1280.00,
+    "OriginalPrice": null,
+    "Currency": "LKR",
+    "ObservedAt": "2026-11-21T20:24:57.0210927Z",
+    "SourceUrl": "https://cargillsonline.com/Web/ProductDetails?ID=bTf%2FXZ%2Fn7THD8SYKpy5N7Q%3D%3D",
+    "CreatedAt": "2026-11-21T20:25:03.7174081Z"
+  },
+  {
+    "Id": "0f4faa8d-7ea4-41a3-8249-44e917b842a7",
+    "StoreProductId": "b0b5bc08-b27e-4d17-b64f-ca9a58829c41",
+    "Price": 420.00,
+    "OriginalPrice": null,
+    "Currency": "LKR",
+    "ObservedAt": "2026-11-21T20:24:57.0211004Z",
+    "SourceUrl": "https://cargillsonline.com/Web/ProductDetails?ID=8lkmPujskO8PHY3hyHyfBQ%3D%3D",
+    "CreatedAt": "2026-11-21T20:25:03.7174189Z"
+  },
+  {
+    "Id": "f6cb7135-efda-4a7d-920d-f0e05db6a63e",
+    "StoreProductId": "e56366c2-759e-4524-bb70-52d50d5d7f9f",
+    "Price": 375.00,
+    "OriginalPrice": null,
+    "Currency": "LKR",
+    "ObservedAt": "2026-11-21T20:24:57.0211054Z",
+    "SourceUrl": "https://cargillsonline.com/Web/ProductDetails?ID=OvtT0FvPMuGKgTL8PTwfpA%3D%3D",
+    "CreatedAt": "2026-11-21T20:25:03.7174257Z"
+  },
+  {
+    "Id": "a5ab5ae1-0406-4ddf-8252-e196b4e868c0",
+    "StoreProductId": "72fcf84a-9c0d-42a0-b2c4-6f5a3c89e1db",
+    "Price": 580.00,
+    "OriginalPrice": null,
+    "Currency": "LKR",
+    "ObservedAt": "2026-11-21T20:24:57.0211097Z",
+    "SourceUrl": "https://cargillsonline.com/Web/ProductDetails?ID=4%2FUEC8iFdjC5f5Fme%2FJInw%3D%3D",
+    "CreatedAt": "2026-11-21T20:25:03.71744Z"
+  },
+  {
+    "Id": "f5ca8d44-5d55-468c-a0eb-a169d7101b4b",
+    "StoreProductId": "977ebc22-5896-4f5c-b03d-536be8deac31",
+    "Price": 420.00,
+    "OriginalPrice": null,
+    "Currency": "LKR",
+    "ObservedAt": "2026-11-21T20:24:57.0211146Z",
+    "SourceUrl": "https://cargillsonline.com/Web/ProductDetails?ID=vtord8LjMoqR6nTclGn0dg%3D%3D",
+    "CreatedAt": "2026-11-21T20:25:03.7174567Z"
+  },
+  {
+    "Id": "b37da960-f434-4ac6-9c0f-895b9d9f54f2",
+    "StoreProductId": "b87fb762-b4d5-4453-aaef-572822ee0963",
+    "Price": 450.00,
+    "OriginalPrice": null,
+    "Currency": "LKR",
+    "ObservedAt": "2026-11-21T20:24:57.0211231Z",
+    "SourceUrl": "https://cargillsonline.com/Web/ProductDetails?ID=QPCchTdCkR62Xb9dCp9ODA%3D%3D",
+    "CreatedAt": "2026-11-21T20:25:03.7175124Z"
+  },
+  {
+    "Id": "ec7caa16-f801-4468-8299-eb2f38d87214",
+    "StoreProductId": "9c73a376-8975-4eb8-88d1-660c005cc78a",
+    "Price": 789.96,
+    "OriginalPrice": null,
+    "Currency": "LKR",
+    "ObservedAt": "2026-11-21T20:24:57.0211302Z",
+    "SourceUrl": "https://cargillsonline.com/Web/ProductDetails?ID=Wbx7xmeyZjxGsrmjNigXYQ%3D%3D",
+    "CreatedAt": "2026-11-21T20:25:03.7175252Z"
+  },
+  {
+    "Id": "4ab137d2-6314-4398-b204-16a961a59e21",
+    "StoreProductId": "4d30fb13-60f1-4a4f-aebf-bad1efba38dc",
+    "Price": 690.00,
+    "OriginalPrice": null,
+    "Currency": "LKR",
+    "ObservedAt": "2026-11-21T20:24:57.0211387Z",
+    "SourceUrl": "https://cargillsonline.com/Web/ProductDetails?ID=6uBeBtxR6Yc1SKcL1le1CQ%3D%3D",
+    "CreatedAt": "2026-11-21T20:25:03.7175324Z"
+  },
+  {
+    "Id": "84a3ea50-f8c8-4dcf-af58-0c0982ba050e",
+    "StoreProductId": "acb76d16-e303-4145-9bec-4ca1ef05a1d7",
+    "Price": 800.00,
+    "OriginalPrice": null,
+    "Currency": "LKR",
+    "ObservedAt": "2026-11-21T20:24:57.0211467Z",
+    "SourceUrl": "https://cargillsonline.com/Web/ProductDetails?ID=m3aS3sMu7jwe8zvet11Afw%3D%3D",
+    "CreatedAt": "2026-11-21T20:25:03.7175431Z"
+  },
+  {
+    "Id": "c34cbf99-d8eb-447c-8482-1668c970c9d5",
+    "StoreProductId": "a0fa07bf-a149-48c9-a3c7-ba748ae684d7",
+    "Price": 140.00,
+    "OriginalPrice": null,
+    "Currency": "LKR",
+    "ObservedAt": "2026-11-21T20:24:57.0211537Z",
+    "SourceUrl": "https://cargillsonline.com/Web/ProductDetails?ID=vVX4JVsrNCkPhOV3mDPuBQ%3D%3D",
+    "CreatedAt": "2026-11-21T20:25:03.7175571Z"
+  },
+  {
+    "Id": "8385a57b-7f71-4b3f-8c29-6f21e7e2bd97",
+    "StoreProductId": "4a431664-95ba-40e0-8f3b-caf0ac7c459a",
+    "Price": 240.00,
+    "OriginalPrice": null,
+    "Currency": "LKR",
+    "ObservedAt": "2026-11-21T20:24:57.0211581Z",
+    "SourceUrl": "https://cargillsonline.com/Web/ProductDetails?ID=TfkIa3jXE0BddAEeRNCP8g%3D%3D",
+    "CreatedAt": "2026-11-21T20:25:03.7175674Z"
+  },
+  {
+    "Id": "7e6033a6-a428-4b0c-85f0-47420a0299d3",
+    "StoreProductId": "8644b7e9-ff9f-483a-92be-3d386dd71802",
+    "Price": 580.00,
+    "OriginalPrice": null,
+    "Currency": "LKR",
+    "ObservedAt": "2026-11-21T20:24:57.0211629Z",
+    "SourceUrl": "https://cargillsonline.com/Web/ProductDetails?ID=q4PTUVot%2FlMdnC8V9cjPdg%3D%3D",
+    "CreatedAt": "2026-11-21T20:25:03.7175877Z"
+  },
+  {
+    "Id": "c4c4bb97-20e8-42fd-b0e8-bb40c3f85721",
+    "StoreProductId": "096cf1f4-eed5-4122-8269-459f73fd3355",
+    "Price": 440.00,
+    "OriginalPrice": null,
+    "Currency": "LKR",
+    "ObservedAt": "2026-11-21T20:24:57.0211728Z",
+    "SourceUrl": "https://cargillsonline.com/Web/ProductDetails?ID=Cd7%2FjwwB%2BNBAKm87ym0Luw%3D%3D",
+    "CreatedAt": "2026-11-21T20:25:03.7175997Z"
+  },
+  {
+    "Id": "4b82c4c3-47a2-45b9-b04c-8d84b404178f",
+    "StoreProductId": "99ab39a8-a916-45ea-bf8d-e6efb12c4bf6",
+    "Price": 100.00,
+    "OriginalPrice": null,
+    "Currency": "LKR",
+    "ObservedAt": "2026-11-21T20:24:57.0211771Z",
+    "SourceUrl": "https://cargillsonline.com/Web/ProductDetails?ID=jHEnMCZNPY7%2BCHrgZotTsQ%3D%3D",
+    "CreatedAt": "2026-11-21T20:25:03.7176124Z"
+  },
+  {
+    "Id": "75e5eab1-2751-459b-be62-805a733f5387",
+    "StoreProductId": "bbe879d7-c377-4176-9f10-51aae46653da",
+    "Price": 600.00,
+    "OriginalPrice": null,
+    "Currency": "LKR",
+    "ObservedAt": "2026-11-21T20:24:57.0211817Z",
+    "SourceUrl": "https://cargillsonline.com/Web/ProductDetails?ID=M0tCoCb%2FaBXZWSZuEvM85A%3D%3D",
+    "CreatedAt": "2026-11-21T20:25:03.7176273Z"
+  },
+  {
+    "Id": "30148581-a009-43f6-ab70-ad83be6caa86",
+    "StoreProductId": "ef85d78c-0e55-4d03-929a-ff1e34e0d35b",
+    "Price": 140.00,
+    "OriginalPrice": null,
+    "Currency": "LKR",
+    "ObservedAt": "2026-11-21T20:24:57.021186Z",
+    "SourceUrl": "https://cargillsonline.com/Web/ProductDetails?ID=%2B3mmlS9AY1EbpztmvVJTXg%3D%3D",
+    "CreatedAt": "2026-11-21T20:25:03.7176472Z"
+  },
+  {
+    "Id": "4f2a8ae0-becb-4fb8-9911-c903212c4cd4",
+    "StoreProductId": "44ac2c8f-6a44-4bb0-9a95-116accee0de1",
+    "Price": 580.00,
+    "OriginalPrice": null,
+    "Currency": "LKR",
+    "ObservedAt": "2026-11-21T20:24:57.0211945Z",
+    "SourceUrl": "https://cargillsonline.com/Web/ProductDetails?ID=B0%2B7RcPIQbgv7nk2l8NXUw%3D%3D",
+    "CreatedAt": "2026-11-21T20:25:03.717663Z"
+  },
+  {
+    "Id": "726ff20e-ef7d-4efb-981c-50865fec06df",
+    "StoreProductId": "4e74ecc3-25e2-41b4-acf6-79f20d917f5b",
+    "Price": 1200.00,
+    "OriginalPrice": null,
+    "Currency": "LKR",
+    "ObservedAt": "2026-11-21T20:24:57.0211999Z",
+    "SourceUrl": "https://cargillsonline.com/Web/ProductDetails?ID=J06%2F27SK3%2FrspdO1FEzh4A%3D%3D",
+    "CreatedAt": "2026-11-21T20:25:03.7176712Z"
+  },
+  {
+    "Id": "f2439353-7e1f-46b8-9abb-5732c7cb9cf3",
+    "StoreProductId": "acf0f795-acc2-4546-8e5a-97b0a5aefa11",
+    "Price": 900.00,
+    "OriginalPrice": null,
+    "Currency": "LKR",
+    "ObservedAt": "2026-11-21T20:24:57.0212046Z",
+    "SourceUrl": "https://cargillsonline.com/Web/ProductDetails?ID=xwDRKJY8SYgv2JZcTTJnUw%3D%3D",
+    "CreatedAt": "2026-11-21T20:25:03.7177003Z"
+  },
+  {
+    "Id": "01bcfb57-8b8f-4c56-97d9-c0871724886c",
+    "StoreProductId": "faa388a6-6409-4865-96ed-12f0c0024a67",
+    "Price": 720.00,
+    "OriginalPrice": null,
+    "Currency": "LKR",
+    "ObservedAt": "2026-11-21T20:24:57.0212132Z",
+    "SourceUrl": "https://cargillsonline.com/Web/ProductDetails?ID=IuazFENZDLImMHlyUvy9hA%3D%3D",
+    "CreatedAt": "2026-11-21T20:25:03.7177086Z"
+  },
+  {
+    "Id": "9766e4f3-ecec-42d4-aa73-b9ada8d2eea7",
+    "StoreProductId": "333260af-ff5c-4c18-842f-bff30c6252a4",
+    "Price": 140.00,
+    "OriginalPrice": null,
+    "Currency": "LKR",
+    "ObservedAt": "2026-11-21T20:24:57.0212183Z",
+    "SourceUrl": "https://cargillsonline.com/Web/ProductDetails?ID=tBvaKB3M8SwT9CIGxLecVg%3D%3D",
+    "CreatedAt": "2026-11-21T20:25:03.71773Z"
+  },
+  {
+    "Id": "9254d480-32f6-410d-9350-82cd2b54ac26",
+    "StoreProductId": "533bed66-a313-4544-950c-b5e44a1fcbc1",
+    "Price": 140.00,
+    "OriginalPrice": null,
+    "Currency": "LKR",
+    "ObservedAt": "2026-11-21T20:24:57.0212235Z",
+    "SourceUrl": "https://cargillsonline.com/Web/ProductDetails?ID=TO%2Bo7ckj3d3mPB8yUN0Fyw%3D%3D",
+    "CreatedAt": "2026-11-21T20:25:03.7177413Z"
+  },
+  {
+    "Id": "3db1aef3-f0dd-43b1-a345-9f8280dafa75",
+    "StoreProductId": "1e220ab1-fc0c-4ec4-9243-3a548678ce56",
+    "Price": 800.00,
+    "OriginalPrice": null,
+    "Currency": "LKR",
+    "ObservedAt": "2026-11-21T20:24:57.0212283Z",
+    "SourceUrl": "https://cargillsonline.com/Web/ProductDetails?ID=JSEIV%2BEfOcIkciqikJ7sTg%3D%3D",
+    "CreatedAt": "2026-11-21T20:25:03.7177549Z"
+  },
+  {
+    "Id": "42653b76-6918-4a2d-94a3-39a9acbacfcf",
+    "StoreProductId": "fd6a7a42-636e-44e0-9e7e-498793861132",
+    "Price": 4612.00,
+    "OriginalPrice": null,
+    "Currency": "LKR",
+    "ObservedAt": "2026-11-21T20:24:57.0212359Z",
+    "SourceUrl": "https://cargillsonline.com/Web/ProductDetails?ID=Pn7kypJ2DmFX3Q7xBgqUpQ%3D%3D",
+    "CreatedAt": "2026-11-21T20:25:03.7177703Z"
+  },
+  {
+    "Id": "7677060b-c548-40b7-ac66-ca9d4218de24",
+    "StoreProductId": "24666528-2153-4a6d-9cb9-8e86ebf04c04",
+    "Price": 140.00,
+    "OriginalPrice": null,
+    "Currency": "LKR",
+    "ObservedAt": "2026-11-21T20:24:57.0212408Z",
+    "SourceUrl": "https://cargillsonline.com/Web/ProductDetails?ID=5ZD8XU5ucN%2FMi4zADrR59Q%3D%3D",
+    "CreatedAt": "2026-11-21T20:25:03.7177963Z"
+  },
+  {
+    "Id": "35093a07-28b3-4e6f-8dc1-329bb0c2836b",
+    "StoreProductId": "c8c5e3dd-c284-4b44-8aef-f07e43904bd4",
+    "Price": 440.00,
+    "OriginalPrice": null,
+    "Currency": "LKR",
+    "ObservedAt": "2026-11-21T20:24:57.0212454Z",
+    "SourceUrl": "https://cargillsonline.com/Web/ProductDetails?ID=DMmUeoMSZcU38NTOtfl%2FNA%3D%3D",
+    "CreatedAt": "2026-11-21T20:25:03.7178157Z"
+  },
+  {
+    "Id": "5ee5db49-e297-42ca-91eb-b9c9ce8cd639",
+    "StoreProductId": "1850ac98-5a13-4307-8e77-8f69f6dc5bc5",
+    "Price": 3150.00,
+    "OriginalPrice": null,
+    "Currency": "LKR",
+    "ObservedAt": "2026-11-21T20:24:57.0212535Z",
+    "SourceUrl": "https://cargillsonline.com/Web/ProductDetails?ID=lIlu9yOG20I5sQFXKLPoCg%3D%3D",
+    "CreatedAt": "2026-11-21T20:25:03.7178259Z"
+  },
+  {
+    "Id": "7ecd73fa-1f79-4e53-b542-9916fe6958ea",
+    "StoreProductId": "41f8b1eb-8a28-48de-a3ab-bc643e5f17ae",
+    "Price": 140.00,
+    "OriginalPrice": null,
+    "Currency": "LKR",
+    "ObservedAt": "2026-11-21T20:24:57.0212585Z",
+    "SourceUrl": "https://cargillsonline.com/Web/ProductDetails?ID=b2d%2FCkfED0mbSoqsiVnB9g%3D%3D",
+    "CreatedAt": "2026-11-21T20:25:03.7178525Z"
+  },
+  {
+    "Id": "adc199f2-e5b0-464c-97c3-339d5dd90dc4",
+    "StoreProductId": "a9e07d36-6ed3-40ce-9a4e-43909a7de4e2",
+    "Price": 820.00,
+    "OriginalPrice": null,
+    "Currency": "LKR",
+    "ObservedAt": "2026-11-21T20:24:57.0212639Z",
+    "SourceUrl": "https://cargillsonline.com/Web/ProductDetails?ID=SH%2By%2Bw%2BYNuPlOEkwYAHjLA%3D%3D",
+    "CreatedAt": "2026-11-21T20:25:03.7178673Z"
+  },
+  {
+    "Id": "c29fc85f-12d3-4433-a1f1-19505fe2e129",
+    "StoreProductId": "6d7160bd-b2b2-43a2-8f12-bbf6d8815f8d",
+    "Price": 185.00,
+    "OriginalPrice": null,
+    "Currency": "LKR",
+    "ObservedAt": "2026-11-21T20:24:57.0212686Z",
+    "SourceUrl": "https://cargillsonline.com/Web/ProductDetails?ID=MM%2BIISfPwM2b7L0HUh2zcg%3D%3D",
+    "CreatedAt": "2026-11-21T20:25:03.717877Z"
+  },
+  {
+    "Id": "816819ff-de85-44af-b285-a03f6b1ad30f",
+    "StoreProductId": "9b47d2da-53e0-4ebf-b6f8-8eacca39d890",
+    "Price": 580.00,
+    "OriginalPrice": null,
+    "Currency": "LKR",
+    "ObservedAt": "2026-11-21T20:24:57.021276Z",
+    "SourceUrl": "https://cargillsonline.com/Web/ProductDetails?ID=%2Bm3HoM0QUMweV4aM2j%2BLEw%3D%3D",
+    "CreatedAt": "2026-11-21T20:25:03.7178917Z"
+  },
+  {
+    "Id": "98f702ad-d5ae-4c64-89d0-954e21c4b575",
+    "StoreProductId": "a06a0b4b-8e26-44d9-bb3b-0bbb3012fb74",
+    "Price": 100.00,
+    "OriginalPrice": null,
+    "Currency": "LKR",
+    "ObservedAt": "2026-11-21T20:24:57.02128Z",
+    "SourceUrl": "https://cargillsonline.com/Web/ProductDetails?ID=847Gr2hfHqAB9CK0IMql9w%3D%3D",
+    "CreatedAt": "2026-11-21T20:25:03.7179086Z"
+  },
+  {
+    "Id": "03f0d698-2d38-404f-8e3d-342a824f69e5",
+    "StoreProductId": "3e913902-837d-43de-b396-fcd2081ff1c2",
+    "Price": 1100.00,
+    "OriginalPrice": null,
+    "Currency": "LKR",
+    "ObservedAt": "2026-11-21T20:24:57.021284Z",
+    "SourceUrl": "https://cargillsonline.com/Web/ProductDetails?ID=kDaeIruTuHRFOr5zmxFNvA%3D%3D",
+    "CreatedAt": "2026-11-21T20:25:03.7179251Z"
+  },
+  {
+    "Id": "b7498ea6-f32c-4d7f-bf9c-857cba895b29",
+    "StoreProductId": "ee2d692a-410c-4755-a1c4-d5533de82cd1",
+    "Price": 210.00,
+    "OriginalPrice": null,
+    "Currency": "LKR",
+    "ObservedAt": "2026-11-21T20:24:57.0212888Z",
+    "SourceUrl": "https://cargillsonline.com/Web/ProductDetails?ID=7rZ9FctoGFNGMH9lnQvN%2BQ%3D%3D",
+    "CreatedAt": "2026-11-21T20:25:03.7179539Z"
+  },
+  {
+    "Id": "3e593054-4c6b-477b-a0de-7c327b77912d",
+    "StoreProductId": "5b8bd7a1-521f-441d-a5eb-962dd2d199ca",
+    "Price": 3100.00,
+    "OriginalPrice": null,
+    "Currency": "LKR",
+    "ObservedAt": "2026-11-21T20:24:57.0212964Z",
+    "SourceUrl": "https://cargillsonline.com/Web/ProductDetails?ID=xHf683jWcC5j5drqt%2F9EsA%3D%3D",
+    "CreatedAt": "2026-11-21T20:25:03.7179711Z"
+  },
+  {
+    "Id": "dd87084d-d58d-4efb-8487-3b33e4ba5236",
+    "StoreProductId": "a90b212e-d1c1-4993-9be3-12bbf2f2f860",
+    "Price": 250.00,
+    "OriginalPrice": null,
+    "Currency": "LKR",
+    "ObservedAt": "2026-11-21T20:24:57.0213003Z",
+    "SourceUrl": "https://cargillsonline.com/Web/ProductDetails?ID=ABNMWEPMGqfXQeykZV4cHA%3D%3D",
+    "CreatedAt": "2026-11-21T20:25:03.717982Z"
+  },
+  {
+    "Id": "5bf7c10a-49da-4149-a108-5c9feb6eff26",
+    "StoreProductId": "db883f62-2e56-4ac7-af2e-165380f209fa",
+    "Price": 346.50,
+    "OriginalPrice": null,
+    "Currency": "LKR",
+    "ObservedAt": "2026-11-21T20:24:57.0213047Z",
+    "SourceUrl": "https://cargillsonline.com/Web/ProductDetails?ID=Uoj6aLbVgUEumwkfpKT%2BBA%3D%3D",
+    "CreatedAt": "2026-11-21T20:25:03.717995Z"
+  },
+  {
+    "Id": "17b56423-af9c-49d5-9cd2-d4dc81f7427d",
+    "StoreProductId": "cd1d62e6-9198-4516-8fd2-02d11dc493b5",
+    "Price": 300.00,
+    "OriginalPrice": null,
+    "Currency": "LKR",
+    "ObservedAt": "2026-11-21T20:24:57.0213099Z",
+    "SourceUrl": "https://cargillsonline.com/Web/ProductDetails?ID=3pq8%2FCuRdQtvkbAozp0U5Q%3D%3D",
+    "CreatedAt": "2026-11-21T20:25:03.7180056Z"
+  },
+  {
+    "Id": "ed02772d-d11c-4424-bca5-48abbef2b8ed",
+    "StoreProductId": "2c486125-1675-4e2c-aff6-4377e49266a3",
+    "Price": 1840.00,
+    "OriginalPrice": null,
+    "Currency": "LKR",
+    "ObservedAt": "2026-11-21T20:24:59.0859641Z",
+    "SourceUrl": "https://cargillsonline.com/Web/ProductDetails?ID=%2FhAmEsZ4ol%2BcEIz4PwpYnw%3D%3D",
+    "CreatedAt": "2026-11-21T20:25:03.7180186Z"
+  },
+  {
+    "Id": "9e820213-dc3c-438b-a01e-77db66e35ad4",
+    "StoreProductId": "8beff2dc-0aeb-4c21-91ff-b3b5c5bbe1a4",
+    "Price": 490.00,
+    "OriginalPrice": null,
+    "Currency": "LKR",
+    "ObservedAt": "2026-11-21T20:24:59.0859915Z",
+    "SourceUrl": "https://cargillsonline.com/Web/ProductDetails?ID=MhVC2y2%2F00jjcDPhPCzd8w%3D%3D",
+    "CreatedAt": "2026-11-21T20:25:03.7180338Z"
+  },
+  {
+    "Id": "037c3f0e-49fc-4dc0-b083-87501433a10b",
+    "StoreProductId": "1fd29309-0564-4165-814f-b524c4f3b4df",
+    "Price": 1950.00,
+    "OriginalPrice": null,
+    "Currency": "LKR",
+    "ObservedAt": "2026-11-21T20:24:59.0860089Z",
+    "SourceUrl": "https://cargillsonline.com/Web/ProductDetails?ID=wZ5sM%2BNx2h7alovzvue0mg%3D%3D",
+    "CreatedAt": "2026-11-21T20:25:03.7180502Z"
+  },
+  {
+    "Id": "2b52bb5e-0f40-4ea3-9300-646af1805950",
+    "StoreProductId": "411d7836-775e-4fe9-893b-293c5a35776e",
+    "Price": 480.00,
+    "OriginalPrice": null,
+    "Currency": "LKR",
+    "ObservedAt": "2026-11-21T20:24:59.0860185Z",
+    "SourceUrl": "https://cargillsonline.com/Web/ProductDetails?ID=X39hH9UxbNnAJ9SbPbOM9A%3D%3D",
+    "CreatedAt": "2026-11-21T20:25:03.7180715Z"
+  },
+  {
+    "Id": "d062a1cd-a29d-46fa-b6a0-237ef624d523",
+    "StoreProductId": "272c2b13-2ede-4c32-8add-647d2d3d7764",
+    "Price": 1100.00,
+    "OriginalPrice": null,
+    "Currency": "LKR",
+    "ObservedAt": "2026-11-21T20:24:59.0860384Z",
+    "SourceUrl": "https://cargillsonline.com/Web/ProductDetails?ID=9pVZFDLksS%2FGuAP4V%2Bw7qg%3D%3D",
+    "CreatedAt": "2026-11-21T20:25:03.7180872Z"
+  },
+  {
+    "Id": "59b0d551-70de-41a8-a2f1-44200abdc40a",
+    "StoreProductId": "0c119e43-9f9d-4f61-8215-cd5f33aa23f8",
+    "Price": 1500.00,
+    "OriginalPrice": null,
+    "Currency": "LKR",
+    "ObservedAt": "2026-11-21T20:24:59.0860482Z",
+    "SourceUrl": "https://cargillsonline.com/Web/ProductDetails?ID=rCVPLEUjeqGCPQ0c%2BVVo7A%3D%3D",
+    "CreatedAt": "2026-11-21T20:25:03.7181029Z"
+  },
+  {
+    "Id": "389b8852-9128-4eb7-8350-f097c7743083",
+    "StoreProductId": "5d310a69-d509-47fa-8efa-bae65edf3357",
+    "Price": 495.00,
+    "OriginalPrice": null,
+    "Currency": "LKR",
+    "ObservedAt": "2026-11-21T20:24:59.0860585Z",
+    "SourceUrl": "https://cargillsonline.com/Web/ProductDetails?ID=pGu49ukQoSrSKGuw8Jrw6g%3D%3D",
+    "CreatedAt": "2026-11-21T20:25:03.7181201Z"
+  },
+  {
+    "Id": "47e1d127-db9c-465a-af6f-c46783424846",
+    "StoreProductId": "31c3b464-dd5c-4801-a3f9-8370b2ddc5c4",
+    "Price": 1210.00,
+    "OriginalPrice": null,
+    "Currency": "LKR",
+    "ObservedAt": "2026-11-21T20:24:59.0860693Z",
+    "SourceUrl": "https://cargillsonline.com/Web/ProductDetails?ID=dH%2BkRaieaI8NPt%2BFJWNpFg%3D%3D",
+    "CreatedAt": "2026-11-21T20:25:03.7181421Z"
+  },
+  {
+    "Id": "191dd94b-5bad-41b5-b08c-e31ed739a218",
+    "StoreProductId": "b7acd0f7-4dd3-4c2f-bb36-ecd995237952",
+    "Price": 1725.00,
+    "OriginalPrice": null,
+    "Currency": "LKR",
+    "ObservedAt": "2026-11-21T20:24:59.0860867Z",
+    "SourceUrl": "https://cargillsonline.com/Web/ProductDetails?ID=H%2FxQ0Z01Vyhnvw0lGmI7TA%3D%3D",
+    "CreatedAt": "2026-11-21T20:25:03.7181537Z"
+  },
+  {
+    "Id": "b44baebf-687c-4d8c-9807-90b54f1d2a58",
+    "StoreProductId": "2ecbf3bf-96b6-49d9-85b2-624322817d42",
+    "Price": 1130.50,
+    "OriginalPrice": null,
+    "Currency": "LKR",
+    "ObservedAt": "2026-11-21T20:24:59.0861106Z",
+    "SourceUrl": "https://cargillsonline.com/Web/ProductDetails?ID=MTwHYyVsaG4zk3VcS%2Bmxhw%3D%3D",
+    "CreatedAt": "2026-11-21T20:25:03.7181821Z"
+  },
+  {
+    "Id": "16a2b4f3-f293-492c-b13a-fbde8933ff63",
+    "StoreProductId": "f239405b-f27c-41b2-8438-d7bb863a23ea",
+    "Price": 290.00,
+    "OriginalPrice": null,
+    "Currency": "LKR",
+    "ObservedAt": "2026-11-21T20:24:59.0861197Z",
+    "SourceUrl": "https://cargillsonline.com/Web/ProductDetails?ID=y3yedAbxfp49H1Kb6nTQ%2Bw%3D%3D",
+    "CreatedAt": "2026-11-21T20:25:03.7181998Z"
+  },
+  {
+    "Id": "457f7318-f7cc-42e3-bd95-57bf8b737339",
+    "StoreProductId": "17204fd5-5b50-407a-8553-7eac1be0677d",
+    "Price": 750.00,
+    "OriginalPrice": null,
+    "Currency": "LKR",
+    "ObservedAt": "2026-11-21T20:24:59.0861267Z",
+    "SourceUrl": "https://cargillsonline.com/Web/ProductDetails?ID=N8EfMmFq3BQjQaJ1vBgwYg%3D%3D",
+    "CreatedAt": "2026-11-21T20:25:03.7182122Z"
+  },
+  {
+    "Id": "198a4b4d-d9e6-4981-ba6a-97303b8044a3",
+    "StoreProductId": "91a7dab2-b25d-4a0a-b03f-7a3a43ceb890",
+    "Price": 702.00,
+    "OriginalPrice": null,
+    "Currency": "LKR",
+    "ObservedAt": "2026-11-21T20:24:59.0861375Z",
+    "SourceUrl": "https://cargillsonline.com/Web/ProductDetails?ID=HvFTy8YTg0rLNc6oIbq0TQ%3D%3D",
+    "CreatedAt": "2026-11-21T20:25:03.7182307Z"
+  },
+  {
+    "Id": "e56d4fb1-5f7f-4d89-b2b8-7b679173a348",
+    "StoreProductId": "bc4b884f-019d-42aa-ba64-fb9bd6e0a836",
+    "Price": 675.00,
+    "OriginalPrice": null,
+    "Currency": "LKR",
+    "ObservedAt": "2026-11-21T20:24:59.0861452Z",
+    "SourceUrl": "https://cargillsonline.com/Web/ProductDetails?ID=ain8NqmnF%2BDtq0uBYL1c0g%3D%3D",
+    "CreatedAt": "2026-11-21T20:25:03.7182509Z"
+  },
+  {
+    "Id": "e847c407-9ba6-4150-a03e-cfa538d6f822",
+    "StoreProductId": "3b01226c-fe58-4c89-a707-e992827f2a47",
+    "Price": 1380.00,
+    "OriginalPrice": null,
+    "Currency": "LKR",
+    "ObservedAt": "2026-11-21T20:24:59.0861725Z",
+    "SourceUrl": "https://cargillsonline.com/Web/ProductDetails?ID=EbNa0kpLKD88QElkgU3gBw%3D%3D",
+    "CreatedAt": "2026-11-21T20:25:03.7182636Z"
+  },
+  {
+    "Id": "82ce00ce-2b8f-448a-a9b0-586d2a06ec5f",
+    "StoreProductId": "30150015-ca0e-465e-8af9-e3a308b84c6d",
+    "Price": 337.50,
+    "OriginalPrice": null,
+    "Currency": "LKR",
+    "ObservedAt": "2026-11-21T20:24:59.0861859Z",
+    "SourceUrl": "https://cargillsonline.com/Web/ProductDetails?ID=idix9IzKppxwYoaXDXrBzQ%3D%3D",
+    "CreatedAt": "2026-11-21T20:25:03.7182786Z"
+  },
+  {
+    "Id": "859d8a38-ea83-45b0-98fc-aec8d1193af8",
+    "StoreProductId": "98a589cd-ac7e-43ae-84c1-e03592765de6",
+    "Price": 975.00,
+    "OriginalPrice": null,
+    "Currency": "LKR",
+    "ObservedAt": "2026-11-21T20:24:59.0861951Z",
+    "SourceUrl": "https://cargillsonline.com/Web/ProductDetails?ID=6KyCDnqfHBmeaHOjsFwmnA%3D%3D",
+    "CreatedAt": "2026-11-21T20:25:03.7183109Z"
+  },
+  {
+    "Id": "3654fde7-dc10-4a23-9d82-a22bee3c42b8",
+    "StoreProductId": "cf19fc4a-2328-4d22-b8f4-67bc0490294f",
+    "Price": 720.00,
+    "OriginalPrice": null,
+    "Currency": "LKR",
+    "ObservedAt": "2026-11-21T20:24:59.0862031Z",
+    "SourceUrl": "https://cargillsonline.com/Web/ProductDetails?ID=7JZY2mhxBdRC3ypYWr5ziw%3D%3D",
+    "CreatedAt": "2026-11-21T20:25:03.7183237Z"
+  },
+  {
+    "Id": "35a26762-f1c4-4958-bf98-1f07927c6f01",
+    "StoreProductId": "af83423b-c8ca-4064-8aa7-765d2a8821d1",
+    "Price": 490.00,
+    "OriginalPrice": null,
+    "Currency": "LKR",
+    "ObservedAt": "2026-11-21T20:24:59.0862135Z",
+    "SourceUrl": "https://cargillsonline.com/Web/ProductDetails?ID=fkoas9NAgUYzwra7Kn2tlA%3D%3D",
+    "CreatedAt": "2026-11-21T20:25:03.7183371Z"
+  },
+  {
+    "Id": "6c6db215-face-4382-a61d-35bcf7ca9cf2",
+    "StoreProductId": "cef6dfb1-e4a9-454d-a6cd-30b868b6271f",
+    "Price": 1085.00,
+    "OriginalPrice": null,
+    "Currency": "LKR",
+    "ObservedAt": "2026-11-21T20:24:59.0862227Z",
+    "SourceUrl": "https://cargillsonline.com/Web/ProductDetails?ID=oSk8zEQLMp8BuiAsJcnqQA%3D%3D",
+    "CreatedAt": "2026-11-21T20:25:03.7183529Z"
+  },
+  {
+    "Id": "2582682e-ce52-4fc8-8392-a71b9a229253",
+    "StoreProductId": "18671378-f305-42ee-a0f0-dc496113800b",
+    "Price": 400.00,
+    "OriginalPrice": null,
+    "Currency": "LKR",
+    "ObservedAt": "2026-11-21T20:24:59.0862305Z",
+    "SourceUrl": "https://cargillsonline.com/Web/ProductDetails?ID=s2bcDuWJfXTxdSaP19usGg%3D%3D",
+    "CreatedAt": "2026-11-21T20:25:03.7183708Z"
+  },
+  {
+    "Id": "06eb7055-dbec-41e6-bff3-89fa96c821ad",
+    "StoreProductId": "c8fda996-4882-4b65-a3c3-179af1aab07f",
+    "Price": 599.25,
+    "OriginalPrice": null,
+    "Currency": "LKR",
+    "ObservedAt": "2026-11-21T20:24:59.0862376Z",
+    "SourceUrl": "https://cargillsonline.com/Web/ProductDetails?ID=wL2HTjUtqbIgawRYsRq1fw%3D%3D",
+    "CreatedAt": "2026-11-21T20:25:03.7183894Z"
+  },
+  {
+    "Id": "c7ab9b80-eaa3-4c9f-8bab-4887e4a1bf3c",
+    "StoreProductId": "a8a08138-008f-4ec4-9442-b5b0c89100da",
+    "Price": 375.00,
+    "OriginalPrice": null,
+    "Currency": "LKR",
+    "ObservedAt": "2026-11-21T20:24:59.0862535Z",
+    "SourceUrl": "https://cargillsonline.com/Web/ProductDetails?ID=LWOaasfOrPQNpvXdm22nHA%3D%3D",
+    "CreatedAt": "2026-11-21T20:25:03.7184028Z"
+  },
+  {
+    "Id": "5d097afc-4421-4e49-b429-e57fa92716a9",
+    "StoreProductId": "19f3ec0a-5ac7-4608-afee-2c3396eb00b4",
+    "Price": 750.00,
+    "OriginalPrice": null,
+    "Currency": "LKR",
+    "ObservedAt": "2026-11-21T20:24:59.0862647Z",
+    "SourceUrl": "https://cargillsonline.com/Web/ProductDetails?ID=B%2FgTKXA4%2F8GiZZ1b0sWbtA%3D%3D",
+    "CreatedAt": "2026-11-21T20:25:03.7184194Z"
+  },
+  {
+    "Id": "0fca0d1f-7c39-4a8f-9dac-ac5223bf2aa8",
+    "StoreProductId": "12ed8ba1-36da-4636-8645-6f4121480692",
+    "Price": 975.00,
+    "OriginalPrice": null,
+    "Currency": "LKR",
+    "ObservedAt": "2026-11-21T20:24:59.0862739Z",
+    "SourceUrl": "https://cargillsonline.com/Web/ProductDetails?ID=YY5xEIuAb5KJEK8gYg0GCw%3D%3D",
+    "CreatedAt": "2026-11-21T20:25:03.7184331Z"
+  },
+  {
+    "Id": "d92ea0be-cfb5-428c-b6c1-9ad5d2703f47",
+    "StoreProductId": "ec974059-10ab-46ba-b86f-43aa6c4c987c",
+    "Price": 1380.00,
+    "OriginalPrice": null,
+    "Currency": "LKR",
+    "ObservedAt": "2026-11-21T20:24:59.0862826Z",
+    "SourceUrl": "https://cargillsonline.com/Web/ProductDetails?ID=YabPXZc3tQLh9gK1zLIeYg%3D%3D",
+    "CreatedAt": "2026-11-21T20:25:03.718449Z"
+  },
+  {
+    "Id": "9f84367a-7062-4370-be5c-ffe314aec605",
+    "StoreProductId": "17d40c97-70b0-4e64-8131-fced58ed3066",
+    "Price": 2240.00,
+    "OriginalPrice": null,
+    "Currency": "LKR",
+    "ObservedAt": "2026-11-21T20:24:59.086297Z",
+    "SourceUrl": "https://cargillsonline.com/Web/ProductDetails?ID=1dHjJQfKEHYCTkfN%2FPNyMQ%3D%3D",
+    "CreatedAt": "2026-11-21T20:25:03.7184691Z"
+  },
+  {
+    "Id": "3c4e0a87-78c3-4343-93ce-667c7d9fe06e",
+    "StoreProductId": "f9ba43e8-fe4d-49ee-856a-d5885c1c8d6e",
+    "Price": 1480.00,
+    "OriginalPrice": null,
+    "Currency": "LKR",
+    "ObservedAt": "2026-11-21T20:24:59.0863051Z",
+    "SourceUrl": "https://cargillsonline.com/Web/ProductDetails?ID=HHVGjGS%2FU3lHTDzH0Leixw%3D%3D",
+    "CreatedAt": "2026-11-21T20:25:03.7184983Z"
+  },
+  {
+    "Id": "ffaa9171-edd5-4de8-b9ea-58f973a6c74d",
+    "StoreProductId": "17711e12-a1cf-42b4-b18d-75035feabb8f",
+    "Price": 930.00,
+    "OriginalPrice": null,
+    "Currency": "LKR",
+    "ObservedAt": "2026-11-21T20:24:59.0863154Z",
+    "SourceUrl": "https://cargillsonline.com/Web/ProductDetails?ID=zxQEWlHOKHr3E4KiSL6hhw%3D%3D",
+    "CreatedAt": "2026-11-21T20:25:03.7185125Z"
+  },
+  {
+    "Id": "f5bdbb5b-abd9-471b-9eb6-b694d4e26cd9",
+    "StoreProductId": "8ac3bc75-56fd-4bf1-8d53-15236ac7ae0c",
+    "Price": 580.00,
+    "OriginalPrice": null,
+    "Currency": "LKR",
+    "ObservedAt": "2026-11-21T20:24:59.0863552Z",
+    "SourceUrl": "https://cargillsonline.com/Web/ProductDetails?ID=xWB%2F0cGKIkPacPjARG9goA%3D%3D",
+    "CreatedAt": "2026-11-21T20:25:03.7185388Z"
+  },
+  {
+    "Id": "64b47c73-06d7-4cb7-a14c-50fc73bad156",
+    "StoreProductId": "010a57cc-976f-4a1b-bcc8-66461bb215e3",
+    "Price": 569.50,
+    "OriginalPrice": null,
+    "Currency": "LKR",
+    "ObservedAt": "2026-11-21T20:24:59.0863674Z",
+    "SourceUrl": "https://cargillsonline.com/Web/ProductDetails?ID=2dfnyNt9csri1lLGsrWuFA%3D%3D",
+    "CreatedAt": "2026-11-21T20:25:03.7185662Z"
+  },
+  {
+    "Id": "b976ef35-c927-4566-b106-59c9decce371",
+    "StoreProductId": "c0fa95a9-659d-4d07-b300-a2eeaa13de2a",
+    "Price": 650.00,
+    "OriginalPrice": null,
+    "Currency": "LKR",
+    "ObservedAt": "2026-11-21T20:24:59.08638Z",
+    "SourceUrl": "https://cargillsonline.com/Web/ProductDetails?ID=b%2BKeIHWLSq1zV8uD2i108g%3D%3D",
+    "CreatedAt": "2026-11-21T20:25:03.7185938Z"
+  },
+  {
+    "Id": "927c9cf5-31dc-4052-8e75-f107a51e1f9f",
+    "StoreProductId": "02f1057c-c390-4d87-ba18-bc65abf4bb13",
+    "Price": 580.00,
+    "OriginalPrice": null,
+    "Currency": "LKR",
+    "ObservedAt": "2026-11-21T20:24:59.0863878Z",
+    "SourceUrl": "https://cargillsonline.com/Web/ProductDetails?ID=tbb7wpdsP8WJ6hwyj9jNLQ%3D%3D",
+    "CreatedAt": "2026-11-21T20:25:03.7186312Z"
+  },
+  {
+    "Id": "ba2ced21-9a95-4b01-aa86-403b5a9d52fa",
+    "StoreProductId": "fcf29df9-868e-432a-b29b-d9aa38d8ae6b",
+    "Price": 1395.00,
+    "OriginalPrice": null,
+    "Currency": "LKR",
+    "ObservedAt": "2026-11-21T20:24:59.0863954Z",
+    "SourceUrl": "https://cargillsonline.com/Web/ProductDetails?ID=cOH51si675w2Unt0VhAB1A%3D%3D",
+    "CreatedAt": "2026-11-21T20:25:03.7186639Z"
+  },
+  {
+    "Id": "34d6f6af-9dee-41eb-8cf1-2d1fff2e8932",
+    "StoreProductId": "13af6eec-07ce-4cdd-a441-cb85231613c6",
+    "Price": 290.00,
+    "OriginalPrice": null,
+    "Currency": "LKR",
+    "ObservedAt": "2026-11-21T20:24:59.0864027Z",
+    "SourceUrl": "https://cargillsonline.com/Web/ProductDetails?ID=p1ca%2BY2BZCwOZVEqm2oXjA%3D%3D",
+    "CreatedAt": "2026-11-21T20:25:03.7186816Z"
+  },
+  {
+    "Id": "2fc02116-7c4e-46d0-8357-e628ebd80e40",
+    "StoreProductId": "c0311914-18c8-461f-abfc-a42ae78aeb32",
+    "Price": 260.00,
+    "OriginalPrice": null,
+    "Currency": "LKR",
+    "ObservedAt": "2026-11-21T20:24:59.0864143Z",
+    "SourceUrl": "https://cargillsonline.com/Web/ProductDetails?ID=b%2FmQeCiFI7G0YEcphXfblg%3D%3D",
+    "CreatedAt": "2026-11-21T20:25:03.7187089Z"
+  },
+  {
+    "Id": "a0a0906c-2bf1-45fa-b3b1-d6d2865deca5",
+    "StoreProductId": "32f95b13-6b7e-47c9-bdf1-0edfc1d4164d",
+    "Price": 357.00,
+    "OriginalPrice": null,
+    "Currency": "LKR",
+    "ObservedAt": "2026-11-21T20:24:59.0864245Z",
+    "SourceUrl": "https://cargillsonline.com/Web/ProductDetails?ID=G4cLJkcjmV39XnIxkwt6sw%3D%3D",
+    "CreatedAt": "2026-11-21T20:25:03.7187348Z"
+  },
+  {
+    "Id": "90ae36fb-0b23-40af-a557-b8eb3fb4a487",
+    "StoreProductId": "6a2e6262-f05e-4f2a-b369-2f8b4982ceb2",
+    "Price": 1200.00,
+    "OriginalPrice": null,
+    "Currency": "LKR",
+    "ObservedAt": "2026-11-21T20:24:59.0864324Z",
+    "SourceUrl": "https://cargillsonline.com/Web/ProductDetails?ID=riknF3IOdfFKhUDThVYl%2FQ%3D%3D",
+    "CreatedAt": "2026-11-21T20:25:03.7187525Z"
+  },
+  {
+    "Id": "6d6f9e5a-ab48-4c77-8952-34341051a1d3",
+    "StoreProductId": "ac305066-db5a-4c76-ac67-56ef545fad03",
+    "Price": 495.00,
+    "OriginalPrice": null,
+    "Currency": "LKR",
+    "ObservedAt": "2026-11-21T20:24:59.0864439Z",
+    "SourceUrl": "https://cargillsonline.com/Web/ProductDetails?ID=YCO5syUlNSx5zo%2BnnyQQAw%3D%3D",
+    "CreatedAt": "2026-11-21T20:25:03.7187884Z"
+  },
+  {
+    "Id": "d0e4f8b2-1cb3-4858-be2d-704784beaaca",
+    "StoreProductId": "bc0bb330-8be9-44b2-aa5a-347158d2cd60",
+    "Price": 850.00,
+    "OriginalPrice": null,
+    "Currency": "LKR",
+    "ObservedAt": "2026-11-21T20:24:59.0864519Z",
+    "SourceUrl": "https://cargillsonline.com/Web/ProductDetails?ID=e0WuocoVRLNz%2FUz0DfVS0A%3D%3D",
+    "CreatedAt": "2026-11-21T20:25:03.7188109Z"
+  },
+  {
+    "Id": "b65cc503-a3e6-46d0-8b89-9ad3960959fd",
+    "StoreProductId": "f6360951-217b-4a50-8413-b290f69b14c9",
+    "Price": 1300.50,
+    "OriginalPrice": null,
+    "Currency": "LKR",
+    "ObservedAt": "2026-11-21T20:24:59.0864587Z",
+    "SourceUrl": "https://cargillsonline.com/Web/ProductDetails?ID=sFNjUf9Uk98n8ekkpvt4vA%3D%3D",
+    "CreatedAt": "2026-11-21T20:25:03.7188312Z"
+  },
+  {
+    "Id": "58cea765-ea07-401d-ad0a-40be47a8545e",
+    "StoreProductId": "06ebec60-4c6e-410a-85e2-071b0325965a",
+    "Price": 975.00,
+    "OriginalPrice": null,
+    "Currency": "LKR",
+    "ObservedAt": "2026-11-21T20:24:59.0864667Z",
+    "SourceUrl": "https://cargillsonline.com/Web/ProductDetails?ID=vawKVja4cAeTiIJj%2FdboQA%3D%3D",
+    "CreatedAt": "2026-11-21T20:25:03.7188497Z"
+  },
+  {
+    "Id": "440356a2-c748-4441-8378-a27ddb115cfd",
+    "StoreProductId": "8c307231-ac92-40c8-9bf9-74b87a0caf81",
+    "Price": 331.50,
+    "OriginalPrice": null,
+    "Currency": "LKR",
+    "ObservedAt": "2026-11-21T20:24:59.086482Z",
+    "SourceUrl": "https://cargillsonline.com/Web/ProductDetails?ID=zVnFfacuishqWW5QJWOyhA%3D%3D",
+    "CreatedAt": "2026-11-21T20:25:03.7188772Z"
+  },
+  {
+    "Id": "d1b66fb4-2dd2-47e4-84db-395231c82312",
+    "StoreProductId": "1d5cc013-f4f5-4664-a445-e1a6e7819844",
+    "Price": 780.00,
+    "OriginalPrice": null,
+    "Currency": "LKR",
+    "ObservedAt": "2026-11-21T20:24:59.0864915Z",
+    "SourceUrl": "https://cargillsonline.com/Web/ProductDetails?ID=ItziwUKV47YY6%2Buh961%2BTg%3D%3D",
+    "CreatedAt": "2026-11-21T20:25:03.7189014Z"
+  },
+  {
+    "Id": "9a03ea95-11b5-4b13-a6b4-bad4c312ff9f",
+    "StoreProductId": "3ff15f5f-3d9c-411d-ba2c-83d33faed09d",
+    "Price": 400.00,
+    "OriginalPrice": null,
+    "Currency": "LKR",
+    "ObservedAt": "2026-11-21T20:24:59.0865002Z",
+    "SourceUrl": "https://cargillsonline.com/Web/ProductDetails?ID=iA8c4glh3%2Fnscjf6PJLnFA%3D%3D",
+    "CreatedAt": "2026-11-21T20:25:03.7189375Z"
+  },
+  {
+    "Id": "b909df61-2e08-437f-9ec7-4a34d3656696",
+    "StoreProductId": "a299adaa-12f0-49a3-bd54-599f8a968550",
+    "Price": 504.00,
+    "OriginalPrice": null,
+    "Currency": "LKR",
+    "ObservedAt": "2026-11-21T20:24:59.0865075Z",
+    "SourceUrl": "https://cargillsonline.com/Web/ProductDetails?ID=4xBzREjWZPP%2BxP0YI2rFmw%3D%3D",
+    "CreatedAt": "2026-11-21T20:25:03.7189647Z"
+  },
+  {
+    "Id": "7ec49645-6283-48e6-a93d-c4c594fdbb3b",
+    "StoreProductId": "0b970c20-0923-4624-a878-3f6446805484",
+    "Price": 550.00,
+    "OriginalPrice": null,
+    "Currency": "LKR",
+    "ObservedAt": "2026-11-21T20:24:59.0865177Z",
+    "SourceUrl": "https://cargillsonline.com/Web/ProductDetails?ID=NC3u0%2FKTFi1rjyAVTp9JNw%3D%3D",
+    "CreatedAt": "2026-11-21T20:25:03.7189935Z"
+  },
+  {
+    "Id": "5c3ff050-72e0-474e-8717-bfde0ca83737",
+    "StoreProductId": "76ea60be-8b67-4640-a1f3-63382f39c5a0",
+    "Price": 550.00,
+    "OriginalPrice": null,
+    "Currency": "LKR",
+    "ObservedAt": "2026-11-21T20:24:59.0865249Z",
+    "SourceUrl": "https://cargillsonline.com/Web/ProductDetails?ID=qaQUim4e%2FDERSetGRAVi2w%3D%3D",
+    "CreatedAt": "2026-11-21T20:25:03.7190245Z"
+  },
+  {
+    "Id": "f37d4fa3-9a6c-4c6e-bb84-ae5690b1c9a2",
+    "StoreProductId": "adee8a32-be95-4881-baf3-d8d49d4ba965",
+    "Price": 1850.00,
+    "OriginalPrice": null,
+    "Currency": "LKR",
+    "ObservedAt": "2026-11-21T20:24:59.0865338Z",
+    "SourceUrl": "https://cargillsonline.com/Web/ProductDetails?ID=3pxYGe6u15s%2BkX7ZkJnbMA%3D%3D",
+    "CreatedAt": "2026-11-21T20:25:03.7190448Z"
+  },
+  {
+    "Id": "91a1cfa7-1000-4a8c-bc2c-112da158f750",
+    "StoreProductId": "9ebd8e18-558c-4ede-91ce-3fd3c3ab9a66",
+    "Price": 370.00,
+    "OriginalPrice": null,
+    "Currency": "LKR",
+    "ObservedAt": "2026-11-21T20:24:59.0865421Z",
+    "SourceUrl": "https://cargillsonline.com/Web/ProductDetails?ID=P9x7BM2CnZ%2B3XyC6MPij0w%3D%3D",
+    "CreatedAt": "2026-11-21T20:25:03.7190691Z"
+  },
+  {
+    "Id": "fa3c6802-08e8-4a3b-9d9a-784b5c91d5eb",
+    "StoreProductId": "f1988e35-f49b-4f96-8644-88abb42e321a",
+    "Price": 575.00,
+    "OriginalPrice": null,
+    "Currency": "LKR",
+    "ObservedAt": "2026-11-21T20:25:02.19339Z",
+    "SourceUrl": "https://cargillsonline.com/Web/ProductDetails?ID=znbmzaMBDdy%2BrE%2BxDGu%2BBg%3D%3D",
+    "CreatedAt": "2026-11-21T20:25:03.7190927Z"
+  },
+  {
+    "Id": "022e9598-c5af-43b3-aed4-efa4e383a615",
+    "StoreProductId": "bda9c2b4-d111-4c89-838e-dc46a5bc6948",
+    "Price": 225.00,
+    "OriginalPrice": null,
+    "Currency": "LKR",
+    "ObservedAt": "2026-11-21T20:25:02.1934062Z",
+    "SourceUrl": "https://cargillsonline.com/Web/ProductDetails?ID=CtVD%2FRu6f3I6crnLazMayQ%3D%3D",
+    "CreatedAt": "2026-11-21T20:25:03.7191159Z"
+  },
+  {
+    "Id": "e93d7e70-a618-49bd-ac25-51b53580ccee",
+    "StoreProductId": "2360452f-18cd-40e3-b705-4ab91c699e3d",
+    "Price": 172.00,
+    "OriginalPrice": null,
+    "Currency": "LKR",
+    "ObservedAt": "2026-11-21T20:25:02.1934138Z",
+    "SourceUrl": "https://cargillsonline.com/Web/ProductDetails?ID=uKpT92oXWRLnIRptUsRwVA%3D%3D",
+    "CreatedAt": "2026-11-21T20:25:03.7191454Z"
+  },
+  {
+    "Id": "54a54b22-b9c6-4d35-9ce0-c5da59c05af4",
+    "StoreProductId": "c1afe67e-8fc5-4ded-b188-9c19160955a8",
+    "Price": 400.00,
+    "OriginalPrice": null,
+    "Currency": "LKR",
+    "ObservedAt": "2026-11-21T20:25:02.1934225Z",
+    "SourceUrl": "https://cargillsonline.com/Web/ProductDetails?ID=ZbxLP%2BqBthCH2JSELg5XzA%3D%3D",
+    "CreatedAt": "2026-11-21T20:25:03.7191726Z"
+  },
+  {
+    "Id": "91047459-8e9e-4b1a-8ba7-8b9075d24da1",
+    "StoreProductId": "ba039141-9ae6-46bb-af30-6b42f913619b",
+    "Price": 900.00,
+    "OriginalPrice": null,
+    "Currency": "LKR",
+    "ObservedAt": "2026-11-21T20:25:02.1934298Z",
+    "SourceUrl": "https://cargillsonline.com/Web/ProductDetails?ID=KqiCvyrW22oarF8PKiB%2BPA%3D%3D",
+    "CreatedAt": "2026-11-21T20:25:03.7192133Z"
+  },
+  {
+    "Id": "5504f1a1-dc56-42d2-b8e4-b2e86b327d0e",
+    "StoreProductId": "da0d3d50-c6cc-49d4-bd31-12b9a895adf0",
+    "Price": 1200.00,
+    "OriginalPrice": null,
+    "Currency": "LKR",
+    "ObservedAt": "2026-11-21T20:25:02.1934374Z",
+    "SourceUrl": "https://cargillsonline.com/Web/ProductDetails?ID=TXv6hxYNUxW4P8CdPky3YA%3D%3D",
+    "CreatedAt": "2026-11-21T20:25:03.7192318Z"
+  },
+  {
+    "Id": "439400d4-4a0d-4b30-a916-c19ae8bffa2b",
+    "StoreProductId": "75c3f3a7-900a-4036-a03b-08581d139b31",
+    "Price": 1820.00,
+    "OriginalPrice": null,
+    "Currency": "LKR",
+    "ObservedAt": "2026-11-21T20:25:02.1934515Z",
+    "SourceUrl": "https://cargillsonline.com/Web/ProductDetails?ID=Lxgw1uVQhbf%2BiRDyOLllVg%3D%3D",
+    "CreatedAt": "2026-11-21T20:25:03.7192669Z"
+  },
+  {
+    "Id": "040d114a-cf02-47bd-9bde-2c77d7670895",
+    "StoreProductId": "be79f739-3a5b-41d8-93ac-f5747574a519",
+    "Price": 560.00,
+    "OriginalPrice": null,
+    "Currency": "LKR",
+    "ObservedAt": "2026-11-21T20:25:02.1934595Z",
+    "SourceUrl": "https://cargillsonline.com/Web/ProductDetails?ID=TzBHeRilvEYU7M5nfIq0Fw%3D%3D",
+    "CreatedAt": "2026-11-21T20:25:03.7192851Z"
+  },
+  {
+    "Id": "7e5bee5c-7d50-49e7-a244-3cff6d2cef0c",
+    "StoreProductId": "4f5118df-e99d-4d24-ba4d-5d13f50791db",
+    "Price": 1150.00,
+    "OriginalPrice": null,
+    "Currency": "LKR",
+    "ObservedAt": "2026-11-21T20:25:02.1934658Z",
+    "SourceUrl": "https://cargillsonline.com/Web/ProductDetails?ID=iLUHZo5w992hlqv57b0ksQ%3D%3D",
+    "CreatedAt": "2026-11-21T20:25:03.7193082Z"
+  },
+  {
+    "Id": "543f9752-fd4a-4d43-a0f5-372a459d7ef8",
+    "StoreProductId": "41bd69b7-ccbc-4d3f-8ab5-81fdc8f2e987",
+    "Price": 1350.00,
+    "OriginalPrice": null,
+    "Currency": "LKR",
+    "ObservedAt": "2026-11-21T20:25:02.1934815Z",
+    "SourceUrl": "https://cargillsonline.com/Web/ProductDetails?ID=aELkVZ4V4Pq8qBH0TYAyJw%3D%3D",
+    "CreatedAt": "2026-11-21T20:25:03.7193317Z"
+  },
+  {
+    "Id": "10705096-fc61-4c45-9332-c8f5b1ccb5ae",
+    "StoreProductId": "48e30600-94f0-40e0-860b-75a324956f47",
+    "Price": 225.00,
+    "OriginalPrice": null,
+    "Currency": "LKR",
+    "ObservedAt": "2026-11-21T20:25:02.1934894Z",
+    "SourceUrl": "https://cargillsonline.com/Web/ProductDetails?ID=GFHTGPY9qDUTX82GzQwiUA%3D%3D",
+    "CreatedAt": "2026-11-21T20:25:03.7194152Z"
+  },
+  {
+    "Id": "7a303507-120d-43d7-b4fd-3f5763ca660c",
+    "StoreProductId": "ca0cae82-e005-49d5-88f3-9f8da0bef861",
+    "Price": 606.00,
+    "OriginalPrice": null,
+    "Currency": "LKR",
+    "ObservedAt": "2026-11-21T20:25:02.1935054Z",
+    "SourceUrl": "https://cargillsonline.com/Web/ProductDetails?ID=gMeg6fQ6RO5zTAni%2BalLqQ%3D%3D",
+    "CreatedAt": "2026-11-21T20:25:03.7194369Z"
+  },
+  {
+    "Id": "5eef18e5-2ef7-4148-8ad5-14866bf78a95",
+    "StoreProductId": "9e7b4686-ec42-465b-bfec-292af61c6553",
+    "Price": 625.00,
+    "OriginalPrice": null,
+    "Currency": "LKR",
+    "ObservedAt": "2026-11-21T20:25:02.1935123Z",
+    "SourceUrl": "https://cargillsonline.com/Web/ProductDetails?ID=%2BSR6W8Sl9y5ptFQq99U93Q%3D%3D",
+    "CreatedAt": "2026-11-21T20:25:03.7194577Z"
+  },
+  {
+    "Id": "7f1559cc-00dc-4b13-89d0-9984ca2a81e2",
+    "StoreProductId": "fe794f63-ef12-4b0b-a245-68ee2fbe3008",
+    "Price": 600.00,
+    "OriginalPrice": null,
+    "Currency": "LKR",
+    "ObservedAt": "2026-11-21T20:25:02.1935185Z",
+    "SourceUrl": "https://cargillsonline.com/Web/ProductDetails?ID=oidfUs%2Fvwud%2BqgRqtu2wqA%3D%3D",
+    "CreatedAt": "2026-11-21T20:25:03.719502Z"
+  },
+  {
+    "Id": "76f439c3-d6dd-495c-ac2f-609f1044ce7f",
+    "StoreProductId": "e31633c2-0c2b-495c-995a-6d0d2581b7e8",
+    "Price": 200.00,
+    "OriginalPrice": null,
+    "Currency": "LKR",
+    "ObservedAt": "2026-11-21T20:25:02.1935313Z",
+    "SourceUrl": "https://cargillsonline.com/Web/ProductDetails?ID=wYOpHtATcogdxE7Dc159Wg%3D%3D",
+    "CreatedAt": "2026-11-21T20:25:03.7195433Z"
+  },
+  {
+    "Id": "5dc4e408-bc2f-4ccd-8283-3b0ac640eda1",
+    "StoreProductId": "e81b99bc-439c-402c-b4f0-370314e7ce65",
+    "Price": 2360.00,
+    "OriginalPrice": null,
+    "Currency": "LKR",
+    "ObservedAt": "2026-11-21T20:25:02.1935426Z",
+    "SourceUrl": "https://cargillsonline.com/Web/ProductDetails?ID=XoswZPRrB6Uvno9OENjL0Q%3D%3D",
+    "CreatedAt": "2026-11-21T20:25:03.7195635Z"
+  },
+  {
+    "Id": "b8d527a5-b6c2-47bb-96be-64f4a366bd4b",
+    "StoreProductId": "06536343-4220-4111-87a1-69e27c0b256f",
+    "Price": 760.00,
+    "OriginalPrice": null,
+    "Currency": "LKR",
+    "ObservedAt": "2026-11-21T20:25:02.1935494Z",
+    "SourceUrl": "https://cargillsonline.com/Web/ProductDetails?ID=BlyK21Iop%2FQl6vF%2BniJRiA%3D%3D",
+    "CreatedAt": "2026-11-21T20:25:03.7196035Z"
+  },
+  {
+    "Id": "ff8287b2-7229-44d4-831e-cf635f4e0906",
+    "StoreProductId": "6a599973-9ad4-478f-b3cb-ca522e07ad0e",
+    "Price": 1150.00,
+    "OriginalPrice": null,
+    "Currency": "LKR",
+    "ObservedAt": "2026-11-21T20:25:02.1935565Z",
+    "SourceUrl": "https://cargillsonline.com/Web/ProductDetails?ID=vjK5dxdOwAJY0ShQVOPBRA%3D%3D",
+    "CreatedAt": "2026-11-21T20:25:03.719628Z"
+  },
+  {
+    "Id": "e6fe796f-a29e-4f6f-8a46-f46f72db0dc8",
+    "StoreProductId": "d3194597-31a4-4a05-884c-ad005af8412e",
+    "Price": 1150.00,
+    "OriginalPrice": null,
+    "Currency": "LKR",
+    "ObservedAt": "2026-11-21T20:25:02.1935666Z",
+    "SourceUrl": "https://cargillsonline.com/Web/ProductDetails?ID=f2oBuQt2Vspv218mc9YYLw%3D%3D",
+    "CreatedAt": "2026-11-21T20:25:03.7196583Z"
+  },
+  {
+    "Id": "b6788e88-5f88-465a-b3d2-09e8128379be",
+    "StoreProductId": "f7b1261e-9905-4f06-a228-619eca882d12",
+    "Price": 200.00,
+    "OriginalPrice": null,
+    "Currency": "LKR",
+    "ObservedAt": "2026-11-21T20:25:02.1935729Z",
+    "SourceUrl": "https://cargillsonline.com/Web/ProductDetails?ID=Vi7qKjFxT0G2qIvVaz1tcg%3D%3D",
+    "CreatedAt": "2026-11-21T20:25:03.7197042Z"
+  },
+  {
+    "Id": "9deb06ed-335b-4e76-a881-8ba39d02dc9a",
+    "StoreProductId": "ab8e4361-2220-4b1d-bbec-e9c5218b8c28",
+    "Price": 1150.00,
+    "OriginalPrice": null,
+    "Currency": "LKR",
+    "ObservedAt": "2026-11-21T20:25:02.1935791Z",
+    "SourceUrl": "https://cargillsonline.com/Web/ProductDetails?ID=H3II2jpo7AjKEp9wrpu3ng%3D%3D",
+    "CreatedAt": "2026-11-21T20:25:03.7197351Z"
+  },
+  {
+    "Id": "4a080f1a-4d47-4a09-a55f-2232a25c7289",
+    "StoreProductId": "40eae940-888f-4211-ba65-0a7c3b81ff27",
+    "Price": 560.00,
+    "OriginalPrice": null,
+    "Currency": "LKR",
+    "ObservedAt": "2026-11-21T20:25:02.1935886Z",
+    "SourceUrl": "https://cargillsonline.com/Web/ProductDetails?ID=iLwnp8dH%2FnNLKPlYy6wCmA%3D%3D",
+    "CreatedAt": "2026-11-21T20:25:03.7197592Z"
+  },
+  {
+    "Id": "a6c37f09-fc8b-484f-a58f-10146e525a69",
+    "StoreProductId": "95408cea-1fa3-443c-9252-98b3e9924273",
+    "Price": 250.00,
+    "OriginalPrice": null,
+    "Currency": "LKR",
+    "ObservedAt": "2026-11-21T20:25:02.1935951Z",
+    "SourceUrl": "https://cargillsonline.com/Web/ProductDetails?ID=pKD1A01BUAHCJL4ouz9KGw%3D%3D",
+    "CreatedAt": "2026-11-21T20:25:03.7198054Z"
+  },
+  {
+    "Id": "d79f01d5-ac1a-4416-91c3-f0bd0135112a",
+    "StoreProductId": "ab9700cf-c9c2-4830-92a5-88b4ac27ce71",
+    "Price": 179.00,
+    "OriginalPrice": null,
+    "Currency": "LKR",
+    "ObservedAt": "2026-11-21T20:25:02.1936017Z",
+    "SourceUrl": "https://cargillsonline.com/Web/ProductDetails?ID=LsptvNNEIuPJAIf7rVvo%2BA%3D%3D",
+    "CreatedAt": "2026-11-21T20:25:03.7198503Z"
+  },
+  {
+    "Id": "60581e70-6bb2-4959-a115-001a742102fd",
+    "StoreProductId": "1c8d715a-b1a7-422b-a193-f596c6c145fb",
+    "Price": 1100.00,
+    "OriginalPrice": null,
+    "Currency": "LKR",
+    "ObservedAt": "2026-11-21T20:25:02.1936115Z",
+    "SourceUrl": "https://cargillsonline.com/Web/ProductDetails?ID=ChFutOd6x7TFSqdsFuyt9g%3D%3D",
+    "CreatedAt": "2026-11-21T20:25:03.7198828Z"
+  },
+  {
+    "Id": "9877eec1-a125-4168-97b7-b5d90df89eae",
+    "StoreProductId": "02fbb4fc-e4cb-49b2-a07b-79837874e613",
+    "Price": 546.00,
+    "OriginalPrice": null,
+    "Currency": "LKR",
+    "ObservedAt": "2026-11-21T20:25:02.1936178Z",
+    "SourceUrl": "https://cargillsonline.com/Web/ProductDetails?ID=hcD4j55m7MUtLOd3chR1Ww%3D%3D",
+    "CreatedAt": "2026-11-21T20:25:03.7199134Z"
+  },
+  {
+    "Id": "16e75272-d157-46a6-a8ee-aba6cee64895",
+    "StoreProductId": "2817175f-f824-4dfe-a42a-62bc20086c8e",
+    "Price": 250.00,
+    "OriginalPrice": null,
+    "Currency": "LKR",
+    "ObservedAt": "2026-11-21T20:25:02.193624Z",
+    "SourceUrl": "https://cargillsonline.com/Web/ProductDetails?ID=vkhe1ZsYeaYbloJJhKsMfA%3D%3D",
+    "CreatedAt": "2026-11-21T20:25:03.719965Z"
+  },
+  {
+    "Id": "4c69e3e1-f140-4673-b7a4-979cd5b97698",
+    "StoreProductId": "b5a352dc-c3e4-4538-9dbb-d5e8d498a126",
+    "Price": 250.00,
+    "OriginalPrice": null,
+    "Currency": "LKR",
+    "ObservedAt": "2026-11-21T20:25:02.1936302Z",
+    "SourceUrl": "https://cargillsonline.com/Web/ProductDetails?ID=rvga1NO%2B4pOG%2FuN63UFHcQ%3D%3D",
+    "CreatedAt": "2026-11-21T20:25:03.7200122Z"
+  },
+  {
+    "Id": "fdf01236-9acc-488c-813d-3fc1201f61d4",
+    "StoreProductId": "4f78fd25-dc0c-4e75-b600-0cd122361863",
+    "Price": 1100.00,
+    "OriginalPrice": null,
+    "Currency": "LKR",
+    "ObservedAt": "2026-11-21T20:25:02.1936398Z",
+    "SourceUrl": "https://cargillsonline.com/Web/ProductDetails?ID=2aZRZZil5C%2FYVJzNQNpD6g%3D%3D",
+    "CreatedAt": "2026-11-21T20:25:03.7200481Z"
+  },
+  {
+    "Id": "284021a8-3397-4acc-a975-eb83914469fe",
+    "StoreProductId": "1c6302bd-7ce0-4ccc-83d2-8386115f5eb0",
+    "Price": 1300.00,
+    "OriginalPrice": null,
+    "Currency": "LKR",
+    "ObservedAt": "2026-11-21T20:25:02.1936538Z",
+    "SourceUrl": "https://cargillsonline.com/Web/ProductDetails?ID=Saf1wdxahgVxWC7GG9OixQ%3D%3D",
+    "CreatedAt": "2026-11-21T20:25:03.7200878Z"
+  },
+  {
+    "Id": "8d6d99e7-c7d1-430a-a13c-516c48e394f5",
+    "StoreProductId": "5d39f56d-41eb-4ef1-b044-a65621897d40",
+    "Price": 660.00,
+    "OriginalPrice": null,
+    "Currency": "LKR",
+    "ObservedAt": "2026-11-21T20:25:02.1936653Z",
+    "SourceUrl": "https://cargillsonline.com/Web/ProductDetails?ID=w9TJWNmIQbsy6jdpsCZXOg%3D%3D",
+    "CreatedAt": "2026-11-21T20:25:03.7201432Z"
+  },
+  {
+    "Id": "bc8d6583-2133-47c5-9a70-2a2a09b91d2f",
+    "StoreProductId": "024d16c4-786e-4031-b6f5-f1a509b2253b",
+    "Price": 2800.00,
+    "OriginalPrice": null,
+    "Currency": "LKR",
+    "ObservedAt": "2026-11-21T20:25:02.193674Z",
+    "SourceUrl": "https://cargillsonline.com/Web/ProductDetails?ID=wVWzOhLXNDYsM6xwnqgiYg%3D%3D",
+    "CreatedAt": "2026-11-21T20:25:03.7201671Z"
+  },
+  {
+    "Id": "a3868e89-cb40-442e-ac69-f97f4a678b78",
+    "StoreProductId": "1266eedc-90ed-4493-a742-611413cdec87",
+    "Price": 552.00,
+    "OriginalPrice": null,
+    "Currency": "LKR",
+    "ObservedAt": "2026-11-21T20:25:02.1936783Z",
+    "SourceUrl": "https://cargillsonline.com/Web/ProductDetails?ID=0b%2BTYGRuGjtwOpL7djjBZQ%3D%3D",
+    "CreatedAt": "2026-11-21T20:25:03.7202209Z"
+  },
+  {
+    "Id": "af272aec-ca5c-4642-b189-1de2d558e18c",
+    "StoreProductId": "1ceb7e9a-b6f5-42fe-90d1-e2756671b062",
+    "Price": 900.00,
+    "OriginalPrice": null,
+    "Currency": "LKR",
+    "ObservedAt": "2026-11-21T20:25:02.1936827Z",
+    "SourceUrl": "https://cargillsonline.com/Web/ProductDetails?ID=NGBCx5yTGoFlJWFR5tlBhQ%3D%3D",
+    "CreatedAt": "2026-11-21T20:25:03.7202676Z"
+  },
+  {
+    "Id": "a16da0b6-45ac-4d20-94bb-d78b7293299f",
+    "StoreProductId": "d65cc4f9-1f83-4ff8-8c1e-038231f55109",
+    "Price": 1100.00,
+    "OriginalPrice": null,
+    "Currency": "LKR",
+    "ObservedAt": "2026-11-21T20:25:02.1936872Z",
+    "SourceUrl": "https://cargillsonline.com/Web/ProductDetails?ID=SGJ%2BRrh5DMkeAdFpyYLZxA%3D%3D",
+    "CreatedAt": "2026-11-21T20:25:03.7203159Z"
+  },
+  {
+    "Id": "30ffcf6c-5db4-42b9-a14c-46af9726ea6c",
+    "StoreProductId": "83bc9eac-ac2d-4816-a3b8-d40e2cfa615c",
+    "Price": 5580.00,
+    "OriginalPrice": null,
+    "Currency": "LKR",
+    "ObservedAt": "2026-11-21T20:25:02.1936925Z",
+    "SourceUrl": "https://cargillsonline.com/Web/ProductDetails?ID=ZqjZ8HIm8MH9uQbbSx0FKA%3D%3D",
+    "CreatedAt": "2026-11-21T20:25:03.7203578Z"
+  },
+  {
+    "Id": "f42d8e67-f21d-467b-8779-f144da824501",
+    "StoreProductId": "18c095cb-9bc7-43e5-b7df-95d289435e34",
+    "Price": 1150.00,
+    "OriginalPrice": null,
+    "Currency": "LKR",
+    "ObservedAt": "2026-11-21T20:25:02.1936968Z",
+    "SourceUrl": "https://cargillsonline.com/Web/ProductDetails?ID=5%2BINm%2FTxUJTZ7kaUGfrdHQ%3D%3D",
+    "CreatedAt": "2026-11-21T20:25:03.7204057Z"
+  },
+  {
+    "Id": "5418e92c-d798-4fa7-95b3-2e87767ea0e4",
+    "StoreProductId": "74d1402c-cb89-48e6-82c9-346e5fbf4609",
+    "Price": 1200.00,
+    "OriginalPrice": null,
+    "Currency": "LKR",
+    "ObservedAt": "2026-11-21T20:25:02.1937012Z",
+    "SourceUrl": "https://cargillsonline.com/Web/ProductDetails?ID=DBre1DHh7ERdEg%2BJUGej2w%3D%3D",
+    "CreatedAt": "2026-11-21T20:25:03.7204569Z"
+  },
+  {
+    "Id": "60afcb7d-bf3b-4d38-ada1-c75fde580627",
+    "StoreProductId": "ab5e528a-5011-4a35-9cd1-3c7035699ab8",
+    "Price": 1200.00,
+    "OriginalPrice": null,
+    "Currency": "LKR",
+    "ObservedAt": "2026-11-21T20:25:02.1937094Z",
+    "SourceUrl": "https://cargillsonline.com/Web/ProductDetails?ID=NAfAjTCA15E0OrXwtM%2B8SQ%3D%3D",
+    "CreatedAt": "2026-11-21T20:25:03.7205095Z"
+  },
+  {
+    "Id": "d8c1335f-7a23-47a7-97d3-ab75a45f7b65",
+    "StoreProductId": "97c07b00-bfa7-46f3-a13d-55924223c576",
+    "Price": 172.00,
+    "OriginalPrice": null,
+    "Currency": "LKR",
+    "ObservedAt": "2026-11-21T20:25:02.1937139Z",
+    "SourceUrl": "https://cargillsonline.com/Web/ProductDetails?ID=7TIGK7b4EnVNBoN%2F0OHWJg%3D%3D",
+    "CreatedAt": "2026-11-21T20:25:03.7205673Z"
+  },
+  {
+    "Id": "2828634b-9b67-4c17-aad1-7f92ec73b1bd",
+    "StoreProductId": "ef2cfa4e-f69e-4a9b-a4b3-30d7f0291235",
+    "Price": 460.00,
+    "OriginalPrice": null,
+    "Currency": "LKR",
+    "ObservedAt": "2026-11-21T20:25:02.1937182Z",
+    "SourceUrl": "https://cargillsonline.com/Web/ProductDetails?ID=ciYwAa04xx13TvCzCnCj4Q%3D%3D",
+    "CreatedAt": "2026-11-21T20:25:03.7206271Z"
+  },
+  {
+    "Id": "0fb2bf97-b15b-4c38-a0fa-cfb68b14e1f5",
+    "StoreProductId": "824b827d-a907-47fe-94b6-bb29779a94d0",
+    "Price": 1150.00,
+    "OriginalPrice": null,
+    "Currency": "LKR",
+    "ObservedAt": "2026-11-21T20:25:02.1937223Z",
+    "SourceUrl": "https://cargillsonline.com/Web/ProductDetails?ID=Kqar085uDhvRH1Rq7Me4eg%3D%3D",
+    "CreatedAt": "2026-11-21T20:25:03.720683Z"
+  },
+  {
+    "Id": "9ae04582-4e9d-43bc-8ee8-33ca8c43d68a",
+    "StoreProductId": "819b16ae-f4dd-4b33-9f5a-8cf3b06eb1b5",
+    "Price": 1150.00,
+    "OriginalPrice": null,
+    "Currency": "LKR",
+    "ObservedAt": "2026-11-21T20:25:02.1937299Z",
+    "SourceUrl": "https://cargillsonline.com/Web/ProductDetails?ID=km%2BhtA8ixKsqU5X%2FG3HJhQ%3D%3D",
+    "CreatedAt": "2026-11-21T20:25:03.7207477Z"
+  },
+  {
+    "Id": "c6ea00c1-0d8e-41b0-9461-d7482b981a21",
+    "StoreProductId": "5a552ed0-9f30-4644-bbe0-f1f692e6e982",
+    "Price": 1311.00,
+    "OriginalPrice": null,
+    "Currency": "LKR",
+    "ObservedAt": "2026-11-21T20:25:02.1937344Z",
+    "SourceUrl": "https://cargillsonline.com/Web/ProductDetails?ID=pHRHKByHD5DvtdKuN3Og3w%3D%3D",
+    "CreatedAt": "2026-11-21T20:25:03.7208094Z"
+  },
+  {
+    "Id": "504ac722-03d6-48e1-91a4-5b7648ce2e4f",
+    "StoreProductId": "faf87d0f-ab90-484f-b567-68ada5e46818",
+    "Price": 1100.00,
+    "OriginalPrice": null,
+    "Currency": "LKR",
+    "ObservedAt": "2026-11-21T20:25:02.1937387Z",
+    "SourceUrl": "https://cargillsonline.com/Web/ProductDetails?ID=YOeOTT7sAmiSXXOidsOuoQ%3D%3D",
+    "CreatedAt": "2026-11-21T20:25:03.7208796Z"
+  },
+  {
+    "Id": "301f3937-b882-47cf-93b2-2fa440a32035",
+    "StoreProductId": "4fee6966-a545-4520-8c45-d05b032c2622",
+    "Price": 1200.00,
+    "OriginalPrice": null,
+    "Currency": "LKR",
+    "ObservedAt": "2026-11-21T20:25:02.1937451Z",
+    "SourceUrl": "https://cargillsonline.com/Web/ProductDetails?ID=h4LjVF8prPi7qzh5UIEXJg%3D%3D",
+    "CreatedAt": "2026-11-21T20:25:03.720941Z"
+  },
+  {
+    "Id": "9a2f1293-8629-46a4-9b71-c48362d754b4",
+    "StoreProductId": "4e61499d-9dd2-42df-ba1b-25cd77630b49",
+    "Price": 1100.00,
+    "OriginalPrice": null,
+    "Currency": "LKR",
+    "ObservedAt": "2026-11-21T20:25:02.1937493Z",
+    "SourceUrl": "https://cargillsonline.com/Web/ProductDetails?ID=PBQnrzine3lltV79vq23cA%3D%3D",
+    "CreatedAt": "2026-11-21T20:25:03.7210117Z"
+  },
+  {
+    "Id": "c497f5fc-8122-4da7-8751-a82633082d7c",
+    "StoreProductId": "71fcccc9-ec05-4c86-bd3b-5519884dde4a",
+    "Price": 3250.00,
+    "OriginalPrice": null,
+    "Currency": "LKR",
+    "ObservedAt": "2026-11-21T20:25:02.1937537Z",
+    "SourceUrl": "https://cargillsonline.com/Web/ProductDetails?ID=R7v%2FdSXpPWVzoIn7datdTQ%3D%3D",
+    "CreatedAt": "2026-11-21T20:25:03.7210779Z"
+  },
+  {
+    "Id": "95e4fc2f-5846-4a4e-bfad-7b864b7aec31",
+    "StoreProductId": "d803fa30-88bf-4e28-834c-0addce025c30",
+    "Price": 1100.00,
+    "OriginalPrice": null,
+    "Currency": "LKR",
+    "ObservedAt": "2026-11-21T20:25:02.1937602Z",
+    "SourceUrl": "https://cargillsonline.com/Web/ProductDetails?ID=nHnbK5k7MJREuwKudhcLFg%3D%3D",
+    "CreatedAt": "2026-11-21T20:25:03.7211489Z"
+  },
+  {
+    "Id": "cc45c9d4-07e5-4434-a22b-9897687fee17",
+    "StoreProductId": "738dd9f1-72e7-4818-9b93-d2d8417a8d82",
+    "Price": 560.00,
+    "OriginalPrice": null,
+    "Currency": "LKR",
+    "ObservedAt": "2026-11-21T20:25:02.1937647Z",
+    "SourceUrl": "https://cargillsonline.com/Web/ProductDetails?ID=CEbOSbTmiWMMlioc68Ad%2FA%3D%3D",
+    "CreatedAt": "2026-11-21T20:25:03.7211848Z"
+  },
+  {
+    "Id": "1d5cc22c-73c2-4478-a21e-8c4de886a989",
+    "StoreProductId": "14cf08f0-2cf6-402b-bf24-0279bc0f2faa",
+    "Price": 6690.00,
+    "OriginalPrice": null,
+    "Currency": "LKR",
+    "ObservedAt": "2026-11-21T20:25:02.193769Z",
+    "SourceUrl": "https://cargillsonline.com/Web/ProductDetails?ID=sXZdEAp35wSDJEfuoz0h3Q%3D%3D",
+    "CreatedAt": "2026-11-21T20:25:03.7212585Z"
+  },
+  {
+    "Id": "2d2d976b-c4e2-427c-8a6c-279c05c9f967",
+    "StoreProductId": "235ed7e9-3e5f-4d94-a276-a0425013694b",
+    "Price": 1100.00,
+    "OriginalPrice": null,
+    "Currency": "LKR",
+    "ObservedAt": "2026-11-21T20:25:02.1937734Z",
+    "SourceUrl": "https://cargillsonline.com/Web/ProductDetails?ID=rbYb8rAbB9zDHzJdZAt21Q%3D%3D",
+    "CreatedAt": "2026-11-21T20:25:03.721334Z"
+  },
+  {
+    "Id": "104bbde3-c385-458c-b607-4b1ce0095d76",
+    "StoreProductId": "c00b10ce-24b1-45a1-b046-010513e890e3",
+    "Price": 2940.00,
+    "OriginalPrice": null,
+    "Currency": "LKR",
+    "ObservedAt": "2026-11-21T20:25:02.1937803Z",
+    "SourceUrl": "https://cargillsonline.com/Web/ProductDetails?ID=nBvJHXhhNkJh2aiTJlBf9A%3D%3D",
+    "CreatedAt": "2026-11-21T20:25:03.7214179Z"
+  },
+  {
+    "Id": "f3027459-8c41-46bf-a55e-2b7595a171bf",
+    "StoreProductId": "9a8e1a59-8766-451f-a729-ae164194f038",
+    "Price": 660.00,
+    "OriginalPrice": null,
+    "Currency": "LKR",
+    "ObservedAt": "2026-11-21T20:25:02.1937848Z",
+    "SourceUrl": "https://cargillsonline.com/Web/ProductDetails?ID=EROUYg%2BGNbqhA7Vo3IcWoA%3D%3D",
+    "CreatedAt": "2026-11-21T20:25:03.7214851Z"
+  },
+  {
+    "Id": "cf8c97e6-2ddc-4f2a-8d66-30eca763ead3",
+    "StoreProductId": "8c9c3d06-e5ca-430d-ba1e-b8a7e210f233",
+    "Price": 1100.00,
+    "OriginalPrice": null,
+    "Currency": "LKR",
+    "ObservedAt": "2026-11-21T20:25:02.1937894Z",
+    "SourceUrl": "https://cargillsonline.com/Web/ProductDetails?ID=1rFZsNkk1F5S%2BEyJskeStw%3D%3D",
+    "CreatedAt": "2026-11-21T20:25:03.7215698Z"
+  },
+  {
+    "Id": "38927f33-ac73-4f05-9c25-e20106c862be",
+    "StoreProductId": "fae5f829-6aec-41b5-a5c6-e436f5b934a8",
+    "Price": 320.00,
+    "OriginalPrice": null,
+    "Currency": "LKR",
+    "ObservedAt": "2026-11-21T20:25:02.1937963Z",
+    "SourceUrl": "https://cargillsonline.com/Web/ProductDetails?ID=AMElUVSg6B2qNdgd75uBmw%3D%3D",
+    "CreatedAt": "2026-11-21T20:25:03.7216049Z"
+  },
+  {
+    "Id": "b8e596b5-81af-4285-bff8-08a32041f553",
+    "StoreProductId": "2a6a3aa4-d319-4761-994e-58a575dd507e",
+    "Price": 630.00,
+    "OriginalPrice": null,
+    "Currency": "LKR",
+    "ObservedAt": "2026-11-21T20:25:02.1938008Z",
+    "SourceUrl": "https://cargillsonline.com/Web/ProductDetails?ID=rmi3cFFS89zo72DRGi4cfQ%3D%3D",
+    "CreatedAt": "2026-11-21T20:25:03.7216758Z"
+  },
+  {
+    "Id": "92b978d5-4714-4f1c-a8e1-7e3634f7f6cb",
+    "StoreProductId": "b0d76f49-5156-486d-a6cf-505c240f009b",
+    "Price": 240.00,
+    "OriginalPrice": null,
+    "Currency": "LKR",
+    "ObservedAt": "2026-11-21T20:25:02.1938047Z",
+    "SourceUrl": "https://cargillsonline.com/Web/ProductDetails?ID=q9%2FBskAq7yvv%2BIboLcyMig%3D%3D",
+    "CreatedAt": "2026-11-21T20:25:03.7217068Z"
+  },
+  {
+    "Id": "ca3c903c-7500-46a3-a5cc-2bf75c9505e2",
+    "StoreProductId": "3b25e15c-5747-45a8-8b0f-14a2ce26c5ac",
+    "Price": 1100.00,
+    "OriginalPrice": null,
+    "Currency": "LKR",
+    "ObservedAt": "2026-11-21T20:25:02.1938092Z",
+    "SourceUrl": "https://cargillsonline.com/Web/ProductDetails?ID=2O7QIDslVJyZ0lh3JD855g%3D%3D",
+    "CreatedAt": "2026-11-21T20:25:03.7217923Z"
+  },
+  {
+    "Id": "4dfd45f0-8ae8-4cb5-b270-6d5e2de2f46a",
+    "StoreProductId": "dea2e5ce-3283-474e-a3e1-c4c222422e9d",
+    "Price": 240.00,
+    "OriginalPrice": null,
+    "Currency": "LKR",
+    "ObservedAt": "2026-11-21T20:25:02.1938154Z",
+    "SourceUrl": "https://cargillsonline.com/Web/ProductDetails?ID=hVkA9f5u2%2BTfKmbFSmFLmw%3D%3D",
+    "CreatedAt": "2026-11-21T20:25:03.721828Z"
+  },
+  {
+    "Id": "2158b096-a81d-4e59-8bfd-fe2f973d62a3",
+    "StoreProductId": "eee7c90b-572a-4e90-a68d-6d08a7e5bee2",
+    "Price": 1200.00,
+    "OriginalPrice": null,
+    "Currency": "LKR",
+    "ObservedAt": "2026-11-21T20:25:02.1938199Z",
+    "SourceUrl": "https://cargillsonline.com/Web/ProductDetails?ID=%2Bf1TboRuDKl3jCkz0ASaRw%3D%3D",
+    "CreatedAt": "2026-11-21T20:25:03.7219159Z"
+  },
+  {
+    "Id": "cb7981ce-ecd4-4c70-b23c-c359e536a8a5",
+    "StoreProductId": "210d7e5f-1395-4823-ac36-226e89157d5d",
+    "Price": 4860.00,
+    "OriginalPrice": null,
+    "Currency": "LKR",
+    "ObservedAt": "2026-11-21T20:25:02.1938254Z",
+    "SourceUrl": "https://cargillsonline.com/Web/ProductDetails?ID=lK8pzKhBUVDW3uPqU0OOMg%3D%3D",
+    "CreatedAt": "2026-11-21T20:25:03.7219432Z"
+  },
+  {
+    "Id": "d02f9cdd-c36b-422e-83d6-679735ed3a08",
+    "StoreProductId": "d4dba38b-db5d-4357-9444-9670dea76557",
+    "Price": 606.00,
+    "OriginalPrice": null,
+    "Currency": "LKR",
+    "ObservedAt": "2026-11-21T20:25:02.19383Z",
+    "SourceUrl": "https://cargillsonline.com/Web/ProductDetails?ID=1yJXhA38cXsfTjVMY2dLcg%3D%3D",
+    "CreatedAt": "2026-11-21T20:25:03.7219824Z"
+  },
+  {
+    "Id": "c17be48f-f77c-4752-bb60-22dee6feadcb",
+    "StoreProductId": "a64d4d4b-03d5-4ff3-b914-769af5e116c6",
+    "Price": 600.00,
+    "OriginalPrice": null,
+    "Currency": "LKR",
+    "ObservedAt": "2026-11-21T20:25:02.1938364Z",
+    "SourceUrl": "https://cargillsonline.com/Web/ProductDetails?ID=wr77wnLayEaeHDStd78v6g%3D%3D",
+    "CreatedAt": "2026-11-21T20:25:03.72206Z"
+  },
+  {
+    "Id": "881e51f8-a657-4cca-9eb3-b09fbc8250be",
+    "StoreProductId": "51edd656-60b8-4fcb-b744-378cb5e58fae",
+    "Price": 630.00,
+    "OriginalPrice": null,
+    "Currency": "LKR",
+    "ObservedAt": "2026-11-21T20:25:02.1938409Z",
+    "SourceUrl": "https://cargillsonline.com/Web/ProductDetails?ID=nbDul0skS1IzHVEnkE7X1g%3D%3D",
+    "CreatedAt": "2026-11-21T20:25:03.7221399Z"
+  },
+  {
+    "Id": "d935b73b-58c7-4733-9986-7d92323fe279",
+    "StoreProductId": "30275440-4fa0-4c19-8546-9ff90395cf67",
+    "Price": 1150.00,
+    "OriginalPrice": null,
+    "Currency": "LKR",
+    "ObservedAt": "2026-11-21T20:25:02.1938453Z",
+    "SourceUrl": "https://cargillsonline.com/Web/ProductDetails?ID=mlHI6MhmssxUzPmxveSzoQ%3D%3D",
+    "CreatedAt": "2026-11-21T20:25:03.722238Z"
+  },
+  {
+    "Id": "a37d4738-aa9f-4490-8152-c446020fe296",
+    "StoreProductId": "ebcc8d05-4c54-4f2c-a995-874c248e5407",
+    "Price": 200.00,
+    "OriginalPrice": null,
+    "Currency": "LKR",
+    "ObservedAt": "2026-11-21T20:25:02.1938535Z",
+    "SourceUrl": "https://cargillsonline.com/Web/ProductDetails?ID=hxoEcm4%2FjaeJiSG3S44sBQ%3D%3D",
+    "CreatedAt": "2026-11-21T20:25:03.7222998Z"
+  },
+  {
+    "Id": "9a4a6744-3934-499a-89ae-2faef242b933",
+    "StoreProductId": "445bb98b-41f7-40f2-8747-ce3b6eebb727",
+    "Price": 400.00,
+    "OriginalPrice": null,
+    "Currency": "LKR",
+    "ObservedAt": "2026-11-21T20:25:02.1938582Z",
+    "SourceUrl": "https://cargillsonline.com/Web/ProductDetails?ID=F52XUgcCGqBsfLi9bjlR2Q%3D%3D",
+    "CreatedAt": "2026-11-21T20:25:03.7223849Z"
+  },
+  {
+    "Id": "e88d24bf-804a-4791-ae48-bec186789ee6",
+    "StoreProductId": "a339db0d-27cd-41b7-b9fc-4cdfa4426b18",
+    "Price": 215.00,
+    "OriginalPrice": null,
+    "Currency": "LKR",
+    "ObservedAt": "2026-11-21T20:25:02.193863Z",
+    "SourceUrl": "https://cargillsonline.com/Web/ProductDetails?ID=1kg3VSSvZBuKc2AWYFCs3g%3D%3D",
+    "CreatedAt": "2026-11-21T20:25:03.7224503Z"
+  },
+  {
+    "Id": "ab68291a-b839-48f4-a9fd-ea3cbdca1102",
+    "StoreProductId": "4460d596-d7ad-4e85-833f-c8bd26666695",
+    "Price": 400.00,
+    "OriginalPrice": null,
+    "Currency": "LKR",
+    "ObservedAt": "2026-11-21T20:25:02.193871Z",
+    "SourceUrl": "https://cargillsonline.com/Web/ProductDetails?ID=4EU8C2X%2BDY5ulIzyp6raFQ%3D%3D",
+    "CreatedAt": "2026-11-21T20:25:03.722539Z"
+  },
+  {
+    "Id": "07311d75-7941-4882-ae5d-1963031e9623",
+    "StoreProductId": "69ba555d-27c1-48f6-bd56-d388f4522055",
+    "Price": 140.00,
+    "OriginalPrice": null,
+    "Currency": "LKR",
+    "ObservedAt": "2026-11-21T20:25:07.3732559Z",
+    "SourceUrl": "https://myarpico.com/index.php?route=product/product\u0026amp;language=en-gb\u0026amp;product_id=5344\u0026amp;search=milk",
+    "CreatedAt": "2026-11-21T20:25:18.2857444Z"
+  },
+  {
+    "Id": "9a6b6ff5-1388-45f0-b355-82053d523d8c",
+    "StoreProductId": "ac70b803-1ad3-40b9-9ed4-a5d5eb1015b3",
+    "Price": 100.00,
+    "OriginalPrice": null,
+    "Currency": "LKR",
+    "ObservedAt": "2026-11-21T20:25:07.3733421Z",
+    "SourceUrl": "https://myarpico.com/index.php?route=product/product\u0026amp;language=en-gb\u0026amp;product_id=8326\u0026amp;search=milk",
+    "CreatedAt": "2026-11-21T20:25:18.2858016Z"
+  },
+  {
+    "Id": "456b83d2-9b4e-4c3e-a06a-015f0cae8df1",
+    "StoreProductId": "df6345a3-3b8a-4f54-a95b-4622b948b0d1",
+    "Price": 100.00,
+    "OriginalPrice": null,
+    "Currency": "LKR",
+    "ObservedAt": "2026-11-21T20:25:07.3734031Z",
+    "SourceUrl": "https://myarpico.com/index.php?route=product/product\u0026amp;language=en-gb\u0026amp;product_id=8327\u0026amp;search=milk",
+    "CreatedAt": "2026-11-21T20:25:18.2858513Z"
+  },
+  {
+    "Id": "9b70a229-702f-42a9-9dac-0c88c0bcb482",
+    "StoreProductId": "2b34d697-0ac0-4a39-859a-c6dbbfd95d14",
+    "Price": 1250.00,
+    "OriginalPrice": null,
+    "Currency": "LKR",
+    "ObservedAt": "2026-11-21T20:25:07.3734672Z",
+    "SourceUrl": "https://myarpico.com/index.php?route=product/product\u0026amp;language=en-gb\u0026amp;product_id=6308\u0026amp;search=milk",
+    "CreatedAt": "2026-11-21T20:25:18.2859319Z"
+  },
+  {
+    "Id": "a555027e-98e4-45cf-8096-a985e7ba349d",
+    "StoreProductId": "6d13e1ac-136d-46ca-8dcd-731d0a33bc56",
+    "Price": 580.00,
+    "OriginalPrice": null,
+    "Currency": "LKR",
+    "ObservedAt": "2026-11-21T20:25:07.3735209Z",
+    "SourceUrl": "https://myarpico.com/index.php?route=product/product\u0026amp;language=en-gb\u0026amp;product_id=5349\u0026amp;search=milk",
+    "CreatedAt": "2026-11-21T20:25:18.2859738Z"
+  },
+  {
+    "Id": "fd35d427-711d-47ea-87b2-b6e5eb54d2f2",
+    "StoreProductId": "edb52b00-f7a0-4f73-9f0b-c273915ccbd1",
+    "Price": 1450.00,
+    "OriginalPrice": null,
+    "Currency": "LKR",
+    "ObservedAt": "2026-11-21T20:25:07.3735806Z",
+    "SourceUrl": "https://myarpico.com/index.php?route=product/product\u0026amp;language=en-gb\u0026amp;product_id=6350\u0026amp;search=milk",
+    "CreatedAt": "2026-11-21T20:25:18.2860693Z"
+  },
+  {
+    "Id": "37d3372e-3083-4ba8-9f49-7b7ab98b67ea",
+    "StoreProductId": "0a9d9087-24d3-43f4-ad82-77f318b9a9f7",
+    "Price": 235.00,
+    "OriginalPrice": null,
+    "Currency": "LKR",
+    "ObservedAt": "2026-11-21T20:25:07.3736368Z",
+    "SourceUrl": "https://myarpico.com/index.php?route=product/product\u0026amp;language=en-gb\u0026amp;product_id=4754\u0026amp;search=milk",
+    "CreatedAt": "2026-11-21T20:25:18.2861016Z"
+  },
+  {
+    "Id": "789304e5-c577-4c91-9fe7-f6741d6113de",
+    "StoreProductId": "17f44235-e171-403d-bfed-a8cb4abc001d",
+    "Price": 365.00,
+    "OriginalPrice": null,
+    "Currency": "LKR",
+    "ObservedAt": "2026-11-21T20:25:07.3736903Z",
+    "SourceUrl": "https://myarpico.com/index.php?route=product/product\u0026amp;language=en-gb\u0026amp;product_id=1116\u0026amp;search=milk",
+    "CreatedAt": "2026-11-21T20:25:18.2861396Z"
+  },
+  {
+    "Id": "64b3b878-d770-4569-a999-99b2a7d597ec",
+    "StoreProductId": "321981e7-6ffd-4a26-85df-15ff80ffd523",
+    "Price": 545.00,
+    "OriginalPrice": null,
+    "Currency": "LKR",
+    "ObservedAt": "2026-11-21T20:25:07.3737543Z",
+    "SourceUrl": "https://myarpico.com/index.php?route=product/product\u0026amp;language=en-gb\u0026amp;product_id=1112\u0026amp;search=milk",
+    "CreatedAt": "2026-11-21T20:25:18.2861833Z"
+  },
+  {
+    "Id": "09f3f6ed-ed4a-4dbb-aa2a-2896c7653947",
+    "StoreProductId": "2a0a1f6f-9d37-43b5-9e79-972128621d83",
+    "Price": 140.00,
+    "OriginalPrice": null,
+    "Currency": "LKR",
+    "ObservedAt": "2026-11-21T20:25:07.3738079Z",
+    "SourceUrl": "https://myarpico.com/index.php?route=product/product\u0026amp;language=en-gb\u0026amp;product_id=5291\u0026amp;search=milk",
+    "CreatedAt": "2026-11-21T20:25:18.2862423Z"
+  },
+  {
+    "Id": "d410c65d-78e4-4703-9a69-1f023606d912",
+    "StoreProductId": "d1dbe967-1dde-4a32-b4dd-01c90d647dcb",
+    "Price": 140.00,
+    "OriginalPrice": null,
+    "Currency": "LKR",
+    "ObservedAt": "2026-11-21T20:25:07.3738646Z",
+    "SourceUrl": "https://myarpico.com/index.php?route=product/product\u0026amp;language=en-gb\u0026amp;product_id=5284\u0026amp;search=milk",
+    "CreatedAt": "2026-11-21T20:25:18.2863035Z"
+  },
+  {
+    "Id": "c76c935f-7c9b-45f1-b95a-004f7dd8bb91",
+    "StoreProductId": "e9f29875-6321-49c0-a6c1-c13b1de4b509",
+    "Price": 140.00,
+    "OriginalPrice": null,
+    "Currency": "LKR",
+    "ObservedAt": "2026-11-21T20:25:07.3739178Z",
+    "SourceUrl": "https://myarpico.com/index.php?route=product/product\u0026amp;language=en-gb\u0026amp;product_id=5294\u0026amp;search=milk",
+    "CreatedAt": "2026-11-21T20:25:18.2863664Z"
+  },
+  {
+    "Id": "76b17d63-dcb7-4edd-ab03-107b2856c612",
+    "StoreProductId": "405c8358-3bea-4b5c-97a2-b434ae8026f6",
+    "Price": 600.00,
+    "OriginalPrice": null,
+    "Currency": "LKR",
+    "ObservedAt": "2026-11-21T20:25:07.3739748Z",
+    "SourceUrl": "https://myarpico.com/index.php?route=product/product\u0026amp;language=en-gb\u0026amp;product_id=5312\u0026amp;search=milk",
+    "CreatedAt": "2026-11-21T20:25:18.2864259Z"
+  },
+  {
+    "Id": "c334c88d-26ea-45a5-96b5-1fb0e3f17e8e",
+    "StoreProductId": "5c6cd0b0-d6af-4820-bf81-34b2123077fa",
+    "Price": 140.00,
+    "OriginalPrice": null,
+    "Currency": "LKR",
+    "ObservedAt": "2026-11-21T20:25:07.3740296Z",
+    "SourceUrl": "https://myarpico.com/index.php?route=product/product\u0026amp;language=en-gb\u0026amp;product_id=5292\u0026amp;search=milk",
+    "CreatedAt": "2026-11-21T20:25:18.2864909Z"
+  },
+  {
+    "Id": "6f7b049d-672a-4363-bc7d-fcc11450e46d",
+    "StoreProductId": "ca149aef-41d4-4b6a-8c8e-716fe91d5066",
+    "Price": 140.00,
+    "OriginalPrice": null,
+    "Currency": "LKR",
+    "ObservedAt": "2026-11-21T20:25:07.3740851Z",
+    "SourceUrl": "https://myarpico.com/index.php?route=product/product\u0026amp;language=en-gb\u0026amp;product_id=5286\u0026amp;search=milk",
+    "CreatedAt": "2026-11-21T20:25:18.2865601Z"
+  },
+  {
+    "Id": "009d62fb-aa77-4794-8e02-04eaa81a26ca",
+    "StoreProductId": "b9d15cbc-6c86-4b6c-ba61-fde6a538ff27",
+    "Price": 370.00,
+    "OriginalPrice": null,
+    "Currency": "LKR",
+    "ObservedAt": "2026-11-21T20:25:11.2310435Z",
+    "SourceUrl": "https://myarpico.com/index.php?route=product/product\u0026amp;language=en-gb\u0026amp;product_id=4891\u0026amp;search=tea",
+    "CreatedAt": "2026-11-21T20:25:18.2866007Z"
+  },
+  {
+    "Id": "c1026413-dbdb-43f0-a26c-fa22fcb206b8",
+    "StoreProductId": "0ce35138-d1ad-4999-91d8-47ba4534ba98",
+    "Price": 610.00,
+    "OriginalPrice": null,
+    "Currency": "LKR",
+    "ObservedAt": "2026-11-21T20:25:11.2311189Z",
+    "SourceUrl": "https://myarpico.com/index.php?route=product/product\u0026amp;language=en-gb\u0026amp;product_id=4924\u0026amp;search=tea",
+    "CreatedAt": "2026-11-21T20:25:18.2866569Z"
+  },
+  {
+    "Id": "08d79baa-3240-43ae-a145-1815c2c0d2c9",
+    "StoreProductId": "a2a25a59-9038-4d72-abc0-a1b35fddc5f3",
+    "Price": 680.00,
+    "OriginalPrice": null,
+    "Currency": "LKR",
+    "ObservedAt": "2026-11-21T20:25:11.2311715Z",
+    "SourceUrl": "https://myarpico.com/index.php?route=product/product\u0026amp;language=en-gb\u0026amp;product_id=4996\u0026amp;search=tea",
+    "CreatedAt": "2026-11-21T20:25:18.2867238Z"
+  },
+  {
+    "Id": "e8014e5f-b0f7-428b-9da0-8eec1020ee3e",
+    "StoreProductId": "1ca92f13-23c0-4a0f-bf4d-90bd730ae56c",
+    "Price": 550.00,
+    "OriginalPrice": null,
+    "Currency": "LKR",
+    "ObservedAt": "2026-11-21T20:25:11.2312341Z",
+    "SourceUrl": "https://myarpico.com/index.php?route=product/product\u0026amp;language=en-gb\u0026amp;product_id=4920\u0026amp;search=tea",
+    "CreatedAt": "2026-11-21T20:25:18.2867729Z"
+  },
+  {
+    "Id": "5988ac1a-e86b-4ac6-b2b5-ddd4e586053c",
+    "StoreProductId": "a7223c5a-23e6-4c45-8c8e-affa1e4ccb51",
+    "Price": 790.00,
+    "OriginalPrice": null,
+    "Currency": "LKR",
+    "ObservedAt": "2026-11-21T20:25:11.2312871Z",
+    "SourceUrl": "https://myarpico.com/index.php?route=product/product\u0026amp;language=en-gb\u0026amp;product_id=4915\u0026amp;search=tea",
+    "CreatedAt": "2026-11-21T20:25:18.2868302Z"
+  },
+  {
+    "Id": "d7f34859-b3c7-4dad-bc44-05dd8f25fb44",
+    "StoreProductId": "46ab3c23-8977-4bd1-ae2e-1b3ae7b816e5",
+    "Price": 610.00,
+    "OriginalPrice": null,
+    "Currency": "LKR",
+    "ObservedAt": "2026-11-21T20:25:11.2313387Z",
+    "SourceUrl": "https://myarpico.com/index.php?route=product/product\u0026amp;language=en-gb\u0026amp;product_id=4931\u0026amp;search=tea",
+    "CreatedAt": "2026-11-21T20:25:18.2868842Z"
+  },
+  {
+    "Id": "93d56f6c-01ad-47b5-ab27-f201125cd12c",
+    "StoreProductId": "61d1e9a9-ed1c-40f5-8d31-06010595c50a",
+    "Price": 562.50,
+    "OriginalPrice": 625.00,
+    "Currency": "LKR",
+    "ObservedAt": "2026-11-21T20:25:11.2314039Z",
+    "SourceUrl": "https://myarpico.com/index.php?route=product/product\u0026amp;language=en-gb\u0026amp;product_id=1912\u0026amp;search=tea",
+    "CreatedAt": "2026-11-21T20:25:18.2869219Z"
+  },
+  {
+    "Id": "2cfd8821-004c-4184-a85e-3d9c0180c7a7",
+    "StoreProductId": "6e150e76-b0a4-4700-bf42-40ca2a7c5efd",
+    "Price": 90.00,
+    "OriginalPrice": 100.00,
+    "Currency": "LKR",
+    "ObservedAt": "2026-11-21T20:25:11.2314737Z",
+    "SourceUrl": "https://myarpico.com/index.php?route=product/product\u0026amp;language=en-gb\u0026amp;product_id=8524\u0026amp;search=tea",
+    "CreatedAt": "2026-11-21T20:25:18.286962Z"
+  },
+  {
+    "Id": "3d70266d-ade6-4b25-a0bc-64c1791dd705",
+    "StoreProductId": "975e7bab-dc31-42ec-bdbf-8f2cbbc5e31e",
+    "Price": 480.00,
+    "OriginalPrice": null,
+    "Currency": "LKR",
+    "ObservedAt": "2026-11-21T20:25:11.2315245Z",
+    "SourceUrl": "https://myarpico.com/index.php?route=product/product\u0026amp;language=en-gb\u0026amp;product_id=4918\u0026amp;search=tea",
+    "CreatedAt": "2026-11-21T20:25:18.2870198Z"
+  },
+  {
+    "Id": "2ec820bb-f443-4585-b6d9-b3ed4173d457",
+    "StoreProductId": "36ab32c8-6018-4512-a15e-c7bb89718edd",
+    "Price": 650.00,
+    "OriginalPrice": null,
+    "Currency": "LKR",
+    "ObservedAt": "2026-11-21T20:25:11.2315738Z",
+    "SourceUrl": "https://myarpico.com/index.php?route=product/product\u0026amp;language=en-gb\u0026amp;product_id=4859\u0026amp;search=tea",
+    "CreatedAt": "2026-11-21T20:25:18.287082Z"
+  },
+  {
+    "Id": "27178fc4-6ebf-49ca-8aaf-5de060b1f614",
+    "StoreProductId": "c553b976-aa62-4c79-9f50-c4e0933a4138",
+    "Price": 720.00,
+    "OriginalPrice": null,
+    "Currency": "LKR",
+    "ObservedAt": "2026-11-21T20:25:11.2316229Z",
+    "SourceUrl": "https://myarpico.com/index.php?route=product/product\u0026amp;language=en-gb\u0026amp;product_id=4831\u0026amp;search=tea",
+    "CreatedAt": "2026-11-21T20:25:18.2871373Z"
+  },
+  {
+    "Id": "c3747a39-0225-4a06-b3a6-10a3b353981d",
+    "StoreProductId": "9d303789-a6a6-4739-bb19-d33efdd97bb3",
+    "Price": 1045.00,
+    "OriginalPrice": null,
+    "Currency": "LKR",
+    "ObservedAt": "2026-11-21T20:25:11.2316734Z",
+    "SourceUrl": "https://myarpico.com/index.php?route=product/product\u0026amp;language=en-gb\u0026amp;product_id=5143\u0026amp;search=tea",
+    "CreatedAt": "2026-11-21T20:25:18.2871989Z"
+  },
+  {
+    "Id": "72c2d758-f2f5-49e5-acd8-566effc8bf54",
+    "StoreProductId": "a141ae8e-4646-4009-bbf6-0d482384fc13",
+    "Price": 1840.00,
+    "OriginalPrice": null,
+    "Currency": "LKR",
+    "ObservedAt": "2026-11-21T20:25:11.2317255Z",
+    "SourceUrl": "https://myarpico.com/index.php?route=product/product\u0026amp;language=en-gb\u0026amp;product_id=5044\u0026amp;search=tea",
+    "CreatedAt": "2026-11-21T20:25:18.2872384Z"
+  },
+  {
+    "Id": "0ccfddee-1b41-409b-bb89-712654aaec4b",
+    "StoreProductId": "9f634ba0-e8b8-406c-af13-f7890938ccc7",
+    "Price": 2450.00,
+    "OriginalPrice": null,
+    "Currency": "LKR",
+    "ObservedAt": "2026-11-21T20:25:11.2317763Z",
+    "SourceUrl": "https://myarpico.com/index.php?route=product/product\u0026amp;language=en-gb\u0026amp;product_id=5066\u0026amp;search=tea",
+    "CreatedAt": "2026-11-21T20:25:18.2873472Z"
+  },
+  {
+    "Id": "4a1efad6-0c73-4407-97ae-7b63879723cf",
+    "StoreProductId": "da7bfcff-95cc-499b-bfc9-8d1aeacde686",
+    "Price": 550.00,
+    "OriginalPrice": null,
+    "Currency": "LKR",
+    "ObservedAt": "2026-11-21T20:25:11.2318309Z",
+    "SourceUrl": "https://myarpico.com/index.php?route=product/product\u0026amp;language=en-gb\u0026amp;product_id=4887\u0026amp;search=tea",
+    "CreatedAt": "2026-11-21T20:25:18.2874196Z"
+  },
+  {
+    "Id": "aa21118d-ca57-4b5f-b7af-460468de41a7",
+    "StoreProductId": "c1339dbd-4982-438e-8855-9827e432a55c",
+    "Price": 490.00,
+    "OriginalPrice": null,
+    "Currency": "LKR",
+    "ObservedAt": "2026-11-21T20:25:16.2732833Z",
+    "SourceUrl": "https://myarpico.com/index.php?route=product/product\u0026amp;language=en-gb\u0026amp;product_id=9167\u0026amp;search=rice",
+    "CreatedAt": "2026-11-21T20:25:18.2874663Z"
+  },
+  {
+    "Id": "5ae3b610-c426-4295-988d-eb9cb3f5aaea",
+    "StoreProductId": "ca1029c5-d0d1-4528-8b7a-1dc5b50a9cd4",
+    "Price": 235.00,
+    "OriginalPrice": null,
+    "Currency": "LKR",
+    "ObservedAt": "2026-11-21T20:25:16.2734131Z",
+    "SourceUrl": "https://myarpico.com/index.php?route=product/product\u0026amp;language=en-gb\u0026amp;product_id=6010\u0026amp;search=rice",
+    "CreatedAt": "2026-11-21T20:25:18.2875535Z"
+  },
+  {
+    "Id": "da04021b-8abd-44fe-ace9-def927c134d8",
+    "StoreProductId": "231e68c5-ac38-4de4-a3fb-e01cf1fa1a80",
+    "Price": 211.50,
+    "OriginalPrice": 235.00,
+    "Currency": "LKR",
+    "ObservedAt": "2026-11-21T20:25:16.2735314Z",
+    "SourceUrl": "https://myarpico.com/index.php?route=product/product\u0026amp;language=en-gb\u0026amp;product_id=4437\u0026amp;search=rice",
+    "CreatedAt": "2026-11-21T20:25:18.2876473Z"
+  },
+  {
+    "Id": "4bc3197c-c1dd-4b04-986b-513b11c0a3ab",
+    "StoreProductId": "4fc5d6fa-ab7b-489a-83ec-f5f6abb3a59d",
+    "Price": 335.00,
+    "OriginalPrice": null,
+    "Currency": "LKR",
+    "ObservedAt": "2026-11-21T20:25:16.2736633Z",
+    "SourceUrl": "https://myarpico.com/index.php?route=product/product\u0026amp;language=en-gb\u0026amp;product_id=3971\u0026amp;search=rice",
+    "CreatedAt": "2026-11-21T20:25:18.2876895Z"
+  },
+  {
+    "Id": "560d46d4-90b3-48dd-adaf-b468354585ab",
+    "StoreProductId": "5ed3fed3-b3a7-42b9-b600-622dbef497a0",
+    "Price": 495.00,
+    "OriginalPrice": null,
+    "Currency": "LKR",
+    "ObservedAt": "2026-11-21T20:25:16.2737688Z",
+    "SourceUrl": "https://myarpico.com/index.php?route=product/product\u0026amp;language=en-gb\u0026amp;product_id=3750\u0026amp;search=rice",
+    "CreatedAt": "2026-11-21T20:25:18.2877602Z"
+  },
+  {
+    "Id": "287105a9-c2fb-4695-ad10-64d7778017c4",
+    "StoreProductId": "428a8df2-bb93-47ce-b912-8f3d0e2c5361",
+    "Price": 495.00,
+    "OriginalPrice": null,
+    "Currency": "LKR",
+    "ObservedAt": "2026-11-21T20:25:16.2738741Z",
+    "SourceUrl": "https://myarpico.com/index.php?route=product/product\u0026amp;language=en-gb\u0026amp;product_id=3749\u0026amp;search=rice",
+    "CreatedAt": "2026-11-21T20:25:18.2878382Z"
+  },
+  {
+    "Id": "7fa0745a-8cad-44c3-a441-461a16c73a48",
+    "StoreProductId": "cb678941-adaf-400e-8b8b-240a52d0b2a1",
+    "Price": 550.00,
+    "OriginalPrice": null,
+    "Currency": "LKR",
+    "ObservedAt": "2026-11-21T20:25:16.2739783Z",
+    "SourceUrl": "https://myarpico.com/index.php?route=product/product\u0026amp;language=en-gb\u0026amp;product_id=9164\u0026amp;search=rice",
+    "CreatedAt": "2026-11-21T20:25:18.2878882Z"
+  },
+  {
+    "Id": "990b3e1c-27c7-4704-b3f3-4ed6026c4c6e",
+    "StoreProductId": "43909c60-4482-4815-96b1-7ce5261b2cab",
+    "Price": 650.00,
+    "OriginalPrice": null,
+    "Currency": "LKR",
+    "ObservedAt": "2026-11-21T20:25:16.2740955Z",
+    "SourceUrl": "https://myarpico.com/index.php?route=product/product\u0026amp;language=en-gb\u0026amp;product_id=9161\u0026amp;search=rice",
+    "CreatedAt": "2026-11-21T20:25:18.2879394Z"
+  },
+  {
+    "Id": "bb96a3e7-ff04-41e7-87ef-9c8309cb3664",
+    "StoreProductId": "55f819fc-8320-42a1-98c3-bdd469cab7f2",
+    "Price": 610.00,
+    "OriginalPrice": null,
+    "Currency": "LKR",
+    "ObservedAt": "2026-11-21T20:25:16.2742014Z",
+    "SourceUrl": "https://myarpico.com/index.php?route=product/product\u0026amp;language=en-gb\u0026amp;product_id=9157\u0026amp;search=rice",
+    "CreatedAt": "2026-11-21T20:25:18.2879935Z"
+  },
+  {
+    "Id": "af1c0dec-1b65-49d7-aef6-548dd57e3f34",
+    "StoreProductId": "161320ed-6627-484e-b211-0147a10cd2c9",
+    "Price": 575.00,
+    "OriginalPrice": null,
+    "Currency": "LKR",
+    "ObservedAt": "2026-11-21T20:25:16.274305Z",
+    "SourceUrl": "https://myarpico.com/index.php?route=product/product\u0026amp;language=en-gb\u0026amp;product_id=9160\u0026amp;search=rice",
+    "CreatedAt": "2026-11-21T20:25:18.288052Z"
+  },
+  {
+    "Id": "ebd5dbf9-4e5b-4c34-a753-40ae5746ce76",
+    "StoreProductId": "e2730a2b-a254-4afd-b6ff-6eb6de2c97a4",
+    "Price": 650.00,
+    "OriginalPrice": null,
+    "Currency": "LKR",
+    "ObservedAt": "2026-11-21T20:25:16.2744116Z",
+    "SourceUrl": "https://myarpico.com/index.php?route=product/product\u0026amp;language=en-gb\u0026amp;product_id=8968\u0026amp;search=rice",
+    "CreatedAt": "2026-11-21T20:25:18.2881126Z"
+  },
+  {
+    "Id": "a289bc63-94d9-4062-9e64-ccca6156f70f",
+    "StoreProductId": "2fe45130-23eb-42f8-bb22-b3d0ecd25489",
+    "Price": 720.00,
+    "OriginalPrice": null,
+    "Currency": "LKR",
+    "ObservedAt": "2026-11-21T20:25:16.2745152Z",
+    "SourceUrl": "https://myarpico.com/index.php?route=product/product\u0026amp;language=en-gb\u0026amp;product_id=9155\u0026amp;search=rice",
+    "CreatedAt": "2026-11-21T20:25:18.2881786Z"
+  },
+  {
+    "Id": "412d2089-a9a0-4d07-a69b-e9d13bf354d3",
+    "StoreProductId": "b2b26e6c-3b7b-475c-ba91-41d0e04c634b",
+    "Price": 250.00,
+    "OriginalPrice": null,
+    "Currency": "LKR",
+    "ObservedAt": "2026-11-21T20:25:16.2746263Z",
+    "SourceUrl": "https://myarpico.com/index.php?route=product/product\u0026amp;language=en-gb\u0026amp;product_id=3975\u0026amp;search=rice",
+    "CreatedAt": "2026-11-21T20:25:18.2882518Z"
+  },
+  {
+    "Id": "19bd73e9-b89c-46c3-87ab-df0f4f96a2f6",
+    "StoreProductId": "b217c261-1fb0-40d8-ad3f-3211eb2a7b05",
+    "Price": 150.00,
+    "OriginalPrice": null,
+    "Currency": "LKR",
+    "ObservedAt": "2026-11-21T20:25:16.274741Z",
+    "SourceUrl": "https://myarpico.com/index.php?route=product/product\u0026amp;language=en-gb\u0026amp;product_id=5878\u0026amp;search=rice",
+    "CreatedAt": "2026-11-21T20:25:18.2882951Z"
+  },
+  {
+    "Id": "83af6c4b-a749-41d1-9695-79d5c4a1a1d7",
+    "StoreProductId": "e0e76385-0a58-48bf-a4fe-95e43b31f210",
+    "Price": 300.00,
+    "OriginalPrice": null,
+    "Currency": "LKR",
+    "ObservedAt": "2026-11-21T20:25:16.2748674Z",
+    "SourceUrl": "https://myarpico.com/index.php?route=product/product\u0026amp;language=en-gb\u0026amp;product_id=5997\u0026amp;search=rice",
+    "CreatedAt": "2026-11-21T20:25:18.2883371Z"
+  }
+]

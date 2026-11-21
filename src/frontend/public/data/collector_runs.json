@@ -1,0 +1,32 @@
+[
+  {
+    "Id": "dc01772f-70b9-456d-a8bb-6ac7caf3ac69",
+    "SupermarketId": "a1000000-0000-0000-0000-000000000001",
+    "StartedAt": "2026-11-21T20:24:55.7714842Z",
+    "FinishedAt": "2026-11-21T20:25:03.6991451Z",
+    "Status": "success",
+    "ProductsChecked": 181,
+    "ProductsUpdated": 181,
+    "ErrorMessage": null
+  },
+  {
+    "Id": "a97d2a8b-24d9-4ac6-8c31-7ca49f7bb446",
+    "SupermarketId": "a2000000-0000-0000-0000-000000000002",
+    "StartedAt": "2026-11-21T20:25:03.759153Z",
+    "FinishedAt": "2026-11-21T20:25:18.2830773Z",
+    "Status": "success",
+    "ProductsChecked": 45,
+    "ProductsUpdated": 45,
+    "ErrorMessage": null
+  },
+  {
+    "Id": "ef3091b1-fedd-45ca-aeba-d1efe4de935f",
+    "SupermarketId": "a3000000-0000-0000-0000-000000000003",
+    "StartedAt": "2026-11-21T20:25:18.308078Z",
+    "FinishedAt": "2026-11-21T20:25:18.5255941Z",
+    "Status": "blocked",
+    "ProductsChecked": 0,
+    "ProductsUpdated": 0,
+    "ErrorMessage": "Direct unauthenticated endpoint returned HTTP 401 Unauthorized. Client requires encrypted session token and Cloudflare challenge token. Bypassing encryption or anti-bot protections is strictly forbidden by project security rules."
+  }
+]
