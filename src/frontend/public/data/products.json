@@ -2248,5 +2248,6375 @@
     "Unit": "g",
     "Category": "General Grocery",
     "CreatedAt": "2026-11-21T20:25:18.2883271Z"
+  },
+  {
+    "Id": "27a66535-ec51-484e-adcc-8efbfe8d970a",
+    "CanonicalName": "Anchor Basmati Rice",
+    "Brand": "Anchor",
+    "Barcode": null,
+    "Quantity": 1.00,
+    "Unit": "kg",
+    "Category": "Rice",
+    "CreatedAt": "2026-11-22T03:17:07.1065148Z"
+  },
+  {
+    "Id": "8a496a28-adec-4713-8c8f-80dfa7cc2094",
+    "CanonicalName": "Black \u0026 Gold Devilled Dhall",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 200.00,
+    "Unit": "g",
+    "Category": "Snacks \u0026 Confectionery",
+    "CreatedAt": "2026-11-22T03:17:07.1894051Z"
+  },
+  {
+    "Id": "ccfe23b4-623e-4f89-a55f-ba1cad2cb500",
+    "CanonicalName": "Real Tasty Devilled Dhall",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 200.00,
+    "Unit": "g",
+    "Category": "Snacks \u0026 Confectionery",
+    "CreatedAt": "2026-11-22T03:17:07.1907134Z"
+  },
+  {
+    "Id": "c2b5de86-c137-41ea-9add-e137cbb84ce7",
+    "CanonicalName": "Red Dhal",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 1.00,
+    "Unit": "kg",
+    "Category": "Food Cupboard",
+    "CreatedAt": "2026-11-22T03:17:07.1920069Z"
+  },
+  {
+    "Id": "e813949a-677f-455b-855c-a25ee28db113",
+    "CanonicalName": "My Choice Gram Dhal Packet",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 500.00,
+    "Unit": "g",
+    "Category": "Food Cupboard",
+    "CreatedAt": "2026-11-22T03:17:07.1934332Z"
+  },
+  {
+    "Id": "e4f4b4d9-a26a-4a14-96a6-e68c0765755d",
+    "CanonicalName": "Catch Toor Dhal",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 500.00,
+    "Unit": "g",
+    "Category": "Food Cupboard",
+    "CreatedAt": "2026-11-22T03:17:07.194789Z"
+  },
+  {
+    "Id": "36441802-fb54-487e-8736-5c9d73d63895",
+    "CanonicalName": "Catch Green Gram Dhal",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 500.00,
+    "Unit": "g",
+    "Category": "Food Cupboard",
+    "CreatedAt": "2026-11-22T03:17:07.1961193Z"
+  },
+  {
+    "Id": "03403c2f-9398-41a5-ae0f-5393885fbf9e",
+    "CanonicalName": "My Choice Red Dhal Packet",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 1.00,
+    "Unit": "kg",
+    "Category": "Food Cupboard",
+    "CreatedAt": "2026-11-22T03:17:07.1975687Z"
+  },
+  {
+    "Id": "a5a320aa-a7ab-4681-8a99-fb64872df9c5",
+    "CanonicalName": "My Choice Red Dhal Packet",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 500.00,
+    "Unit": "g",
+    "Category": "Food Cupboard",
+    "CreatedAt": "2026-11-22T03:17:07.1989327Z"
+  },
+  {
+    "Id": "63096303-3837-40a7-a762-e2bddd19526e",
+    "CanonicalName": "Scan Hot \u0026 Spicy Fried Dhal",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 40.00,
+    "Unit": "g",
+    "Category": "Snacks \u0026 Confectionery",
+    "CreatedAt": "2026-11-22T03:17:07.2003504Z"
+  },
+  {
+    "Id": "c11d0f9a-8574-4139-8be5-7fb04a0d44a3",
+    "CanonicalName": "My Choice Jumbo Red Dhal Pack",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 1.00,
+    "Unit": "kg",
+    "Category": "Food Cupboard",
+    "CreatedAt": "2026-11-22T03:17:07.2017303Z"
+  },
+  {
+    "Id": "3b91a855-8945-4672-b23b-e7a508eb89a6",
+    "CanonicalName": "Pranajeewa Suwa Dharani",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 50.00,
+    "Unit": "g",
+    "Category": "Health \u0026 Beauty",
+    "CreatedAt": "2026-11-22T03:17:07.2033749Z"
+  },
+  {
+    "Id": "48b7c467-6699-43e5-8289-d8acfaa38a64",
+    "CanonicalName": "Finch Walnut Halves",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 75.00,
+    "Unit": "g",
+    "Category": "Snacks \u0026 Confectionery",
+    "CreatedAt": "2026-11-22T03:17:07.204792Z"
+  },
+  {
+    "Id": "8d8888be-00ee-499b-a3bf-52c82c6ef5bb",
+    "CanonicalName": "Date Crown Dates Khalas Pouch",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 250.00,
+    "Unit": "g",
+    "Category": "Desserts \u0026 Ingredients",
+    "CreatedAt": "2026-11-22T03:17:07.2062467Z"
+  },
+  {
+    "Id": "bfe79061-d4b9-490b-acfe-e01abedaecd5",
+    "CanonicalName": "Arogya Farm Omega 3\u002BDHA Rich Eggs, Medium",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 10.00,
+    "Unit": "pcs",
+    "Category": "Food Cupboard",
+    "CreatedAt": "2026-11-22T03:17:07.2077514Z"
+  },
+  {
+    "Id": "90cbf135-9009-476d-ab98-585d63f5c541",
+    "CanonicalName": "Good Knight Hitline Chalk",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 1.00,
+    "Unit": "pcs",
+    "Category": "Household",
+    "CreatedAt": "2026-11-22T03:17:07.2092005Z"
+  },
+  {
+    "Id": "e8a0fe56-0208-4f42-a7e3-c202a499e650",
+    "CanonicalName": "Thalapath Slices",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 250.00,
+    "Unit": "g",
+    "Category": "Seafood",
+    "CreatedAt": "2026-11-22T03:17:07.2109226Z"
+  },
+  {
+    "Id": "3ab5ad48-118a-4d4a-944d-8153a843450d",
+    "CanonicalName": "Thalana Batu",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 250.00,
+    "Unit": "g",
+    "Category": "Vegetables",
+    "CreatedAt": "2026-11-22T03:17:07.2126876Z"
+  },
+  {
+    "Id": "8e1f9103-292f-47a5-9638-c6f4ba9ea626",
+    "CanonicalName": "Thalapath Slices",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 500.00,
+    "Unit": "g",
+    "Category": "Seafood",
+    "CreatedAt": "2026-11-22T03:17:07.2143429Z"
+  },
+  {
+    "Id": "792ef337-e6f1-4ab1-b001-e5f2ebde8ed3",
+    "CanonicalName": "Beam Pawatta Thalsookiri Syrup",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 100.00,
+    "Unit": "ml",
+    "Category": "Health \u0026 Beauty",
+    "CreatedAt": "2026-11-22T03:17:07.2158915Z"
+  },
+  {
+    "Id": "dfad1aa2-3492-4166-a957-ea751d7ae3f0",
+    "CanonicalName": "SAB Dried Thalapath",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 200.00,
+    "Unit": "g",
+    "Category": "Food Cupboard",
+    "CreatedAt": "2026-11-22T03:17:07.2174954Z"
+  },
+  {
+    "Id": "df74c3d0-fd56-4e65-a273-7d95d8061b12",
+    "CanonicalName": "Arunalu Thalapath Dry Fish",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 200.00,
+    "Unit": "g",
+    "Category": "Food Cupboard",
+    "CreatedAt": "2026-11-22T03:17:07.2192776Z"
+  },
+  {
+    "Id": "412e8625-396b-4ec9-be58-7d3b14fbe641",
+    "CanonicalName": "Sugar Plantain",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 500.00,
+    "Unit": "g",
+    "Category": "Fruits",
+    "CreatedAt": "2026-11-22T03:17:07.2208464Z"
+  },
+  {
+    "Id": "94a71818-9675-4d78-9d89-6d680447b167",
+    "CanonicalName": "Brown Sugar",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 1.00,
+    "Unit": "kg",
+    "Category": "Food Cupboard",
+    "CreatedAt": "2026-11-22T03:17:07.2228005Z"
+  },
+  {
+    "Id": "2b54d79f-23ed-4c3e-9b56-4dcdc075823a",
+    "CanonicalName": "White Sugar",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 1.00,
+    "Unit": "kg",
+    "Category": "Food Cupboard",
+    "CreatedAt": "2026-11-22T03:17:07.2249856Z"
+  },
+  {
+    "Id": "4d44eb9b-7aff-46c5-8633-9b0eea27ecbb",
+    "CanonicalName": "Motha Icing Sugar",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 500.00,
+    "Unit": "g",
+    "Category": "Desserts \u0026 Ingredients",
+    "CreatedAt": "2026-11-22T03:17:07.2266045Z"
+  },
+  {
+    "Id": "5f938b5e-9ef4-49e8-8539-31bc9aace464",
+    "CanonicalName": "MD Low Sugar Strawberry Jam",
+    "Brand": "MD",
+    "Barcode": null,
+    "Quantity": 330.00,
+    "Unit": "g",
+    "Category": "Food Cupboard",
+    "CreatedAt": "2026-11-22T03:17:07.228194Z"
+  },
+  {
+    "Id": "8957b2ff-84cc-40b7-85fb-5143b918d3e5",
+    "CanonicalName": "Maliban Sugar Free Biscuit",
+    "Brand": "Maliban",
+    "Barcode": null,
+    "Quantity": 220.00,
+    "Unit": "g",
+    "Category": "Snacks \u0026 Confectionery",
+    "CreatedAt": "2026-11-22T03:17:07.2306415Z"
+  },
+  {
+    "Id": "3a7ed39f-a11c-4b98-bd27-f5f1553db530",
+    "CanonicalName": "Sugar Plantain Full Hand",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 1.00,
+    "Unit": "kg",
+    "Category": "Fruits",
+    "CreatedAt": "2026-11-22T03:17:07.2322413Z"
+  },
+  {
+    "Id": "d7e78adf-13b4-4a91-9673-1822ce97bd9d",
+    "CanonicalName": "Pepsi Zero Sugar Can",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 300.00,
+    "Unit": "ml",
+    "Category": "Beverages",
+    "CreatedAt": "2026-11-22T03:17:07.2338321Z"
+  },
+  {
+    "Id": "e6194289-c933-461d-acd7-29b0290dcd1c",
+    "CanonicalName": "My Choice Icing Sugar",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 500.00,
+    "Unit": "g",
+    "Category": "Desserts \u0026 Ingredients",
+    "CreatedAt": "2026-11-22T03:17:07.2354444Z"
+  },
+  {
+    "Id": "02ee06dc-da9d-4c65-9f82-31f6d76ffc1e",
+    "CanonicalName": "Motha Icing Sugar",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 1.00,
+    "Unit": "kg",
+    "Category": "Desserts \u0026 Ingredients",
+    "CreatedAt": "2026-11-22T03:17:07.2371546Z"
+  },
+  {
+    "Id": "02105e01-1459-42dd-a5d8-887fd68051b3",
+    "CanonicalName": "Ritzbury Revello Sugar Free Chocolate",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 50.00,
+    "Unit": "g",
+    "Category": "Snacks \u0026 Confectionery",
+    "CreatedAt": "2026-11-22T03:17:07.2390915Z"
+  },
+  {
+    "Id": "9387eafa-eade-4b30-98cd-c9f9a3e99d29",
+    "CanonicalName": "MD Low Sugar Raspberry Jam",
+    "Brand": "MD",
+    "Barcode": null,
+    "Quantity": 330.00,
+    "Unit": "g",
+    "Category": "Food Cupboard",
+    "CreatedAt": "2026-11-22T03:17:07.2407766Z"
+  },
+  {
+    "Id": "199533e3-7385-4778-9b8b-c5aec07f85cc",
+    "CanonicalName": "My Choice White Sugar Packet",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 1.00,
+    "Unit": "kg",
+    "Category": "Food Cupboard",
+    "CreatedAt": "2026-11-22T03:17:07.2424537Z"
+  },
+  {
+    "Id": "6a260863-fa5c-4c90-ae90-dd01dadd4013",
+    "CanonicalName": "Flava Rambutan in Sugar Syrup",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 350.00,
+    "Unit": "g",
+    "Category": "Desserts \u0026 Ingredients",
+    "CreatedAt": "2026-11-22T03:17:07.2443948Z"
+  },
+  {
+    "Id": "ba7c8dfa-fef3-406d-b943-fdaa491a0d8e",
+    "CanonicalName": "Maliban Less Sugar Lemon Puff",
+    "Brand": "Maliban",
+    "Barcode": null,
+    "Quantity": 100.00,
+    "Unit": "g",
+    "Category": "Snacks \u0026 Confectionery",
+    "CreatedAt": "2026-11-22T03:17:07.2461034Z"
+  },
+  {
+    "Id": "b4dc369b-efca-4f24-b792-3fd3cc83f0cf",
+    "CanonicalName": "My Choice Brown Sugar Packet",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 1.00,
+    "Unit": "kg",
+    "Category": "Food Cupboard",
+    "CreatedAt": "2026-11-22T03:17:07.2478937Z"
+  },
+  {
+    "Id": "34812599-c2ba-43b0-93d7-d2cd2f39f2c1",
+    "CanonicalName": "Maliban Less Sugar Ginger Biscuit",
+    "Brand": "Maliban",
+    "Barcode": null,
+    "Quantity": 80.00,
+    "Unit": "g",
+    "Category": "Snacks \u0026 Confectionery",
+    "CreatedAt": "2026-11-22T03:17:07.2496008Z"
+  },
+  {
+    "Id": "3eccf6ec-3e10-4874-8c54-fc3b0d3e5844",
+    "CanonicalName": "Maliban Less Sugar Chocolate Cream",
+    "Brand": "Maliban",
+    "Barcode": null,
+    "Quantity": 100.00,
+    "Unit": "g",
+    "Category": "Snacks \u0026 Confectionery",
+    "CreatedAt": "2026-11-22T03:17:07.2513385Z"
+  },
+  {
+    "Id": "1d086e4d-ea41-4938-a758-135b250079d8",
+    "CanonicalName": "Ride Sugar Free Energy Drink",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 250.00,
+    "Unit": "ml",
+    "Category": "Beverages",
+    "CreatedAt": "2026-11-22T03:17:07.2533428Z"
+  },
+  {
+    "Id": "e693d718-1f46-4e08-9589-935a34fb4d0d",
+    "CanonicalName": "MD Low Sugar Wood Apple Jam",
+    "Brand": "MD",
+    "Barcode": null,
+    "Quantity": 330.00,
+    "Unit": "g",
+    "Category": "Food Cupboard",
+    "CreatedAt": "2026-11-22T03:17:07.2553495Z"
+  },
+  {
+    "Id": "0bfb9100-24ef-48ce-a687-8225ae07b226",
+    "CanonicalName": "MD Mango Jam No Added Sugar",
+    "Brand": "MD",
+    "Barcode": null,
+    "Quantity": 330.00,
+    "Unit": "g",
+    "Category": "Food Cupboard",
+    "CreatedAt": "2026-11-22T03:17:07.2573447Z"
+  },
+  {
+    "Id": "e0745a57-d7b7-4e1a-b0f9-90dce972d1fe",
+    "CanonicalName": "MD Low Sugar Mixed Fruit Jam",
+    "Brand": "MD",
+    "Barcode": null,
+    "Quantity": 330.00,
+    "Unit": "g",
+    "Category": "Food Cupboard",
+    "CreatedAt": "2026-11-22T03:17:07.2599662Z"
+  },
+  {
+    "Id": "90a92884-f401-488f-acdf-d67ba756ca8d",
+    "CanonicalName": "Red Bull Energy Drink Sugar Free",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 250.00,
+    "Unit": "ml",
+    "Category": "Beverages",
+    "CreatedAt": "2026-11-22T03:17:07.2617828Z"
+  },
+  {
+    "Id": "b8a3fb10-36b6-46c4-8368-568d599448bc",
+    "CanonicalName": "Beam Pawatta Talsookiri Syrup, No Added Sugar",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 200.00,
+    "Unit": "ml",
+    "Category": "Health \u0026 Beauty",
+    "CreatedAt": "2026-11-22T03:17:07.2636441Z"
+  },
+  {
+    "Id": "bee8f476-4aca-46c2-af96-811d4bd83667",
+    "CanonicalName": "Munchee Kalo Strawberry Biscuit",
+    "Brand": "Munchee",
+    "Barcode": null,
+    "Quantity": 140.00,
+    "Unit": "g",
+    "Category": "Snacks \u0026 Confectionery",
+    "CreatedAt": "2026-11-22T03:17:07.265466Z"
+  },
+  {
+    "Id": "e7cc427c-74c0-43da-a529-013e6fe8d069",
+    "CanonicalName": "Munchee Kalo Chocolate Biscuit",
+    "Brand": "Munchee",
+    "Barcode": null,
+    "Quantity": 140.00,
+    "Unit": "g",
+    "Category": "Snacks \u0026 Confectionery",
+    "CreatedAt": "2026-11-22T03:17:07.2673296Z"
+  },
+  {
+    "Id": "8bf82c9b-2d0f-4044-9143-86c7f2fe93ed",
+    "CanonicalName": "Maliban Chocolate Cream Biscuit",
+    "Brand": "Maliban",
+    "Barcode": null,
+    "Quantity": 400.00,
+    "Unit": "g",
+    "Category": "Snacks \u0026 Confectionery",
+    "CreatedAt": "2026-11-22T03:17:07.2692403Z"
+  },
+  {
+    "Id": "34b6c1dd-d4ed-4f90-ba59-4690190472bf",
+    "CanonicalName": "Magic Olo Cream Biscuit",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 60.00,
+    "Unit": "g",
+    "Category": "Snacks \u0026 Confectionery",
+    "CreatedAt": "2026-11-22T03:17:07.2711612Z"
+  },
+  {
+    "Id": "23afa100-0701-499d-9c05-ad979bdb33e7",
+    "CanonicalName": "Maliban Digestive Biscuit",
+    "Brand": "Maliban",
+    "Barcode": null,
+    "Quantity": 120.00,
+    "Unit": "g",
+    "Category": "Snacks \u0026 Confectionery",
+    "CreatedAt": "2026-11-22T03:17:07.273062Z"
+  },
+  {
+    "Id": "c5212ac9-f321-45a9-8881-9d8b030a239f",
+    "CanonicalName": "Munchee Ginger Biscuit",
+    "Brand": "Munchee",
+    "Barcode": null,
+    "Quantity": 80.00,
+    "Unit": "g",
+    "Category": "Snacks \u0026 Confectionery",
+    "CreatedAt": "2026-11-22T03:17:07.2754718Z"
+  },
+  {
+    "Id": "6214fe62-9080-4310-9257-2651bb4afca1",
+    "CanonicalName": "Kandos Chocolate Biscuit Pudding",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 400.00,
+    "Unit": "g",
+    "Category": "Desserts \u0026 Ingredients",
+    "CreatedAt": "2026-11-22T03:17:07.2784028Z"
+  },
+  {
+    "Id": "cb371426-07a1-4800-aaa3-649d1b1f900a",
+    "CanonicalName": "Maliban Classique Biscuit Assortment",
+    "Brand": "Maliban",
+    "Barcode": null,
+    "Quantity": 475.00,
+    "Unit": "g",
+    "Category": "Snacks \u0026 Confectionery",
+    "CreatedAt": "2026-11-22T03:17:07.2811685Z"
+  },
+  {
+    "Id": "9e531e44-d260-4af2-8315-b663e3fff648",
+    "CanonicalName": "Revello Biscuit Pudding",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 375.00,
+    "Unit": "g",
+    "Category": "Desserts \u0026 Ingredients",
+    "CreatedAt": "2026-11-22T03:17:07.2837573Z"
+  },
+  {
+    "Id": "95e7305d-77cf-464e-a0c6-22b3c846d346",
+    "CanonicalName": "Revello Biscuit Pudding",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 60.00,
+    "Unit": "g",
+    "Category": "Desserts \u0026 Ingredients",
+    "CreatedAt": "2026-11-22T03:17:07.2859028Z"
+  },
+  {
+    "Id": "e82133f1-e88e-403b-9cb8-99edcf4a3830",
+    "CanonicalName": "Shan Chocolate Biscuit Pudding",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 200.00,
+    "Unit": "g",
+    "Category": "Desserts \u0026 Ingredients",
+    "CreatedAt": "2026-11-22T03:17:07.288829Z"
+  },
+  {
+    "Id": "7bf4965b-9874-418d-b9d6-3ead3f886223",
+    "CanonicalName": "Magic OLO Classic Cream Biscuit",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 140.00,
+    "Unit": "g",
+    "Category": "Snacks \u0026 Confectionery",
+    "CreatedAt": "2026-11-22T03:17:07.2924502Z"
+  },
+  {
+    "Id": "32117a6e-bb13-40c9-9223-651a5cce4229",
+    "CanonicalName": "Munchee Salsa Biscuits",
+    "Brand": "Munchee",
+    "Barcode": null,
+    "Quantity": 180.00,
+    "Unit": "g",
+    "Category": "Snacks \u0026 Confectionery",
+    "CreatedAt": "2026-11-22T03:17:07.2946518Z"
+  },
+  {
+    "Id": "d281c184-ac4f-4f8f-9a4b-fe4f6b20248f",
+    "CanonicalName": "Munchee Chocolate Cream Biscuits",
+    "Brand": "Munchee",
+    "Barcode": null,
+    "Quantity": 365.00,
+    "Unit": "g",
+    "Category": "Snacks \u0026 Confectionery",
+    "CreatedAt": "2026-11-22T03:17:07.2966954Z"
+  },
+  {
+    "Id": "feab625d-6ae7-488e-8728-b6da8d59c965",
+    "CanonicalName": "Munchee Onion Biscuits",
+    "Brand": "Munchee",
+    "Barcode": null,
+    "Quantity": 250.00,
+    "Unit": "g",
+    "Category": "Snacks \u0026 Confectionery",
+    "CreatedAt": "2026-11-22T03:17:07.2987205Z"
+  },
+  {
+    "Id": "3c06e174-52d6-4a03-949e-bfebfd7f747d",
+    "CanonicalName": "Munchee Nice Biscuits",
+    "Brand": "Munchee",
+    "Barcode": null,
+    "Quantity": 100.00,
+    "Unit": "g",
+    "Category": "Snacks \u0026 Confectionery",
+    "CreatedAt": "2026-11-22T03:17:07.3007803Z"
+  },
+  {
+    "Id": "8af0c467-0cb1-4040-b3c4-8ff3195e0ea1",
+    "CanonicalName": "Munchee Celebrations Assortment Biscuits",
+    "Brand": "Munchee",
+    "Barcode": null,
+    "Quantity": 500.00,
+    "Unit": "g",
+    "Category": "Snacks \u0026 Confectionery",
+    "CreatedAt": "2026-11-22T03:17:07.3034981Z"
+  },
+  {
+    "Id": "b55139cf-2629-4791-82bd-406c3d6c186a",
+    "CanonicalName": "Maliban Orange Cream Biscuits",
+    "Brand": "Maliban",
+    "Barcode": null,
+    "Quantity": 410.00,
+    "Unit": "g",
+    "Category": "Snacks \u0026 Confectionery",
+    "CreatedAt": "2026-11-22T03:17:07.3066277Z"
+  },
+  {
+    "Id": "bf41da38-1928-4a09-af81-28ea7b2cee29",
+    "CanonicalName": "Munchee Nice Biscuits",
+    "Brand": "Munchee",
+    "Barcode": null,
+    "Quantity": 400.00,
+    "Unit": "g",
+    "Category": "Snacks \u0026 Confectionery",
+    "CreatedAt": "2026-11-22T03:17:07.3096717Z"
+  },
+  {
+    "Id": "5267bc59-837e-4767-9bd1-59080aac1973",
+    "CanonicalName": "Munchee Ginger Biscuits",
+    "Brand": "Munchee",
+    "Barcode": null,
+    "Quantity": 400.00,
+    "Unit": "g",
+    "Category": "Snacks \u0026 Confectionery",
+    "CreatedAt": "2026-11-22T03:17:07.3127449Z"
+  },
+  {
+    "Id": "379b68f0-bfbe-48fb-b9b6-8f1f56eb893c",
+    "CanonicalName": "Lotus Biscoff Cream Biscuits",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 150.00,
+    "Unit": "g",
+    "Category": "Snacks \u0026 Confectionery",
+    "CreatedAt": "2026-11-22T03:17:07.3158046Z"
+  },
+  {
+    "Id": "d42177ed-350b-43da-94fb-7c93c00f4ce3",
+    "CanonicalName": "Kist Ginger Biscuits",
+    "Brand": "Kist",
+    "Barcode": null,
+    "Quantity": 250.00,
+    "Unit": "g",
+    "Category": "Snacks \u0026 Confectionery",
+    "CreatedAt": "2026-11-22T03:17:07.3188827Z"
+  },
+  {
+    "Id": "4d00aac0-b7e3-44e7-bb37-aef51eb7d5ce",
+    "CanonicalName": "Kist Creamy Vanilla Biscuits",
+    "Brand": "Kist",
+    "Barcode": null,
+    "Quantity": 360.00,
+    "Unit": "g",
+    "Category": "Snacks \u0026 Confectionery",
+    "CreatedAt": "2026-11-22T03:17:07.3220596Z"
+  },
+  {
+    "Id": "20a1f59b-a024-4a83-a421-1fd93ac62f74",
+    "CanonicalName": "Maliban Nice Biscuits",
+    "Brand": "Maliban",
+    "Barcode": null,
+    "Quantity": 400.00,
+    "Unit": "g",
+    "Category": "Snacks \u0026 Confectionery",
+    "CreatedAt": "2026-11-22T03:17:07.3251746Z"
+  },
+  {
+    "Id": "62e4af1a-bc71-481b-81e1-cc889c58ae45",
+    "CanonicalName": "Munchee Bourbon Biscuits",
+    "Brand": "Munchee",
+    "Barcode": null,
+    "Quantity": 100.00,
+    "Unit": "g",
+    "Category": "Snacks \u0026 Confectionery",
+    "CreatedAt": "2026-11-22T03:17:07.3283352Z"
+  },
+  {
+    "Id": "bec66bfb-3d39-43d1-8380-27891d3978a8",
+    "CanonicalName": "Munchee Custard Cream Biscuits",
+    "Brand": "Munchee",
+    "Barcode": null,
+    "Quantity": 100.00,
+    "Unit": "g",
+    "Category": "Snacks \u0026 Confectionery",
+    "CreatedAt": "2026-11-22T03:17:07.3315347Z"
+  },
+  {
+    "Id": "09e1831b-f2f9-4757-b01d-d5ec348efb8f",
+    "CanonicalName": "Munchee Gem Biscuits",
+    "Brand": "Munchee",
+    "Barcode": null,
+    "Quantity": 90.00,
+    "Unit": "g",
+    "Category": "Snacks \u0026 Confectionery",
+    "CreatedAt": "2026-11-22T03:17:07.3347327Z"
+  },
+  {
+    "Id": "bb730551-40b1-45da-9b2c-40dc7c433132",
+    "CanonicalName": "Kist Gift Assortment Biscuits",
+    "Brand": "Kist",
+    "Barcode": null,
+    "Quantity": 400.00,
+    "Unit": "g",
+    "Category": "Snacks \u0026 Confectionery",
+    "CreatedAt": "2026-11-22T03:17:07.3379942Z"
+  },
+  {
+    "Id": "5d7a7128-b3f9-4b92-8ccf-b69aafc1a5b8",
+    "CanonicalName": "Munchee Onion Biscuits",
+    "Brand": "Munchee",
+    "Barcode": null,
+    "Quantity": 170.00,
+    "Unit": "g",
+    "Category": "Snacks \u0026 Confectionery",
+    "CreatedAt": "2026-11-22T03:17:07.3411853Z"
+  },
+  {
+    "Id": "828c7260-72bc-49fc-b6c7-469e087b7b33",
+    "CanonicalName": "Munchee Orange Cream Biscuits",
+    "Brand": "Munchee",
+    "Barcode": null,
+    "Quantity": 400.00,
+    "Unit": "g",
+    "Category": "Snacks \u0026 Confectionery",
+    "CreatedAt": "2026-11-22T03:17:07.3435068Z"
+  },
+  {
+    "Id": "e4b6bde2-6864-446d-88c7-c0cb2c9f27f3",
+    "CanonicalName": "Kist Creamy Choc Biscuits",
+    "Brand": "Kist",
+    "Barcode": null,
+    "Quantity": 360.00,
+    "Unit": "g",
+    "Category": "Snacks \u0026 Confectionery",
+    "CreatedAt": "2026-11-22T03:17:07.3457677Z"
+  },
+  {
+    "Id": "b1d480ab-b2b8-4275-aaf7-3025a54dc607",
+    "CanonicalName": "Manchee Karapincha Biscuits",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 100.00,
+    "Unit": "g",
+    "Category": "Snacks \u0026 Confectionery",
+    "CreatedAt": "2026-11-22T03:17:07.3480704Z"
+  },
+  {
+    "Id": "831bc6e1-8d92-411d-bba3-f9e2fe100f5d",
+    "CanonicalName": "Maliban Custard Cream Biscuits",
+    "Brand": "Maliban",
+    "Barcode": null,
+    "Quantity": 410.00,
+    "Unit": "g",
+    "Category": "Snacks \u0026 Confectionery",
+    "CreatedAt": "2026-11-22T03:17:07.3503522Z"
+  },
+  {
+    "Id": "4dac65df-bf13-41fb-a116-86b9fcb00880",
+    "CanonicalName": "Kist Creamy Choc Biscuits",
+    "Brand": "Kist",
+    "Barcode": null,
+    "Quantity": 220.00,
+    "Unit": "g",
+    "Category": "Snacks \u0026 Confectionery",
+    "CreatedAt": "2026-11-22T03:17:07.3530435Z"
+  },
+  {
+    "Id": "f0ad1b5e-ff88-431c-93a6-401310dc9fd2",
+    "CanonicalName": "Munchee Favourites Biscuits",
+    "Brand": "Munchee",
+    "Barcode": null,
+    "Quantity": 250.00,
+    "Unit": "g",
+    "Category": "Snacks \u0026 Confectionery",
+    "CreatedAt": "2026-11-22T03:17:07.3563987Z"
+  },
+  {
+    "Id": "a8998d7f-df7b-468c-84ad-61a4ad139160",
+    "CanonicalName": "Lotus Biscoff Biscuits",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 250.00,
+    "Unit": "g",
+    "Category": "Snacks \u0026 Confectionery",
+    "CreatedAt": "2026-11-22T03:17:07.3597805Z"
+  },
+  {
+    "Id": "76243b80-c52a-402c-b206-fbef9b6994ce",
+    "CanonicalName": "Munchee Milk Short Cake Biscuits",
+    "Brand": "Munchee",
+    "Barcode": null,
+    "Quantity": 85.00,
+    "Unit": "g",
+    "Category": "Snacks \u0026 Confectionery",
+    "CreatedAt": "2026-11-22T03:17:07.3631751Z"
+  },
+  {
+    "Id": "855d48c1-be3f-47ed-bc54-a8824c43b535",
+    "CanonicalName": "Kotmale Milk Short Cake Biscuits",
+    "Brand": "Kotmale",
+    "Barcode": null,
+    "Quantity": 200.00,
+    "Unit": "g",
+    "Category": "Snacks \u0026 Confectionery",
+    "CreatedAt": "2026-11-22T03:17:07.3665881Z"
+  },
+  {
+    "Id": "12c7585e-0180-4ba8-a72a-80a310e0f30c",
+    "CanonicalName": "Magic OLO Butterscotch Cream Biscuits",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 140.00,
+    "Unit": "g",
+    "Category": "Snacks \u0026 Confectionery",
+    "CreatedAt": "2026-11-22T03:17:07.3706362Z"
+  },
+  {
+    "Id": "08398269-0636-4c21-a9a6-d5bb98c180b3",
+    "CanonicalName": "Maliban Chick Bits Savoury Biscuits",
+    "Brand": "Maliban",
+    "Barcode": null,
+    "Quantity": 140.00,
+    "Unit": "g",
+    "Category": "Snacks \u0026 Confectionery",
+    "CreatedAt": "2026-11-22T03:17:07.374089Z"
+  },
+  {
+    "Id": "fa81ea83-b642-4e7a-b2f2-6aece410f2bb",
+    "CanonicalName": "Magic Olo White Cream Biscuits",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 140.00,
+    "Unit": "g",
+    "Category": "Snacks \u0026 Confectionery",
+    "CreatedAt": "2026-11-22T03:17:07.3775626Z"
+  },
+  {
+    "Id": "1e752284-b893-4a48-b8f9-d3a17a2a8080",
+    "CanonicalName": "Munchee Malt Up Choco Layered Malted Biscuits",
+    "Brand": "Munchee",
+    "Barcode": null,
+    "Quantity": 52.00,
+    "Unit": "g",
+    "Category": "Snacks \u0026 Confectionery",
+    "CreatedAt": "2026-11-22T03:17:07.3810765Z"
+  },
+  {
+    "Id": "8453b6be-5691-4169-9145-3034a94a5a5a",
+    "CanonicalName": "Munchee Malt Up Malted Biscuits With Milk",
+    "Brand": "Munchee",
+    "Barcode": null,
+    "Quantity": 160.00,
+    "Unit": "g",
+    "Category": "Snacks \u0026 Confectionery",
+    "CreatedAt": "2026-11-22T03:17:07.3852479Z"
+  },
+  {
+    "Id": "db9ccb41-cc65-4523-a2f8-9e3f85e77c00",
+    "CanonicalName": "Munchee Malt Up Malted Biscuits With Milk",
+    "Brand": "Munchee",
+    "Barcode": null,
+    "Quantity": 80.00,
+    "Unit": "g",
+    "Category": "Snacks \u0026 Confectionery",
+    "CreatedAt": "2026-11-22T03:17:07.3887883Z"
+  },
+  {
+    "Id": "86ba5937-7363-474f-8c90-dfa47c32d3ed",
+    "CanonicalName": "Munchee Malt Up Choco Layered Malted Biscuits",
+    "Brand": "Munchee",
+    "Barcode": null,
+    "Quantity": 96.00,
+    "Unit": "g",
+    "Category": "Snacks \u0026 Confectionery",
+    "CreatedAt": "2026-11-22T03:17:07.3923469Z"
+  },
+  {
+    "Id": "1ad30d87-effd-4c8e-b6c5-d1f5a7763972",
+    "CanonicalName": "Kist Magic OLO Strawberry Cream Biscuits",
+    "Brand": "Kist",
+    "Barcode": null,
+    "Quantity": 140.00,
+    "Unit": "g",
+    "Category": "Snacks \u0026 Confectionery",
+    "CreatedAt": "2026-11-22T03:17:07.3959245Z"
+  },
+  {
+    "Id": "c32bc8ff-9896-4dcc-a637-a4ad2148bde7",
+    "CanonicalName": "Maliban Korean Ramen Flavour Savoury Biscuits",
+    "Brand": "Maliban",
+    "Barcode": null,
+    "Quantity": 25.00,
+    "Unit": "g",
+    "Category": "Snacks \u0026 Confectionery",
+    "CreatedAt": "2026-11-22T03:17:07.3996631Z"
+  },
+  {
+    "Id": "f3b9951f-e30a-4460-9d22-7ba7e034d1e8",
+    "CanonicalName": "Pelwatte Butter",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 200.00,
+    "Unit": "g",
+    "Category": "Dairy",
+    "CreatedAt": "2026-11-22T03:17:07.4034115Z"
+  },
+  {
+    "Id": "1ecfb30f-cd27-44d5-9ffd-f25dee3071e9",
+    "CanonicalName": "Lurpak Butter Salted",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 200.00,
+    "Unit": "g",
+    "Category": "Dairy",
+    "CreatedAt": "2026-11-22T03:17:07.407121Z"
+  },
+  {
+    "Id": "b6656c5b-a194-4d30-b865-8a45fb6778f9",
+    "CanonicalName": "Kotmale Butter Unsalted",
+    "Brand": "Kotmale",
+    "Barcode": null,
+    "Quantity": 200.00,
+    "Unit": "g",
+    "Category": "Dairy",
+    "CreatedAt": "2026-11-22T03:17:07.4108174Z"
+  },
+  {
+    "Id": "60f60725-ff91-4907-94d9-36a041618242",
+    "CanonicalName": "Richlife Butter Salted",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 100.00,
+    "Unit": "g",
+    "Category": "Dairy",
+    "CreatedAt": "2026-11-22T03:17:07.4145946Z"
+  },
+  {
+    "Id": "318e5872-102a-46e8-853b-eaf2f2da546f",
+    "CanonicalName": "PA Garlic Butter Naan",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 300.00,
+    "Unit": "g",
+    "Category": "Frozen Food",
+    "CreatedAt": "2026-11-22T03:17:07.4183313Z"
+  },
+  {
+    "Id": "bda57169-2acd-45ac-8315-de8ba3edf5ca",
+    "CanonicalName": "Butter Beans",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 250.00,
+    "Unit": "g",
+    "Category": "Vegetables",
+    "CreatedAt": "2026-11-22T03:17:07.422123Z"
+  },
+  {
+    "Id": "d922b8ec-dc61-4879-bd74-af674448d0f6",
+    "CanonicalName": "Richlife Butter Salted",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 200.00,
+    "Unit": "g",
+    "Category": "Dairy",
+    "CreatedAt": "2026-11-22T03:17:07.4259169Z"
+  },
+  {
+    "Id": "cac46d2a-24e2-40fe-bf9f-b1422b4409c9",
+    "CanonicalName": "Highland UnSalted Butter",
+    "Brand": "Highland",
+    "Barcode": null,
+    "Quantity": 200.00,
+    "Unit": "g",
+    "Category": "Dairy",
+    "CreatedAt": "2026-11-22T03:17:07.4316815Z"
+  },
+  {
+    "Id": "0cfa3ef8-85eb-4ae1-96ac-a7200d902da4",
+    "CanonicalName": "Pelwatte Butter Unsalted",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 200.00,
+    "Unit": "g",
+    "Category": "Dairy",
+    "CreatedAt": "2026-11-22T03:17:07.4378738Z"
+  },
+  {
+    "Id": "4b9ccc26-b8c1-49c5-b0fd-4e6c42ef6ce6",
+    "CanonicalName": "Ambewela Butter Salted",
+    "Brand": "Ambewela",
+    "Barcode": null,
+    "Quantity": 200.00,
+    "Unit": "g",
+    "Category": "Dairy",
+    "CreatedAt": "2026-11-22T03:17:07.4419635Z"
+  },
+  {
+    "Id": "66132b63-ccb2-4d94-8bfa-d1b8458a0533",
+    "CanonicalName": "Gold Star Garlic Butter",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 150.00,
+    "Unit": "g",
+    "Category": "Dairy",
+    "CreatedAt": "2026-11-22T03:17:07.4457897Z"
+  },
+  {
+    "Id": "f8c0ab6d-52cb-4c0f-8ba6-4d45aae03550",
+    "CanonicalName": "Pelwatte Garlic Butter",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 200.00,
+    "Unit": "g",
+    "Category": "Dairy",
+    "CreatedAt": "2026-11-22T03:17:07.4482398Z"
+  },
+  {
+    "Id": "dc5038ac-d721-4414-93d3-17583e6c68f7",
+    "CanonicalName": "Highway Peanut Butter Crunchy",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 510.00,
+    "Unit": "g",
+    "Category": "Food Cupboard",
+    "CreatedAt": "2026-11-22T03:17:07.4507417Z"
+  },
+  {
+    "Id": "5ed59ad6-7bcf-4ec8-bd22-51e706454c67",
+    "CanonicalName": "Highland Salted Butter",
+    "Brand": "Highland",
+    "Barcode": null,
+    "Quantity": 200.00,
+    "Unit": "g",
+    "Category": "Dairy",
+    "CreatedAt": "2026-11-22T03:17:07.4533845Z"
+  },
+  {
+    "Id": "26ec6460-4fb1-4442-988b-b2e386d3eb8e",
+    "CanonicalName": "Anchor Butter Salted",
+    "Brand": "Anchor",
+    "Barcode": null,
+    "Quantity": 227.00,
+    "Unit": "g",
+    "Category": "Dairy",
+    "CreatedAt": "2026-11-22T03:17:07.4557604Z"
+  },
+  {
+    "Id": "b7f87a1a-7d59-43a1-9ace-9d8ab1502512",
+    "CanonicalName": "Kotmale Butter Salted",
+    "Brand": "Kotmale",
+    "Barcode": null,
+    "Quantity": 125.00,
+    "Unit": "g",
+    "Category": "Dairy",
+    "CreatedAt": "2026-11-22T03:17:07.4583682Z"
+  },
+  {
+    "Id": "92fa6eca-98c4-4f0a-9f40-28c006caabed",
+    "CanonicalName": "Lurpak Butter Salted",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 100.00,
+    "Unit": "g",
+    "Category": "Dairy",
+    "CreatedAt": "2026-11-22T03:17:07.4610549Z"
+  },
+  {
+    "Id": "31cc6d65-de8f-4902-89dd-07021f445a0d",
+    "CanonicalName": "Lurpak Butter Unsalted",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 200.00,
+    "Unit": "g",
+    "Category": "Dairy",
+    "CreatedAt": "2026-11-22T03:17:07.4636101Z"
+  },
+  {
+    "Id": "dfce4312-7c8c-4ae0-8a73-c909990a5a94",
+    "CanonicalName": "Kotmale Butter Salted",
+    "Brand": "Kotmale",
+    "Barcode": null,
+    "Quantity": 200.00,
+    "Unit": "g",
+    "Category": "Dairy",
+    "CreatedAt": "2026-11-22T03:17:07.4662568Z"
+  },
+  {
+    "Id": "ed1cab8f-9c9a-4060-84a1-25d99be744c7",
+    "CanonicalName": "Vaseline Lip Therapy Cocoa Butter",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 7.00,
+    "Unit": "g",
+    "Category": "Health \u0026 Beauty",
+    "CreatedAt": "2026-11-22T03:17:07.4692722Z"
+  },
+  {
+    "Id": "5e36804f-688c-4fd5-a59f-634e9252e07b",
+    "CanonicalName": "Highway Peanut Butter Creamy",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 510.00,
+    "Unit": "g",
+    "Category": "Food Cupboard",
+    "CreatedAt": "2026-11-22T03:17:07.472408Z"
+  },
+  {
+    "Id": "6a32e3b3-0312-432e-ae2c-1f7b76dabaee",
+    "CanonicalName": "Anchor Butter Unsalted",
+    "Brand": "Anchor",
+    "Barcode": null,
+    "Quantity": 227.00,
+    "Unit": "g",
+    "Category": "Dairy",
+    "CreatedAt": "2026-11-22T03:17:07.4751981Z"
+  },
+  {
+    "Id": "e8ca4451-86b8-41a7-8bf1-7a40bcb44d93",
+    "CanonicalName": "Vaseline Lip Therapy Cocoa Butter",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 4.80,
+    "Unit": "g",
+    "Category": "Health \u0026 Beauty",
+    "CreatedAt": "2026-11-22T03:17:07.4780331Z"
+  },
+  {
+    "Id": "1e0c8cbc-c91c-4ebc-a5de-bb1d9cd4d8bd",
+    "CanonicalName": "New Beginnings Peanut Butter Smooth",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 325.00,
+    "Unit": "g",
+    "Category": "Food Cupboard",
+    "CreatedAt": "2026-11-22T03:17:07.4805218Z"
+  },
+  {
+    "Id": "35c83558-880d-4df1-a8f9-2246f1234ae2",
+    "CanonicalName": "New Beginnings Peanut Butter Crunchy",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 325.00,
+    "Unit": "g",
+    "Category": "Food Cupboard",
+    "CreatedAt": "2026-11-22T03:17:07.4831018Z"
+  },
+  {
+    "Id": "ed62f4d2-cb79-4650-9d42-3818d44e68c1",
+    "CanonicalName": "4rever Cocoa Butter Body Milk",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 200.00,
+    "Unit": "ml",
+    "Category": "Health \u0026 Beauty",
+    "CreatedAt": "2026-11-22T03:17:07.4858469Z"
+  },
+  {
+    "Id": "dcc034af-933c-43b5-9cc6-6a8b713d4ebc",
+    "CanonicalName": "Velvet Body Wash, Vanilla \u0026 Shea Butter",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 250.00,
+    "Unit": "ml",
+    "Category": "Health \u0026 Beauty",
+    "CreatedAt": "2026-11-22T03:17:07.4886437Z"
+  },
+  {
+    "Id": "0f8bf82f-7006-4c17-aa85-195811bf398e",
+    "CanonicalName": "Kotmale Butterscotch Ice Cream",
+    "Brand": "Kotmale",
+    "Barcode": null,
+    "Quantity": 1.00,
+    "Unit": "l",
+    "Category": "Dairy",
+    "CreatedAt": "2026-11-22T03:17:07.4915823Z"
+  },
+  {
+    "Id": "b7251bba-6595-4212-82bd-45a9a0826010",
+    "CanonicalName": "Ritzbury Deckers Butterscotch Flavoured",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 41.00,
+    "Unit": "g",
+    "Category": "Snacks \u0026 Confectionery",
+    "CreatedAt": "2026-11-22T03:17:07.4946537Z"
+  },
+  {
+    "Id": "38cae42c-1f27-44eb-8fe2-1c1d8b3b8d4c",
+    "CanonicalName": "Magic Butterscotch With Nougat Ice Cream",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 2.00,
+    "Unit": "l",
+    "Category": "Dairy",
+    "CreatedAt": "2026-11-22T03:17:07.4972371Z"
+  },
+  {
+    "Id": "c203a18e-e457-4ae9-ba92-6b09711a227e",
+    "CanonicalName": "Magic Butterscotch With Nougat Ice Cream",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 1.00,
+    "Unit": "l",
+    "Category": "Dairy",
+    "CreatedAt": "2026-11-22T03:17:07.5026483Z"
+  },
+  {
+    "Id": "4580d2e9-99df-4b18-8348-de31c67dc503",
+    "CanonicalName": "Sun Crush Original Bitter Lemon",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 250.00,
+    "Unit": "ml",
+    "Category": "Beverages",
+    "CreatedAt": "2026-11-22T03:17:07.5053341Z"
+  },
+  {
+    "Id": "1fc31d0d-34cf-4583-b1be-1babea211b3e",
+    "CanonicalName": "Bitter Gourd",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 250.00,
+    "Unit": "g",
+    "Category": "Vegetables",
+    "CreatedAt": "2026-11-22T03:17:07.5086047Z"
+  },
+  {
+    "Id": "5aa4f184-599b-47c7-a920-32abe64bf913",
+    "CanonicalName": "Rancrisp Crispy Batter Mix",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 250.00,
+    "Unit": "g",
+    "Category": "Cooking Essentials",
+    "CreatedAt": "2026-11-22T03:17:07.5112344Z"
+  },
+  {
+    "Id": "8baaf55b-7b89-43a6-941e-fb257d5e74ea",
+    "CanonicalName": "Milma Idli/Dosa Batter",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 900.00,
+    "Unit": "g",
+    "Category": "Cooking Essentials",
+    "CreatedAt": "2026-11-22T03:17:07.5140254Z"
+  },
+  {
+    "Id": "d171104c-2352-4eb5-93ac-eb5ef98c1bb9",
+    "CanonicalName": "Kandos 21 Collection Extra Bitter Dark Chocolate",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 100.00,
+    "Unit": "g",
+    "Category": "Snacks \u0026 Confectionery",
+    "CreatedAt": "2026-11-22T03:17:07.5167157Z"
+  },
+  {
+    "Id": "805f9319-47ec-4fac-8c5d-e26224af1707",
+    "CanonicalName": "MD Spanish Seville Bitter Orange Marmalade Jam",
+    "Brand": "MD",
+    "Barcode": null,
+    "Quantity": 500.00,
+    "Unit": "g",
+    "Category": "Food Cupboard",
+    "CreatedAt": "2026-11-22T03:17:07.519507Z"
+  },
+  {
+    "Id": "8653ac21-7a47-4c3b-90ce-eab9138e2e68",
+    "CanonicalName": "Little Lion Batter Carols",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 450.00,
+    "Unit": "g",
+    "Category": "Snacks \u0026 Confectionery",
+    "CreatedAt": "2026-11-22T03:17:07.5223696Z"
+  },
+  {
+    "Id": "bc9287f5-cd35-43ef-9378-dac08370b4a7",
+    "CanonicalName": "Little Lion Batter Carols",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 250.00,
+    "Unit": "g",
+    "Category": "Snacks \u0026 Confectionery",
+    "CreatedAt": "2026-11-22T03:17:07.5252368Z"
+  },
+  {
+    "Id": "4aa431ee-6d65-4d64-b726-f4d3d9db6369",
+    "CanonicalName": "Catch Bajji Bonda Batter Mix",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 100.00,
+    "Unit": "g",
+    "Category": "Cooking Essentials",
+    "CreatedAt": "2026-11-22T03:17:07.5280139Z"
+  },
+  {
+    "Id": "c82d427d-bce7-4f40-b729-ef633d4f72df",
+    "CanonicalName": "Highland Plain Yoghurt",
+    "Brand": "Highland",
+    "Barcode": null,
+    "Quantity": 80.00,
+    "Unit": "g",
+    "Category": "Dairy",
+    "CreatedAt": "2026-11-22T03:17:07.5308126Z"
+  },
+  {
+    "Id": "66c1e11f-2f48-45ed-8222-c27a5e5dda69",
+    "CanonicalName": "Kotmale Drinking Yoghurt Woodapple",
+    "Brand": "Kotmale",
+    "Barcode": null,
+    "Quantity": 180.00,
+    "Unit": "ml",
+    "Category": "Dairy",
+    "CreatedAt": "2026-11-22T03:17:07.533746Z"
+  },
+  {
+    "Id": "54d11e94-02a3-4935-b4c2-9b7d5ef0510b",
+    "CanonicalName": "Anchor Lowfat Strawberry Yoghurt",
+    "Brand": "Anchor",
+    "Barcode": null,
+    "Quantity": 100.00,
+    "Unit": "g",
+    "Category": "Dairy",
+    "CreatedAt": "2026-11-22T03:17:07.5365449Z"
+  },
+  {
+    "Id": "7787531b-652d-4f73-8203-4ecd459fb172",
+    "CanonicalName": "Kotmale Jelly Mixed Yoghurt",
+    "Brand": "Kotmale",
+    "Barcode": null,
+    "Quantity": 80.00,
+    "Unit": "g",
+    "Category": "Dairy",
+    "CreatedAt": "2026-11-22T03:17:07.539426Z"
+  },
+  {
+    "Id": "5809cad9-4133-447a-9d73-9f6363fa4a38",
+    "CanonicalName": "Kotmale Drinking Yoghurt Strawberry",
+    "Brand": "Kotmale",
+    "Barcode": null,
+    "Quantity": 180.00,
+    "Unit": "ml",
+    "Category": "Dairy",
+    "CreatedAt": "2026-11-22T03:17:07.5422778Z"
+  },
+  {
+    "Id": "a8b50109-205b-4991-856b-22894f711820",
+    "CanonicalName": "Anchor Lowfat Mixedberry Yoghurt",
+    "Brand": "Anchor",
+    "Barcode": null,
+    "Quantity": 100.00,
+    "Unit": "g",
+    "Category": "Dairy",
+    "CreatedAt": "2026-11-22T03:17:07.5452009Z"
+  },
+  {
+    "Id": "94440f06-471f-4ff5-a5eb-e8799fc8278b",
+    "CanonicalName": "Anchor Low Fat Yoghurt",
+    "Brand": "Anchor",
+    "Barcode": null,
+    "Quantity": 100.00,
+    "Unit": "g",
+    "Category": "Dairy",
+    "CreatedAt": "2026-11-22T03:17:07.5481275Z"
+  },
+  {
+    "Id": "3d2798d2-0bb6-484f-9390-20af1d3cae64",
+    "CanonicalName": "Ambewela Set Yoghurt",
+    "Brand": "Ambewela",
+    "Barcode": null,
+    "Quantity": 80.00,
+    "Unit": "ml",
+    "Category": "Dairy",
+    "CreatedAt": "2026-11-22T03:17:07.5514788Z"
+  },
+  {
+    "Id": "42d91480-90f4-4819-b4b0-d3d736fff139",
+    "CanonicalName": "Kotmale Set Yoghurt",
+    "Brand": "Kotmale",
+    "Barcode": null,
+    "Quantity": 450.00,
+    "Unit": "g",
+    "Category": "Dairy",
+    "CreatedAt": "2026-11-22T03:17:07.5553148Z"
+  },
+  {
+    "Id": "cf686965-b214-4337-b455-a292c6a546ca",
+    "CanonicalName": "Naturals Greek Yoghurt Mango",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 150.00,
+    "Unit": "g",
+    "Category": "Dairy",
+    "CreatedAt": "2026-11-22T03:17:07.5594047Z"
+  },
+  {
+    "Id": "819fc953-d3ff-4e83-b365-d56b5ef62ed2",
+    "CanonicalName": "Newdale Set Plain Yoghurt",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 80.00,
+    "Unit": "g",
+    "Category": "Dairy",
+    "CreatedAt": "2026-11-22T03:17:07.563661Z"
+  },
+  {
+    "Id": "c91e71c5-7943-463f-92ee-354e4034e73e",
+    "CanonicalName": "Frutty Fro Greek Yoghurt",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 350.00,
+    "Unit": "ml",
+    "Category": "Dairy",
+    "CreatedAt": "2026-11-22T03:17:07.5678443Z"
+  },
+  {
+    "Id": "b29bebe6-6027-4988-8946-9e54d59278c1",
+    "CanonicalName": "Naturals Greek Yoghurt Strawbe",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 150.00,
+    "Unit": "g",
+    "Category": "Dairy",
+    "CreatedAt": "2026-11-22T03:17:07.5721341Z"
+  },
+  {
+    "Id": "54f487d6-ad8c-4256-bccb-0f01eb87398c",
+    "CanonicalName": "Kotmale Drinking Yoghurt Vanilla",
+    "Brand": "Kotmale",
+    "Barcode": null,
+    "Quantity": 180.00,
+    "Unit": "ml",
+    "Category": "Dairy",
+    "CreatedAt": "2026-11-22T03:17:07.5763781Z"
+  },
+  {
+    "Id": "be78ae23-4d0b-437b-9abf-6741b5ba2d37",
+    "CanonicalName": "Kotmale Vanilla Stirred Yoghurt",
+    "Brand": "Kotmale",
+    "Barcode": null,
+    "Quantity": 80.00,
+    "Unit": "g",
+    "Category": "Dairy",
+    "CreatedAt": "2026-11-22T03:17:07.5803763Z"
+  },
+  {
+    "Id": "b08b3a47-591e-453c-a547-4a0b53c327c3",
+    "CanonicalName": "Naturals Greek Yoghurt Peach",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 150.00,
+    "Unit": "g",
+    "Category": "Dairy",
+    "CreatedAt": "2026-11-22T03:17:07.5835311Z"
+  },
+  {
+    "Id": "c89e191c-f45c-494a-92f2-1bd63665e9c5",
+    "CanonicalName": "Ratthi Set Yoghurt",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 80.00,
+    "Unit": "g",
+    "Category": "Dairy",
+    "CreatedAt": "2026-11-22T03:17:07.5870165Z"
+  },
+  {
+    "Id": "447f7593-262f-4570-bc42-92ae459e5a8c",
+    "CanonicalName": "Kotmale Set Yoghurt",
+    "Brand": "Kotmale",
+    "Barcode": null,
+    "Quantity": 80.00,
+    "Unit": "g",
+    "Category": "Dairy",
+    "CreatedAt": "2026-11-22T03:17:07.5900854Z"
+  },
+  {
+    "Id": "2d2337bd-e443-49cf-84f8-027fc89e8ede",
+    "CanonicalName": "Ratthi Plain Set Yoghurt",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 4.00,
+    "Unit": "pcs",
+    "Category": "Dairy",
+    "CreatedAt": "2026-11-22T03:17:07.5932167Z"
+  },
+  {
+    "Id": "be847237-98bc-4098-adae-e46a116ca7f9",
+    "CanonicalName": "Naturals Greek Yoghurt",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 150.00,
+    "Unit": "g",
+    "Category": "Dairy",
+    "CreatedAt": "2026-11-22T03:17:07.5963642Z"
+  },
+  {
+    "Id": "a040a9bc-2350-43d3-abf1-a46edfb3a199",
+    "CanonicalName": "Kotmale Mixed Berry Stirred Yoghurt",
+    "Brand": "Kotmale",
+    "Barcode": null,
+    "Quantity": 80.00,
+    "Unit": "g",
+    "Category": "Dairy",
+    "CreatedAt": "2026-11-22T03:17:07.5994536Z"
+  },
+  {
+    "Id": "7eee6184-189a-4ca5-b585-f7e81e32ba61",
+    "CanonicalName": "Kotmale Strawberry Stirred Yoghurt",
+    "Brand": "Kotmale",
+    "Barcode": null,
+    "Quantity": 80.00,
+    "Unit": "g",
+    "Category": "Dairy",
+    "CreatedAt": "2026-11-22T03:17:07.6036291Z"
+  },
+  {
+    "Id": "0ee7456c-c7ca-4420-831a-a430ab789f83",
+    "CanonicalName": "Kotmale Non Fat Yoghurt",
+    "Brand": "Kotmale",
+    "Barcode": null,
+    "Quantity": 450.00,
+    "Unit": "g",
+    "Category": "Dairy",
+    "CreatedAt": "2026-11-22T03:17:07.6067474Z"
+  },
+  {
+    "Id": "70e4ae92-6600-41a1-99f6-53768e50cc21",
+    "CanonicalName": "Naturals Greek Yoghurt Blueberry",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 150.00,
+    "Unit": "g",
+    "Category": "Dairy",
+    "CreatedAt": "2026-11-22T03:17:07.6099649Z"
+  },
+  {
+    "Id": "7722dafb-3a3f-4efe-ba19-d14d03c85f2f",
+    "CanonicalName": "Kotmale Set Yoghurt Promo Pack",
+    "Brand": "Kotmale",
+    "Barcode": null,
+    "Quantity": 6.00,
+    "Unit": "pcs",
+    "Category": "Dairy",
+    "CreatedAt": "2026-11-22T03:17:07.6131667Z"
+  },
+  {
+    "Id": "690f1435-5f3f-4cf8-afb7-cc59765dbcee",
+    "CanonicalName": "Anchor Low Fat Stirred Yoghurt",
+    "Brand": "Anchor",
+    "Barcode": null,
+    "Quantity": 980.00,
+    "Unit": "g",
+    "Category": "Dairy",
+    "CreatedAt": "2026-11-22T03:17:07.6171837Z"
+  },
+  {
+    "Id": "27837296-e398-44b8-8df0-097351323898",
+    "CanonicalName": "Ambewela Set Yoghurt Family Pack",
+    "Brand": "Ambewela",
+    "Barcode": null,
+    "Quantity": 6.00,
+    "Unit": "pcs",
+    "Category": "Dairy",
+    "CreatedAt": "2026-11-22T03:17:07.6204173Z"
+  },
+  {
+    "Id": "b2805729-0876-4d98-8dac-d78d20c7b5ed",
+    "CanonicalName": "Newdale Set Yoghurt Multi Pack 80 g",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 6.00,
+    "Unit": "pcs",
+    "Category": "Dairy",
+    "CreatedAt": "2026-11-22T03:17:07.6242478Z"
+  },
+  {
+    "Id": "b0eb9882-ea38-4acd-995a-b7afec5e4620",
+    "CanonicalName": "Kotmale Set Yoghurt Multi Pack 80 g",
+    "Brand": "Kotmale",
+    "Barcode": null,
+    "Quantity": 6.00,
+    "Unit": "pcs",
+    "Category": "Dairy",
+    "CreatedAt": "2026-11-22T03:17:07.6274565Z"
+  },
+  {
+    "Id": "2b676504-b600-4502-a8f1-8b0ee04ba6b2",
+    "CanonicalName": "Frutty Fro Mixed Berry Flavoured Greek Yoghurt",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 90.00,
+    "Unit": "g",
+    "Category": "Dairy",
+    "CreatedAt": "2026-11-22T03:17:07.6306862Z"
+  },
+  {
+    "Id": "a3669403-42a3-4113-a617-40325630da88",
+    "CanonicalName": "Frutty Fro Vanilla Flavoured Greek Yoghurt",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 90.00,
+    "Unit": "g",
+    "Category": "Dairy",
+    "CreatedAt": "2026-11-22T03:17:07.6353688Z"
+  },
+  {
+    "Id": "93adaa4f-47d6-4593-83f0-b9da913d0095",
+    "CanonicalName": "Anchor Newdale Drinking Yoghurt Low Fat Vanilla Flavoured",
+    "Brand": "Anchor",
+    "Barcode": null,
+    "Quantity": 180.00,
+    "Unit": "ml",
+    "Category": "Dairy",
+    "CreatedAt": "2026-11-22T03:17:07.6386932Z"
+  },
+  {
+    "Id": "343406eb-07cb-4eec-add5-e9d2ab19dd13",
+    "CanonicalName": "Anchor Newdale Drinking Yoghurt Low Fat Mango Flavoured",
+    "Brand": "Anchor",
+    "Barcode": null,
+    "Quantity": 180.00,
+    "Unit": "ml",
+    "Category": "Dairy",
+    "CreatedAt": "2026-11-22T03:17:07.641973Z"
+  },
+  {
+    "Id": "80dd138a-b99c-4013-808c-a5a36b9ab58c",
+    "CanonicalName": "Anchor Newdale Drinking Yoghurt Low Fat Strawberry Flavoured",
+    "Brand": "Anchor",
+    "Barcode": null,
+    "Quantity": 180.00,
+    "Unit": "ml",
+    "Category": "Dairy",
+    "CreatedAt": "2026-11-22T03:17:07.6453544Z"
+  },
+  {
+    "Id": "eb203172-d2d4-45e6-9415-f78ff64cd563",
+    "CanonicalName": "Crysbro Chicken-Home Pack",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 400.00,
+    "Unit": "g",
+    "Category": "Meats",
+    "CreatedAt": "2026-11-22T03:17:07.6495084Z"
+  },
+  {
+    "Id": "6f8e92d6-a692-4317-a377-5184c33c2e1a",
+    "CanonicalName": "Keells Chicken Bockwurst",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 400.00,
+    "Unit": "g",
+    "Category": "Meats",
+    "CreatedAt": "2026-11-22T03:17:07.65326Z"
+  },
+  {
+    "Id": "264a3592-ce6b-41ca-b9a2-ec5665181c71",
+    "CanonicalName": "Finest Chicken Garlic Sausages",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 1.00,
+    "Unit": "kg",
+    "Category": "Meats",
+    "CreatedAt": "2026-11-22T03:17:07.6568806Z"
+  },
+  {
+    "Id": "a2882813-5a8e-42d4-b86c-639d7b358512",
+    "CanonicalName": "Bairaha Chicken Sausages",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 300.00,
+    "Unit": "g",
+    "Category": "Meats",
+    "CreatedAt": "2026-11-22T03:17:07.6602567Z"
+  },
+  {
+    "Id": "06eaa9a4-00c3-46fd-859e-4bf51adb8e81",
+    "CanonicalName": "Krest Chicken Drumsticks",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 300.00,
+    "Unit": "g",
+    "Category": "Frozen Food",
+    "CreatedAt": "2026-11-22T03:17:07.6638553Z"
+  },
+  {
+    "Id": "fd21f556-dc16-49c3-9838-4d4555594820",
+    "CanonicalName": "Sam\u0060s Chicken Nuggets",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 240.00,
+    "Unit": "g",
+    "Category": "Frozen Food",
+    "CreatedAt": "2026-11-22T03:17:07.6673277Z"
+  },
+  {
+    "Id": "859841b1-3fff-44bd-a2e2-864ebba9ad9a",
+    "CanonicalName": "Koluu Chicken Red Curry",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 80.00,
+    "Unit": "g",
+    "Category": "Food Cupboard",
+    "CreatedAt": "2026-11-22T03:17:07.6707609Z"
+  },
+  {
+    "Id": "747d3a35-cde4-4d1b-ac63-c543c87738d5",
+    "CanonicalName": "Bairaha Marinated Chicken Winglet",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 300.00,
+    "Unit": "g",
+    "Category": "Meats",
+    "CreatedAt": "2026-11-22T03:17:07.6743039Z"
+  },
+  {
+    "Id": "e6ac4f15-7e7f-4e68-8a6c-8808cced4b34",
+    "CanonicalName": "Bairaha Marinated Chicken Thigh",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 300.00,
+    "Unit": "g",
+    "Category": "Meats",
+    "CreatedAt": "2026-11-22T03:17:07.6777464Z"
+  },
+  {
+    "Id": "f245239f-c766-4a6b-a581-5424934b3394",
+    "CanonicalName": "Pussalla Chicken Cocktail Sausages",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 500.00,
+    "Unit": "g",
+    "Category": "Meats",
+    "CreatedAt": "2026-11-22T03:17:07.6812708Z"
+  },
+  {
+    "Id": "1e37a994-deda-4b3c-bfde-7d768399d3b7",
+    "CanonicalName": "Prima Treats Chicken Meatballs",
+    "Brand": "Prima",
+    "Barcode": null,
+    "Quantity": 100.00,
+    "Unit": "g",
+    "Category": "Meats",
+    "CreatedAt": "2026-11-22T03:17:07.6848486Z"
+  },
+  {
+    "Id": "817bec70-1608-4358-beaa-9ba9cf3b3ed5",
+    "CanonicalName": "CIC Skinless Chicken Thighs",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 575.00,
+    "Unit": "g",
+    "Category": "Meats",
+    "CreatedAt": "2026-11-22T03:17:07.6883466Z"
+  },
+  {
+    "Id": "9bf7c65d-5b52-4660-82de-b0cef480390c",
+    "CanonicalName": "Sam\u0060s Chicken Fingers",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 500.00,
+    "Unit": "g",
+    "Category": "Frozen Food",
+    "CreatedAt": "2026-11-22T03:17:07.6919265Z"
+  },
+  {
+    "Id": "93329f20-4d60-4059-8afc-d0147fcd4e85",
+    "CanonicalName": "Finest Chicken Garlic Sausages",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 500.00,
+    "Unit": "g",
+    "Category": "Meats",
+    "CreatedAt": "2026-11-22T03:17:07.6961746Z"
+  },
+  {
+    "Id": "3d75f67d-e229-43b1-92fb-b78b2613b7dd",
+    "CanonicalName": "Sera Chicken Flavoured Noodles",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 325.00,
+    "Unit": "g",
+    "Category": "Food Cupboard",
+    "CreatedAt": "2026-11-22T03:17:07.6998018Z"
+  },
+  {
+    "Id": "ad54cd07-9ff2-4c6a-b1cb-713510363cfb",
+    "CanonicalName": "Sara\u0027s Chicken Nuggets, 25pcs",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 500.00,
+    "Unit": "g",
+    "Category": "Frozen Food",
+    "CreatedAt": "2026-11-22T03:17:07.7034647Z"
+  },
+  {
+    "Id": "0d6d144f-6957-4f69-aea4-cbf3e6729365",
+    "CanonicalName": "Tess Boneless Chicken",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 200.00,
+    "Unit": "g",
+    "Category": "Food Cupboard",
+    "CreatedAt": "2026-11-22T03:17:07.7070955Z"
+  },
+  {
+    "Id": "15ae1a2b-4077-4d15-9913-7cf4c7a28493",
+    "CanonicalName": "Sam\u0060s Chicken Chinese Rolls",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 500.00,
+    "Unit": "g",
+    "Category": "Frozen Food",
+    "CreatedAt": "2026-11-22T03:17:07.7109072Z"
+  },
+  {
+    "Id": "7d016691-488a-4a27-9966-ae964922e865",
+    "CanonicalName": "Sam\u0060s Chicken Chinese Rolls",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 300.00,
+    "Unit": "g",
+    "Category": "Frozen Food",
+    "CreatedAt": "2026-11-22T03:17:07.7147731Z"
+  },
+  {
+    "Id": "558681fc-1754-4c26-82c8-ebdb45013424",
+    "CanonicalName": "Knorr Chicken Curry Mix",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 15.00,
+    "Unit": "g",
+    "Category": "Food Cupboard",
+    "CreatedAt": "2026-11-22T03:17:07.7184338Z"
+  },
+  {
+    "Id": "a670f122-5409-4bb4-ba5e-ace28044a705",
+    "CanonicalName": "Sam\u0060s Chicken Drumsticks",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 250.00,
+    "Unit": "g",
+    "Category": "Frozen Food",
+    "CreatedAt": "2026-11-22T03:17:07.7223024Z"
+  },
+  {
+    "Id": "9897f13f-8a22-499a-a94b-f410971f2027",
+    "CanonicalName": "Finest Chicken Bockwurst",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 1.00,
+    "Unit": "kg",
+    "Category": "Meats",
+    "CreatedAt": "2026-11-22T03:17:07.7263305Z"
+  },
+  {
+    "Id": "75796e5c-decc-4cf4-be5d-9861a24f27b4",
+    "CanonicalName": "Finest Chicken Sausages",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 500.00,
+    "Unit": "g",
+    "Category": "Meats",
+    "CreatedAt": "2026-11-22T03:17:07.7319806Z"
+  },
+  {
+    "Id": "b6c56174-6944-40d3-a60d-8517b101a294",
+    "CanonicalName": "Koluu Chicken Black Curry",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 80.00,
+    "Unit": "g",
+    "Category": "Food Cupboard",
+    "CreatedAt": "2026-11-22T03:17:07.7373726Z"
+  },
+  {
+    "Id": "6745f5e3-075e-440f-bfe9-738d019931f4",
+    "CanonicalName": "Prima Chicken Bacon",
+    "Brand": "Prima",
+    "Barcode": null,
+    "Quantity": 150.00,
+    "Unit": "g",
+    "Category": "Meats",
+    "CreatedAt": "2026-11-22T03:17:07.741434Z"
+  },
+  {
+    "Id": "a9d10df3-cbf7-4543-a030-02d2b0067f9d",
+    "CanonicalName": "Prima Chicken Meat Balls",
+    "Brand": "Prima",
+    "Barcode": null,
+    "Quantity": 500.00,
+    "Unit": "g",
+    "Category": "Meats",
+    "CreatedAt": "2026-11-22T03:17:07.7456197Z"
+  },
+  {
+    "Id": "53806c1d-80f0-4dd1-be66-c1f11f343628",
+    "CanonicalName": "Goldi Supreme Chicken Sausages",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 250.00,
+    "Unit": "g",
+    "Category": "Meats",
+    "CreatedAt": "2026-11-22T03:17:07.7497582Z"
+  },
+  {
+    "Id": "ca70f20e-49aa-42ab-9e40-442ed173cfc2",
+    "CanonicalName": "Elephant House Chicken Sausages",
+    "Brand": "Elephant House",
+    "Barcode": null,
+    "Quantity": 300.00,
+    "Unit": "g",
+    "Category": "Meats",
+    "CreatedAt": "2026-11-22T03:17:07.7539779Z"
+  },
+  {
+    "Id": "d37cd77b-6d6b-48ce-9d8b-167cd380860b",
+    "CanonicalName": "Koluu Chicken Korma",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 80.00,
+    "Unit": "g",
+    "Category": "Food Cupboard",
+    "CreatedAt": "2026-11-22T03:17:07.7589961Z"
+  },
+  {
+    "Id": "bda2f06f-5f85-4e91-82fa-c6b66d8f4d8b",
+    "CanonicalName": "Pussalla Chicken Garlic Sausages",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 250.00,
+    "Unit": "g",
+    "Category": "Meats",
+    "CreatedAt": "2026-11-22T03:17:07.7635191Z"
+  },
+  {
+    "Id": "99077d61-a4bc-4e84-8b7c-ebd9fd60fd34",
+    "CanonicalName": "Raigam Chicken Soya Meat",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 90.00,
+    "Unit": "g",
+    "Category": "Food Cupboard",
+    "CreatedAt": "2026-11-22T03:17:07.7676965Z"
+  },
+  {
+    "Id": "e7c60ca9-4a07-4d94-9172-ecc0f53d4e78",
+    "CanonicalName": "Crysbro Chicken Home Pack",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 700.00,
+    "Unit": "g",
+    "Category": "Meats",
+    "CreatedAt": "2026-11-22T03:17:07.7719843Z"
+  },
+  {
+    "Id": "b55bbba9-e817-4bfb-bf84-3c6bc295337d",
+    "CanonicalName": "Prima Chicken Sausages",
+    "Brand": "Prima",
+    "Barcode": null,
+    "Quantity": 500.00,
+    "Unit": "g",
+    "Category": "Meats",
+    "CreatedAt": "2026-11-22T03:17:07.7767408Z"
+  },
+  {
+    "Id": "e85212cd-f4ee-4fb0-9144-8e541279921b",
+    "CanonicalName": "Goldi Chicken Meatballs",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 500.00,
+    "Unit": "g",
+    "Category": "Meats",
+    "CreatedAt": "2026-11-22T03:17:07.7810157Z"
+  },
+  {
+    "Id": "b37c3c33-6a9f-4eb2-8366-6ece45a804a1",
+    "CanonicalName": "Maggi Chicken Flavour Noodles",
+    "Brand": "Maggi",
+    "Barcode": null,
+    "Quantity": 146.00,
+    "Unit": "g",
+    "Category": "Food Cupboard",
+    "CreatedAt": "2026-11-22T03:17:07.7854084Z"
+  },
+  {
+    "Id": "3275e1c4-ff67-4711-8b05-03518b0361bc",
+    "CanonicalName": "Stella Chicken Flavour Noodles",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 74.00,
+    "Unit": "g",
+    "Category": "Food Cupboard",
+    "CreatedAt": "2026-11-22T03:17:07.7900093Z"
+  },
+  {
+    "Id": "cc943120-439a-48c0-8e3e-5a55eb1a9f0e",
+    "CanonicalName": "CIC Skinless Chicken Leg",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 1.30,
+    "Unit": "kg",
+    "Category": "Meats",
+    "CreatedAt": "2026-11-22T03:17:07.7943645Z"
+  },
+  {
+    "Id": "0e5d5e6a-cc6c-40fb-8548-e556a34ef039",
+    "CanonicalName": "CIC Chicken Winglet",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 550.00,
+    "Unit": "g",
+    "Category": "Meats",
+    "CreatedAt": "2026-11-22T03:17:07.7987192Z"
+  },
+  {
+    "Id": "1c8e1cb2-cc73-40c3-acf4-f7510a1b82af",
+    "CanonicalName": "Saras Chicken Meatballs",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 500.00,
+    "Unit": "g",
+    "Category": "Meats",
+    "CreatedAt": "2026-11-22T03:17:07.8031478Z"
+  },
+  {
+    "Id": "01461853-ffab-4d98-aea8-c29353d59ba6",
+    "CanonicalName": "Crescent Chicken Pepperoni Slices",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 250.00,
+    "Unit": "g",
+    "Category": "Frozen Food",
+    "CreatedAt": "2026-11-22T03:17:07.8083704Z"
+  },
+  {
+    "Id": "818eda8e-cb42-4e16-835f-8fed2686fe0a",
+    "CanonicalName": "Bairaha Chicken Meatball",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 200.00,
+    "Unit": "g",
+    "Category": "Meats",
+    "CreatedAt": "2026-11-22T03:17:07.8129628Z"
+  },
+  {
+    "Id": "7a45717e-3cf6-4012-a2d6-0a46037f2a94",
+    "CanonicalName": "Prima Whole Chicken",
+    "Brand": "Prima",
+    "Barcode": null,
+    "Quantity": 1.00,
+    "Unit": "pcs",
+    "Category": "Meats",
+    "CreatedAt": "2026-11-22T03:17:07.8181245Z"
+  },
+  {
+    "Id": "ae65ad5f-6046-4b5f-84de-d2a325e81528",
+    "CanonicalName": "Crysbro Whole Chicken",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 1.00,
+    "Unit": "kg",
+    "Category": "Meats",
+    "CreatedAt": "2026-11-22T03:17:07.8235831Z"
+  },
+  {
+    "Id": "1633d016-adf1-4b57-a374-c856ccb3d2f0",
+    "CanonicalName": "Crescent Chicken Fingers",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 200.00,
+    "Unit": "g",
+    "Category": "Frozen Food",
+    "CreatedAt": "2026-11-22T03:17:07.8281179Z"
+  },
+  {
+    "Id": "83522426-28ef-40b2-a459-65c5e789be68",
+    "CanonicalName": "Keells Chicken Sausages",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 500.00,
+    "Unit": "g",
+    "Category": "Meats",
+    "CreatedAt": "2026-11-22T03:17:07.8325909Z"
+  },
+  {
+    "Id": "e946100f-d88f-4440-805a-a55ae5107598",
+    "CanonicalName": "Pedigree Puppy Chicken Chunks",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 70.00,
+    "Unit": "g",
+    "Category": "Pet Products",
+    "CreatedAt": "2026-11-22T03:17:07.8374713Z"
+  },
+  {
+    "Id": "f315a147-06d5-400f-b8a3-d223d8206b5c",
+    "CanonicalName": "Goldi Jumbo Chicken Sausages",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 330.00,
+    "Unit": "g",
+    "Category": "Meats",
+    "CreatedAt": "2026-11-22T03:17:07.8420027Z"
+  },
+  {
+    "Id": "c779dcc1-1782-4620-bd1d-64541d4b7009",
+    "CanonicalName": "Goldi Chicken Lingus",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 500.00,
+    "Unit": "g",
+    "Category": "Meats",
+    "CreatedAt": "2026-11-22T03:17:07.8465581Z"
+  },
+  {
+    "Id": "0eba73ad-84ec-453b-af11-71e7bcd63f91",
+    "CanonicalName": "Crescent Chicken Lasagna",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 300.00,
+    "Unit": "g",
+    "Category": "Frozen Food",
+    "CreatedAt": "2026-11-22T03:17:07.8511577Z"
+  },
+  {
+    "Id": "e8231f66-e98f-472c-a4e0-3d055a2a1b2d",
+    "CanonicalName": "Maggi Chicken Stock Powder",
+    "Brand": "Maggi",
+    "Barcode": null,
+    "Quantity": 500.00,
+    "Unit": "g",
+    "Category": "Cooking Essentials",
+    "CreatedAt": "2026-11-22T03:17:07.8558697Z"
+  },
+  {
+    "Id": "0003e3f6-f60c-40ce-9823-f0da34525cc9",
+    "CanonicalName": "Goldi Supreme Chicken Sausages",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 500.00,
+    "Unit": "g",
+    "Category": "Meats",
+    "CreatedAt": "2026-11-22T03:17:07.8604368Z"
+  },
+  {
+    "Id": "2ec89adc-a9d5-4812-9285-72ad1450c7ee",
+    "CanonicalName": "Maggi Chicken Flavour Noodles",
+    "Brand": "Maggi",
+    "Barcode": null,
+    "Quantity": 73.00,
+    "Unit": "g",
+    "Category": "Food Cupboard",
+    "CreatedAt": "2026-11-22T03:17:07.8651239Z"
+  },
+  {
+    "Id": "b614a767-6274-41ce-b79b-f6c3e4721220",
+    "CanonicalName": "Bairaha Whole Chicken",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 1.00,
+    "Unit": "kg",
+    "Category": "Meats",
+    "CreatedAt": "2026-11-22T03:17:07.8698517Z"
+  },
+  {
+    "Id": "a52ec8e2-89f0-47a9-870b-511c672efac6",
+    "CanonicalName": "Goldi Supreme Chicken Sausages",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 1.00,
+    "Unit": "kg",
+    "Category": "Meats",
+    "CreatedAt": "2026-11-22T03:17:07.8745433Z"
+  },
+  {
+    "Id": "dfd1d920-35ec-47ce-ac98-ac570e8659dc",
+    "CanonicalName": "Crescent Chicken Nuggets",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 200.00,
+    "Unit": "g",
+    "Category": "Frozen Food",
+    "CreatedAt": "2026-11-22T03:17:07.8793563Z"
+  },
+  {
+    "Id": "64363daa-c75f-4a77-a596-74f5a013aa9d",
+    "CanonicalName": "CIC Chicken Wings",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 550.00,
+    "Unit": "g",
+    "Category": "Meats",
+    "CreatedAt": "2026-11-22T03:17:07.8846314Z"
+  },
+  {
+    "Id": "f0fc9acd-3646-48f0-b243-1e4d861dbe1c",
+    "CanonicalName": "CIC Chicken Gizzard",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 575.00,
+    "Unit": "g",
+    "Category": "Meats",
+    "CreatedAt": "2026-11-22T03:17:07.8899032Z"
+  },
+  {
+    "Id": "e03efbf8-ac65-4ac9-9705-16edca7189eb",
+    "CanonicalName": "Sam\u0060s Chicken Drumsticks",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 500.00,
+    "Unit": "g",
+    "Category": "Frozen Food",
+    "CreatedAt": "2026-11-22T03:17:07.8948084Z"
+  },
+  {
+    "Id": "67dc5f4d-bdc8-4467-bf83-1b66c45bbd4e",
+    "CanonicalName": "Crescent Chicken Rolls",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 500.00,
+    "Unit": "g",
+    "Category": "Frozen Food",
+    "CreatedAt": "2026-11-22T03:17:07.9002799Z"
+  },
+  {
+    "Id": "36282229-3579-4c13-a34c-4c5f563d5bd8",
+    "CanonicalName": "Sara\u0027s Jumbo Chicken Sausages",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 1.00,
+    "Unit": "kg",
+    "Category": "Meats",
+    "CreatedAt": "2026-11-22T03:17:07.9058029Z"
+  },
+  {
+    "Id": "89a25328-792c-453b-8889-e7efb0d7d2f3",
+    "CanonicalName": "Sara\u0027s Chicken Sausages",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 400.00,
+    "Unit": "g",
+    "Category": "Meats",
+    "CreatedAt": "2026-11-22T03:17:07.9107362Z"
+  },
+  {
+    "Id": "1729719a-25d6-4876-9c94-114dc90ec61e",
+    "CanonicalName": "Prima Treats Chicken Ham",
+    "Brand": "Prima",
+    "Barcode": null,
+    "Quantity": 150.00,
+    "Unit": "g",
+    "Category": "Meats",
+    "CreatedAt": "2026-11-22T03:17:07.9161131Z"
+  },
+  {
+    "Id": "ad316718-dd18-4ea7-a90f-6e834cc12672",
+    "CanonicalName": "Sam\u0060s Chicken Kochchi Bites",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 450.00,
+    "Unit": "g",
+    "Category": "Frozen Food",
+    "CreatedAt": "2026-11-22T03:17:07.9210869Z"
+  },
+  {
+    "Id": "aabc7dd5-9ca3-46d3-b8b7-79a3d9748f63",
+    "CanonicalName": "Goldi Chicken Meatballs",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 200.00,
+    "Unit": "g",
+    "Category": "Meats",
+    "CreatedAt": "2026-11-22T03:17:07.9260235Z"
+  },
+  {
+    "Id": "c4de89de-af04-4200-b94e-3e6761bf945a",
+    "CanonicalName": "Sam\u0060s Chicken Sausage",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 500.00,
+    "Unit": "g",
+    "Category": "Meats",
+    "CreatedAt": "2026-11-22T03:17:07.931475Z"
+  },
+  {
+    "Id": "d7f5d1c1-6cc7-421b-99e1-8fda19ffdc36",
+    "CanonicalName": "Finest Chicken Hotdog",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 500.00,
+    "Unit": "g",
+    "Category": "Meats",
+    "CreatedAt": "2026-11-22T03:17:07.9368871Z"
+  },
+  {
+    "Id": "1bb2ca0e-3216-4194-b936-c120be718bc3",
+    "CanonicalName": "CIC Skinless Chicken Drumsticks",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 575.00,
+    "Unit": "g",
+    "Category": "Meats",
+    "CreatedAt": "2026-11-22T03:17:07.9418648Z"
+  },
+  {
+    "Id": "a5bc4683-340a-46d9-8dd3-2278312f351c",
+    "CanonicalName": "Sam\u0060s Chicken Nuggets",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 500.00,
+    "Unit": "g",
+    "Category": "Frozen Food",
+    "CreatedAt": "2026-11-22T03:17:07.9684258Z"
+  },
+  {
+    "Id": "c6ed11bc-1a7d-4a0d-a129-b3d9cf4b44fa",
+    "CanonicalName": "Tess Chicken In Brine",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 400.00,
+    "Unit": "g",
+    "Category": "Food Cupboard",
+    "CreatedAt": "2026-11-22T03:17:07.9765796Z"
+  },
+  {
+    "Id": "cf6f32c7-949d-4cc0-93db-05c0e8d2c716",
+    "CanonicalName": "Goldi Jumbo Chicken Sausages",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 1.00,
+    "Unit": "kg",
+    "Category": "Meats",
+    "CreatedAt": "2026-11-22T03:17:07.9850922Z"
+  },
+  {
+    "Id": "d287e888-adfe-48dd-8b70-5420853511f3",
+    "CanonicalName": "Crescent Chicken Kochchi Bites",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 210.00,
+    "Unit": "g",
+    "Category": "Frozen Food",
+    "CreatedAt": "2026-11-22T03:17:07.9932581Z"
+  },
+  {
+    "Id": "4fcb6a72-f774-4338-9126-fc7108b141b9",
+    "CanonicalName": "Goldi Kochchi Chicken Sausages",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 200.00,
+    "Unit": "g",
+    "Category": "Meats",
+    "CreatedAt": "2026-11-22T03:17:08.0115097Z"
+  },
+  {
+    "Id": "89c5618f-2672-4577-8eda-95abec34d2bc",
+    "CanonicalName": "Finest Chicken Bockwurst",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 500.00,
+    "Unit": "g",
+    "Category": "Meats",
+    "CreatedAt": "2026-11-22T03:17:08.0205464Z"
+  },
+  {
+    "Id": "ea37f5d1-b782-459b-a990-3a5d7ff90ed0",
+    "CanonicalName": "Goldi Kochchi Chicken Sausages",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 600.00,
+    "Unit": "g",
+    "Category": "Meats",
+    "CreatedAt": "2026-11-22T03:17:08.0275619Z"
+  },
+  {
+    "Id": "8c0e65e5-41cf-404d-b23a-2401e319ab07",
+    "CanonicalName": "Crescent Chicken Dumplings",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 300.00,
+    "Unit": "g",
+    "Category": "Frozen Food",
+    "CreatedAt": "2026-11-22T03:17:08.0403438Z"
+  },
+  {
+    "Id": "33268da5-465d-42fa-b96c-6515b46eabec",
+    "CanonicalName": "Krest Chicken Mini Kieves",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 240.00,
+    "Unit": "g",
+    "Category": "Frozen Food",
+    "CreatedAt": "2026-11-22T03:17:08.0494864Z"
+  },
+  {
+    "Id": "cdbc2b2a-8f4b-47ea-8d57-72375b7dab6f",
+    "CanonicalName": "Safe Guard Soap,Aloe Fresh",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 100.00,
+    "Unit": "g",
+    "Category": "Health \u0026 Beauty",
+    "CreatedAt": "2026-11-22T03:17:08.0564469Z"
+  },
+  {
+    "Id": "d0131e3e-59ef-4222-b5c2-296cc90d1c96",
+    "CanonicalName": "Safe Guard Soap,Mint Breeze",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 100.00,
+    "Unit": "g",
+    "Category": "Health \u0026 Beauty",
+    "CreatedAt": "2026-11-22T03:17:08.064091Z"
+  },
+  {
+    "Id": "1855b14e-2e64-441d-b58b-0227fdb8c2ac",
+    "CanonicalName": "Panda Baby Rathmal Soap",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 75.00,
+    "Unit": "g",
+    "Category": "Baby Products",
+    "CreatedAt": "2026-11-22T03:17:08.0711468Z"
+  },
+  {
+    "Id": "af033433-4e52-4265-8fa5-84c107e1975b",
+    "CanonicalName": "Dettol Cool Soap",
+    "Brand": "Dettol",
+    "Barcode": null,
+    "Quantity": 70.00,
+    "Unit": "g",
+    "Category": "Health \u0026 Beauty",
+    "CreatedAt": "2026-11-22T03:17:08.0773688Z"
+  },
+  {
+    "Id": "e57305e8-7c0b-4c5c-80c3-39c3b3a7b111",
+    "CanonicalName": "Sunlight Yellow Detergent Soap",
+    "Brand": "Sunlight",
+    "Barcode": null,
+    "Quantity": 110.00,
+    "Unit": "g",
+    "Category": "Household",
+    "CreatedAt": "2026-11-22T03:17:08.0843675Z"
+  },
+  {
+    "Id": "9e4e6bec-3f2c-4fbd-aaea-c6d37f519276",
+    "CanonicalName": "Wonderlight Bar Soap",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 650.00,
+    "Unit": "g",
+    "Category": "Household",
+    "CreatedAt": "2026-11-22T03:17:08.0917275Z"
+  },
+  {
+    "Id": "0ea1cade-4094-4b7a-9bdb-65fd041746c2",
+    "CanonicalName": "Detol Original Soap",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 100.00,
+    "Unit": "g",
+    "Category": "Health \u0026 Beauty",
+    "CreatedAt": "2026-11-22T03:17:08.0988105Z"
+  },
+  {
+    "Id": "cee72b6e-64d6-4f12-909c-26033c31da32",
+    "CanonicalName": "Dettol Skin Care Soap",
+    "Brand": "Dettol",
+    "Barcode": null,
+    "Quantity": 100.00,
+    "Unit": "g",
+    "Category": "Health \u0026 Beauty",
+    "CreatedAt": "2026-11-22T03:17:08.1067718Z"
+  },
+  {
+    "Id": "1b6ff7ee-d782-4a52-b98b-4be75ddccd96",
+    "CanonicalName": "Khomba Original Soap",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 90.00,
+    "Unit": "g",
+    "Category": "Health \u0026 Beauty",
+    "CreatedAt": "2026-11-22T03:17:08.1141144Z"
+  },
+  {
+    "Id": "ec42056a-115b-40df-9426-209aeefd3f28",
+    "CanonicalName": "Velvet Rose \u0026 Pomegranate Soap",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 95.00,
+    "Unit": "g",
+    "Category": "Health \u0026 Beauty",
+    "CreatedAt": "2026-11-22T03:17:08.1206241Z"
+  },
+  {
+    "Id": "12097410-d7cc-4d6b-98ea-df2b633a89d0",
+    "CanonicalName": "Velvet Soap Milk \u0026 Almond",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 95.00,
+    "Unit": "g",
+    "Category": "Health \u0026 Beauty",
+    "CreatedAt": "2026-11-22T03:17:08.1277668Z"
+  },
+  {
+    "Id": "a6fd607c-a9ea-43d6-9660-5ebd882a0724",
+    "CanonicalName": "Rexona Rose Refreshing Soap",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 80.00,
+    "Unit": "g",
+    "Category": "Health \u0026 Beauty",
+    "CreatedAt": "2026-11-22T03:17:08.1342494Z"
+  },
+  {
+    "Id": "087de240-94c0-4477-826f-2288e8b1d004",
+    "CanonicalName": "Rani Sandalwood Soap",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 90.00,
+    "Unit": "g",
+    "Category": "Health \u0026 Beauty",
+    "CreatedAt": "2026-11-22T03:17:08.141251Z"
+  },
+  {
+    "Id": "3ac4e4f0-c083-448d-9c2d-33f4047306bd",
+    "CanonicalName": "Panda Baby Delum Soap",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 75.00,
+    "Unit": "g",
+    "Category": "Baby Products",
+    "CreatedAt": "2026-11-22T03:17:08.1491043Z"
+  },
+  {
+    "Id": "9fb5a85d-9f1f-4747-9f4d-412f92ddd3a5",
+    "CanonicalName": "Champion Cool Mint Soap",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 90.00,
+    "Unit": "g",
+    "Category": "Health \u0026 Beauty",
+    "CreatedAt": "2026-11-22T03:17:08.154619Z"
+  },
+  {
+    "Id": "158048d8-e6e1-4cf7-8517-85993825705f",
+    "CanonicalName": "Baby Cheramy Moisturising Soap",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 90.00,
+    "Unit": "g",
+    "Category": "Baby Products",
+    "CreatedAt": "2026-11-22T03:17:08.1600125Z"
+  },
+  {
+    "Id": "b47fe22e-89d7-4e84-a891-ef8e21e552bf",
+    "CanonicalName": "Dettol Cool Soap",
+    "Brand": "Dettol",
+    "Barcode": null,
+    "Quantity": 100.00,
+    "Unit": "g",
+    "Category": "Health \u0026 Beauty",
+    "CreatedAt": "2026-11-22T03:17:08.1656027Z"
+  },
+  {
+    "Id": "9b100b44-4545-4d7a-bb12-87599dc635cb",
+    "CanonicalName": "Dettol Lasting Fresh Soap",
+    "Brand": "Dettol",
+    "Barcode": null,
+    "Quantity": 100.00,
+    "Unit": "g",
+    "Category": "Health \u0026 Beauty",
+    "CreatedAt": "2026-11-22T03:17:08.1714317Z"
+  },
+  {
+    "Id": "0cf41be9-0801-423e-834f-822a5de099f4",
+    "CanonicalName": "Chandanalepa Cinnamon Herbal Soap",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 100.00,
+    "Unit": "g",
+    "Category": "Health \u0026 Beauty",
+    "CreatedAt": "2026-11-22T03:17:08.1787209Z"
+  },
+  {
+    "Id": "8a2282d9-70cf-4124-b4ca-331d887be4de",
+    "CanonicalName": "Baby Cheramy Liquid Soap",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 100.00,
+    "Unit": "ml",
+    "Category": "Baby Products",
+    "CreatedAt": "2026-11-22T03:17:08.1852791Z"
+  },
+  {
+    "Id": "62fa9ecd-136f-43d8-ba19-ef53541ceff0",
+    "CanonicalName": "Champion Red Energy Soap",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 90.00,
+    "Unit": "g",
+    "Category": "Health \u0026 Beauty",
+    "CreatedAt": "2026-11-22T03:17:08.1926234Z"
+  },
+  {
+    "Id": "4609289e-7bac-47ab-89c3-751d6904c0cc",
+    "CanonicalName": "Rani Sandalwood Soap, 70g",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 5.00,
+    "Unit": "pcs",
+    "Category": "Health \u0026 Beauty",
+    "CreatedAt": "2026-11-22T03:17:08.2000514Z"
+  },
+  {
+    "Id": "6336f5d0-c6f5-4131-b8ec-16a77e1335df",
+    "CanonicalName": "Lux Sandal Cream Soap",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 100.00,
+    "Unit": "g",
+    "Category": "Health \u0026 Beauty",
+    "CreatedAt": "2026-11-22T03:17:08.2071315Z"
+  },
+  {
+    "Id": "5a012bc7-db6a-49ef-abd2-04e582a2a461",
+    "CanonicalName": "Rexona Kohomba Refreshing Soap",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 80.00,
+    "Unit": "g",
+    "Category": "Health \u0026 Beauty",
+    "CreatedAt": "2026-11-22T03:17:08.2148133Z"
+  },
+  {
+    "Id": "c21f1d6d-f6fb-4432-8d5c-307408db740b",
+    "CanonicalName": "Chandanalepa Beauty Soap",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 100.00,
+    "Unit": "g",
+    "Category": "Health \u0026 Beauty",
+    "CreatedAt": "2026-11-22T03:17:08.2223777Z"
+  },
+  {
+    "Id": "c41b4644-41b6-4d89-9aaf-2e2f0c402c36",
+    "CanonicalName": "Dettol Original Soap",
+    "Brand": "Dettol",
+    "Barcode": null,
+    "Quantity": 70.00,
+    "Unit": "g",
+    "Category": "Health \u0026 Beauty",
+    "CreatedAt": "2026-11-22T03:17:08.2281954Z"
+  },
+  {
+    "Id": "63486459-b8e4-4f0f-8af9-5cfceecbb2ae",
+    "CanonicalName": "Khomba Baby Soap Floral",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 90.00,
+    "Unit": "g",
+    "Category": "Baby Products",
+    "CreatedAt": "2026-11-22T03:17:08.2356136Z"
+  },
+  {
+    "Id": "ab456e69-c9dd-430a-851d-37a3e144613c",
+    "CanonicalName": "Khomba Original Soap Multi Pack",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 5.00,
+    "Unit": "pcs",
+    "Category": "Health \u0026 Beauty",
+    "CreatedAt": "2026-11-22T03:17:08.2421965Z"
+  },
+  {
+    "Id": "ed24603e-5d16-43d1-9654-11f83d42f6fe",
+    "CanonicalName": "Johnson\u0060s Baby Soap Milk",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 75.00,
+    "Unit": "g",
+    "Category": "Baby Products",
+    "CreatedAt": "2026-11-22T03:17:08.248032Z"
+  },
+  {
+    "Id": "4f13164b-fdfb-4a2e-8d90-8027ab0fd6da",
+    "CanonicalName": "Lifebuoy Venivel \u0026 Olive Oil Body Soap Multipack",
+    "Brand": "Lifebuoy",
+    "Barcode": null,
+    "Quantity": 375.00,
+    "Unit": "g",
+    "Category": "Health \u0026 Beauty",
+    "CreatedAt": "2026-11-22T03:17:08.2538813Z"
+  },
+  {
+    "Id": "214c747e-1ebf-4339-a43b-c20269a28f4e",
+    "CanonicalName": "Lux Bright Glow Body Soap",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 100.00,
+    "Unit": "g",
+    "Category": "Health \u0026 Beauty",
+    "CreatedAt": "2026-11-22T03:17:08.2604018Z"
+  },
+  {
+    "Id": "36ccf5d0-b13d-47fe-b2c9-ee64620285d8",
+    "CanonicalName": "Misumi Blossoms Soap",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 90.00,
+    "Unit": "g",
+    "Category": "Health \u0026 Beauty",
+    "CreatedAt": "2026-11-22T03:17:08.2666367Z"
+  },
+  {
+    "Id": "88a90d7f-7859-4dd3-9dce-4c893d7a4aae",
+    "CanonicalName": "Misumi Whitening Beauty Soap",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 90.00,
+    "Unit": "g",
+    "Category": "Health \u0026 Beauty",
+    "CreatedAt": "2026-11-22T03:17:08.2733826Z"
+  },
+  {
+    "Id": "7c24478b-2d1e-4320-a75c-3e612b715b33",
+    "CanonicalName": "Rexona Jasmine Refreshing Soap",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 80.00,
+    "Unit": "g",
+    "Category": "Health \u0026 Beauty",
+    "CreatedAt": "2026-11-22T03:17:08.2801526Z"
+  },
+  {
+    "Id": "dbbcbb9f-8411-46d1-b017-2a9420d4765b",
+    "CanonicalName": "Lux Soft Glowing Skin Body Soap",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 100.00,
+    "Unit": "g",
+    "Category": "Health \u0026 Beauty",
+    "CreatedAt": "2026-11-22T03:17:08.2862676Z"
+  },
+  {
+    "Id": "19ac249b-502d-4d68-afaf-a187770a5daa",
+    "CanonicalName": "Dettol Re-Energize Soap",
+    "Brand": "Dettol",
+    "Barcode": null,
+    "Quantity": 100.00,
+    "Unit": "g",
+    "Category": "Health \u0026 Beauty",
+    "CreatedAt": "2026-11-22T03:17:08.2922899Z"
+  },
+  {
+    "Id": "d229cdbd-5aa0-4df8-906d-8aa1026c521f",
+    "CanonicalName": "Khomba Baby Soap Venivel",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 90.00,
+    "Unit": "g",
+    "Category": "Baby Products",
+    "CreatedAt": "2026-11-22T03:17:08.2982288Z"
+  },
+  {
+    "Id": "f979c1b1-1852-4ee3-b41f-c4f9b5f427f4",
+    "CanonicalName": "Velvet Soap Orange and Honey",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 95.00,
+    "Unit": "g",
+    "Category": "Health \u0026 Beauty",
+    "CreatedAt": "2026-11-22T03:17:08.3044462Z"
+  },
+  {
+    "Id": "bdb7f2d0-6549-4fa1-b5fa-38356ad1a29b",
+    "CanonicalName": "Sunlight Soap Multi Pack,110g",
+    "Brand": "Sunlight",
+    "Barcode": null,
+    "Quantity": 3.00,
+    "Unit": "pcs",
+    "Category": "Household",
+    "CreatedAt": "2026-11-22T03:17:08.3123766Z"
+  },
+  {
+    "Id": "c4f5fa1c-8737-4406-a885-aa1649e758f5",
+    "CanonicalName": "Pears Pure \u0026 Gentle Baby Soap",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 90.00,
+    "Unit": "g",
+    "Category": "Baby Products",
+    "CreatedAt": "2026-11-22T03:17:08.3203941Z"
+  },
+  {
+    "Id": "3f3f2847-62fd-4c02-98fb-5f820d2a9a8c",
+    "CanonicalName": "Lifebuoy Mild Care Body Soap",
+    "Brand": "Lifebuoy",
+    "Barcode": null,
+    "Quantity": 100.00,
+    "Unit": "g",
+    "Category": "Health \u0026 Beauty",
+    "CreatedAt": "2026-11-22T03:17:08.3284266Z"
+  },
+  {
+    "Id": "9e30dc82-831a-4cbe-bcdb-d63fe9428078",
+    "CanonicalName": "Velvet Soap Sandal and Curd",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 95.00,
+    "Unit": "g",
+    "Category": "Health \u0026 Beauty",
+    "CreatedAt": "2026-11-22T03:17:08.3355628Z"
+  },
+  {
+    "Id": "e923a07a-8bd5-4140-b416-948532620389",
+    "CanonicalName": "Baby Cheramy Kohomba \u0026 Venivel Soap",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 90.00,
+    "Unit": "g",
+    "Category": "Baby Products",
+    "CreatedAt": "2026-11-22T03:17:08.3416231Z"
+  },
+  {
+    "Id": "e17b7a8b-5dd1-4627-8460-fca006f0ca5a",
+    "CanonicalName": "Kingdo Rose and Lime Soap",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 110.00,
+    "Unit": "g",
+    "Category": "Household",
+    "CreatedAt": "2026-11-22T03:17:08.3476735Z"
+  },
+  {
+    "Id": "c44fac5a-6e79-4b03-9c3a-6ac45453ffa2",
+    "CanonicalName": "Baby Cheramy Soap Regular Multi Pack, 350g",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 5.00,
+    "Unit": "pcs",
+    "Category": "Baby Products",
+    "CreatedAt": "2026-11-22T03:17:08.3552436Z"
+  },
+  {
+    "Id": "4e13f83d-7480-4952-8b54-e5e558f54e34",
+    "CanonicalName": "Misumi White Beauty Soap Eco Pack",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 360.00,
+    "Unit": "g",
+    "Category": "Health \u0026 Beauty",
+    "CreatedAt": "2026-11-22T03:17:08.3635649Z"
+  },
+  {
+    "Id": "0f55d5e9-93aa-4071-b468-249f7a5d860f",
+    "CanonicalName": "Baby Cheramy Floral Moisturising Soap",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 90.00,
+    "Unit": "g",
+    "Category": "Baby Products",
+    "CreatedAt": "2026-11-22T03:17:08.371356Z"
+  },
+  {
+    "Id": "d3b4e625-018c-4f77-af54-ac2d922eb5ac",
+    "CanonicalName": "Pears Naturals Rathmal Baby Soap Multipack",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 325.00,
+    "Unit": "g",
+    "Category": "Baby Products",
+    "CreatedAt": "2026-11-22T03:17:08.3785492Z"
+  },
+  {
+    "Id": "1fba34cf-0c00-4d3c-bb9f-085e495fa2f3",
+    "CanonicalName": "Lux Bouncy and Bright Glutathione Body Soap",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 80.00,
+    "Unit": "g",
+    "Category": "Health \u0026 Beauty",
+    "CreatedAt": "2026-11-22T03:17:08.3853268Z"
+  },
+  {
+    "Id": "3611a1ea-8a66-47f2-9f93-36b979e207ca",
+    "CanonicalName": "Pears Naturals Bee\u0027s Honey Baby Soap Multipack",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 325.00,
+    "Unit": "g",
+    "Category": "Baby Products",
+    "CreatedAt": "2026-11-22T03:17:08.3917476Z"
+  },
+  {
+    "Id": "63798bfe-766e-4377-8062-16b82293145b",
+    "CanonicalName": "Lux Refreshed Glowing Skin Body Soap",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 100.00,
+    "Unit": "g",
+    "Category": "Health \u0026 Beauty",
+    "CreatedAt": "2026-11-22T03:17:08.3988668Z"
+  },
+  {
+    "Id": "131986be-45e4-447f-be52-bc3207e67551",
+    "CanonicalName": "Coconut Miracle Pure Premium Virgin Coconut Oil",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 500.00,
+    "Unit": "ml",
+    "Category": "Cooking Essentials",
+    "CreatedAt": "2026-11-22T03:17:08.4067882Z"
+  },
+  {
+    "Id": "e8741391-2fad-496e-8c10-9e7d39c2c828",
+    "CanonicalName": "Coconut",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 3.00,
+    "Unit": "pcs",
+    "Category": "Vegetables",
+    "CreatedAt": "2026-11-22T03:17:08.4131491Z"
+  },
+  {
+    "Id": "74713ff5-1275-4af1-910c-c2e520e4b87b",
+    "CanonicalName": "King Coconut",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 1.00,
+    "Unit": "pcs",
+    "Category": "Fruits",
+    "CreatedAt": "2026-11-22T03:17:08.4195579Z"
+  },
+  {
+    "Id": "447d20fe-95d7-4d80-8bdd-a9ecde1ef976",
+    "CanonicalName": "Marina Coconut Oil",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 350.00,
+    "Unit": "ml",
+    "Category": "Cooking Essentials",
+    "CreatedAt": "2026-11-22T03:17:08.4259546Z"
+  },
+  {
+    "Id": "b505a18e-7fc1-4a6e-a615-20d19c9b829b",
+    "CanonicalName": "BCC White Coconut Oil",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 1.00,
+    "Unit": "l",
+    "Category": "Cooking Essentials",
+    "CreatedAt": "2026-11-22T03:17:08.4323284Z"
+  },
+  {
+    "Id": "956ec8b2-7662-41dd-9a74-7d26b17f9a65",
+    "CanonicalName": "Turkey Pure Coconut Oil",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 1.00,
+    "Unit": "l",
+    "Category": "Cooking Essentials",
+    "CreatedAt": "2026-11-22T03:17:08.4387016Z"
+  },
+  {
+    "Id": "7b4fabd9-b7d4-4ce2-af71-6c7304c280d1",
+    "CanonicalName": "Ceynco Grated Coconut",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 250.00,
+    "Unit": "g",
+    "Category": "Frozen Food",
+    "CreatedAt": "2026-11-22T03:17:08.4451444Z"
+  },
+  {
+    "Id": "9fb3c196-7687-4047-8dc9-af8ec7b1bf53",
+    "CanonicalName": "BCC White Coconut Oil",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 500.00,
+    "Unit": "ml",
+    "Category": "Cooking Essentials",
+    "CreatedAt": "2026-11-22T03:17:08.4527779Z"
+  },
+  {
+    "Id": "7d5f6dfb-286d-4515-8681-6b8fccdefe03",
+    "CanonicalName": "Fortune Cocofine Coconut Oil",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 2.00,
+    "Unit": "l",
+    "Category": "Cooking Essentials",
+    "CreatedAt": "2026-11-22T03:17:08.4604976Z"
+  },
+  {
+    "Id": "c4dd725a-6fbe-41aa-9bc2-5063a24943f8",
+    "CanonicalName": "Dreamron King Coconut Conditioner",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 200.00,
+    "Unit": "ml",
+    "Category": "Health \u0026 Beauty",
+    "CreatedAt": "2026-11-22T03:17:08.4670896Z"
+  },
+  {
+    "Id": "fe2faa69-2e1e-4223-900d-241503cad58a",
+    "CanonicalName": "My Choice Coconut Milk Powder",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 300.00,
+    "Unit": "g",
+    "Category": "Cooking Essentials",
+    "CreatedAt": "2026-11-22T03:17:08.4737633Z"
+  },
+  {
+    "Id": "19b22ddd-afbf-4446-9165-6c844203fda8",
+    "CanonicalName": "My Choice Coconut Milk Powder",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 800.00,
+    "Unit": "g",
+    "Category": "Cooking Essentials",
+    "CreatedAt": "2026-11-22T03:17:08.4804154Z"
+  },
+  {
+    "Id": "6cd61e82-3c12-457b-a269-39880e86f46f",
+    "CanonicalName": "Parachute Coconut Hair Oil",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 100.00,
+    "Unit": "ml",
+    "Category": "Health \u0026 Beauty",
+    "CreatedAt": "2026-11-22T03:17:08.4870491Z"
+  },
+  {
+    "Id": "b8e723c1-0d4d-4c99-9fe2-7c9c10784123",
+    "CanonicalName": "Silvermill Real Coconut Sambol",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 55.00,
+    "Unit": "g",
+    "Category": "Food Cupboard",
+    "CreatedAt": "2026-11-22T03:17:08.494298Z"
+  },
+  {
+    "Id": "28b70c4b-d4a5-4f77-8fc3-bea6dcb6994e",
+    "CanonicalName": "Renuka Desiccated Coconut",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 250.00,
+    "Unit": "g",
+    "Category": "Cooking Essentials",
+    "CreatedAt": "2026-11-22T03:17:08.5009318Z"
+  },
+  {
+    "Id": "c595e5c1-6531-40e7-aca3-897eb9a65d62",
+    "CanonicalName": "Fortune Cocofine Coconut Oil",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 1.00,
+    "Unit": "l",
+    "Category": "Cooking Essentials",
+    "CreatedAt": "2026-11-22T03:17:08.5080174Z"
+  },
+  {
+    "Id": "850e2597-e5f8-4907-be71-1e3eb6b79550",
+    "CanonicalName": "Silvermill Pure Coconut Oil",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 500.00,
+    "Unit": "ml",
+    "Category": "Cooking Essentials",
+    "CreatedAt": "2026-11-22T03:17:08.5149303Z"
+  },
+  {
+    "Id": "53db8c99-0444-4310-bf16-e343b99e3dd8",
+    "CanonicalName": "Sunup RBD Coconut Oil",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 1.00,
+    "Unit": "l",
+    "Category": "Cooking Essentials",
+    "CreatedAt": "2026-11-22T03:17:08.5219348Z"
+  },
+  {
+    "Id": "f84075cb-6063-45d7-8c3a-9aa4aadfa533",
+    "CanonicalName": "Silvermill Pure Coconut Oil",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 1.00,
+    "Unit": "l",
+    "Category": "Cooking Essentials",
+    "CreatedAt": "2026-11-22T03:17:08.5288717Z"
+  },
+  {
+    "Id": "8b468a27-4a57-4f6d-94c3-58c1e76422ac",
+    "CanonicalName": "Renuka Coconut Milk Powder",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 300.00,
+    "Unit": "g",
+    "Category": "Cooking Essentials",
+    "CreatedAt": "2026-11-22T03:17:08.5364725Z"
+  },
+  {
+    "Id": "5463456d-2de9-4d99-9aca-95c604be3b8a",
+    "CanonicalName": "Yara Fresh Scraped Coconut",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 400.00,
+    "Unit": "g",
+    "Category": "Vegetables",
+    "CreatedAt": "2026-11-22T03:17:08.5434579Z"
+  },
+  {
+    "Id": "c054ea9f-0686-4909-95d9-a6228276caec",
+    "CanonicalName": "Prevense Body Lotion Coconut Milk",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 300.00,
+    "Unit": "ml",
+    "Category": "Health \u0026 Beauty",
+    "CreatedAt": "2026-11-22T03:17:08.5502768Z"
+  },
+  {
+    "Id": "34ef4e35-2856-4299-981f-6f99bb8d3a92",
+    "CanonicalName": "N-Joy Pure Coconut Oil",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 1.00,
+    "Unit": "l",
+    "Category": "Cooking Essentials",
+    "CreatedAt": "2026-11-22T03:17:08.5598218Z"
+  },
+  {
+    "Id": "ddc765b8-8c32-4f56-a770-d93a55ff6ad7",
+    "CanonicalName": "N-Joy Pure Coconut Oil",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 650.00,
+    "Unit": "ml",
+    "Category": "Cooking Essentials",
+    "CreatedAt": "2026-11-22T03:17:08.5696546Z"
+  },
+  {
+    "Id": "30bf0658-7f29-4235-9fb0-238f0986067b",
+    "CanonicalName": "Fortune Cocofine R.B.D Coconut Oil",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 2.90,
+    "Unit": "l",
+    "Category": "Cooking Essentials",
+    "CreatedAt": "2026-11-22T03:17:08.5777021Z"
+  },
+  {
+    "Id": "11fa1cff-06c5-4236-a211-e05dd19263cd",
+    "CanonicalName": "Magic Coconut Bar Ice Cream,50ml",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 5.00,
+    "Unit": "pcs",
+    "Category": "Dairy",
+    "CreatedAt": "2026-11-22T03:17:08.5863823Z"
+  },
+  {
+    "Id": "ab7a2f49-f70f-4123-8cc5-5720d9466d40",
+    "CanonicalName": "Master Spice Coconut Sriracha Hot Sauce",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 280.00,
+    "Unit": "g",
+    "Category": "Food Cupboard",
+    "CreatedAt": "2026-11-22T03:17:08.5953657Z"
+  },
+  {
+    "Id": "2099de85-c171-4bf4-b842-1ae95800229e",
+    "CanonicalName": "Mum\u0060S Joy Pure Refined Coconut Oil",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 1.00,
+    "Unit": "l",
+    "Category": "Cooking Essentials",
+    "CreatedAt": "2026-11-22T03:17:08.6052195Z"
+  },
+  {
+    "Id": "b032fef5-e3e5-4cde-aaac-a308bc877460",
+    "CanonicalName": "Coco Fresh Vanilla Flavored Coconut Milk Drink",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 250.00,
+    "Unit": "ml",
+    "Category": "Beverages",
+    "CreatedAt": "2026-11-22T03:17:08.6123969Z"
+  },
+  {
+    "Id": "e0349c69-898c-4704-8501-40cf956f4b0c",
+    "CanonicalName": "Ceylon Since 1844 Organic Coconut Cream",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 400.00,
+    "Unit": "ml",
+    "Category": "Cooking Essentials",
+    "CreatedAt": "2026-11-22T03:17:08.6211273Z"
+  },
+  {
+    "Id": "e1cba17d-1f11-498e-83a9-f6603670e3fb",
+    "CanonicalName": "Ceylon Since 1844 Organic Virgin Coconut Oil",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 500.00,
+    "Unit": "ml",
+    "Category": "Cooking Essentials",
+    "CreatedAt": "2026-11-22T03:17:08.6282601Z"
+  },
+  {
+    "Id": "73913565-5ca0-40ad-8760-85649b60ed29",
+    "CanonicalName": "Kumarika Hydrating Shampoo Coconut Milk \u0026 Veralu leaves",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 180.00,
+    "Unit": "ml",
+    "Category": "Health \u0026 Beauty",
+    "CreatedAt": "2026-11-22T03:17:08.6356882Z"
+  },
+  {
+    "Id": "68f15ac1-b2af-4923-96c5-3ff5ed6ba5f1",
+    "CanonicalName": "Kumarika Strong Hair Shampoo Gotukola \u0026 Coconut Oil",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 180.00,
+    "Unit": "ml",
+    "Category": "Health \u0026 Beauty",
+    "CreatedAt": "2026-11-22T03:17:08.6428826Z"
+  },
+  {
+    "Id": "0c4d6a5d-d5b8-4b55-8ea0-017aaed4ef9a",
+    "CanonicalName": "Coco Fresh Coffee Flavored Coconut Milk Drink",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 250.00,
+    "Unit": "ml",
+    "Category": "Beverages",
+    "CreatedAt": "2026-11-22T03:17:08.6512739Z"
+  },
+  {
+    "Id": "8ff1a3be-ecae-44ed-8fb1-fb7c4026f63b",
+    "CanonicalName": "Ceylon Since 1844 Organic Virgin Coconut Oil",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 375.00,
+    "Unit": "ml",
+    "Category": "Cooking Essentials",
+    "CreatedAt": "2026-11-22T03:17:08.6590618Z"
+  },
+  {
+    "Id": "c839a690-8eee-44d2-8df1-ed306343a0ca",
+    "CanonicalName": "Kumarika Hair Oil King Coconut \u0026 Rice",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 200.00,
+    "Unit": "ml",
+    "Category": "Health \u0026 Beauty",
+    "CreatedAt": "2026-11-22T03:17:08.6666884Z"
+  },
+  {
+    "Id": "9d14c7b0-7718-4b49-82f4-4d1f4ea22c0c",
+    "CanonicalName": "Coco Fresh Coconut Milk Drink Plain",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 250.00,
+    "Unit": "ml",
+    "Category": "Beverages",
+    "CreatedAt": "2026-11-22T03:17:08.6740909Z"
+  },
+  {
+    "Id": "bc7cc013-c236-4a6b-82a0-c05defba78b6",
+    "CanonicalName": "Kumarika Strong Hair Conditioner, Gotukola \u0026 Coconut Oil",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 180.00,
+    "Unit": "ml",
+    "Category": "Health \u0026 Beauty",
+    "CreatedAt": "2026-11-22T03:17:08.6814214Z"
+  },
+  {
+    "Id": "321de494-e9d0-400a-8e04-c43bbccf34ae",
+    "CanonicalName": "Kumarika Hydrating Conditioner Coconut Milk \u0026 Veralu leaves",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 80.00,
+    "Unit": "ml",
+    "Category": "Health \u0026 Beauty",
+    "CreatedAt": "2026-11-22T03:17:08.6980707Z"
+  },
+  {
+    "Id": "b305cb2e-4bbb-4aa4-b5c7-7127e530c05e",
+    "CanonicalName": "Coco Fresh Chocolate Flavored Coconut Milk Drink",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 250.00,
+    "Unit": "ml",
+    "Category": "Beverages",
+    "CreatedAt": "2026-11-22T03:17:08.7128516Z"
+  },
+  {
+    "Id": "07189e04-bc1c-4693-8001-59819b5725bf",
+    "CanonicalName": "Kumarika Strong Hair Conditioner Gotukola \u0026 Coconut Oil",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 80.00,
+    "Unit": "ml",
+    "Category": "Health \u0026 Beauty",
+    "CreatedAt": "2026-11-22T03:17:08.7234287Z"
+  },
+  {
+    "Id": "5033bc49-f7ae-4e75-b817-da821752f84d",
+    "CanonicalName": "Kumarika Hydrating Conditioner, Coconut Milk \u0026 Verali Leaves",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 180.00,
+    "Unit": "ml",
+    "Category": "Health \u0026 Beauty",
+    "CreatedAt": "2026-11-22T03:17:08.7320675Z"
+  },
+  {
+    "Id": "77cb5f03-25e2-45f1-b3b9-55e3f3c48bb5",
+    "CanonicalName": "Sunsilk Coconut Oil \u0026 Aloe Vera Bouncy Volume Shampoo",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 200.00,
+    "Unit": "ml",
+    "Category": "Health \u0026 Beauty",
+    "CreatedAt": "2026-11-22T03:17:08.7419766Z"
+  },
+  {
+    "Id": "6a8570e6-43e6-4967-923c-51d250699367",
+    "CanonicalName": "Colmans Cocount Water Vinegar",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 750.00,
+    "Unit": "ml",
+    "Category": "Cooking Essentials",
+    "CreatedAt": "2026-11-22T03:17:08.7494676Z"
+  },
+  {
+    "Id": "a5132635-f4a6-4faf-81cf-159cb8c920d4",
+    "CanonicalName": "Anchor Atta Flour",
+    "Brand": "Anchor",
+    "Barcode": null,
+    "Quantity": 1.00,
+    "Unit": "kg",
+    "Category": "Cooking Essentials",
+    "CreatedAt": "2026-11-22T03:17:08.7572702Z"
+  },
+  {
+    "Id": "b93d91a4-e447-4cdf-9e71-8919db9e5063",
+    "CanonicalName": "Harischandra Ulundu Flour",
+    "Brand": "Harischandra",
+    "Barcode": null,
+    "Quantity": 200.00,
+    "Unit": "g",
+    "Category": "Cooking Essentials",
+    "CreatedAt": "2026-11-22T03:17:08.7647553Z"
+  },
+  {
+    "Id": "dbd00577-b759-43df-91a6-e743a078bcc2",
+    "CanonicalName": "Prima Chakki Atta Flour",
+    "Brand": "Prima",
+    "Barcode": null,
+    "Quantity": 1.00,
+    "Unit": "kg",
+    "Category": "Cooking Essentials",
+    "CreatedAt": "2026-11-22T03:17:08.7721881Z"
+  },
+  {
+    "Id": "c43f08ec-d9d5-4bd7-8b8b-9cbdd899e137",
+    "CanonicalName": "Prima Family Wheat Flour",
+    "Brand": "Prima",
+    "Barcode": null,
+    "Quantity": 1.00,
+    "Unit": "kg",
+    "Category": "Cooking Essentials",
+    "CreatedAt": "2026-11-22T03:17:08.7796819Z"
+  },
+  {
+    "Id": "ccf6abed-b06f-493b-ab69-e3ee063f06a7",
+    "CanonicalName": "Ruhunu Undu Flour",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 200.00,
+    "Unit": "g",
+    "Category": "Cooking Essentials",
+    "CreatedAt": "2026-11-22T03:17:08.787218Z"
+  },
+  {
+    "Id": "c3336e6b-ce65-4cf2-9eb4-7536f009ec66",
+    "CanonicalName": "Prima Cake Flour",
+    "Brand": "Prima",
+    "Barcode": null,
+    "Quantity": 1.00,
+    "Unit": "kg",
+    "Category": "Desserts \u0026 Ingredients",
+    "CreatedAt": "2026-11-22T03:17:08.7948584Z"
+  },
+  {
+    "Id": "b65817d9-18de-427f-8b43-b94b1d1ce3f0",
+    "CanonicalName": "Rich Gram Flour",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 400.00,
+    "Unit": "g",
+    "Category": "Cooking Essentials",
+    "CreatedAt": "2026-11-22T03:17:08.802568Z"
+  },
+  {
+    "Id": "594d0e08-95ad-45e4-9435-69f856f61601",
+    "CanonicalName": "Prima Pittu Flour",
+    "Brand": "Prima",
+    "Barcode": null,
+    "Quantity": 1.00,
+    "Unit": "kg",
+    "Category": "Cooking Essentials",
+    "CreatedAt": "2026-11-22T03:17:08.8101635Z"
+  },
+  {
+    "Id": "3c0bd4b6-f68d-48de-ad13-5426dec1a6de",
+    "CanonicalName": "Newtro Odiyal Flour",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 100.00,
+    "Unit": "g",
+    "Category": "Cooking Essentials",
+    "CreatedAt": "2026-11-22T03:17:08.8182127Z"
+  },
+  {
+    "Id": "9104e99c-10ce-436d-bf78-b4b068d0f1ef",
+    "CanonicalName": "Ruhunu Gram Flour",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 200.00,
+    "Unit": "g",
+    "Category": "Cooking Essentials",
+    "CreatedAt": "2026-11-22T03:17:08.8260769Z"
+  },
+  {
+    "Id": "01674d75-a924-4954-92ed-00481e9865ad",
+    "CanonicalName": "Newtro Purple Yam Flour",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 100.00,
+    "Unit": "g",
+    "Category": "Cooking Essentials",
+    "CreatedAt": "2026-11-22T03:17:08.8339216Z"
+  },
+  {
+    "Id": "0b5e80c2-9138-4fac-a661-bccbf4784c1a",
+    "CanonicalName": "Catch Gram Flour",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 200.00,
+    "Unit": "g",
+    "Category": "Seeds \u0026 Spices",
+    "CreatedAt": "2026-11-22T03:17:08.8417173Z"
+  },
+  {
+    "Id": "61cb4b50-4c49-4b56-8fee-c060b8eec584",
+    "CanonicalName": "Kernell\u0060s Corn Flour",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 400.00,
+    "Unit": "g",
+    "Category": "Desserts \u0026 Ingredients",
+    "CreatedAt": "2026-11-22T03:17:08.8495839Z"
+  },
+  {
+    "Id": "85605854-13ce-4d16-8bcd-df636ad7d0a7",
+    "CanonicalName": "Harischandra Kurakkan Flour",
+    "Brand": "Harischandra",
+    "Barcode": null,
+    "Quantity": 400.00,
+    "Unit": "g",
+    "Category": "Cooking Essentials",
+    "CreatedAt": "2026-11-22T03:17:08.8572715Z"
+  },
+  {
+    "Id": "d9dbb5b5-acee-4d04-b915-0713ea8e4916",
+    "CanonicalName": "Prima Self Raising Flour",
+    "Brand": "Prima",
+    "Barcode": null,
+    "Quantity": 1.00,
+    "Unit": "kg",
+    "Category": "Cooking Essentials",
+    "CreatedAt": "2026-11-22T03:17:08.8650516Z"
+  },
+  {
+    "Id": "83c8fe76-c8f4-477a-a09c-4bf01560f6cb",
+    "CanonicalName": "Motha Corn Flour",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 100.00,
+    "Unit": "g",
+    "Category": "Desserts \u0026 Ingredients",
+    "CreatedAt": "2026-11-22T03:17:08.8728093Z"
+  },
+  {
+    "Id": "220bd6ff-13b4-4e2f-9529-804b6a7ff3a8",
+    "CanonicalName": "Princess Wheat Flour",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 1.00,
+    "Unit": "kg",
+    "Category": "Cooking Essentials",
+    "CreatedAt": "2026-11-22T03:17:08.8823913Z"
+  },
+  {
+    "Id": "322e834e-9aff-4dd5-a637-399a44172e39",
+    "CanonicalName": "Delish Corn Flour",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 100.00,
+    "Unit": "g",
+    "Category": "Desserts \u0026 Ingredients",
+    "CreatedAt": "2026-11-22T03:17:08.8906775Z"
+  },
+  {
+    "Id": "5c3a4aa2-f966-4726-b88c-c892eeaefe67",
+    "CanonicalName": "Gogi Tempura Flour",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 500.00,
+    "Unit": "g",
+    "Category": "Cooking Essentials",
+    "CreatedAt": "2026-11-22T03:17:08.8987859Z"
+  },
+  {
+    "Id": "80eabd7a-9736-43e7-b52d-8da88cc3b08a",
+    "CanonicalName": "Seven Star Cake Flour",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 1.00,
+    "Unit": "kg",
+    "Category": "Desserts \u0026 Ingredients",
+    "CreatedAt": "2026-11-22T03:17:08.9066921Z"
+  },
+  {
+    "Id": "ed8227e9-f26e-46d9-a0f7-96f4401e5835",
+    "CanonicalName": "Catch Ulundu Flour",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 200.00,
+    "Unit": "g",
+    "Category": "Cooking Essentials",
+    "CreatedAt": "2026-11-22T03:17:08.9156546Z"
+  },
+  {
+    "Id": "43f9f4d0-4a07-4149-a165-3b423755d624",
+    "CanonicalName": "Seven Star Chakki Atta Flour",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 1.00,
+    "Unit": "kg",
+    "Category": "Cooking Essentials",
+    "CreatedAt": "2026-11-22T03:17:08.9236999Z"
+  },
+  {
+    "Id": "4140cb48-db8b-4ec5-aaa7-a6f6eca9125a",
+    "CanonicalName": "MDK String Hopper Flour White",
+    "Brand": "MD",
+    "Barcode": null,
+    "Quantity": 700.00,
+    "Unit": "g",
+    "Category": "Cooking Essentials",
+    "CreatedAt": "2026-11-22T03:17:08.9316762Z"
+  },
+  {
+    "Id": "a214afd3-753b-40f7-8166-7d80947804c9",
+    "CanonicalName": "Oateo Oat Flour",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 500.00,
+    "Unit": "g",
+    "Category": "Food Cupboard",
+    "CreatedAt": "2026-11-22T03:17:08.9397576Z"
+  },
+  {
+    "Id": "45de1793-1d87-4283-9085-d9c62400074e",
+    "CanonicalName": "Newtro Organic Cassava Flour",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 500.00,
+    "Unit": "g",
+    "Category": "Cooking Essentials",
+    "CreatedAt": "2026-11-22T03:17:08.9477617Z"
+  },
+  {
+    "Id": "04d603ca-6a9d-4830-8d8c-1cfa45a1ddaa",
+    "CanonicalName": "My Choice Wheat Flour",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 1.00,
+    "Unit": "kg",
+    "Category": "Cooking Essentials",
+    "CreatedAt": "2026-11-22T03:17:08.9559799Z"
+  },
+  {
+    "Id": "255fcf03-d4cb-4a27-b5bd-297eb630be2f",
+    "CanonicalName": "Anchor All Purpose Wheat Flour",
+    "Brand": "Anchor",
+    "Barcode": null,
+    "Quantity": 1.00,
+    "Unit": "kg",
+    "Category": "Cooking Essentials",
+    "CreatedAt": "2026-11-22T03:17:08.9648095Z"
+  },
+  {
+    "Id": "5d422bfc-feb1-49d8-ad2d-4b9028972300",
+    "CanonicalName": "MDK String Hopper Flour Red",
+    "Brand": "MD",
+    "Barcode": null,
+    "Quantity": 700.00,
+    "Unit": "g",
+    "Category": "Cooking Essentials",
+    "CreatedAt": "2026-11-22T03:17:08.974243Z"
+  },
+  {
+    "Id": "bef6b427-41b0-411f-abcd-c39123964aec",
+    "CanonicalName": "Seven Star All Purpose Wheat Flour",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 1.00,
+    "Unit": "kg",
+    "Category": "Cooking Essentials",
+    "CreatedAt": "2026-11-22T03:17:08.9843186Z"
+  },
+  {
+    "Id": "1b8e8c60-38f8-4dd3-a0b0-300b73e2a3f5",
+    "CanonicalName": "Nataraj Flourescent Scales 15cm",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 1.00,
+    "Unit": "pcs",
+    "Category": "Stationery",
+    "CreatedAt": "2026-11-22T03:17:08.9957068Z"
+  },
+  {
+    "Id": "961c7e4b-cfde-48ea-84a0-e157856b2682",
+    "CanonicalName": "Mal Floor Wiper",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 1.00,
+    "Unit": "pcs",
+    "Category": "Household",
+    "CreatedAt": "2026-11-22T03:17:09.0051802Z"
+  },
+  {
+    "Id": "1f0ebeee-e94c-4833-ac4e-f1b2494a1755",
+    "CanonicalName": "Mal Floor Wiper Small",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 1.00,
+    "Unit": "pcs",
+    "Category": "Household",
+    "CreatedAt": "2026-11-22T03:17:09.015001Z"
+  },
+  {
+    "Id": "646fba7d-af11-4dba-91b2-9493ab9e3356",
+    "CanonicalName": "Ruhunu Maldive Fish Chips",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 100.00,
+    "Unit": "g",
+    "Category": "Cooking Essentials",
+    "CreatedAt": "2026-11-22T03:17:09.0236419Z"
+  },
+  {
+    "Id": "7368680b-8d68-4669-b39e-097b247ce184",
+    "CanonicalName": "Koluu Fish Mustard Curry",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 80.00,
+    "Unit": "g",
+    "Category": "Food Cupboard",
+    "CreatedAt": "2026-11-22T03:17:09.0323768Z"
+  },
+  {
+    "Id": "f457c26f-60b6-452a-ab2a-d1f0a7374c2c",
+    "CanonicalName": "Sam\u0060s Fish Chinese Rolls",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 300.00,
+    "Unit": "g",
+    "Category": "Frozen Food",
+    "CreatedAt": "2026-11-22T03:17:09.0430792Z"
+  },
+  {
+    "Id": "addd8469-3d18-4717-a54c-4365ae58f0ce",
+    "CanonicalName": "Koluu Fish Ambulthiyal",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 80.00,
+    "Unit": "g",
+    "Category": "Food Cupboard",
+    "CreatedAt": "2026-11-22T03:17:09.052765Z"
+  },
+  {
+    "Id": "72cf21ab-9bc8-4a59-b9d3-f5d656a3a832",
+    "CanonicalName": "Rich Maldive Fish Chips",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 100.00,
+    "Unit": "g",
+    "Category": "Cooking Essentials",
+    "CreatedAt": "2026-11-22T03:17:09.0622995Z"
+  },
+  {
+    "Id": "a22a5bd6-3935-4cd4-a698-cc73e0dec7f5",
+    "CanonicalName": "Crescent Mini Fish Cutlet",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 500.00,
+    "Unit": "g",
+    "Category": "Frozen Food",
+    "CreatedAt": "2026-11-22T03:17:09.072018Z"
+  },
+  {
+    "Id": "bc2f4695-ea20-4c50-a3bf-128938e3ba5c",
+    "CanonicalName": "Sam\u0060s Fish Fingers",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 240.00,
+    "Unit": "g",
+    "Category": "Frozen Food",
+    "CreatedAt": "2026-11-22T03:17:09.0812681Z"
+  },
+  {
+    "Id": "18c3d147-6021-4b50-8373-b3c6dd28b19e",
+    "CanonicalName": "Lihini Premium Fish Sausages",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 200.00,
+    "Unit": "g",
+    "Category": "Frozen Food",
+    "CreatedAt": "2026-11-22T03:17:09.0933655Z"
+  },
+  {
+    "Id": "b2a9ccad-f6ae-4ce7-959c-550e3971f319",
+    "CanonicalName": "Suree Fish Sauce",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 150.00,
+    "Unit": "ml",
+    "Category": "Cooking Essentials",
+    "CreatedAt": "2026-11-22T03:17:09.1041199Z"
+  },
+  {
+    "Id": "f717d8c5-25fe-4865-855c-e14cf9582a1d",
+    "CanonicalName": "Crescent Fish Goujons",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 240.00,
+    "Unit": "g",
+    "Category": "Frozen Food",
+    "CreatedAt": "2026-11-22T03:17:09.1157525Z"
+  },
+  {
+    "Id": "9d8b32c5-724d-4e6a-9564-7ade7f6d060b",
+    "CanonicalName": "Sam\u0060s Fish Fingers",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 500.00,
+    "Unit": "g",
+    "Category": "Frozen Food",
+    "CreatedAt": "2026-11-22T03:17:09.1250084Z"
+  },
+  {
+    "Id": "2a32531f-97d9-46f9-860e-e3ea85f1b332",
+    "CanonicalName": "MBF Katta Dry Fish",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 100.00,
+    "Unit": "g",
+    "Category": "Food Cupboard",
+    "CreatedAt": "2026-11-22T03:17:09.1340596Z"
+  },
+  {
+    "Id": "fbfb7711-c03a-473e-b988-d52c4ccad6e8",
+    "CanonicalName": "MD Maldive Fish Sambol",
+    "Brand": "MD",
+    "Barcode": null,
+    "Quantity": 300.00,
+    "Unit": "g",
+    "Category": "Food Cupboard",
+    "CreatedAt": "2026-11-22T03:17:09.1427175Z"
+  },
+  {
+    "Id": "8c1b557b-dfe7-4c0a-9403-de5b86673cfd",
+    "CanonicalName": "Edinborough Fish Sauce",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 350.00,
+    "Unit": "ml",
+    "Category": "Cooking Essentials",
+    "CreatedAt": "2026-11-22T03:17:09.1527412Z"
+  },
+  {
+    "Id": "fd241c4c-47d6-41d1-ab3a-f9380f413698",
+    "CanonicalName": "Crescent Fish Rolls",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 500.00,
+    "Unit": "g",
+    "Category": "Frozen Food",
+    "CreatedAt": "2026-11-22T03:17:09.1616659Z"
+  },
+  {
+    "Id": "c2fbd764-8f3c-444d-aef2-2797622d0be4",
+    "CanonicalName": "Linna Fish Slices",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 500.00,
+    "Unit": "g",
+    "Category": "Seafood",
+    "CreatedAt": "2026-11-22T03:17:09.1705383Z"
+  },
+  {
+    "Id": "f961ff5b-2cc0-41f5-b777-2c441032171e",
+    "CanonicalName": "Image Maldive Fish Chips",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 100.00,
+    "Unit": "g",
+    "Category": "Cooking Essentials",
+    "CreatedAt": "2026-11-22T03:17:09.1794314Z"
+  },
+  {
+    "Id": "563bbe39-29e9-451d-be9e-78835a8908b7",
+    "CanonicalName": "Krest Fish Fingers",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 250.00,
+    "Unit": "g",
+    "Category": "Frozen Food",
+    "CreatedAt": "2026-11-22T03:17:09.188394Z"
+  },
+  {
+    "Id": "fe2d56c3-11a6-416b-ba10-7ca98525bdd4",
+    "CanonicalName": "Hewage Keelan Dry Fish",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 200.00,
+    "Unit": "g",
+    "Category": "Food Cupboard",
+    "CreatedAt": "2026-11-22T03:17:09.197541Z"
+  },
+  {
+    "Id": "95d6b463-3232-475a-95f0-5ca1385aaef1",
+    "CanonicalName": "Elephant House Fish Spread",
+    "Brand": "Elephant House",
+    "Barcode": null,
+    "Quantity": 175.00,
+    "Unit": "g",
+    "Category": "Food Cupboard",
+    "CreatedAt": "2026-11-22T03:17:09.2074041Z"
+  },
+  {
+    "Id": "85bcd498-2ad3-4b4f-9b25-5cdaa7b01c8b",
+    "CanonicalName": "Whiskas Adult Ocean Fish Food",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 500.00,
+    "Unit": "g",
+    "Category": "Pet Products",
+    "CreatedAt": "2026-11-22T03:17:09.2163765Z"
+  },
+  {
+    "Id": "12370cc4-b1bc-4079-8a4c-7a1bd55de16a",
+    "CanonicalName": "Dives Fish Cutlets",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 200.00,
+    "Unit": "g",
+    "Category": "Frozen Food",
+    "CreatedAt": "2026-11-22T03:17:09.2259201Z"
+  },
+  {
+    "Id": "898e5e13-2dd4-4093-8f40-d856fe11d710",
+    "CanonicalName": "My Choice Maldive Fish Chips",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 100.00,
+    "Unit": "g",
+    "Category": "Cooking Essentials",
+    "CreatedAt": "2026-11-22T03:17:09.2347849Z"
+  },
+  {
+    "Id": "19ecf2de-64fc-4270-b0c0-2171b74acea1",
+    "CanonicalName": "Master Spice Maldive Fish Sambol",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 150.00,
+    "Unit": "g",
+    "Category": "Food Cupboard",
+    "CreatedAt": "2026-11-22T03:17:09.2439052Z"
+  },
+  {
+    "Id": "d9f58a46-4441-453b-b9b4-35c7d439d896",
+    "CanonicalName": "Knorr Maldive Fish Powder Mix",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 40.00,
+    "Unit": "g",
+    "Category": "Cooking Essentials",
+    "CreatedAt": "2026-11-22T03:17:09.2534394Z"
+  },
+  {
+    "Id": "52f32721-5efd-40da-b11e-63f089f946b8",
+    "CanonicalName": "Home Bake Fish Patties, 10pcs",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 300.00,
+    "Unit": "g",
+    "Category": "Frozen Food",
+    "CreatedAt": "2026-11-22T03:17:09.2624994Z"
+  },
+  {
+    "Id": "e645aece-7a24-4fa0-acc5-f87c075b88ea",
+    "CanonicalName": "Fresh Harvest Sail Fish Cubes",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 500.00,
+    "Unit": "g",
+    "Category": "Seafood",
+    "CreatedAt": "2026-11-22T03:17:09.2718647Z"
+  },
+  {
+    "Id": "cfc21582-5b15-4d99-83e1-b3c652ca4163",
+    "CanonicalName": "Mc Currie Maldive Fish Sambol",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 200.00,
+    "Unit": "g",
+    "Category": "Food Cupboard",
+    "CreatedAt": "2026-11-22T03:17:09.2810074Z"
+  },
+  {
+    "Id": "291d795a-47ba-403c-abd3-6851fef0c598",
+    "CanonicalName": "Whiskas Adult Ocean Fish Food",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 1.20,
+    "Unit": "kg",
+    "Category": "Pet Products",
+    "CreatedAt": "2026-11-22T03:17:09.2909226Z"
+  },
+  {
+    "Id": "52fd675e-dcaa-452a-babc-8101a8c3385a",
+    "CanonicalName": "Sara\u0027s Fish Chinese Rolls, 10pcs",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 500.00,
+    "Unit": "g",
+    "Category": "Frozen Food",
+    "CreatedAt": "2026-11-22T03:17:09.3013095Z"
+  },
+  {
+    "Id": "0a3cddfb-14bf-494d-ba0d-8c186b93dcb5",
+    "CanonicalName": "Sam\u0060s Fish Chinese Rolls",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 500.00,
+    "Unit": "g",
+    "Category": "Frozen Food",
+    "CreatedAt": "2026-11-22T03:17:09.3110652Z"
+  },
+  {
+    "Id": "e3b2c1ed-bab9-4e1b-84a0-6024728030a9",
+    "CanonicalName": "Pulse Tri-Omega Fish Oil Capsules",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 60.00,
+    "Unit": "pcs",
+    "Category": "Health \u0026 Beauty",
+    "CreatedAt": "2026-11-22T03:17:09.3209305Z"
+  },
+  {
+    "Id": "3b555686-2d39-445a-8754-91738513b357",
+    "CanonicalName": "Home Bake Fish Chinese Roll, 10pcs",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 500.00,
+    "Unit": "g",
+    "Category": "Frozen Food",
+    "CreatedAt": "2026-11-22T03:17:09.3302326Z"
+  },
+  {
+    "Id": "a550a269-73a4-436d-9023-d7f0b4d1765d",
+    "CanonicalName": "Lihini Premium Fish Sausages Nai Miris",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 200.00,
+    "Unit": "g",
+    "Category": "Frozen Food",
+    "CreatedAt": "2026-11-22T03:17:09.3398182Z"
+  },
+  {
+    "Id": "7fdfbb7a-b997-4359-b533-9a785d4311f3",
+    "CanonicalName": "Tess Yellowfin Tuna Fish In Chilli Oil",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 180.00,
+    "Unit": "g",
+    "Category": "Food Cupboard",
+    "CreatedAt": "2026-11-22T03:17:09.3495736Z"
+  },
+  {
+    "Id": "185648de-257c-4f99-ba13-311bec888980",
+    "CanonicalName": "Whiskas Kitten Ocean Fish and Milk",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 450.00,
+    "Unit": "g",
+    "Category": "Pet Products",
+    "CreatedAt": "2026-11-22T03:17:09.3597702Z"
+  },
+  {
+    "Id": "05dfe192-59db-42c3-b60c-808dfc4afbd1",
+    "CanonicalName": "Koluu Prawn/Fish Red Curry",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 80.00,
+    "Unit": "g",
+    "Category": "Food Cupboard",
+    "CreatedAt": "2026-11-22T03:17:09.3700781Z"
+  },
+  {
+    "Id": "83982971-5f56-48ea-b831-331a0f3af09d",
+    "CanonicalName": "Let\u0060s Bite Active Persian Ocean Fish Cat Food",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 400.00,
+    "Unit": "g",
+    "Category": "Pet Products",
+    "CreatedAt": "2026-11-22T03:17:09.379835Z"
+  },
+  {
+    "Id": "6c3387ac-a38f-4d9d-8168-2e5703ad6504",
+    "CanonicalName": "Let\u0060s Bite Active Kitten Ocean Fish Cat Food",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 400.00,
+    "Unit": "g",
+    "Category": "Pet Products",
+    "CreatedAt": "2026-11-22T03:17:09.389505Z"
+  },
+  {
+    "Id": "eee6bb29-df61-4b01-8ac0-66928012ad82",
+    "CanonicalName": "Let\u0060s Bite Active Adult Ocean Fish Cat Food",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 400.00,
+    "Unit": "g",
+    "Category": "Pet Products",
+    "CreatedAt": "2026-11-22T03:17:09.4003646Z"
+  },
+  {
+    "Id": "c48b09c3-d19a-4d44-a21f-8d5405688a3b",
+    "CanonicalName": "Let\u0060s Bite Active Kitten Ocean Fish Buy one Get One Free",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 1.00,
+    "Unit": "kg",
+    "Category": "Pet Products",
+    "CreatedAt": "2026-11-22T03:17:09.4109477Z"
+  },
+  {
+    "Id": "3b6ccec1-80f7-477b-9972-d68084d59cda",
+    "CanonicalName": "Let\u0060s Bite Active Persian Ocean Fish Buy one Get One Free",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 1.00,
+    "Unit": "kg",
+    "Category": "Pet Products",
+    "CreatedAt": "2026-11-22T03:17:09.4227372Z"
+  },
+  {
+    "Id": "3c1c0939-58da-46df-adbc-aab077695118",
+    "CanonicalName": "Let\u0060s Bite Active Adult Ocean Fish Buy one Get One Free",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 1.00,
+    "Unit": "kg",
+    "Category": "Pet Products",
+    "CreatedAt": "2026-11-22T03:17:09.4323368Z"
+  },
+  {
+    "Id": "2289cfd2-42ed-46ad-a9b1-dbbc2e1f6087",
+    "CanonicalName": "Signal Fighter Toothbrush",
+    "Brand": "Signal",
+    "Barcode": null,
+    "Quantity": 1.00,
+    "Unit": "pcs",
+    "Category": "Health \u0026 Beauty",
+    "CreatedAt": "2026-11-22T03:17:09.4427223Z"
+  },
+  {
+    "Id": "6f7dbfbc-6e57-498d-b3fc-56a75b0324a2",
+    "CanonicalName": "Signal Fighter Medium Toothbrush Double",
+    "Brand": "Signal",
+    "Barcode": null,
+    "Quantity": 2.00,
+    "Unit": "pcs",
+    "Category": "Health \u0026 Beauty",
+    "CreatedAt": "2026-11-22T03:17:09.4522882Z"
+  },
+  {
+    "Id": "91a7d256-c513-4714-90df-61817ad9a43b",
+    "CanonicalName": "Vim Liquid Dishwash",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 250.00,
+    "Unit": "ml",
+    "Category": "Household",
+    "CreatedAt": "2026-11-22T03:17:09.462512Z"
+  },
+  {
+    "Id": "99811ff9-3e29-48f6-ae33-b5e4af063ae7",
+    "CanonicalName": "Vim Dishwash Bar",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 400.00,
+    "Unit": "g",
+    "Category": "Household",
+    "CreatedAt": "2026-11-22T03:17:09.4727653Z"
+  },
+  {
+    "Id": "33a39a61-a9f7-4d3d-ad4c-a831a600336a",
+    "CanonicalName": "Vim Dishwash Scouring Powder",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 650.00,
+    "Unit": "g",
+    "Category": "Household",
+    "CreatedAt": "2026-11-22T03:17:09.483503Z"
+  },
+  {
+    "Id": "376d96e6-79c4-4e42-8ab0-1f4a265186e0",
+    "CanonicalName": "Havana Brown Egg Medium",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 10.00,
+    "Unit": "pcs",
+    "Category": "Food Cupboard",
+    "CreatedAt": "2026-11-22T03:17:09.4947885Z"
+  },
+  {
+    "Id": "c9d6e482-e7a2-4383-8538-9d0d53859f17",
+    "CanonicalName": "Havana Brown Egg Large, 10.00 pcs",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 10.00,
+    "Unit": "pcs",
+    "Category": "Food Cupboard",
+    "CreatedAt": "2026-11-22T03:17:09.5052978Z"
+  },
+  {
+    "Id": "ba00aa90-d53f-4031-a640-e239b5ac4b21",
+    "CanonicalName": "Star Brand Egg Yellow Colouring",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 28.00,
+    "Unit": "ml",
+    "Category": "Desserts \u0026 Ingredients",
+    "CreatedAt": "2026-11-22T03:17:09.5152576Z"
+  },
+  {
+    "Id": "092819b5-bd71-43c0-a5b1-75693ab3fb8e",
+    "CanonicalName": "Sooper Vegan Eggless Chocolate Mousse",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 100.00,
+    "Unit": "g",
+    "Category": "Desserts \u0026 Ingredients",
+    "CreatedAt": "2026-11-22T03:17:09.5261328Z"
+  },
+  {
+    "Id": "03e505eb-770a-4f7a-b60b-ef32be947f9e",
+    "CanonicalName": "Happy Hen Eggs XL",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 10.00,
+    "Unit": "pcs",
+    "Category": "Food Cupboard",
+    "CreatedAt": "2026-11-22T03:17:09.5362958Z"
+  },
+  {
+    "Id": "ee3c9402-eff0-4521-9da9-9a84dcbd0938",
+    "CanonicalName": "NEL FARMS EGGS LARGE",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 10.00,
+    "Unit": "pcs",
+    "Category": "Dairy",
+    "CreatedAt": "2026-11-22T03:17:09.54653Z"
+  },
+  {
+    "Id": "294a3d12-f24a-4b11-b7b8-4dbd367737b9",
+    "CanonicalName": "Happy Hen Eggs M",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 10.00,
+    "Unit": "pcs",
+    "Category": "Food Cupboard",
+    "CreatedAt": "2026-11-22T03:17:09.5571701Z"
+  },
+  {
+    "Id": "5145ca69-23ac-4a59-8ee0-025a98946831",
+    "CanonicalName": "Nelfarm Fresh Eggs Medium",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 10.00,
+    "Unit": "pcs",
+    "Category": "Food Cupboard",
+    "CreatedAt": "2026-11-22T03:17:09.5675248Z"
+  },
+  {
+    "Id": "ed5c0d68-d4cd-4233-b396-98f1e46cef08",
+    "CanonicalName": "Happy Hen Eggs Large",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 10.00,
+    "Unit": "pcs",
+    "Category": "Food Cupboard",
+    "CreatedAt": "2026-11-22T03:17:09.5786123Z"
+  },
+  {
+    "Id": "0ab960f4-fac3-41c0-97ec-27412c223313",
+    "CanonicalName": "Drools Chicken \u0026 Eggs Puppy Nutrition",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 1.20,
+    "Unit": "kg",
+    "Category": "Pet Products",
+    "CreatedAt": "2026-11-22T03:17:09.5888086Z"
+  },
+  {
+    "Id": "35624172-0ef9-4203-bc9e-599830047590",
+    "CanonicalName": "Drools Chicken \u0026 Eggs Puppy Nutrition",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 3.00,
+    "Unit": "kg",
+    "Category": "Pet Products",
+    "CreatedAt": "2026-11-22T03:17:09.5990554Z"
+  },
+  {
+    "Id": "9bb5499d-d207-4058-b0e7-b3f798dd0ed1",
+    "CanonicalName": "Drools Chicken \u0026 Eggs Adult Nutrition",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 1.20,
+    "Unit": "kg",
+    "Category": "Pet Products",
+    "CreatedAt": "2026-11-22T03:17:09.6113954Z"
+  },
+  {
+    "Id": "08f3b0ce-41ac-4fc7-b584-e271a25778bc",
+    "CanonicalName": "Drools Chicken \u0026 Eggs Adult Nutrition",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 3.00,
+    "Unit": "kg",
+    "Category": "Pet Products",
+    "CreatedAt": "2026-11-22T03:17:09.6241138Z"
+  },
+  {
+    "Id": "39205cf7-599e-4ca0-aeec-2cd0f57be499",
+    "CanonicalName": "Drools Chicken \u0026 Eggs Adult Nutrition",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 400.00,
+    "Unit": "g",
+    "Category": "Pet Products",
+    "CreatedAt": "2026-11-22T03:17:09.636147Z"
+  },
+  {
+    "Id": "c06fd89b-f016-49e3-9f86-16ff9a902e1e",
+    "CanonicalName": "Drools Chicken \u0026 Eggs Puppy Nutrition",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 400.00,
+    "Unit": "g",
+    "Category": "Pet Products",
+    "CreatedAt": "2026-11-22T03:17:09.6470509Z"
+  },
+  {
+    "Id": "0ad27e16-a0fa-4eb5-aeed-d7bc77abb3c7",
+    "CanonicalName": "Black Eagle Cologne Spray Musk",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 100.00,
+    "Unit": "ml",
+    "Category": "Health \u0026 Beauty",
+    "CreatedAt": "2026-11-22T03:17:09.6572877Z"
+  },
+  {
+    "Id": "33652500-3a12-4739-9c7a-2c8f8a683b50",
+    "CanonicalName": "Black Eagle Cologne Spray Cool",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 100.00,
+    "Unit": "ml",
+    "Category": "Health \u0026 Beauty",
+    "CreatedAt": "2026-11-22T03:17:09.6688147Z"
+  },
+  {
+    "Id": "d42d1a4c-dd52-49d5-9eb2-848d5f1ac3f2",
+    "CanonicalName": "Ceylon Since 1844 Organic English Breakfast Tea",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 25.00,
+    "Unit": "pcs",
+    "Category": "Tea \u0026 Coffee",
+    "CreatedAt": "2026-11-22T03:17:09.6944413Z"
+  },
+  {
+    "Id": "b547df7e-3e5e-42d7-8dd3-bcc3d9453cd3",
+    "CanonicalName": "Beaufor Hot English Mustard",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 200.00,
+    "Unit": "g",
+    "Category": "Cooking Essentials",
+    "CreatedAt": "2026-11-22T03:17:09.7091833Z"
+  },
+  {
+    "Id": "ca3e03f6-1fc4-45fb-94b6-a02e12be3d11",
+    "CanonicalName": "Emami Hair Oil 7 Oils In One Aloe Vera",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 100.00,
+    "Unit": "ml",
+    "Category": "Health \u0026 Beauty",
+    "CreatedAt": "2026-11-22T03:17:09.7233566Z"
+  },
+  {
+    "Id": "39e00be0-f598-44da-a7be-55f1f0f22eef",
+    "CanonicalName": "Cetaphil Oily Skin Cleanser",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 125.00,
+    "Unit": "ml",
+    "Category": "Health \u0026 Beauty",
+    "CreatedAt": "2026-11-22T03:17:09.73964Z"
+  },
+  {
+    "Id": "d89ad9aa-9cbe-4d6a-a5a4-4681c60071ba",
+    "CanonicalName": "Coopoliva Olive pomace Oil",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 500.00,
+    "Unit": "ml",
+    "Category": "Cooking Essentials",
+    "CreatedAt": "2026-11-22T03:17:09.7550154Z"
+  },
+  {
+    "Id": "822bebaf-d3d0-436d-85b5-03f127e3848b",
+    "CanonicalName": "Fragata Olive Oil",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 250.00,
+    "Unit": "ml",
+    "Category": "Cooking Essentials",
+    "CreatedAt": "2026-11-22T03:17:09.7662099Z"
+  },
+  {
+    "Id": "835083e8-9ec4-404f-ac28-20f34096c898",
+    "CanonicalName": "Coopoliva Olive Oil",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 250.00,
+    "Unit": "ml",
+    "Category": "Cooking Essentials",
+    "CreatedAt": "2026-11-22T03:17:09.7776011Z"
+  },
+  {
+    "Id": "3f17f49c-3b6f-48e2-8ca6-156193b92790",
+    "CanonicalName": "Fragata Olive Oil",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 500.00,
+    "Unit": "ml",
+    "Category": "Cooking Essentials",
+    "CreatedAt": "2026-11-22T03:17:09.7890208Z"
+  },
+  {
+    "Id": "41bbd6dd-e072-4ef6-83d5-548cca31143a",
+    "CanonicalName": "Coopoliva Olive Oil",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 500.00,
+    "Unit": "ml",
+    "Category": "Cooking Essentials",
+    "CreatedAt": "2026-11-22T03:17:09.7995122Z"
+  },
+  {
+    "Id": "95466a4e-5cf4-4733-a3a1-fe5ccf1eecb0",
+    "CanonicalName": "Coopoliva Extra Virgin Olive Oil",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 250.00,
+    "Unit": "ml",
+    "Category": "Cooking Essentials",
+    "CreatedAt": "2026-11-22T03:17:09.8106105Z"
+  },
+  {
+    "Id": "ba998348-835b-45fd-a4b7-76476e030d1d",
+    "CanonicalName": "Good Look Pure Olive Oil",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 150.00,
+    "Unit": "ml",
+    "Category": "Health \u0026 Beauty",
+    "CreatedAt": "2026-11-22T03:17:09.8214908Z"
+  },
+  {
+    "Id": "71fbe102-36af-4af1-a921-b7b783a7ce95",
+    "CanonicalName": "Lifebuoy Venivel \u0026 Olive Oil Body Soap",
+    "Brand": "Lifebuoy",
+    "Barcode": null,
+    "Quantity": 100.00,
+    "Unit": "g",
+    "Category": "Health \u0026 Beauty",
+    "CreatedAt": "2026-11-22T03:17:09.8320666Z"
+  },
+  {
+    "Id": "91f79621-3fb8-42ac-ac3a-fb1a2b0a5e9b",
+    "CanonicalName": "Panda Baby Cream With Olive Oil",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 200.00,
+    "Unit": "ml",
+    "Category": "Baby Products",
+    "CreatedAt": "2026-11-22T03:17:09.8426753Z"
+  },
+  {
+    "Id": "1c545c7e-731a-47f1-a434-85a9a998c760",
+    "CanonicalName": "Fortune RBD Palm Olein Cooking Oil",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 3.00,
+    "Unit": "l",
+    "Category": "Cooking Essentials",
+    "CreatedAt": "2026-11-22T03:17:09.8534278Z"
+  },
+  {
+    "Id": "de10654c-83fd-4060-abb2-52f397b6d660",
+    "CanonicalName": "Cheenadi Oil",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 30.00,
+    "Unit": "ml",
+    "Category": "Health \u0026 Beauty",
+    "CreatedAt": "2026-11-22T03:17:09.8642172Z"
+  },
+  {
+    "Id": "ff65e826-4bea-409c-b493-a867fa99a570",
+    "CanonicalName": "Citronella Oil",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 28.00,
+    "Unit": "ml",
+    "Category": "Health \u0026 Beauty",
+    "CreatedAt": "2026-11-22T03:17:09.875429Z"
+  },
+  {
+    "Id": "bb7292cc-1460-4b80-a091-07c5eaee1d97",
+    "CanonicalName": "Bio Oil",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 60.00,
+    "Unit": "ml",
+    "Category": "Health \u0026 Beauty",
+    "CreatedAt": "2026-11-22T03:17:09.8873818Z"
+  },
+  {
+    "Id": "738745e1-e8f6-46a3-92e9-896009112f3b",
+    "CanonicalName": "Axe Oil",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 10.00,
+    "Unit": "ml",
+    "Category": "Health \u0026 Beauty",
+    "CreatedAt": "2026-11-22T03:17:09.8986196Z"
+  },
+  {
+    "Id": "8914e66c-ccd2-4bae-a220-fda74e6f5ad6",
+    "CanonicalName": "Beam Citronella Oil",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 30.00,
+    "Unit": "ml",
+    "Category": "Health \u0026 Beauty",
+    "CreatedAt": "2026-11-22T03:17:09.9093167Z"
+  },
+  {
+    "Id": "0b985e2b-9742-435a-b018-539325b35f47",
+    "CanonicalName": "Turkey Soya Oil",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 1.00,
+    "Unit": "l",
+    "Category": "Cooking Essentials",
+    "CreatedAt": "2026-11-22T03:17:09.921473Z"
+  },
+  {
+    "Id": "37433ce7-bd6d-463b-87bb-d3a2ef77b012",
+    "CanonicalName": "Parachute Jasmin Hair Oil",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 90.00,
+    "Unit": "ml",
+    "Category": "Health \u0026 Beauty",
+    "CreatedAt": "2026-11-22T03:17:09.9324964Z"
+  },
+  {
+    "Id": "8cee3280-f1e8-40fb-b238-fece29a7ea7b",
+    "CanonicalName": "Turkey Sunflower Oil",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 500.00,
+    "Unit": "ml",
+    "Category": "Cooking Essentials",
+    "CreatedAt": "2026-11-22T03:17:09.9432698Z"
+  },
+  {
+    "Id": "2a884bea-5aa4-4b38-b3c5-d5b804724337",
+    "CanonicalName": "Fortune Sunflower Oil",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 2.00,
+    "Unit": "l",
+    "Category": "Cooking Essentials",
+    "CreatedAt": "2026-11-22T03:17:09.9544848Z"
+  },
+  {
+    "Id": "03b3a767-6097-4cc5-8ae2-74ba189a9a80",
+    "CanonicalName": "Gold Winner Sunflower Oil",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 2.00,
+    "Unit": "l",
+    "Category": "Cooking Essentials",
+    "CreatedAt": "2026-11-22T03:17:09.9654409Z"
+  },
+  {
+    "Id": "2842be6e-fa69-4b47-88c9-17c62625f9c9",
+    "CanonicalName": "SB Castor Oil",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 30.00,
+    "Unit": "ml",
+    "Category": "Health \u0026 Beauty",
+    "CreatedAt": "2026-11-22T03:17:09.976736Z"
+  },
+  {
+    "Id": "4e47f46b-fe03-40d6-9018-d50ac9c5545d",
+    "CanonicalName": "Himani Navaratna Herbal Oil",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 90.00,
+    "Unit": "ml",
+    "Category": "Health \u0026 Beauty",
+    "CreatedAt": "2026-11-22T03:17:09.9878122Z"
+  },
+  {
+    "Id": "cb9ee541-f103-4bdc-91fb-05e6c884f01b",
+    "CanonicalName": "Diamond Tuna Sunflower Oil",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 185.00,
+    "Unit": "g",
+    "Category": "Seafood",
+    "CreatedAt": "2026-11-22T03:17:09.9994168Z"
+  },
+  {
+    "Id": "7230e50b-c132-4e44-9c8a-a3f123e7f76a",
+    "CanonicalName": "Rajapura Handi Oil",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 100.00,
+    "Unit": "ml",
+    "Category": "Health \u0026 Beauty",
+    "CreatedAt": "2026-11-22T03:17:10.0115159Z"
+  },
+  {
+    "Id": "e77ae3ee-731c-4527-9364-fb772fff7e50",
+    "CanonicalName": "Eco Balm Oil",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 6.00,
+    "Unit": "ml",
+    "Category": "Health \u0026 Beauty",
+    "CreatedAt": "2026-11-22T03:17:10.0247049Z"
+  },
+  {
+    "Id": "2c8f40cb-27ea-429b-9c9b-c1b4cfd2f727",
+    "CanonicalName": "Turkey Canola Oil",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 1.00,
+    "Unit": "l",
+    "Category": "Cooking Essentials",
+    "CreatedAt": "2026-11-22T03:17:10.0395641Z"
+  },
+  {
+    "Id": "b6f67472-e0f7-469b-8ec2-9f569718a0aa",
+    "CanonicalName": "Turkey Sunflower Oil",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 1.00,
+    "Unit": "l",
+    "Category": "Cooking Essentials",
+    "CreatedAt": "2026-11-22T03:17:10.0519104Z"
+  },
+  {
+    "Id": "18f015ec-bc2d-4d95-b24a-11357cef406a",
+    "CanonicalName": "Fortune Sunflower Oil",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 1.00,
+    "Unit": "l",
+    "Category": "Cooking Essentials",
+    "CreatedAt": "2026-11-22T03:17:10.066475Z"
+  },
+  {
+    "Id": "e5064595-eddc-4071-8f56-61a2e9379bf6",
+    "CanonicalName": "Turkey Corn Oil",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 2.00,
+    "Unit": "l",
+    "Category": "Cooking Essentials",
+    "CreatedAt": "2026-11-22T03:17:10.0810687Z"
+  },
+  {
+    "Id": "78c4b885-c3a3-4b3a-af25-db82b1cd6d3d",
+    "CanonicalName": "Eco Balm Oil",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 3.00,
+    "Unit": "ml",
+    "Category": "Health \u0026 Beauty",
+    "CreatedAt": "2026-11-22T03:17:10.0943711Z"
+  },
+  {
+    "Id": "6eba150a-875f-43f4-96f2-a621b5f09250",
+    "CanonicalName": "Fortune Sunflower Oil",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 500.00,
+    "Unit": "ml",
+    "Category": "Cooking Essentials",
+    "CreatedAt": "2026-11-22T03:17:10.1067372Z"
+  },
+  {
+    "Id": "be717804-9d04-463f-9886-a54a6bea8f3d",
+    "CanonicalName": "Turkey Corn Oil",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 1.00,
+    "Unit": "l",
+    "Category": "Cooking Essentials",
+    "CreatedAt": "2026-11-22T03:17:10.118623Z"
+  },
+  {
+    "Id": "b14fda0e-fda1-47b1-80ba-6c573769c887",
+    "CanonicalName": "Baby Cheramy Baby Oil",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 100.00,
+    "Unit": "ml",
+    "Category": "Baby Products",
+    "CreatedAt": "2026-11-22T03:17:10.1318012Z"
+  },
+  {
+    "Id": "d2ee145b-b2f0-4076-993d-5f8f20b309d6",
+    "CanonicalName": "Pears Pure \u0026 Gentle Baby Oil",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 100.00,
+    "Unit": "ml",
+    "Category": "Baby Products",
+    "CreatedAt": "2026-11-22T03:17:10.1473429Z"
+  },
+  {
+    "Id": "3cea7d4e-d08d-4a5d-b516-b36fff9c00e7",
+    "CanonicalName": "Gold Winner Sunflower Oil",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 1.00,
+    "Unit": "l",
+    "Category": "Cooking Essentials",
+    "CreatedAt": "2026-11-22T03:17:10.1597671Z"
+  },
+  {
+    "Id": "33b6356a-1176-4d8d-b37f-7ca624e079ca",
+    "CanonicalName": "Royalsuper Citronella Oil",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 500.00,
+    "Unit": "ml",
+    "Category": "Household",
+    "CreatedAt": "2026-11-22T03:17:10.1740899Z"
+  },
+  {
+    "Id": "8f243cf7-74e2-43d9-8a61-a1be5816d5c4",
+    "CanonicalName": "Kumarika Hair Oil",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 100.00,
+    "Unit": "ml",
+    "Category": "Health \u0026 Beauty",
+    "CreatedAt": "2026-11-22T03:17:10.1888518Z"
+  },
+  {
+    "Id": "9950b4a4-5488-4c1e-9fca-ce5967583115",
+    "CanonicalName": "Turkey Sunflower Oil",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 2.00,
+    "Unit": "l",
+    "Category": "Cooking Essentials",
+    "CreatedAt": "2026-11-22T03:17:10.2067008Z"
+  },
+  {
+    "Id": "f173bcca-39ff-400b-81eb-4d475a493cae",
+    "CanonicalName": "Panda Baby Natural Baby Oil",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 100.00,
+    "Unit": "ml",
+    "Category": "Baby Products",
+    "CreatedAt": "2026-11-22T03:17:10.2247343Z"
+  },
+  {
+    "Id": "08101479-a037-43fe-88a7-72703b856bc2",
+    "CanonicalName": "Bio Oil Dry Skin Gel",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 50.00,
+    "Unit": "ml",
+    "Category": "Health \u0026 Beauty",
+    "CreatedAt": "2026-11-22T03:17:10.2366604Z"
+  },
+  {
+    "Id": "ab8bbb91-ebb1-4668-a36c-51c94c6615a8",
+    "CanonicalName": "Ayush Oil Clear Face Wash",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 50.00,
+    "Unit": "ml",
+    "Category": "Health \u0026 Beauty",
+    "CreatedAt": "2026-11-22T03:17:10.2483577Z"
+  },
+  {
+    "Id": "535fc2d9-0a50-4071-bab5-07d0b625da17",
+    "CanonicalName": "Arpico Red Dhal Packet 1Kg",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 1,
+    "Unit": "kg",
+    "Category": "General Grocery",
+    "CreatedAt": "2026-11-22T03:18:10.5968736Z"
+  },
+  {
+    "Id": "f140fa6d-b5a0-4e5d-847c-4914131e1ebc",
+    "CanonicalName": "Arpico Toor Dhal 500G",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 500,
+    "Unit": "g",
+    "Category": "General Grocery",
+    "CreatedAt": "2026-11-22T03:18:10.6149833Z"
+  },
+  {
+    "Id": "f770a40b-83dd-4bb4-9f63-4513d7462e72",
+    "CanonicalName": "Orient Orid White Dhal 500G",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 500,
+    "Unit": "g",
+    "Category": "General Grocery",
+    "CreatedAt": "2026-11-22T03:18:10.633069Z"
+  },
+  {
+    "Id": "9b0f4a86-d2a4-4adc-bcfe-8df42ea6309e",
+    "CanonicalName": "Sethum Gram Dhal 500G",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 500,
+    "Unit": "g",
+    "Category": "General Grocery",
+    "CreatedAt": "2026-11-22T03:18:10.6505734Z"
+  },
+  {
+    "Id": "691f0367-e599-43da-8162-446ce146830c",
+    "CanonicalName": "Sethum Toor Dhal 500G",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 500,
+    "Unit": "g",
+    "Category": "General Grocery",
+    "CreatedAt": "2026-11-22T03:18:10.668597Z"
+  },
+  {
+    "Id": "63fcc0c8-ef5f-4edd-950c-cfbd20e6f577",
+    "CanonicalName": "Arpico Gram Dhal 200G",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 200,
+    "Unit": "g",
+    "Category": "General Grocery",
+    "CreatedAt": "2026-11-22T03:18:10.6857382Z"
+  },
+  {
+    "Id": "fabdf1c7-2ecd-49dc-858b-abef99667cbb",
+    "CanonicalName": "Arpico Gram Dhal 500G",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 500,
+    "Unit": "g",
+    "Category": "General Grocery",
+    "CreatedAt": "2026-11-22T03:18:10.7047016Z"
+  },
+  {
+    "Id": "95596eb2-c8be-461b-95ad-dfd775ec1b39",
+    "CanonicalName": "Arpico Red Dhal Packet 500G",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 500,
+    "Unit": "g",
+    "Category": "General Grocery",
+    "CreatedAt": "2026-11-22T03:18:10.7217788Z"
+  },
+  {
+    "Id": "fcdf2e60-72f8-4e2f-aa0d-2fafff6ed3b3",
+    "CanonicalName": "Catch Channa Dhal 500G",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 500,
+    "Unit": "g",
+    "Category": "General Grocery",
+    "CreatedAt": "2026-11-22T03:18:10.7393825Z"
+  },
+  {
+    "Id": "1bf56daa-312b-4e9d-9939-df43f701f22c",
+    "CanonicalName": "Kothmale Green Gram Dhal 500G",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 500,
+    "Unit": "g",
+    "Category": "General Grocery",
+    "CreatedAt": "2026-11-22T03:18:10.8008035Z"
+  },
+  {
+    "Id": "85da41f2-db40-4209-b1d9-0eda1a899072",
+    "CanonicalName": "Orient Toor Dhall 500G",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 500,
+    "Unit": "g",
+    "Category": "General Grocery",
+    "CreatedAt": "2026-11-22T03:18:10.8201755Z"
+  },
+  {
+    "Id": "ac6f2b5b-bfdc-49fa-a876-52fea90504f6",
+    "CanonicalName": "Siddhalepa Asamodagam Spirit 350Ml",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 350,
+    "Unit": "ml",
+    "Category": "General Grocery",
+    "CreatedAt": "2026-11-22T03:18:10.8604994Z"
+  },
+  {
+    "Id": "308239c0-edd1-474e-87ed-a2ee09892549",
+    "CanonicalName": "Arpico Candy Sugar 200G",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 200,
+    "Unit": "g",
+    "Category": "General Grocery",
+    "CreatedAt": "2026-11-22T03:18:10.8946735Z"
+  },
+  {
+    "Id": "c10f7482-e542-4c9e-ab40-fced546ae9fc",
+    "CanonicalName": "Arpico Soft Sugar 500G",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 500,
+    "Unit": "g",
+    "Category": "General Grocery",
+    "CreatedAt": "2026-11-22T03:18:10.9228377Z"
+  },
+  {
+    "Id": "b3ac7c10-286b-4e85-9bfd-66d8ef1af798",
+    "CanonicalName": "Arpico Sugar Brown 1Kgt",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 1,
+    "Unit": "pcs",
+    "Category": "General Grocery",
+    "CreatedAt": "2026-11-22T03:18:10.9513687Z"
+  },
+  {
+    "Id": "99f63681-abe0-4c8d-bebb-36284fc6b163",
+    "CanonicalName": "Arpico White Sugar Packet 1Kg",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 1,
+    "Unit": "kg",
+    "Category": "General Grocery",
+    "CreatedAt": "2026-11-22T03:18:10.9766105Z"
+  },
+  {
+    "Id": "63a9e7a9-825c-48f8-ac6e-609cf3064cd4",
+    "CanonicalName": "Maliban Biscuit Chocolate Cream Less Sugar 100G",
+    "Brand": "Maliban",
+    "Barcode": null,
+    "Quantity": 100,
+    "Unit": "g",
+    "Category": "General Grocery",
+    "CreatedAt": "2026-11-22T03:18:10.9984389Z"
+  },
+  {
+    "Id": "7f5b5122-af69-4fbf-8a4d-fff50335d7ce",
+    "CanonicalName": "Maliban Biscuit Inguru Less Sugar 80G",
+    "Brand": "Maliban",
+    "Barcode": null,
+    "Quantity": 80,
+    "Unit": "g",
+    "Category": "General Grocery",
+    "CreatedAt": "2026-11-22T03:18:11.0234902Z"
+  },
+  {
+    "Id": "c15a9ea5-7d44-4b9f-bd24-6207769acdb8",
+    "CanonicalName": "Maliban Biscuit Lemon Puff Less Sugar 100G",
+    "Brand": "Maliban",
+    "Barcode": null,
+    "Quantity": 100,
+    "Unit": "g",
+    "Category": "General Grocery",
+    "CreatedAt": "2026-11-22T03:18:11.0493433Z"
+  },
+  {
+    "Id": "8d6cf076-1bd5-42b5-8f70-4da0ac35444b",
+    "CanonicalName": "Maliban Feel Good Biscuit Sugar Free 220G",
+    "Brand": "Maliban",
+    "Barcode": null,
+    "Quantity": 220,
+    "Unit": "g",
+    "Category": "General Grocery",
+    "CreatedAt": "2026-11-22T03:18:11.0689269Z"
+  },
+  {
+    "Id": "d2a81915-5f65-42f5-a743-c53a3e9c91d2",
+    "CanonicalName": "Mauri Icing Sugar 500G",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 500,
+    "Unit": "g",
+    "Category": "General Grocery",
+    "CreatedAt": "2026-11-22T03:18:11.0923939Z"
+  },
+  {
+    "Id": "937892da-f399-46cf-b9eb-d82bd19d3f2e",
+    "CanonicalName": "Motha Icing Sugar 250G",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 250,
+    "Unit": "g",
+    "Category": "General Grocery",
+    "CreatedAt": "2026-11-22T03:18:11.1109903Z"
+  },
+  {
+    "Id": "2313f0e0-8d2a-4ce6-ad82-42fcb37db092",
+    "CanonicalName": "Orient Brown Sugar 1Kg",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 1,
+    "Unit": "kg",
+    "Category": "General Grocery",
+    "CreatedAt": "2026-11-22T03:18:11.1286996Z"
+  },
+  {
+    "Id": "92280b73-abc3-4407-9ceb-d9434fcef4f4",
+    "CanonicalName": "Orient Brown Sugar 500G",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 500,
+    "Unit": "g",
+    "Category": "General Grocery",
+    "CreatedAt": "2026-11-22T03:18:11.1463473Z"
+  },
+  {
+    "Id": "bcdfc732-755c-482f-a0f8-2726c9f1c230",
+    "CanonicalName": "Orient Icing Sugar 250G",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 250,
+    "Unit": "g",
+    "Category": "General Grocery",
+    "CreatedAt": "2026-11-22T03:18:11.1638997Z"
+  },
+  {
+    "Id": "d82169b2-d61e-4192-be0c-06e6f09c5b61",
+    "CanonicalName": "Orient White Sugar 1Kg Packet",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 1,
+    "Unit": "kg",
+    "Category": "General Grocery",
+    "CreatedAt": "2026-11-22T03:18:11.1815022Z"
+  },
+  {
+    "Id": "b4a75556-6eaf-4f7e-bd20-b9f78ea27577",
+    "CanonicalName": "Sethum Soft Sugar 500G",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 500,
+    "Unit": "g",
+    "Category": "General Grocery",
+    "CreatedAt": "2026-11-22T03:18:11.1995439Z"
+  },
+  {
+    "Id": "c9b15040-deaa-4d71-83ab-cc4f02b002fb",
+    "CanonicalName": "Arpico Biscuit Gem 240G",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 240,
+    "Unit": "g",
+    "Category": "General Grocery",
+    "CreatedAt": "2026-11-22T03:18:11.2176458Z"
+  },
+  {
+    "Id": "63fa5392-cf06-4f80-a823-d1dab1afdc28",
+    "CanonicalName": "Arpico Biscuit Savborow 115G",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 115,
+    "Unit": "g",
+    "Category": "General Grocery",
+    "CreatedAt": "2026-11-22T03:18:11.2351016Z"
+  },
+  {
+    "Id": "b6d877a8-638d-4a69-ba75-79ebbf01ec28",
+    "CanonicalName": "Arpico Biscuits Wine 100G",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 100,
+    "Unit": "g",
+    "Category": "General Grocery",
+    "CreatedAt": "2026-11-22T03:18:11.2538934Z"
+  },
+  {
+    "Id": "043f6673-816c-4c1a-a61e-5b3e45d4a32f",
+    "CanonicalName": "Arpico Biscuits Wine 80G",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 80,
+    "Unit": "g",
+    "Category": "General Grocery",
+    "CreatedAt": "2026-11-22T03:18:11.2716077Z"
+  },
+  {
+    "Id": "bb82c5fa-e47c-4da9-991a-31eb6efdc09b",
+    "CanonicalName": "Kist Biscuit Strawberry Wafers 90G",
+    "Brand": "Kist",
+    "Barcode": null,
+    "Quantity": 90,
+    "Unit": "g",
+    "Category": "General Grocery",
+    "CreatedAt": "2026-11-22T03:18:11.3073579Z"
+  },
+  {
+    "Id": "ac60b3f0-bdcd-4c92-b55e-61c530660ab0",
+    "CanonicalName": "Kist Biscuit Vanilla Wafers 90G",
+    "Brand": "Kist",
+    "Barcode": null,
+    "Quantity": 90,
+    "Unit": "g",
+    "Category": "General Grocery",
+    "CreatedAt": "2026-11-22T03:18:11.3428055Z"
+  },
+  {
+    "Id": "71d84743-ae6a-4983-9e93-5a9bb5e51983",
+    "CanonicalName": "Kist Magic Biscuit Olo Chocolate 140G",
+    "Brand": "Kist",
+    "Barcode": null,
+    "Quantity": 140,
+    "Unit": "g",
+    "Category": "General Grocery",
+    "CreatedAt": "2026-11-22T03:18:11.3612238Z"
+  },
+  {
+    "Id": "958795fb-4fb2-4085-8a1a-ad584eb1efbb",
+    "CanonicalName": "Kist Magic Biscuit Olo Chocolate 60G",
+    "Brand": "Kist",
+    "Barcode": null,
+    "Quantity": 60,
+    "Unit": "g",
+    "Category": "General Grocery",
+    "CreatedAt": "2026-11-22T03:18:11.3823801Z"
+  },
+  {
+    "Id": "16f27177-8d78-4c67-a23b-fedd887e4362",
+    "CanonicalName": "Little Lion Biscuit Batter Carol Cookies 335G",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 335,
+    "Unit": "g",
+    "Category": "General Grocery",
+    "CreatedAt": "2026-11-22T03:18:11.4024925Z"
+  },
+  {
+    "Id": "a804b973-cb92-44b6-b17b-78591c04e8ad",
+    "CanonicalName": "Little Lion Biscuit Batter Carols Cookies 250G",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 250,
+    "Unit": "g",
+    "Category": "General Grocery",
+    "CreatedAt": "2026-11-22T03:18:11.4262414Z"
+  },
+  {
+    "Id": "b9f151ea-7c2a-4c5a-a1d7-794e2d54a41b",
+    "CanonicalName": "Little Lion Biscuit Choco Cookies 300G",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 300,
+    "Unit": "g",
+    "Category": "General Grocery",
+    "CreatedAt": "2026-11-22T03:18:11.4473461Z"
+  },
+  {
+    "Id": "46c036b3-6c57-4707-b668-8a079a451b39",
+    "CanonicalName": "Little Lion Biscuit Chocolate Wafer 225G",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 225,
+    "Unit": "g",
+    "Category": "General Grocery",
+    "CreatedAt": "2026-11-22T03:18:11.4675614Z"
+  },
+  {
+    "Id": "2425d9d4-452c-4dcd-ba35-874b9dd56698",
+    "CanonicalName": "Little Lion Biscuit Chocolate Wafers 400G",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 400,
+    "Unit": "g",
+    "Category": "General Grocery",
+    "CreatedAt": "2026-11-22T03:18:11.4891155Z"
+  },
+  {
+    "Id": "6030c747-16c0-444c-a1a4-7122045f3d92",
+    "CanonicalName": "Little Lion Biscuit Mango Wafer 400G",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 400,
+    "Unit": "g",
+    "Category": "General Grocery",
+    "CreatedAt": "2026-11-22T03:18:11.5097708Z"
+  },
+  {
+    "Id": "54063551-37d3-4726-b9c2-332e36603469",
+    "CanonicalName": "Arpico Peanut Butter Crunchy 200G",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 200,
+    "Unit": "g",
+    "Category": "General Grocery",
+    "CreatedAt": "2026-11-22T03:18:11.5309626Z"
+  },
+  {
+    "Id": "8073433a-c211-4b01-bee3-080f7a580b5d",
+    "CanonicalName": "Butterhead Lettuce 1 Pack",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 1,
+    "Unit": "pcs",
+    "Category": "General Grocery",
+    "CreatedAt": "2026-11-22T03:18:11.5514889Z"
+  },
+  {
+    "Id": "9cb2edc6-f519-4759-b85b-041d3482d928",
+    "CanonicalName": "Cream De La Peanut Butter Crunch 425G",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 425,
+    "Unit": "g",
+    "Category": "General Grocery",
+    "CreatedAt": "2026-11-22T03:18:11.573222Z"
+  },
+  {
+    "Id": "dda01cec-e7d2-4a51-9864-b21fe3f45610",
+    "CanonicalName": "Herman Peanut Butter Creamy 340G",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 340,
+    "Unit": "g",
+    "Category": "General Grocery",
+    "CreatedAt": "2026-11-22T03:18:11.5928547Z"
+  },
+  {
+    "Id": "6bd14242-ac26-45ca-890e-e8a91960d23e",
+    "CanonicalName": "Mas Peanut Butter Smooth 325G",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 325,
+    "Unit": "g",
+    "Category": "General Grocery",
+    "CreatedAt": "2026-11-22T03:18:11.6345052Z"
+  },
+  {
+    "Id": "770587e2-a508-4a47-a170-b4f01a1e5f3b",
+    "CanonicalName": "Motha Pudding Mix Butterscotch 110G",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 110,
+    "Unit": "g",
+    "Category": "General Grocery",
+    "CreatedAt": "2026-11-22T03:18:11.6552826Z"
+  },
+  {
+    "Id": "d28f1674-a943-477f-b351-7e3b307baca1",
+    "CanonicalName": "Pelwatte Butter 300G",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 300,
+    "Unit": "g",
+    "Category": "General Grocery",
+    "CreatedAt": "2026-11-22T03:18:11.675891Z"
+  },
+  {
+    "Id": "f1182a70-a47a-4f0e-99c6-cf3bda65a5b4",
+    "CanonicalName": "Pelwatte Butter 80G (8*10G)",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 80,
+    "Unit": "g",
+    "Category": "General Grocery",
+    "CreatedAt": "2026-11-22T03:18:11.6983543Z"
+  },
+  {
+    "Id": "f698cae1-25b4-42fd-93d6-fb934215eb66",
+    "CanonicalName": "Pelwatte Butter Salted 200G",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 200,
+    "Unit": "g",
+    "Category": "General Grocery",
+    "CreatedAt": "2026-11-22T03:18:11.7414714Z"
+  },
+  {
+    "Id": "ef6789a9-dda5-4569-bb35-653ad3ea3f53",
+    "CanonicalName": "Tiara Okay Layer Cake Butter 18G",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 18,
+    "Unit": "g",
+    "Category": "General Grocery",
+    "CreatedAt": "2026-11-22T03:18:11.8034032Z"
+  },
+  {
+    "Id": "fc3e9c71-b9f7-4cc4-84b5-7bc63c229d56",
+    "CanonicalName": "Vaseline Lip Care Cocoa Butter 7G",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 7,
+    "Unit": "g",
+    "Category": "General Grocery",
+    "CreatedAt": "2026-11-22T03:18:11.8252128Z"
+  },
+  {
+    "Id": "ea1ace26-00a4-4b75-9835-75ab7d9342d0",
+    "CanonicalName": "Anchor Drinking Yoghurt Strawberry 180Ml",
+    "Brand": "Anchor",
+    "Barcode": null,
+    "Quantity": 180,
+    "Unit": "ml",
+    "Category": "General Grocery",
+    "CreatedAt": "2026-11-22T03:18:11.847702Z"
+  },
+  {
+    "Id": "0f82b35e-c572-4925-9a43-8415ec01a7ba",
+    "CanonicalName": "Arpico Jelly Yoghurt Apple 500G",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 500,
+    "Unit": "g",
+    "Category": "General Grocery",
+    "CreatedAt": "2026-11-22T03:18:11.8680127Z"
+  },
+  {
+    "Id": "13ddd197-46a4-4144-8e27-8db95b0d67d2",
+    "CanonicalName": "Arpico Jelly Yoghurt Apple 80G",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 80,
+    "Unit": "g",
+    "Category": "General Grocery",
+    "CreatedAt": "2026-11-22T03:18:11.8922703Z"
+  },
+  {
+    "Id": "3fa8fe67-2ea1-47bc-b38a-d08131acbc4b",
+    "CanonicalName": "Arpico Yoghurt Jelly Strawberry 80G",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 80,
+    "Unit": "g",
+    "Category": "General Grocery",
+    "CreatedAt": "2026-11-22T03:18:11.912661Z"
+  },
+  {
+    "Id": "2d3bfa10-da7c-4576-9a98-3e0a336011d5",
+    "CanonicalName": "Pelawatte Yoghurt 80Ml",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 80,
+    "Unit": "ml",
+    "Category": "General Grocery",
+    "CreatedAt": "2026-11-22T03:18:11.9375273Z"
+  },
+  {
+    "Id": "bfc5e9da-11eb-4c5a-bfa9-ca62c37de391",
+    "CanonicalName": "Richlife Drinking Yoghurt Classic 180Ml",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 180,
+    "Unit": "ml",
+    "Category": "General Grocery",
+    "CreatedAt": "2026-11-22T03:18:11.957893Z"
+  },
+  {
+    "Id": "8b5b1f07-60bc-4e56-80b1-4930c5eeb451",
+    "CanonicalName": "Ambewela Yoghurt 80Ml X 6Pcs",
+    "Brand": "Ambewela",
+    "Barcode": null,
+    "Quantity": 80,
+    "Unit": "ml",
+    "Category": "General Grocery",
+    "CreatedAt": "2026-11-22T03:18:11.977145Z"
+  },
+  {
+    "Id": "9b4d0750-53d7-4aaf-afcb-3fe327e26d7d",
+    "CanonicalName": "Anchor Yoghurt Mixed Berry Low Fat 100Ml",
+    "Brand": "Anchor",
+    "Barcode": null,
+    "Quantity": 100,
+    "Unit": "ml",
+    "Category": "General Grocery",
+    "CreatedAt": "2026-11-22T03:18:12.0006256Z"
+  },
+  {
+    "Id": "5f972606-c62d-4d96-ac6a-74f7927a2fc6",
+    "CanonicalName": "Anchor Yoghurt Plain 100Ml",
+    "Brand": "Anchor",
+    "Barcode": null,
+    "Quantity": 100,
+    "Unit": "ml",
+    "Category": "General Grocery",
+    "CreatedAt": "2026-11-22T03:18:12.0202543Z"
+  },
+  {
+    "Id": "67dd6b73-e36b-436d-9274-e2cbd4f309a9",
+    "CanonicalName": "Anchor Yoghurt Plain 1L",
+    "Brand": "Anchor",
+    "Barcode": null,
+    "Quantity": 1,
+    "Unit": "l",
+    "Category": "General Grocery",
+    "CreatedAt": "2026-11-22T03:18:12.0404051Z"
+  },
+  {
+    "Id": "6aac09e9-b4f4-425d-95d1-e122c89e68ad",
+    "CanonicalName": "Anchor Yoghurt Stirred Plain 480G",
+    "Brand": "Anchor",
+    "Barcode": null,
+    "Quantity": 480,
+    "Unit": "g",
+    "Category": "General Grocery",
+    "CreatedAt": "2026-11-22T03:18:12.0597909Z"
+  },
+  {
+    "Id": "f160a099-9363-4332-8c13-7b9cdf2c4120",
+    "CanonicalName": "Anchor Yoghurt Strawberry Fruit Low Fat 100Ml",
+    "Brand": "Anchor",
+    "Barcode": null,
+    "Quantity": 100,
+    "Unit": "ml",
+    "Category": "General Grocery",
+    "CreatedAt": "2026-11-22T03:18:12.0799903Z"
+  },
+  {
+    "Id": "06ebd044-ae0f-4f42-8861-da29adf51c4d",
+    "CanonicalName": "Chello Drinking Yoghurt Mango 180Ml",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 180,
+    "Unit": "ml",
+    "Category": "General Grocery",
+    "CreatedAt": "2026-11-22T03:18:12.1016789Z"
+  },
+  {
+    "Id": "856aa11d-2867-45e1-b051-4f645b2bd42a",
+    "CanonicalName": "Chello Drinking Yoghurt Strawberry 180Ml",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 180,
+    "Unit": "ml",
+    "Category": "General Grocery",
+    "CreatedAt": "2026-11-22T03:18:12.1241432Z"
+  },
+  {
+    "Id": "e8d07ca3-8bf9-4e3c-9a34-4ceb7dba756d",
+    "CanonicalName": "Chello Jelly Yoghurt 75G",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 75,
+    "Unit": "g",
+    "Category": "General Grocery",
+    "CreatedAt": "2026-11-22T03:18:12.1435959Z"
+  },
+  {
+    "Id": "3b3c2b07-418f-4ca1-bfb7-3f41690d5b79",
+    "CanonicalName": "Arpico Noodle Instant Chicken 80G",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 80,
+    "Unit": "g",
+    "Category": "General Grocery",
+    "CreatedAt": "2026-11-22T03:18:12.1649674Z"
+  },
+  {
+    "Id": "f1a2298e-cdd6-41cd-9985-707b2925dd35",
+    "CanonicalName": "Bairaha Chicken Breast Boneless",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 1,
+    "Unit": "pcs",
+    "Category": "General Grocery",
+    "CreatedAt": "2026-11-22T03:18:12.1853779Z"
+  },
+  {
+    "Id": "834fd05d-9110-4971-adde-45fe0a288de3",
+    "CanonicalName": "Bairaha Chicken Whole Leg Skin On",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 1,
+    "Unit": "pcs",
+    "Category": "General Grocery",
+    "CreatedAt": "2026-11-22T03:18:12.207392Z"
+  },
+  {
+    "Id": "3ea6e8df-2f3f-4a07-b2d1-04ef7ceadf77",
+    "CanonicalName": "Bairaha Chicken Whole Leg Skinless",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 1,
+    "Unit": "pcs",
+    "Category": "General Grocery",
+    "CreatedAt": "2026-11-22T03:18:12.228137Z"
+  },
+  {
+    "Id": "d654633e-00bd-4ea2-8e4a-d3e4c5ade4dd",
+    "CanonicalName": "Keells Chicken Meat Balls - Kg",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 1,
+    "Unit": "pcs",
+    "Category": "General Grocery",
+    "CreatedAt": "2026-11-22T03:18:12.2485163Z"
+  },
+  {
+    "Id": "6622fff5-2f37-4eb0-839e-7bb43458e8aa",
+    "CanonicalName": "Ma\u0027S Chicken Curry Paste 60G",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 60,
+    "Unit": "g",
+    "Category": "General Grocery",
+    "CreatedAt": "2026-11-22T03:18:12.2688605Z"
+  },
+  {
+    "Id": "732ec64d-02c0-4350-9c6c-a04fde8ae1dd",
+    "CanonicalName": "Ma\u0027S Chicken Stock Powder 100G",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 100,
+    "Unit": "g",
+    "Category": "General Grocery",
+    "CreatedAt": "2026-11-22T03:18:12.2911316Z"
+  },
+  {
+    "Id": "2a41a75b-a9e3-4b72-9962-4d757d5c907f",
+    "CanonicalName": "Ma\u0027S Colombo Chicken Curry 60G",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 60,
+    "Unit": "g",
+    "Category": "General Grocery",
+    "CreatedAt": "2026-11-22T03:18:12.3161788Z"
+  },
+  {
+    "Id": "c2413c38-e842-48d1-9fb3-0e6e4fbb260c",
+    "CanonicalName": "Nestle Cerelac Rice Chicken 200G",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 200,
+    "Unit": "g",
+    "Category": "General Grocery",
+    "CreatedAt": "2026-11-22T03:18:12.3387349Z"
+  },
+  {
+    "Id": "e62d2277-e202-446e-900b-581a0e879a22",
+    "CanonicalName": "Raigam Chicken Soya Baduma 100G",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 100,
+    "Unit": "g",
+    "Category": "General Grocery",
+    "CreatedAt": "2026-11-22T03:18:12.359814Z"
+  },
+  {
+    "Id": "78692005-92bc-43ab-8971-3d33dfef5523",
+    "CanonicalName": "Raigam Double Chicken Soya 90G",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 90,
+    "Unit": "g",
+    "Category": "General Grocery",
+    "CreatedAt": "2026-11-22T03:18:12.3815711Z"
+  },
+  {
+    "Id": "0d28cf85-2802-42fb-8f2d-0fcc1a8061e3",
+    "CanonicalName": "Anthoneys Whole Chicken 1Kg",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 1,
+    "Unit": "kg",
+    "Category": "General Grocery",
+    "CreatedAt": "2026-11-22T03:18:12.4057514Z"
+  },
+  {
+    "Id": "6b64416b-e367-4921-9075-03e876a497df",
+    "CanonicalName": "Arpico Soup Cream Chicken 60G",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 60,
+    "Unit": "g",
+    "Category": "General Grocery",
+    "CreatedAt": "2026-11-22T03:18:12.4273488Z"
+  },
+  {
+    "Id": "338b6064-a6c0-4e03-a55a-5431f836bef7",
+    "CanonicalName": "Bairaha Broilers Skin Less Whole Chicken 1Kg",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 1,
+    "Unit": "kg",
+    "Category": "General Grocery",
+    "CreatedAt": "2026-11-22T03:18:12.4485977Z"
+  },
+  {
+    "Id": "c7214950-5a93-4d1f-ba12-1d284733d834",
+    "CanonicalName": "Bairaha Chicken Drumstick Skinless",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 1,
+    "Unit": "pcs",
+    "Category": "General Grocery",
+    "CreatedAt": "2026-11-22T03:18:12.4718041Z"
+  },
+  {
+    "Id": "00bbd324-f546-4bb6-a779-8290e56e2655",
+    "CanonicalName": "Arpico Laundry Soap Lemmon 115G",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 115,
+    "Unit": "g",
+    "Category": "General Grocery",
+    "CreatedAt": "2026-11-22T03:18:12.4926406Z"
+  },
+  {
+    "Id": "25686b9f-223e-4a63-a1c7-f3ee945cc3c1",
+    "CanonicalName": "Dash Laundry Soap 115G",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 115,
+    "Unit": "g",
+    "Category": "General Grocery",
+    "CreatedAt": "2026-11-22T03:18:12.5138974Z"
+  },
+  {
+    "Id": "7be562eb-5c94-443b-8d4d-e336a45be73b",
+    "CanonicalName": "Dove Soap Beauty Cream Bar 100G",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 100,
+    "Unit": "g",
+    "Category": "General Grocery",
+    "CreatedAt": "2026-11-22T03:18:12.534832Z"
+  },
+  {
+    "Id": "b115927c-242e-4877-a420-22fd62407138",
+    "CanonicalName": "Dove Soap Pink Bar 100G",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 100,
+    "Unit": "g",
+    "Category": "General Grocery",
+    "CreatedAt": "2026-11-22T03:18:12.5579391Z"
+  },
+  {
+    "Id": "f4967800-521b-4baf-9117-ae49e73f6644",
+    "CanonicalName": "Harischandra Blue Soap 90G",
+    "Brand": "Harischandra",
+    "Barcode": null,
+    "Quantity": 90,
+    "Unit": "g",
+    "Category": "General Grocery",
+    "CreatedAt": "2026-11-22T03:18:12.5787678Z"
+  },
+  {
+    "Id": "bd846df6-fbfc-4dbc-b6ab-2c0055e3262c",
+    "CanonicalName": "Harischandra Soap Aththora 70G",
+    "Brand": "Harischandra",
+    "Barcode": null,
+    "Quantity": 70,
+    "Unit": "g",
+    "Category": "General Grocery",
+    "CreatedAt": "2026-11-22T03:18:12.6013151Z"
+  },
+  {
+    "Id": "73cba679-c909-45d9-8912-7ff1ee17fe56",
+    "CanonicalName": "Harischandra Soap Jasmine 70G",
+    "Brand": "Harischandra",
+    "Barcode": null,
+    "Quantity": 70,
+    "Unit": "g",
+    "Category": "General Grocery",
+    "CreatedAt": "2026-11-22T03:18:12.6236703Z"
+  },
+  {
+    "Id": "38a82e2d-8411-4598-8052-11995c47b1af",
+    "CanonicalName": "Khomba Baby Soap Rathmal 70G",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 70,
+    "Unit": "g",
+    "Category": "General Grocery",
+    "CreatedAt": "2026-11-22T03:18:12.6457149Z"
+  },
+  {
+    "Id": "b39c1f51-673a-4631-a948-e344a786e30b",
+    "CanonicalName": "Khomba Soap Value Pack 90G 5Pcs",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 90,
+    "Unit": "g",
+    "Category": "General Grocery",
+    "CreatedAt": "2026-11-22T03:18:12.7106144Z"
+  },
+  {
+    "Id": "6fc148f3-41c1-4aa9-baf9-c8ae1d1f7117",
+    "CanonicalName": "Lifebuoy Soap Mild Care 100G",
+    "Brand": "Lifebuoy",
+    "Barcode": null,
+    "Quantity": 100,
+    "Unit": "g",
+    "Category": "General Grocery",
+    "CreatedAt": "2026-11-22T03:18:12.7317954Z"
+  },
+  {
+    "Id": "0bb6c3c6-bff9-49a1-a0f6-b504d204baae",
+    "CanonicalName": "Lifebuoy Soap Turmeric \u0026 Honey 100G",
+    "Brand": "Lifebuoy",
+    "Barcode": null,
+    "Quantity": 100,
+    "Unit": "g",
+    "Category": "General Grocery",
+    "CreatedAt": "2026-11-22T03:18:12.7554605Z"
+  },
+  {
+    "Id": "06e62822-c16a-4e1b-afe3-16f95aa3f542",
+    "CanonicalName": "Lux Soap Soft Glow 100G",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 100,
+    "Unit": "g",
+    "Category": "General Grocery",
+    "CreatedAt": "2026-11-22T03:18:12.7996548Z"
+  },
+  {
+    "Id": "4ed6194f-3d28-44c2-a152-5c9950024af5",
+    "CanonicalName": "Arpico Oil Pure Coconut 1L",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 1,
+    "Unit": "l",
+    "Category": "General Grocery",
+    "CreatedAt": "2026-11-22T03:18:12.8228099Z"
+  },
+  {
+    "Id": "f25006b0-7b1a-42fc-8478-30f91e8a3c72",
+    "CanonicalName": "Arpico Oil Pure Coconut 500Ml",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 500,
+    "Unit": "ml",
+    "Category": "General Grocery",
+    "CreatedAt": "2026-11-22T03:18:12.8441209Z"
+  },
+  {
+    "Id": "2a0cc378-3245-4c8b-9429-40383ea59f6a",
+    "CanonicalName": "Arpico Vinegar Pure Coconut 350Ml",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 350,
+    "Unit": "ml",
+    "Category": "General Grocery",
+    "CreatedAt": "2026-11-22T03:18:12.8664453Z"
+  },
+  {
+    "Id": "1efc5a6c-6bf3-4d63-b9f6-e1a87bdf89fc",
+    "CanonicalName": "Dreamron Shampoo King Coconut 100Ml",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 100,
+    "Unit": "ml",
+    "Category": "General Grocery",
+    "CreatedAt": "2026-11-22T03:18:12.8892678Z"
+  },
+  {
+    "Id": "670ea324-067e-4ac9-bc70-d4ad933a0180",
+    "CanonicalName": "Govi Aruna Virgin Coconut Oil 750Ml",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 750,
+    "Unit": "ml",
+    "Category": "General Grocery",
+    "CreatedAt": "2026-11-22T03:18:12.9120819Z"
+  },
+  {
+    "Id": "c3fee5cd-fcfe-434a-910a-a0acc310afb6",
+    "CanonicalName": "Nootz Coconut Smoothie Mango 180Ml",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 180,
+    "Unit": "ml",
+    "Category": "General Grocery",
+    "CreatedAt": "2026-11-22T03:18:12.9351342Z"
+  },
+  {
+    "Id": "5858d8c9-8e8a-4d87-abb0-0be56900f86b",
+    "CanonicalName": "Nootz Coconut Smoothie Papaya 180Ml",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 180,
+    "Unit": "ml",
+    "Category": "General Grocery",
+    "CreatedAt": "2026-11-22T03:18:12.9582481Z"
+  },
+  {
+    "Id": "e3442925-4507-4501-8639-10a805446d46",
+    "CanonicalName": "Nootz Coconut Smoothie Pineapple 180Ml",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 180,
+    "Unit": "ml",
+    "Category": "General Grocery",
+    "CreatedAt": "2026-11-22T03:18:12.9813802Z"
+  },
+  {
+    "Id": "62f23acf-ce9f-4c2b-a9da-1d34bf1f6b06",
+    "CanonicalName": "Parachute Hair Oil Coconut 200Ml",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 200,
+    "Unit": "ml",
+    "Category": "General Grocery",
+    "CreatedAt": "2026-11-22T03:18:13.0284088Z"
+  },
+  {
+    "Id": "99e0dbbc-811d-4902-bdbd-cb0f11ea041b",
+    "CanonicalName": "Renuka Coconut Milk Powder 150G",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 150,
+    "Unit": "g",
+    "Category": "General Grocery",
+    "CreatedAt": "2026-11-22T03:18:13.0725942Z"
+  },
+  {
+    "Id": "6c1be127-bcaa-4141-85a4-0f47768fee81",
+    "CanonicalName": "Alli Atta Flour 1Kg",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 1,
+    "Unit": "kg",
+    "Category": "General Grocery",
+    "CreatedAt": "2026-11-22T03:18:13.1658406Z"
+  },
+  {
+    "Id": "12260f92-e778-4498-9868-43ca7fe6ee04",
+    "CanonicalName": "Alli Gram Flour 200G",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 200,
+    "Unit": "g",
+    "Category": "General Grocery",
+    "CreatedAt": "2026-11-22T03:18:13.1875025Z"
+  },
+  {
+    "Id": "45e34e9d-c771-4b51-944b-4eeb220d21b2",
+    "CanonicalName": "Alli Red Raw String Hopper Flour 1Kg",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 1,
+    "Unit": "kg",
+    "Category": "General Grocery",
+    "CreatedAt": "2026-11-22T03:18:13.2121793Z"
+  },
+  {
+    "Id": "36f4fec3-17ee-48cd-a5be-207989ef7696",
+    "CanonicalName": "Alli White Raw String Hopper Flour 1Kg",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 1,
+    "Unit": "kg",
+    "Category": "General Grocery",
+    "CreatedAt": "2026-11-22T03:18:13.2381108Z"
+  },
+  {
+    "Id": "57ddd09c-5411-4fa2-b240-467ce0feec66",
+    "CanonicalName": "Arpico Flour Atta 1Kg",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 1,
+    "Unit": "kg",
+    "Category": "General Grocery",
+    "CreatedAt": "2026-11-22T03:18:13.2691754Z"
+  },
+  {
+    "Id": "3794cad1-cf8e-41fb-9aa4-93c04f528a7b",
+    "CanonicalName": "Arpico Flour Cake 1Kg",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 1,
+    "Unit": "kg",
+    "Category": "General Grocery",
+    "CreatedAt": "2026-11-22T03:18:13.3015655Z"
+  },
+  {
+    "Id": "d07c9168-8708-4f5f-bbcc-de9fd67caab4",
+    "CanonicalName": "Arpico Flour Kurakkan 400G",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 400,
+    "Unit": "g",
+    "Category": "General Grocery",
+    "CreatedAt": "2026-11-22T03:18:13.3240169Z"
+  },
+  {
+    "Id": "5bc6f323-9a70-45cc-8178-de9ec20aea2c",
+    "CanonicalName": "Arpico Flour Red Cowpea 100G",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 100,
+    "Unit": "g",
+    "Category": "General Grocery",
+    "CreatedAt": "2026-11-22T03:18:13.345992Z"
+  },
+  {
+    "Id": "5a0632f7-a604-4948-8d7f-6f4c5bf96e39",
+    "CanonicalName": "Arpico Flour String Hopper Red 700G",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 700,
+    "Unit": "g",
+    "Category": "General Grocery",
+    "CreatedAt": "2026-11-22T03:18:13.3680887Z"
+  },
+  {
+    "Id": "286e7135-0611-4535-a453-15bac8b9d161",
+    "CanonicalName": "Arpico Flour String Hopper White 700G",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 700,
+    "Unit": "g",
+    "Category": "General Grocery",
+    "CreatedAt": "2026-11-22T03:18:13.3900542Z"
+  },
+  {
+    "Id": "65ab7e31-5f03-4d7c-af68-43d16649f9f7",
+    "CanonicalName": "Arpico Wheat Flour 1Kg",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 1,
+    "Unit": "kg",
+    "Category": "General Grocery",
+    "CreatedAt": "2026-11-22T03:18:13.4139296Z"
+  },
+  {
+    "Id": "36b46189-43ce-4753-9245-a4c59c2badf4",
+    "CanonicalName": "Harischandra Rice Flour 400G",
+    "Brand": "Harischandra",
+    "Barcode": null,
+    "Quantity": 400,
+    "Unit": "g",
+    "Category": "General Grocery",
+    "CreatedAt": "2026-11-22T03:18:13.4638174Z"
+  },
+  {
+    "Id": "be81c061-3073-46f7-b2d9-b53756c0925d",
+    "CanonicalName": "Arpico Dry Fish Katta 200G",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 200,
+    "Unit": "g",
+    "Category": "General Grocery",
+    "CreatedAt": "2026-11-22T03:18:13.4927132Z"
+  },
+  {
+    "Id": "f899df9b-119a-4382-bb08-77495af422ef",
+    "CanonicalName": "Arpico Dry Fish Keelan 200G",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 200,
+    "Unit": "g",
+    "Category": "General Grocery",
+    "CreatedAt": "2026-11-22T03:18:13.5161648Z"
+  },
+  {
+    "Id": "3a3b7ea8-657f-4b22-9acd-628ebf54e2f3",
+    "CanonicalName": "Arpico Dry Fish Koonissa 100G",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 100,
+    "Unit": "g",
+    "Category": "General Grocery",
+    "CreatedAt": "2026-11-22T03:18:13.5398979Z"
+  },
+  {
+    "Id": "29579c66-68a2-4010-a433-45d39b81ba96",
+    "CanonicalName": "Arpico Dry Fish Shark 200G",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 200,
+    "Unit": "g",
+    "Category": "General Grocery",
+    "CreatedAt": "2026-11-22T03:18:13.5643473Z"
+  },
+  {
+    "Id": "d23494f3-b20e-4aad-9b2e-0697c6908536",
+    "CanonicalName": "Arpico Dry Fish Sprats 200G",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 200,
+    "Unit": "g",
+    "Category": "General Grocery",
+    "CreatedAt": "2026-11-22T03:18:13.5882082Z"
+  },
+  {
+    "Id": "8f260114-1fc9-4ba1-99b0-16c7987b3089",
+    "CanonicalName": "Arpico Dry Fish Sprats Headless 200G",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 200,
+    "Unit": "g",
+    "Category": "General Grocery",
+    "CreatedAt": "2026-11-22T03:18:13.6112323Z"
+  },
+  {
+    "Id": "5425c533-07e2-4737-916c-6f203012415c",
+    "CanonicalName": "Arpico Dry Fish Thalapath 200G",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 200,
+    "Unit": "g",
+    "Category": "General Grocery",
+    "CreatedAt": "2026-11-22T03:18:13.6355403Z"
+  },
+  {
+    "Id": "84bb48f4-61a6-4422-b7ad-0cabe789c367",
+    "CanonicalName": "Arpico Dry Fish Tuna 200G",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 200,
+    "Unit": "g",
+    "Category": "General Grocery",
+    "CreatedAt": "2026-11-22T03:18:13.6590741Z"
+  },
+  {
+    "Id": "68d48d27-c410-46aa-bc7f-973437010e16",
+    "CanonicalName": "Arpico Maldive Fish Chips 100G",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 100,
+    "Unit": "g",
+    "Category": "General Grocery",
+    "CreatedAt": "2026-11-22T03:18:13.6827228Z"
+  },
+  {
+    "Id": "3b0865f3-b713-4b5f-8588-037ff009b0a6",
+    "CanonicalName": "Arpico Maldive Fish Chips 50G",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 50,
+    "Unit": "g",
+    "Category": "General Grocery",
+    "CreatedAt": "2026-11-22T03:18:13.7072215Z"
+  },
+  {
+    "Id": "43afe3f1-68a0-4d9f-9590-770f1eace290",
+    "CanonicalName": "Arunalu Dry Fish Shark 200G",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 200,
+    "Unit": "g",
+    "Category": "General Grocery",
+    "CreatedAt": "2026-11-22T03:18:13.7309048Z"
+  },
+  {
+    "Id": "a05a7b57-fbfc-4c7f-b402-d16bf84b3c39",
+    "CanonicalName": "Let\u0027S Bite Active Kitten Ocean Fish 2Pk 400G",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 400,
+    "Unit": "g",
+    "Category": "General Grocery",
+    "CreatedAt": "2026-11-22T03:18:13.7555709Z"
+  },
+  {
+    "Id": "d05fa52d-757b-4326-b678-813835f8b1b6",
+    "CanonicalName": "Let\u0027S Bite Active Persian Cat Ocean Fish 500G",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 500,
+    "Unit": "g",
+    "Category": "General Grocery",
+    "CreatedAt": "2026-11-22T03:18:13.7799834Z"
+  },
+  {
+    "Id": "e9e2ea61-4d8a-4ba8-9bfe-29b47529110b",
+    "CanonicalName": "Orient Dry Fish Kooni 100G",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 100,
+    "Unit": "g",
+    "Category": "General Grocery",
+    "CreatedAt": "2026-11-22T03:18:13.8054737Z"
+  },
+  {
+    "Id": "0d1fa000-8ed9-4eca-a75a-f072d54768b1",
+    "CanonicalName": "Orient Dryfish Sprats 250G",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 250,
+    "Unit": "g",
+    "Category": "General Grocery",
+    "CreatedAt": "2026-11-22T03:18:13.8323037Z"
+  },
+  {
+    "Id": "bfa34806-af5b-421c-9eb9-0ad40b5eee69",
+    "CanonicalName": "Arpico Egg Large Brown 10Pkt",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 1,
+    "Unit": "pcs",
+    "Category": "General Grocery",
+    "CreatedAt": "2026-11-22T03:18:13.8593039Z"
+  },
+  {
+    "Id": "63ef3f5b-91de-49c3-b755-584a5dc0b895",
+    "CanonicalName": "Delmege Colouring Egg Yellow 28Ml",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 28,
+    "Unit": "ml",
+    "Category": "General Grocery",
+    "CreatedAt": "2026-11-22T03:18:13.8841334Z"
+  },
+  {
+    "Id": "b10ae94c-f466-4e98-838e-754c0cb12833",
+    "CanonicalName": "Happy Hen Eggs Extra Large 10",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 1,
+    "Unit": "pcs",
+    "Category": "General Grocery",
+    "CreatedAt": "2026-11-22T03:18:13.9098295Z"
+  },
+  {
+    "Id": "f82406c1-9853-4d6c-95d2-03cc800ce56f",
+    "CanonicalName": "Happy Hen Eggs Medium 10",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 1,
+    "Unit": "pcs",
+    "Category": "General Grocery",
+    "CreatedAt": "2026-11-22T03:18:13.9350415Z"
+  },
+  {
+    "Id": "5591ccf6-d268-4708-b4da-59eaeeaa9ea2",
+    "CanonicalName": "Arpico Coloring Egg Yellow 28Ml",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 28,
+    "Unit": "ml",
+    "Category": "General Grocery",
+    "CreatedAt": "2026-11-22T03:18:13.9609384Z"
+  },
+  {
+    "Id": "fc9b0753-7ce4-4acb-8e44-419da5593d0c",
+    "CanonicalName": "Arpico Egg Medium Brown 10Pkt",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 1,
+    "Unit": "pcs",
+    "Category": "General Grocery",
+    "CreatedAt": "2026-11-22T03:18:13.9870253Z"
+  },
+  {
+    "Id": "6a5c438d-01c2-4878-bf64-66b01148cd66",
+    "CanonicalName": "Edinborough Mayonnaise Egg 360G",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 360,
+    "Unit": "g",
+    "Category": "General Grocery",
+    "CreatedAt": "2026-11-22T03:18:14.0128592Z"
+  },
+  {
+    "Id": "d3c1537f-37dc-4ee1-ad5e-82c13595cc0d",
+    "CanonicalName": "Edinborough Mayonnaise Eggless 360G",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 360,
+    "Unit": "g",
+    "Category": "General Grocery",
+    "CreatedAt": "2026-11-22T03:18:14.0396661Z"
+  },
+  {
+    "Id": "110c6ef1-bd62-4496-84ff-ac741c317331",
+    "CanonicalName": "Happy Hen Eggs Large 10 Pack",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 1,
+    "Unit": "pcs",
+    "Category": "General Grocery",
+    "CreatedAt": "2026-11-22T03:18:14.0666499Z"
+  },
+  {
+    "Id": "5d5ef8da-17ea-44e5-91ac-43b9bb304548",
+    "CanonicalName": "Arpico Quail Eggs 10Pack",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 1,
+    "Unit": "pcs",
+    "Category": "General Grocery",
+    "CreatedAt": "2026-11-22T03:18:14.0921371Z"
+  },
+  {
+    "Id": "796bccda-de6b-481d-bf77-ded60bc470df",
+    "CanonicalName": "Dum Dum Egg Colouring Yeliow 28Ml",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 28,
+    "Unit": "ml",
+    "Category": "General Grocery",
+    "CreatedAt": "2026-11-22T03:18:14.1171997Z"
+  },
+  {
+    "Id": "160c31e9-29c8-4f1a-a0cd-69c236e562c5",
+    "CanonicalName": "Edinborough Mayonnaise Egg 180G",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 180,
+    "Unit": "g",
+    "Category": "General Grocery",
+    "CreatedAt": "2026-11-22T03:18:14.145549Z"
+  },
+  {
+    "Id": "2c13b9e9-b38b-4dca-ac61-3bc1ecc7a097",
+    "CanonicalName": "Nel Farm Eggs Brown 10S",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 1,
+    "Unit": "pcs",
+    "Category": "General Grocery",
+    "CreatedAt": "2026-11-22T03:18:14.1771213Z"
+  },
+  {
+    "Id": "0865276a-bec8-4d1e-b85a-ce133035301a",
+    "CanonicalName": "Arpico Murukk Coil U 100G",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 100,
+    "Unit": "g",
+    "Category": "General Grocery",
+    "CreatedAt": "2026-11-22T03:18:14.2036071Z"
+  },
+  {
+    "Id": "41a2acab-49ed-4f22-bc11-77039d38df55",
+    "CanonicalName": "Arpico Murukku Coil 200G",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 200,
+    "Unit": "g",
+    "Category": "General Grocery",
+    "CreatedAt": "2026-11-22T03:18:14.2292515Z"
+  },
+  {
+    "Id": "81ee55d1-d945-4bcb-99f1-1f3a80492d78",
+    "CanonicalName": "Arpico Toilet Bowl Cleaner Regular 500Ml",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 500,
+    "Unit": "ml",
+    "Category": "General Grocery",
+    "CreatedAt": "2026-11-22T03:18:14.2558323Z"
+  },
+  {
+    "Id": "ad211846-2a3f-4f78-9002-a79f2beb24c7",
+    "CanonicalName": "Arpico Toilet Bowl Cleaner Rose 500Ml",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 500,
+    "Unit": "ml",
+    "Category": "General Grocery",
+    "CreatedAt": "2026-11-22T03:18:14.2859972Z"
+  },
+  {
+    "Id": "2bc181a1-3823-41fb-8ede-fbdb63c28423",
+    "CanonicalName": "Arpico Toilet Roll 10Packet 2Ply 100G",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 100,
+    "Unit": "g",
+    "Category": "General Grocery",
+    "CreatedAt": "2026-11-22T03:18:14.3141118Z"
+  },
+  {
+    "Id": "accd74de-105b-4ba4-84a5-713bbd706a24",
+    "CanonicalName": "Arpico Toilet Roll 4Packet 2Ply 100G",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 100,
+    "Unit": "g",
+    "Category": "General Grocery",
+    "CreatedAt": "2026-11-22T03:18:14.3415423Z"
+  },
+  {
+    "Id": "ce541f24-ae27-4783-b9e7-7897fdcc1593",
+    "CanonicalName": "Arpico Toilet Roll Single 2Ply 100G",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 100,
+    "Unit": "g",
+    "Category": "General Grocery",
+    "CreatedAt": "2026-11-22T03:18:14.3674438Z"
+  },
+  {
+    "Id": "8dd92441-bb67-4171-b9c6-87b300fd6715",
+    "CanonicalName": "Arpico Toilet Roll Twin Packets 100G",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 100,
+    "Unit": "g",
+    "Category": "General Grocery",
+    "CreatedAt": "2026-11-22T03:18:14.3951718Z"
+  },
+  {
+    "Id": "f29ed901-98dc-4db6-972f-b431158f6029",
+    "CanonicalName": "Cold Pressed Sesame Oil 250Ml",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 250,
+    "Unit": "ml",
+    "Category": "General Grocery",
+    "CreatedAt": "2026-11-22T03:18:14.4210923Z"
+  },
+  {
+    "Id": "2122e879-8bc7-4386-90a8-fc3291fb2e6f",
+    "CanonicalName": "Earth Essence Face Cream For Oily Skin 120Ml",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 120,
+    "Unit": "ml",
+    "Category": "General Grocery",
+    "CreatedAt": "2026-11-22T03:18:14.4467998Z"
+  },
+  {
+    "Id": "922f5e2b-f973-4655-a243-9de80cce09f1",
+    "CanonicalName": "Emami Face Wash Fair \u0026 Handsome Oil Clear 50G",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 50,
+    "Unit": "g",
+    "Category": "General Grocery",
+    "CreatedAt": "2026-11-22T03:18:14.4745014Z"
+  },
+  {
+    "Id": "93003045-a4b7-4ec7-b1e2-0af0cc94b233",
+    "CanonicalName": "Emami Face Wash Oil Control 50G",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 50,
+    "Unit": "g",
+    "Category": "General Grocery",
+    "CreatedAt": "2026-11-22T03:18:14.5003592Z"
+  },
+  {
+    "Id": "1e3a79ff-ee5e-46a2-84d0-8a7ee52db6c4",
+    "CanonicalName": "Emami Fair \u0026 Handsome Cream Oil Control 25G",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 25,
+    "Unit": "g",
+    "Category": "General Grocery",
+    "CreatedAt": "2026-11-22T03:18:14.5284043Z"
   }
 ]

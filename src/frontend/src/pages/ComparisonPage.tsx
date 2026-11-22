@@ -16,14 +16,17 @@ export const ComparisonPage: React.FC<ComparisonPageProps> = ({
 }) => {
   const [filterQuery, setFilterQuery] = useState('');
 
-  // Find products that have multiple offers or allow comparing all products across active supermarkets
-  const multiOfferProducts = products.filter(p => p.OffersCount > 1);
-  const displayProducts = (multiOfferProducts.length > 0 ? multiOfferProducts : products)
-    .filter(p => {
-      if (!filterQuery.trim()) return true;
-      const q = filterQuery.toLowerCase();
-      return p.CanonicalName.toLowerCase().includes(q) || p.Brand.toLowerCase().includes(q);
-    });
+  // Strictly filter for products verified across at least 2 distinct supermarkets
+  const crossStoreProducts = products.filter(p => {
+    const uniqueStores = new Set(p.Offers.map(o => o.SupermarketSlug));
+    return uniqueStores.size >= 2;
+  });
+
+  const displayProducts = crossStoreProducts.filter(p => {
+    if (!filterQuery.trim()) return true;
+    const q = filterQuery.toLowerCase();
+    return p.CanonicalName.toLowerCase().includes(q) || p.Brand.toLowerCase().includes(q);
+  });
 
   const formatPrice = (val?: number | null) => {
     if (val === undefined || val === null || val <= 0) return null;
@@ -75,8 +78,8 @@ export const ComparisonPage: React.FC<ComparisonPageProps> = ({
       {/* Comparison Table / Cards */}
       {displayProducts.length === 0 ? (
         <EmptyState
-          title="No Comparative Matches Found"
-          description="We could not find multiple supermarket offers matching your query. As additional products are cataloged from permitted supermarkets, cross-store comparisons will appear here."
+          title="No Cross-Supermarket Comparisons Verified Yet"
+          description="PriceWise LK strictly displays comparisons only when the exact same product is confirmed across at least two different supermarkets. Currently, products from Cargills and Arpico have been indexed, but no identical product has been matched across both stores. Check back as additional categories are collected."
           onRefresh={() => setFilterQuery('')}
         />
       ) : (

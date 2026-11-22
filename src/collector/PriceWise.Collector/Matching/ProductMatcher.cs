@@ -60,11 +60,21 @@ public class ProductMatcher
                 continue;
             }
 
-            // Brand check: If brands are specified and differ, skip
-            if (!string.Equals(rawBrand, "Generic", StringComparison.OrdinalIgnoreCase) &&
-                !string.Equals(existing.Brand, "Generic", StringComparison.OrdinalIgnoreCase) &&
-                !string.Equals(rawBrand, existing.Brand, StringComparison.OrdinalIgnoreCase))
+            // Strict Brand Check:
+            // 1. If one product is branded and the other is unbranded/generic, NEVER match.
+            // 2. If both are branded, brands must match exactly.
+            bool rawIsGeneric = string.Equals(rawBrand, "Generic", StringComparison.OrdinalIgnoreCase);
+            bool existingIsGeneric = string.Equals(existing.Brand, "Generic", StringComparison.OrdinalIgnoreCase);
+
+            if (rawIsGeneric != existingIsGeneric)
             {
+                // One is branded, one is generic -> never match
+                continue;
+            }
+
+            if (!rawIsGeneric && !string.Equals(rawBrand, existing.Brand, StringComparison.OrdinalIgnoreCase))
+            {
+                // Different brands -> never match
                 continue;
             }
 

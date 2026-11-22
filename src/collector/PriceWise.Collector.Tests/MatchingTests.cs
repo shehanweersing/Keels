@@ -145,4 +145,39 @@ public class MatchingTests
         Assert.True(result.IsNewProduct);
         Assert.NotEqual(existing.Id, result.CanonicalProduct.Id);
     }
+
+    [Fact]
+    public void MatchOrCreateProduct_BrandedProduct_NeverMatchesGenericProduct()
+    {
+        // Generic unbranded Basmati Rice
+        var genericExisting = new Product
+        {
+            Id = Guid.NewGuid(),
+            CanonicalName = "Basmati Rice 1kg",
+            Brand = "Generic",
+            Quantity = 1,
+            Unit = "kg",
+            Category = "Rice"
+        };
+
+        // Anchor Branded Basmati Rice
+        var brandedRawItem = new RawProductItem
+        {
+            SourceSupermarketSlug = "cargills",
+            SourceProductId = "CSE0430",
+            SourceProductName = "Anchor Basmati Rice 1kg",
+            Price = 1350.00m,
+            ProductUrl = "https://cargillsonline.com/Web/item",
+            Brand = "Anchor", // Branded product
+            Quantity = 1,
+            Unit = "kg"
+        };
+
+        var result = _matcher.MatchOrCreateProduct(brandedRawItem, new List<Product> { genericExisting });
+
+        // Must NEVER match branded Anchor rice to unbranded generic rice
+        Assert.True(result.IsNewProduct);
+        Assert.NotEqual(genericExisting.Id, result.CanonicalProduct.Id);
+        Assert.Equal("Anchor", result.CanonicalProduct.Brand);
+    }
 }

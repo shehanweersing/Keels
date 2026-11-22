@@ -29,7 +29,7 @@ export const HomePage: React.FC<HomePageProps> = ({
     }
   };
 
-  const multiOffers = products.filter(p => p.OffersCount > 1);
+  const multiOffers = products.filter(p => new Set(p.Offers.map(o => o.SupermarketSlug)).size >= 2);
   const recentProducts = products.slice(0, 8);
 
   const categories = Array.from(new Set(products.map(p => p.Category))).slice(0, 6);

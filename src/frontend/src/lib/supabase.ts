@@ -8,6 +8,10 @@ export const supabase = (supabaseUrl && supabaseAnonKey && !supabaseUrl.includes
   ? createClient(supabaseUrl, supabaseAnonKey)
   : null;
 
+export function getDataSourceMode(): 'supabase_live' | 'local_snapshot' {
+  return supabase ? 'supabase_live' : 'local_snapshot';
+}
+
 export async function fetchVerifiedCatalog(): Promise<VerifiedProduct[]> {
   try {
     // 1. If Supabase is configured, fetch from Supabase

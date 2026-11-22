@@ -118,8 +118,13 @@ public class LocalStorageService : IStorageService
 
         foreach (var rawItem in items)
         {
-            // Evaluate cross-store canonical match
-            var matchResult = _matcher.MatchOrCreateProduct(rawItem, _products);
+            // Evaluate cross-store canonical match only against products that do NOT already have a listing from THIS supermarket.
+            // A supermarket does not sell the exact same physical product under two distinct SKUs at different prices.
+            var candidateCatalog = _products
+                .Where(p => !_storeProducts.Any(sp => sp.ProductId == p.Id && sp.SupermarketId == supermarket.Id))
+                .ToList();
+
+            var matchResult = _matcher.MatchOrCreateProduct(rawItem, candidateCatalog);
             var canonical = matchResult.CanonicalProduct;
 
             if (matchResult.IsNewProduct)
@@ -250,9 +255,13 @@ public class LocalStorageService : IStorageService
                 .ToList();
 
             var verifiedOffers = storeListings.Where(l => l.CurrentPrice > 0).ToList();
+            var distinctSupermarkets = verifiedOffers.Select(l => l.SupermarketId).Distinct().Count();
             var minPrice = verifiedOffers.Count > 0 ? verifiedOffers.Min(l => l.CurrentPrice!.Value) : (decimal?)null;
             var maxPrice = verifiedOffers.Count > 0 ? verifiedOffers.Max(l => l.CurrentPrice!.Value) : (decimal?)null;
             var cheapestSupermarket = verifiedOffers.FirstOrDefault(l => l.CurrentPrice == minPrice)?.SupermarketName;
+            var priceDiff = (distinctSupermarkets >= 2 && minPrice.HasValue && maxPrice.HasValue && maxPrice > minPrice)
+                ? (maxPrice.Value - minPrice.Value)
+                : 0;
 
             return new
             {
@@ -264,9 +273,10 @@ public class LocalStorageService : IStorageService
                 p.Unit,
                 p.Category,
                 OffersCount = storeListings.Count,
+                SupermarketCount = distinctSupermarkets,
                 MinPrice = minPrice,
                 MaxPrice = maxPrice,
-                PriceDifference = (minPrice.HasValue && maxPrice.HasValue && maxPrice > minPrice) ? (maxPrice - minPrice) : 0,
+                PriceDifference = priceDiff,
                 CheapestSupermarket = cheapestSupermarket,
                 Offers = storeListings
             };

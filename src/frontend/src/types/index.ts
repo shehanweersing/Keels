@@ -40,6 +40,7 @@ export interface VerifiedProduct {
   Unit: string;
   Category: string;
   OffersCount: number;
+  SupermarketCount?: number;
   MinPrice: number;
   MaxPrice: number;
   PriceDifference: number;
