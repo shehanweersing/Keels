@@ -121,9 +121,38 @@ public class Program
         services.AddSingleton<ProductMatcher>();
 
         // Storage service configuration
-        var supabaseUrl = Environment.GetEnvironmentVariable("SUPABASE_URL");
+        var supabaseUrl = Environment.GetEnvironmentVariable("SUPABASE_URL") 
+            ?? Environment.GetEnvironmentVariable("VITE_SUPABASE_URL");
         var supabaseKey = Environment.GetEnvironmentVariable("SUPABASE_SERVICE_ROLE_KEY");
-        var storageMode = Environment.GetEnvironmentVariable("COLLECTOR_STORAGE_MODE") ?? (string.IsNullOrEmpty(supabaseUrl) ? "local" : "supabase");
+
+        if (!string.IsNullOrWhiteSpace(supabaseUrl))
+        {
+            supabaseUrl = supabaseUrl.Trim().Trim('"', '\'');
+
+            if (supabaseUrl.StartsWith("postgresql://", StringComparison.OrdinalIgnoreCase) ||
+                supabaseUrl.StartsWith("postgres://", StringComparison.OrdinalIgnoreCase) ||
+                supabaseUrl.Contains("Host=", StringComparison.OrdinalIgnoreCase))
+            {
+                Console.ForegroundColor = ConsoleColor.Yellow;
+                Console.WriteLine("[Configuration Warning] SUPABASE_URL was provided as a PostgreSQL connection string instead of an HTTPS Project URL.");
+                Console.WriteLine("PriceWise LK communicates with Supabase via its HTTPS REST API (Port 443).");
+                Console.WriteLine("Please use your Supabase Project URL (e.g. 'https://<project-ref>.supabase.co') found in Supabase Dashboard -> Project Settings -> API.");
+                Console.ResetColor();
+                supabaseUrl = null;
+            }
+            else if (supabaseUrl.Contains("your-project", StringComparison.OrdinalIgnoreCase))
+            {
+                supabaseUrl = null;
+            }
+            else if (!supabaseUrl.StartsWith("http://", StringComparison.OrdinalIgnoreCase) && 
+                     !supabaseUrl.StartsWith("https://", StringComparison.OrdinalIgnoreCase))
+            {
+                supabaseUrl = "https://" + supabaseUrl;
+            }
+        }
+
+        var storageMode = Environment.GetEnvironmentVariable("COLLECTOR_STORAGE_MODE") 
+            ?? (string.IsNullOrEmpty(supabaseUrl) ? "local" : "supabase");
 
         if (storageMode.Equals("supabase", StringComparison.OrdinalIgnoreCase) && !string.IsNullOrWhiteSpace(supabaseUrl) && !string.IsNullOrWhiteSpace(supabaseKey))
         {

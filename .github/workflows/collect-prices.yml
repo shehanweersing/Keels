@@ -49,9 +49,9 @@ jobs:
 
       - name: Execute Live Price Collection
         env:
-          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL || secrets.VITE_SUPABASE_URL }}
           SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
-          COLLECTOR_STORAGE_MODE: ${{ secrets.SUPABASE_URL && 'supabase' || 'local' }}
+          COLLECTOR_STORAGE_MODE: ${{ (secrets.SUPABASE_URL || secrets.VITE_SUPABASE_URL) && 'supabase' || 'local' }}
           TARGET_SUPERMARKET: ${{ inputs.supermarket || 'all' }}
           SEARCH_TERMS: ${{ inputs.search_terms || 'milk,tea,rice,dhal,sugar,biscuit' }}
         run: |

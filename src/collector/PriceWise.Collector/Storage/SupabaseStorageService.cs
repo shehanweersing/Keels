@@ -76,13 +76,80 @@ public class SupabaseStorageService : IStorageService
             }
 
             var json = await response.Content.ReadAsStringAsync(cancellationToken);
-            return JsonSerializer.Deserialize<List<Supermarket>>(json, new JsonSerializerOptions { PropertyNameCaseInsensitive = true }) ?? new List<Supermarket>();
+            var list = JsonSerializer.Deserialize<List<Supermarket>>(json, new JsonSerializerOptions { PropertyNameCaseInsensitive = true }) ?? new List<Supermarket>();
+            if (list.Count == 0)
+            {
+                list = await SeedDefaultSupermarketsAsync(cancellationToken);
+            }
+            return list;
         }
         catch (Exception ex)
         {
             _logger.LogError(ex, "Error getting supermarkets from Supabase: {Message}", ex.Message);
             return new List<Supermarket>();
         }
+    }
+
+    private async Task<List<Supermarket>> SeedDefaultSupermarketsAsync(CancellationToken cancellationToken)
+    {
+        var defaults = new List<Supermarket>
+        {
+            new Supermarket
+            {
+                Id = Guid.Parse("a1000000-0000-0000-0000-000000000001"),
+                Name = "Cargills Food City",
+                Slug = "cargills",
+                WebsiteUrl = "https://cargillsonline.com/Web/",
+                IntegrationStatus = "active",
+                StatusReason = "Verified live public JSON search API with full product metadata and exact LKR pricing."
+            },
+            new Supermarket
+            {
+                Id = Guid.Parse("a2000000-0000-0000-0000-000000000002"),
+                Name = "Arpico Supercentre",
+                Slug = "arpico",
+                WebsiteUrl = "https://myarpico.com/shop/",
+                IntegrationStatus = "active",
+                StatusReason = "Verified live public OpenCart search catalog permitted under robots.txt content signals."
+            },
+            new Supermarket
+            {
+                Id = Guid.Parse("a3000000-0000-0000-0000-000000000003"),
+                Name = "Keells Super",
+                Slug = "keells",
+                WebsiteUrl = "https://www.keellssuper.com/",
+                IntegrationStatus = "blocked",
+                StatusReason = "Direct API calls to zebraliveback require encrypted client session tokens and anti-bot challenge cookies. Automated collection blocked pending authorized enterprise data feed."
+            }
+        };
+
+        try
+        {
+            using var req = CreatePostgRestRequest(HttpMethod.Post, "supermarkets?on_conflict=slug");
+            req.Headers.Add("Prefer", "resolution=merge-duplicates,return=representation");
+            var payload = defaults.Select(s => new
+            {
+                id = s.Id,
+                name = s.Name,
+                slug = s.Slug,
+                website_url = s.WebsiteUrl,
+                integration_status = s.IntegrationStatus,
+                status_reason = s.StatusReason
+            });
+            req.Content = new StringContent(JsonSerializer.Serialize(payload), Encoding.UTF8, "application/json");
+            var resp = await _httpClient.SendAsync(req, cancellationToken);
+            if (resp.IsSuccessStatusCode)
+            {
+                _logger.LogInformation("Successfully initialized default supermarkets in Supabase database.");
+                return defaults;
+            }
+        }
+        catch (Exception ex)
+        {
+            _logger.LogWarning(ex, "Could not auto-seed supermarkets into Supabase: {Message}", ex.Message);
+        }
+
+        return defaults;
     }
 
     public async Task SaveCollectorRunAsync(CollectorRun run, CancellationToken cancellationToken = default)
