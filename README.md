@@ -1,7 +1,7 @@
 # PriceWise LK — Sri Lankan Supermarket Price Intelligence
 
 > **Real-World Sri Lankan Supermarket Price Comparison Application**  
-> Built with C# / .NET 8, React, TypeScript, Vite, Tailwind CSS, PostgreSQL / Supabase, and GitHub Actions.
+> Built with C# / .NET 10 LTS, React, TypeScript, Vite, Tailwind CSS, PostgreSQL / Supabase, and GitHub Actions.
 
 ---
 

@@ -79,10 +79,13 @@ export async function fetchVerifiedCatalog(): Promise<VerifiedProduct[]> {
             };
           }).filter((o: any) => o.CurrentPrice > 0);
 
+          const distinctStores = new Set(offers.map((o: any) => o.SupermarketSlug));
+          const supermarketCount = distinctStores.size;
           const prices = offers.map((o: any) => o.CurrentPrice);
           const minPrice = prices.length > 0 ? Math.min(...prices) : 0;
           const maxPrice = prices.length > 0 ? Math.max(...prices) : 0;
-          const cheapest = offers.find((o: any) => o.CurrentPrice === minPrice);
+          const cheapest = supermarketCount >= 2 ? offers.find((o: any) => o.CurrentPrice === minPrice) : null;
+          const priceDifference = supermarketCount >= 2 ? (maxPrice - minPrice) : 0;
 
           return {
             Id: p.id,
@@ -93,9 +96,10 @@ export async function fetchVerifiedCatalog(): Promise<VerifiedProduct[]> {
             Unit: p.unit,
             Category: p.category,
             OffersCount: offers.length,
+            SupermarketCount: supermarketCount,
             MinPrice: minPrice,
             MaxPrice: maxPrice,
-            PriceDifference: maxPrice - minPrice,
+            PriceDifference: priceDifference,
             CheapestSupermarket: cheapest?.SupermarketName || null,
             Offers: offers
           };

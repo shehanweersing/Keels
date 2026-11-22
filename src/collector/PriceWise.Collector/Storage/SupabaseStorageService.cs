@@ -122,10 +122,40 @@ public class SupabaseStorageService : IStorageService
     {
         var existingCatalog = await GetCanonicalProductsAsync(cancellationToken);
 
+        // Fetch existing store_products to prevent same-supermarket multiple offers on one canonical product
+        var existingStoreProducts = new HashSet<Guid>();
+        try
+        {
+            using var req = CreatePostgRestRequest(HttpMethod.Get, $"store_products?supermarket_id=eq.{supermarket.Id}&select=product_id");
+            using var resp = await _httpClient.SendAsync(req, cancellationToken);
+            if (resp.IsSuccessStatusCode)
+            {
+                var json = await resp.Content.ReadAsStringAsync(cancellationToken);
+                var list = JsonSerializer.Deserialize<List<StoreProductRefDto>>(json, new JsonSerializerOptions { PropertyNameCaseInsensitive = true });
+                if (list != null)
+                {
+                    foreach (var item in list)
+                    {
+                        if (item.ProductId.HasValue) existingStoreProducts.Add(item.ProductId.Value);
+                    }
+                }
+            }
+        }
+        catch (Exception ex)
+        {
+            _logger.LogWarning(ex, "Failed to fetch existing store products for supermarket {Name}: {Message}", supermarket.Name, ex.Message);
+        }
+
         foreach (var rawItem in items)
         {
-            var matchResult = _matcher.MatchOrCreateProduct(rawItem, existingCatalog);
+            // Only consider canonical products that do NOT already have an offer from this supermarket
+            var candidateProducts = existingCatalog
+                .Where(p => !existingStoreProducts.Contains(p.Id))
+                .ToList();
+
+            var matchResult = _matcher.MatchOrCreateProduct(rawItem, candidateProducts);
             var canonical = matchResult.CanonicalProduct;
+            existingStoreProducts.Add(canonical.Id);
 
             if (matchResult.IsNewProduct)
             {
@@ -186,5 +216,10 @@ public class SupabaseStorageService : IStorageService
     private class StoreProductDto
     {
         public Guid Id { get; set; }
+    }
+
+    private class StoreProductRefDto
+    {
+        public Guid? ProductId { get; set; }
     }
 }

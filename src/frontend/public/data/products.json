@@ -8618,5 +8618,15 @@
     "Unit": "g",
     "Category": "General Grocery",
     "CreatedAt": "2026-11-22T03:18:14.5284043Z"
+  },
+  {
+    "Id": "a79c4c93-edbf-48ef-bef2-215c91aa28e3",
+    "CanonicalName": "Delta Toffee Milk 45Pcs",
+    "Brand": "Generic",
+    "Barcode": null,
+    "Quantity": 45,
+    "Unit": "pcs",
+    "Category": "General Grocery",
+    "CreatedAt": "2026-11-22T11:15:25.6844056Z"
   }
 ]
