@@ -34,10 +34,10 @@ jobs:
 
     steps:
       - name: Checkout Repository
-        uses: actions/checkout@v5
+        uses: actions/checkout@v4
 
       - name: Setup .NET 10 LTS
-        uses: actions/setup-dotnet@v6
+        uses: actions/setup-dotnet@v4
         with:
           dotnet-version: '10.0.x'
 
@@ -61,7 +61,7 @@ jobs:
 
       - name: Archive Verified JSON Snapshots (Audit Evidence)
         if: always()
-        uses: actions/upload-artifact@v6
+        uses: actions/upload-artifact@v4
         with:
           name: verified-price-snapshots
           path: |
