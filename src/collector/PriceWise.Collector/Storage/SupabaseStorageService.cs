@@ -366,25 +366,28 @@ public class SupabaseStorageService : IStorageService
                 throw new InvalidOperationException($"Failed to insert price observation for SKU {rawItem.SourceProductId}: HTTP {obsResp.StatusCode} - {obsErr}");
             }
 
-            // Upsert product_matches audit record
-            using var pmReq = CreatePostgRestRequest(HttpMethod.Post, "product_matches?on_conflict=product_id,store_product_id");
-            pmReq.Headers.Add("Prefer", "resolution=merge-duplicates,return=representation");
-            var pmPayload = new
+            // Upsert product_matches audit record for cross-supermarket matches (only for matched products, not new_product)
+            if (!matchResult.IsNewProduct && !string.Equals(matchResult.MatchMethod, "new_product", StringComparison.OrdinalIgnoreCase))
             {
-                product_id = canonical.Id,
-                store_product_id = storeProductId,
-                match_method = matchResult.MatchMethod,
-                confidence = matchResult.Confidence,
-                verification_status = matchResult.VerificationStatus
-            };
-            pmReq.Content = new StringContent(JsonSerializer.Serialize(pmPayload, JsonOptions), Encoding.UTF8, "application/json");
-            using var pmResp = await _httpClient.SendAsync(pmReq, cancellationToken);
-            if (!pmResp.IsSuccessStatusCode)
-            {
-                var pmErr = await pmResp.Content.ReadAsStringAsync(cancellationToken);
-                _logger.LogError("Failed to upsert product match for product {ProdId} and store product {StoreProdId}: HTTP {Status} - {Error}",
-                    canonical.Id, storeProductId, pmResp.StatusCode, pmErr);
-                throw new InvalidOperationException($"Failed to upsert product match for product {canonical.Id}: HTTP {pmResp.StatusCode} - {pmErr}");
+                using var pmReq = CreatePostgRestRequest(HttpMethod.Post, "product_matches?on_conflict=product_id,store_product_id");
+                pmReq.Headers.Add("Prefer", "resolution=merge-duplicates,return=representation");
+                var pmPayload = new
+                {
+                    product_id = canonical.Id,
+                    store_product_id = storeProductId,
+                    match_method = matchResult.MatchMethod,
+                    confidence = matchResult.Confidence,
+                    verification_status = matchResult.VerificationStatus
+                };
+                pmReq.Content = new StringContent(JsonSerializer.Serialize(pmPayload, JsonOptions), Encoding.UTF8, "application/json");
+                using var pmResp = await _httpClient.SendAsync(pmReq, cancellationToken);
+                if (!pmResp.IsSuccessStatusCode)
+                {
+                    var pmErr = await pmResp.Content.ReadAsStringAsync(cancellationToken);
+                    _logger.LogError("Failed to upsert product match for product {ProdId} and store product {StoreProdId}: HTTP {Status} - {Error}",
+                        canonical.Id, storeProductId, pmResp.StatusCode, pmErr);
+                    throw new InvalidOperationException($"Failed to upsert product match for product {canonical.Id}: HTTP {pmResp.StatusCode} - {pmErr}");
+                }
             }
 
             persistedCount++;
