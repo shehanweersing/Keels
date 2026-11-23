@@ -2,8 +2,8 @@ name: Scheduled Supermarket Price Collection
 
 on:
   schedule:
-    # Run every 15 minutes by default
-    - cron: '*/15 * * * *'
+    # Run every 15 minutes (offset to :07, :22, :37, :52 to avoid top-of-hour GitHub Actions queue congestion and dropped runs)
+    - cron: '7,22,37,52 * * * *'
   workflow_dispatch:
     inputs:
       supermarket:
