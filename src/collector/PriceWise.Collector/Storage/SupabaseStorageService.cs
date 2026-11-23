@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Net.Http;
 using System.Text;
 using System.Text.Json;
@@ -27,17 +28,35 @@ public class SupabaseStorageService : IStorageService
         ILogger<SupabaseStorageService> logger)
     {
         _httpClient = httpClient;
-        _supabaseUrl = supabaseUrl.TrimEnd('/');
-        _serviceRoleKey = serviceRoleKey;
+        _supabaseUrl = (supabaseUrl ?? string.Empty).Trim().Trim('"', '\'').TrimEnd('/');
+        _serviceRoleKey = (serviceRoleKey ?? string.Empty).Trim().Trim('"', '\'');
         _matcher = matcher;
         _logger = logger;
     }
 
-    private HttpRequestMessage CreatePostgRestRequest(HttpMethod method, string tablePath)
+    internal SupabaseStorageService(string supabaseUrl, string serviceRoleKey)
+        : this(new HttpClient(), supabaseUrl, serviceRoleKey, new ProductMatcher(), null!)
+    {
+    }
+
+    internal HttpRequestMessage CreatePostgRestRequest(HttpMethod method, string tablePath)
     {
         var request = new HttpRequestMessage(method, $"{_supabaseUrl}/rest/v1/{tablePath}");
+        
+        // Supabase requires the 'apikey' header for all API requests
         request.Headers.Add("apikey", _serviceRoleKey);
-        request.Headers.Add("Authorization", $"Bearer {_serviceRoleKey}");
+
+        // Crucial: Supabase's new 'sb_secret_...' keys are opaque secret keys, NOT JWTs.
+        // Sending 'Authorization: Bearer sb_secret_...' causes PostgREST to attempt JWT validation and return HTTP 401 Unauthorized!
+        // Only attach 'Authorization: Bearer' for legacy JWT keys (which start with 'ey').
+        if (_serviceRoleKey.StartsWith("ey", StringComparison.OrdinalIgnoreCase))
+        {
+            request.Headers.Add("Authorization", $"Bearer {_serviceRoleKey}");
+        }
+
+        // Set backend User-Agent so Supabase gateway does not mistake collector for a browser
+        request.Headers.Add("User-Agent", "PriceWiseLK-Collector/1.0");
+
         return request;
     }
 
@@ -49,7 +68,8 @@ public class SupabaseStorageService : IStorageService
             using var response = await _httpClient.SendAsync(request, cancellationToken);
             if (!response.IsSuccessStatusCode)
             {
-                _logger.LogWarning("Failed to fetch products from Supabase: {Status}", response.StatusCode);
+                var err = await response.Content.ReadAsStringAsync(cancellationToken);
+                _logger.LogWarning("Failed to fetch products from Supabase: HTTP {Status} - {Error}", response.StatusCode, err);
                 return new List<Product>();
             }
 
@@ -71,7 +91,8 @@ public class SupabaseStorageService : IStorageService
             using var response = await _httpClient.SendAsync(request, cancellationToken);
             if (!response.IsSuccessStatusCode)
             {
-                _logger.LogWarning("Failed to fetch supermarkets from Supabase: {Status}", response.StatusCode);
+                var err = await response.Content.ReadAsStringAsync(cancellationToken);
+                _logger.LogWarning("Failed to fetch supermarkets from Supabase: HTTP {Status} - {Error}", response.StatusCode, err);
                 return new List<Supermarket>();
             }
 
@@ -143,6 +164,11 @@ public class SupabaseStorageService : IStorageService
                 _logger.LogInformation("Successfully initialized default supermarkets in Supabase database.");
                 return defaults;
             }
+            else
+            {
+                var err = await resp.Content.ReadAsStringAsync(cancellationToken);
+                _logger.LogWarning("Supabase returned error when auto-seeding supermarkets: HTTP {Status} - {Error}", resp.StatusCode, err);
+            }
         }
         catch (Exception ex)
         {
@@ -173,7 +199,8 @@ public class SupabaseStorageService : IStorageService
             using var response = await _httpClient.SendAsync(request, cancellationToken);
             if (!response.IsSuccessStatusCode)
             {
-                _logger.LogWarning("Failed to save collector run to Supabase: {Status}", response.StatusCode);
+                var err = await response.Content.ReadAsStringAsync(cancellationToken);
+                _logger.LogWarning("Failed to save collector run to Supabase: HTTP {Status} - {Error}", response.StatusCode, err);
             }
         }
         catch (Exception ex)
@@ -239,8 +266,16 @@ public class SupabaseStorageService : IStorageService
                     category = canonical.Category
                 };
                 pReq.Content = new StringContent(JsonSerializer.Serialize(pPayload), Encoding.UTF8, "application/json");
-                await _httpClient.SendAsync(pReq, cancellationToken);
-                existingCatalog.Add(canonical);
+                using var pResp = await _httpClient.SendAsync(pReq, cancellationToken);
+                if (pResp.IsSuccessStatusCode)
+                {
+                    existingCatalog.Add(canonical);
+                }
+                else
+                {
+                    var pErr = await pResp.Content.ReadAsStringAsync(cancellationToken);
+                    _logger.LogError("Failed to insert canonical product '{Name}': HTTP {Status} - {Error}", canonical.CanonicalName, pResp.StatusCode, pErr);
+                }
             }
 
             // Upsert store_products
@@ -258,11 +293,34 @@ public class SupabaseStorageService : IStorageService
                 last_observed_at = rawItem.ObservedAt
             };
             spReq.Content = new StringContent(JsonSerializer.Serialize(spPayload), Encoding.UTF8, "application/json");
-            var spResp = await _httpClient.SendAsync(spReq, cancellationToken);
+            using var spResp = await _httpClient.SendAsync(spReq, cancellationToken);
 
-            var spJson = await spResp.Content.ReadAsStringAsync(cancellationToken);
-            var insertedList = JsonSerializer.Deserialize<List<StoreProductDto>>(spJson, new JsonSerializerOptions { PropertyNameCaseInsensitive = true });
-            var storeProductId = insertedList?.FirstOrDefault()?.Id ?? Guid.NewGuid();
+            Guid storeProductId = Guid.Empty;
+            if (spResp.IsSuccessStatusCode)
+            {
+                var spJson = await spResp.Content.ReadAsStringAsync(cancellationToken);
+                try
+                {
+                    var insertedList = JsonSerializer.Deserialize<List<StoreProductDto>>(spJson, new JsonSerializerOptions { PropertyNameCaseInsensitive = true });
+                    storeProductId = insertedList?.FirstOrDefault()?.Id ?? Guid.Empty;
+                }
+                catch (JsonException jex)
+                {
+                    _logger.LogWarning(jex, "Could not parse store_products response as list: {Json}", spJson);
+                }
+            }
+            else
+            {
+                var spErr = await spResp.Content.ReadAsStringAsync(cancellationToken);
+                _logger.LogError("Failed to upsert store product '{Name}' (SKU {SKU}): HTTP {Status} - {Error}", 
+                    rawItem.SourceProductName, rawItem.SourceProductId, spResp.StatusCode, spErr);
+                continue; // Do not attempt to insert price observation if store product failed
+            }
+
+            if (storeProductId == Guid.Empty)
+            {
+                continue;
+            }
 
             // Insert price observation
             using var obsReq = CreatePostgRestRequest(HttpMethod.Post, "price_observations");
@@ -276,7 +334,13 @@ public class SupabaseStorageService : IStorageService
                 source_url = rawItem.ProductUrl
             };
             obsReq.Content = new StringContent(JsonSerializer.Serialize(obsPayload), Encoding.UTF8, "application/json");
-            await _httpClient.SendAsync(obsReq, cancellationToken);
+            using var obsResp = await _httpClient.SendAsync(obsReq, cancellationToken);
+            if (!obsResp.IsSuccessStatusCode)
+            {
+                var obsErr = await obsResp.Content.ReadAsStringAsync(cancellationToken);
+                _logger.LogError("Failed to insert price observation for SKU {SKU}: HTTP {Status} - {Error}", 
+                    rawItem.SourceProductId, obsResp.StatusCode, obsErr);
+            }
         }
     }
 

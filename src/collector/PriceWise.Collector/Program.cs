@@ -17,11 +17,36 @@ public class Program
 {
     public static async Task<int> Main(string[] args)
     {
-        Console.OutputEncoding = System.Text.Encoding.UTF8;
+        try
+        {
+            try
+            {
+                Console.OutputEncoding = System.Text.Encoding.UTF8;
+            }
+            catch
+            {
+                // Ignore console encoding setup failure on headless CI runners
+            }
 
+            return await RunAsync(args);
+        }
+        catch (Exception ex)
+        {
+            Console.Error.WriteLine($"[FATAL CRASH] Unhandled exception in PriceWise.Collector: {ex.GetType().Name}: {ex.Message}");
+            Console.Error.WriteLine(ex.StackTrace);
+            return 1;
+        }
+    }
+
+    private static async Task<int> RunAsync(string[] args)
+    {
         // Setup Dependency Injection & Logging
         var serviceCollection = new ServiceCollection();
-        ConfigureServices(serviceCollection);
+        var configResult = ConfigureServices(serviceCollection);
+        if (configResult != 0)
+        {
+            return configResult;
+        }
 
         using var serviceProvider = serviceCollection.BuildServiceProvider();
         var logger = serviceProvider.GetRequiredService<ILogger<Program>>();
@@ -109,7 +134,7 @@ public class Program
         return overallExitCode;
     }
 
-    private static void ConfigureServices(IServiceCollection services)
+    private static int ConfigureServices(IServiceCollection services)
     {
         services.AddLogging(builder =>
         {
@@ -121,41 +146,82 @@ public class Program
         services.AddSingleton<ProductMatcher>();
 
         // Storage service configuration
+        var isGitHubActions = string.Equals(Environment.GetEnvironmentVariable("GITHUB_ACTIONS"), "true", StringComparison.OrdinalIgnoreCase);
+        var rawStorageMode = Environment.GetEnvironmentVariable("COLLECTOR_STORAGE_MODE");
+        
         var supabaseUrl = Environment.GetEnvironmentVariable("SUPABASE_URL") 
             ?? Environment.GetEnvironmentVariable("VITE_SUPABASE_URL");
         var supabaseKey = Environment.GetEnvironmentVariable("SUPABASE_SERVICE_ROLE_KEY");
 
+        // Normalize URL and trim keys
         if (!string.IsNullOrWhiteSpace(supabaseUrl))
         {
             supabaseUrl = supabaseUrl.Trim().Trim('"', '\'');
+        }
+
+        if (!string.IsNullOrWhiteSpace(supabaseKey))
+        {
+            supabaseKey = supabaseKey.Trim().Trim('"', '\'');
+        }
+
+        // Determine intended storage mode:
+        // In GitHub Actions, production mode ALWAYS targets Supabase unless explicitly set to local.
+        var targetMode = (rawStorageMode ?? (isGitHubActions ? "supabase" : "local")).Trim().ToLowerInvariant();
+
+        if (targetMode == "supabase" || isGitHubActions)
+        {
+            // Strict Production Validation: NEVER silently fall back to local storage in production/CI!
+            if (string.IsNullOrWhiteSpace(supabaseUrl) || supabaseUrl.Contains("your-project", StringComparison.OrdinalIgnoreCase))
+            {
+                Console.Error.WriteLine("================================================================================");
+                Console.Error.WriteLine("[FATAL CONFIGURATION ERROR] Supabase storage is active, but SUPABASE_URL is missing or unconfigured!");
+                Console.Error.WriteLine("Expected: https://<project-ref>.supabase.co");
+                Console.Error.WriteLine("Please configure the 'SUPABASE_URL' (or 'VITE_SUPABASE_URL') secret in GitHub Repository Settings -> Secrets and variables -> Actions.");
+                Console.Error.WriteLine("================================================================================");
+                return 1;
+            }
 
             if (supabaseUrl.StartsWith("postgresql://", StringComparison.OrdinalIgnoreCase) ||
                 supabaseUrl.StartsWith("postgres://", StringComparison.OrdinalIgnoreCase) ||
                 supabaseUrl.Contains("Host=", StringComparison.OrdinalIgnoreCase))
             {
-                Console.ForegroundColor = ConsoleColor.Yellow;
-                Console.WriteLine("[Configuration Warning] SUPABASE_URL was provided as a PostgreSQL connection string instead of an HTTPS Project URL.");
-                Console.WriteLine("PriceWise LK communicates with Supabase via its HTTPS REST API (Port 443).");
-                Console.WriteLine("Please use your Supabase Project URL (e.g. 'https://<project-ref>.supabase.co') found in Supabase Dashboard -> Project Settings -> API.");
-                Console.ResetColor();
-                supabaseUrl = null;
+                Console.Error.WriteLine("================================================================================");
+                Console.Error.WriteLine("[FATAL CONFIGURATION ERROR] SUPABASE_URL was provided as a PostgreSQL connection string instead of an HTTPS Project URL!");
+                Console.Error.WriteLine($"Received: {MaskConnectionString(supabaseUrl)}");
+                Console.Error.WriteLine("PriceWise LK communicates with Supabase via its HTTPS REST API (Port 443).");
+                Console.Error.WriteLine("Please configure SUPABASE_URL with your Project URL: https://<project-ref>.supabase.co");
+                Console.Error.WriteLine("(Found in Supabase Dashboard -> Project Settings -> API)");
+                Console.Error.WriteLine("================================================================================");
+                return 1;
             }
-            else if (supabaseUrl.Contains("your-project", StringComparison.OrdinalIgnoreCase))
-            {
-                supabaseUrl = null;
-            }
-            else if (!supabaseUrl.StartsWith("http://", StringComparison.OrdinalIgnoreCase) && 
-                     !supabaseUrl.StartsWith("https://", StringComparison.OrdinalIgnoreCase))
+
+            if (!supabaseUrl.StartsWith("http://", StringComparison.OrdinalIgnoreCase) && 
+                !supabaseUrl.StartsWith("https://", StringComparison.OrdinalIgnoreCase))
             {
                 supabaseUrl = "https://" + supabaseUrl;
             }
-        }
 
-        var storageMode = Environment.GetEnvironmentVariable("COLLECTOR_STORAGE_MODE") 
-            ?? (string.IsNullOrEmpty(supabaseUrl) ? "local" : "supabase");
+            if (string.IsNullOrWhiteSpace(supabaseKey) || supabaseKey.Contains("your-supabase", StringComparison.OrdinalIgnoreCase))
+            {
+                Console.Error.WriteLine("================================================================================");
+                Console.Error.WriteLine("[FATAL CONFIGURATION ERROR] SUPABASE_SERVICE_ROLE_KEY is missing or unconfigured!");
+                Console.Error.WriteLine("The collector requires your Supabase service_role secret key (sb_secret_... or legacy JWT) to persist verified prices.");
+                Console.Error.WriteLine("Please configure the 'SUPABASE_SERVICE_ROLE_KEY' secret in GitHub Repository Settings -> Secrets and variables -> Actions.");
+                Console.Error.WriteLine("================================================================================");
+                return 1;
+            }
 
-        if (storageMode.Equals("supabase", StringComparison.OrdinalIgnoreCase) && !string.IsNullOrWhiteSpace(supabaseUrl) && !string.IsNullOrWhiteSpace(supabaseKey))
-        {
+            if (supabaseKey.StartsWith("sb_publishable_", StringComparison.OrdinalIgnoreCase))
+            {
+                Console.Error.WriteLine("================================================================================");
+                Console.Error.WriteLine("[FATAL CONFIGURATION ERROR] SUPABASE_SERVICE_ROLE_KEY is set to a public anon key ('sb_publishable_...')!");
+                Console.Error.WriteLine("The collector requires your privileged service_role secret key (starting with 'sb_secret_...' or legacy JWT 'eyJhbGciOi...').");
+                Console.Error.WriteLine("Public publishable keys do not have permission to insert or update supermarket data under Row Level Security.");
+                Console.Error.WriteLine("Please copy the secret key from Supabase Dashboard -> Project Settings -> API and update your 'SUPABASE_SERVICE_ROLE_KEY' secret.");
+                Console.Error.WriteLine("================================================================================");
+                return 1;
+            }
+
             services.AddSingleton<IStorageService, SupabaseStorageService>(sp =>
             {
                 var client = sp.GetRequiredService<IHttpClientFactory>().CreateClient();
@@ -166,14 +232,13 @@ public class Program
         }
         else
         {
+            // Local file storage (allowed ONLY in local development)
             services.AddSingleton<IStorageService, LocalStorageService>(sp =>
             {
                 var matcher = sp.GetRequiredService<ProductMatcher>();
                 var logger = sp.GetRequiredService<ILogger<LocalStorageService>>();
 
-                // Locate public/data directory in frontend
                 var baseDir = AppContext.BaseDirectory;
-                // Try repository root or relative path
                 var candidatePaths = new[]
                 {
                     Path.GetFullPath(Path.Combine(Directory.GetCurrentDirectory(), "src/frontend/public/data")),
@@ -213,6 +278,41 @@ public class Program
             var logger = sp.GetRequiredService<ILogger<KeellsCollector>>();
             return new KeellsCollector(client, logger);
         });
+
+        return 0;
+    }
+
+    internal static string MaskConnectionString(string url)
+    {
+        if (string.IsNullOrWhiteSpace(url)) return string.Empty;
+        try
+        {
+            if (url.Contains("://"))
+            {
+                var atIdx = url.IndexOf('@');
+                var colonSlash = url.IndexOf("://");
+                if (atIdx > 0 && colonSlash > 0 && atIdx > colonSlash)
+                {
+                    var scheme = url.Substring(0, colonSlash + 3);
+                    var userPass = url.Substring(colonSlash + 3, atIdx - (colonSlash + 3));
+                    var colonIdx = userPass.IndexOf(':');
+                    var user = colonIdx > 0 ? userPass.Substring(0, colonIdx) : "user";
+                    var hostAndPath = url.Substring(atIdx);
+                    return $"{scheme}{user}:***{hostAndPath}";
+                }
+                return url;
+            }
+            if (url.Contains("Password=", StringComparison.OrdinalIgnoreCase))
+            {
+                return System.Text.RegularExpressions.Regex.Replace(
+                    url,
+                    @"(Password=)[^;]+",
+                    "$1***",
+                    System.Text.RegularExpressions.RegexOptions.IgnoreCase);
+            }
+        }
+        catch { }
+        return url;
     }
 
     private static string GetArgumentValue(string[] args, string flag, string defaultValue)

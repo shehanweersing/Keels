@@ -34,10 +34,10 @@ jobs:
 
     steps:
       - name: Checkout Repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
       - name: Setup .NET 10 LTS
-        uses: actions/setup-dotnet@v4
+        uses: actions/setup-dotnet@v6
         with:
           dotnet-version: '10.0.x'
 
@@ -51,7 +51,7 @@ jobs:
         env:
           SUPABASE_URL: ${{ secrets.SUPABASE_URL || secrets.VITE_SUPABASE_URL }}
           SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
-          COLLECTOR_STORAGE_MODE: ${{ (secrets.SUPABASE_URL || secrets.VITE_SUPABASE_URL) && 'supabase' || 'local' }}
+          COLLECTOR_STORAGE_MODE: supabase
           TARGET_SUPERMARKET: ${{ inputs.supermarket || 'all' }}
           SEARCH_TERMS: ${{ inputs.search_terms || 'milk,tea,rice,dhal,sugar,biscuit' }}
         run: |
@@ -61,7 +61,7 @@ jobs:
 
       - name: Archive Verified JSON Snapshots (Audit Evidence)
         if: always()
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v6
         with:
           name: verified-price-snapshots
           path: |
