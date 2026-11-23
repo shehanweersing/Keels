@@ -4,6 +4,7 @@ using System.Linq;
 using System.Net.Http;
 using System.Text;
 using System.Text.Json;
+using System.Text.Json.Serialization;
 using System.Threading;
 using System.Threading.Tasks;
 using Microsoft.Extensions.Logging;
@@ -14,6 +15,12 @@ namespace PriceWise.Collector.Storage;
 
 public class SupabaseStorageService : IStorageService
 {
+    private static readonly JsonSerializerOptions JsonOptions = new()
+    {
+        PropertyNamingPolicy = JsonNamingPolicy.SnakeCaseLower,
+        PropertyNameCaseInsensitive = true
+    };
+
     private readonly HttpClient _httpClient;
     private readonly string _supabaseUrl;
     private readonly string _serviceRoleKey;
@@ -69,17 +76,17 @@ public class SupabaseStorageService : IStorageService
             if (!response.IsSuccessStatusCode)
             {
                 var err = await response.Content.ReadAsStringAsync(cancellationToken);
-                _logger.LogWarning("Failed to fetch products from Supabase: HTTP {Status} - {Error}", response.StatusCode, err);
-                return new List<Product>();
+                _logger.LogError("Failed to fetch products from Supabase: HTTP {Status} - {Error}", response.StatusCode, err);
+                throw new InvalidOperationException($"Failed to fetch products from Supabase: HTTP {response.StatusCode} - {err}");
             }
 
             var json = await response.Content.ReadAsStringAsync(cancellationToken);
-            return JsonSerializer.Deserialize<List<Product>>(json, new JsonSerializerOptions { PropertyNameCaseInsensitive = true }) ?? new List<Product>();
+            return JsonSerializer.Deserialize<List<Product>>(json, JsonOptions) ?? new List<Product>();
         }
-        catch (Exception ex)
+        catch (Exception ex) when (ex is not InvalidOperationException)
         {
             _logger.LogError(ex, "Error getting products from Supabase: {Message}", ex.Message);
-            return new List<Product>();
+            throw new InvalidOperationException($"Error retrieving canonical products from Supabase: {ex.Message}", ex);
         }
     }
 
@@ -92,22 +99,22 @@ public class SupabaseStorageService : IStorageService
             if (!response.IsSuccessStatusCode)
             {
                 var err = await response.Content.ReadAsStringAsync(cancellationToken);
-                _logger.LogWarning("Failed to fetch supermarkets from Supabase: HTTP {Status} - {Error}", response.StatusCode, err);
-                return new List<Supermarket>();
+                _logger.LogError("Failed to fetch supermarkets from Supabase: HTTP {Status} - {Error}", response.StatusCode, err);
+                throw new InvalidOperationException($"Failed to fetch supermarkets from Supabase: HTTP {response.StatusCode} - {err}");
             }
 
             var json = await response.Content.ReadAsStringAsync(cancellationToken);
-            var list = JsonSerializer.Deserialize<List<Supermarket>>(json, new JsonSerializerOptions { PropertyNameCaseInsensitive = true }) ?? new List<Supermarket>();
+            var list = JsonSerializer.Deserialize<List<Supermarket>>(json, JsonOptions) ?? new List<Supermarket>();
             if (list.Count == 0)
             {
                 list = await SeedDefaultSupermarketsAsync(cancellationToken);
             }
             return list;
         }
-        catch (Exception ex)
+        catch (Exception ex) when (ex is not InvalidOperationException)
         {
             _logger.LogError(ex, "Error getting supermarkets from Supabase: {Message}", ex.Message);
-            return new List<Supermarket>();
+            throw new InvalidOperationException($"Error retrieving supermarkets from Supabase: {ex.Message}", ex);
         }
     }
 
@@ -157,7 +164,7 @@ public class SupabaseStorageService : IStorageService
                 integration_status = s.IntegrationStatus,
                 status_reason = s.StatusReason
             });
-            req.Content = new StringContent(JsonSerializer.Serialize(payload), Encoding.UTF8, "application/json");
+            req.Content = new StringContent(JsonSerializer.Serialize(payload, JsonOptions), Encoding.UTF8, "application/json");
             var resp = await _httpClient.SendAsync(req, cancellationToken);
             if (resp.IsSuccessStatusCode)
             {
@@ -167,45 +174,39 @@ public class SupabaseStorageService : IStorageService
             else
             {
                 var err = await resp.Content.ReadAsStringAsync(cancellationToken);
-                _logger.LogWarning("Supabase returned error when auto-seeding supermarkets: HTTP {Status} - {Error}", resp.StatusCode, err);
+                _logger.LogError("Supabase returned error when auto-seeding supermarkets: HTTP {Status} - {Error}", resp.StatusCode, err);
+                throw new InvalidOperationException($"Failed to auto-seed supermarkets into Supabase: HTTP {resp.StatusCode} - {err}");
             }
         }
-        catch (Exception ex)
+        catch (Exception ex) when (ex is not InvalidOperationException)
         {
-            _logger.LogWarning(ex, "Could not auto-seed supermarkets into Supabase: {Message}", ex.Message);
+            _logger.LogError(ex, "Could not auto-seed supermarkets into Supabase: {Message}", ex.Message);
+            throw;
         }
-
-        return defaults;
     }
 
     public async Task SaveCollectorRunAsync(CollectorRun run, CancellationToken cancellationToken = default)
     {
-        try
+        using var request = CreatePostgRestRequest(HttpMethod.Post, "collector_runs");
+        var payload = new
         {
-            using var request = CreatePostgRestRequest(HttpMethod.Post, "collector_runs");
-            var payload = new
-            {
-                id = run.Id,
-                supermarket_id = run.SupermarketId,
-                started_at = run.StartedAt,
-                finished_at = run.FinishedAt,
-                status = run.Status,
-                products_checked = run.ProductsChecked,
-                products_updated = run.ProductsUpdated,
-                error_message = run.ErrorMessage
-            };
+            id = run.Id,
+            supermarket_id = run.SupermarketId,
+            started_at = run.StartedAt,
+            finished_at = run.FinishedAt,
+            status = run.Status,
+            products_checked = run.ProductsChecked,
+            products_updated = run.ProductsUpdated,
+            error_message = run.ErrorMessage
+        };
 
-            request.Content = new StringContent(JsonSerializer.Serialize(payload), Encoding.UTF8, "application/json");
-            using var response = await _httpClient.SendAsync(request, cancellationToken);
-            if (!response.IsSuccessStatusCode)
-            {
-                var err = await response.Content.ReadAsStringAsync(cancellationToken);
-                _logger.LogWarning("Failed to save collector run to Supabase: HTTP {Status} - {Error}", response.StatusCode, err);
-            }
-        }
-        catch (Exception ex)
+        request.Content = new StringContent(JsonSerializer.Serialize(payload, JsonOptions), Encoding.UTF8, "application/json");
+        using var response = await _httpClient.SendAsync(request, cancellationToken);
+        if (!response.IsSuccessStatusCode)
         {
-            _logger.LogError(ex, "Error saving collector run to Supabase: {Message}", ex.Message);
+            var err = await response.Content.ReadAsStringAsync(cancellationToken);
+            _logger.LogError("Failed to save collector run to Supabase: HTTP {Status} - {Error}", response.StatusCode, err);
+            throw new InvalidOperationException($"Failed to save collector run to Supabase: HTTP {response.StatusCode} - {err}");
         }
     }
 
@@ -216,6 +217,24 @@ public class SupabaseStorageService : IStorageService
     {
         var existingCatalog = await GetCanonicalProductsAsync(cancellationToken);
 
+        // Fetch store location for this supermarket (if configured)
+        Guid? storeLocationId = null;
+        try
+        {
+            using var locReq = CreatePostgRestRequest(HttpMethod.Get, $"store_locations?supermarket_id=eq.{supermarket.Id}&select=id&limit=1");
+            using var locResp = await _httpClient.SendAsync(locReq, cancellationToken);
+            if (locResp.IsSuccessStatusCode)
+            {
+                var locJson = await locResp.Content.ReadAsStringAsync(cancellationToken);
+                var locList = JsonSerializer.Deserialize<List<StoreLocationDto>>(locJson, JsonOptions);
+                storeLocationId = locList?.FirstOrDefault()?.Id;
+            }
+        }
+        catch (Exception ex)
+        {
+            _logger.LogWarning(ex, "Could not fetch store location for supermarket {Name}: {Message}", supermarket.Name, ex.Message);
+        }
+
         // Fetch existing store_products to prevent same-supermarket multiple offers on one canonical product
         var existingStoreProducts = new HashSet<Guid>();
         try
@@ -225,7 +244,7 @@ public class SupabaseStorageService : IStorageService
             if (resp.IsSuccessStatusCode)
             {
                 var json = await resp.Content.ReadAsStringAsync(cancellationToken);
-                var list = JsonSerializer.Deserialize<List<StoreProductRefDto>>(json, new JsonSerializerOptions { PropertyNameCaseInsensitive = true });
+                var list = JsonSerializer.Deserialize<List<StoreProductRefDto>>(json, JsonOptions);
                 if (list != null)
                 {
                     foreach (var item in list)
@@ -240,6 +259,7 @@ public class SupabaseStorageService : IStorageService
             _logger.LogWarning(ex, "Failed to fetch existing store products for supermarket {Name}: {Message}", supermarket.Name, ex.Message);
         }
 
+        int persistedCount = 0;
         foreach (var rawItem in items)
         {
             // Only consider canonical products that do NOT already have an offer from this supermarket
@@ -265,7 +285,7 @@ public class SupabaseStorageService : IStorageService
                     unit = canonical.Unit,
                     category = canonical.Category
                 };
-                pReq.Content = new StringContent(JsonSerializer.Serialize(pPayload), Encoding.UTF8, "application/json");
+                pReq.Content = new StringContent(JsonSerializer.Serialize(pPayload, JsonOptions), Encoding.UTF8, "application/json");
                 using var pResp = await _httpClient.SendAsync(pReq, cancellationToken);
                 if (pResp.IsSuccessStatusCode)
                 {
@@ -275,6 +295,7 @@ public class SupabaseStorageService : IStorageService
                 {
                     var pErr = await pResp.Content.ReadAsStringAsync(cancellationToken);
                     _logger.LogError("Failed to insert canonical product '{Name}': HTTP {Status} - {Error}", canonical.CanonicalName, pResp.StatusCode, pErr);
+                    throw new InvalidOperationException($"Failed to insert canonical product '{canonical.CanonicalName}': HTTP {pResp.StatusCode} - {pErr}");
                 }
             }
 
@@ -284,6 +305,7 @@ public class SupabaseStorageService : IStorageService
             var spPayload = new
             {
                 supermarket_id = supermarket.Id,
+                store_location_id = storeLocationId,
                 product_id = canonical.Id,
                 source_product_id = rawItem.SourceProductId,
                 source_product_name = rawItem.SourceProductName,
@@ -292,7 +314,7 @@ public class SupabaseStorageService : IStorageService
                 availability_status = rawItem.AvailabilityStatus,
                 last_observed_at = rawItem.ObservedAt
             };
-            spReq.Content = new StringContent(JsonSerializer.Serialize(spPayload), Encoding.UTF8, "application/json");
+            spReq.Content = new StringContent(JsonSerializer.Serialize(spPayload, JsonOptions), Encoding.UTF8, "application/json");
             using var spResp = await _httpClient.SendAsync(spReq, cancellationToken);
 
             Guid storeProductId = Guid.Empty;
@@ -301,12 +323,13 @@ public class SupabaseStorageService : IStorageService
                 var spJson = await spResp.Content.ReadAsStringAsync(cancellationToken);
                 try
                 {
-                    var insertedList = JsonSerializer.Deserialize<List<StoreProductDto>>(spJson, new JsonSerializerOptions { PropertyNameCaseInsensitive = true });
+                    var insertedList = JsonSerializer.Deserialize<List<StoreProductDto>>(spJson, JsonOptions);
                     storeProductId = insertedList?.FirstOrDefault()?.Id ?? Guid.Empty;
                 }
                 catch (JsonException jex)
                 {
-                    _logger.LogWarning(jex, "Could not parse store_products response as list: {Json}", spJson);
+                    _logger.LogError(jex, "Could not parse store_products response as list: {Json}", spJson);
+                    throw new InvalidOperationException($"Could not parse store_products response as list: {spJson}", jex);
                 }
             }
             else
@@ -314,12 +337,12 @@ public class SupabaseStorageService : IStorageService
                 var spErr = await spResp.Content.ReadAsStringAsync(cancellationToken);
                 _logger.LogError("Failed to upsert store product '{Name}' (SKU {SKU}): HTTP {Status} - {Error}", 
                     rawItem.SourceProductName, rawItem.SourceProductId, spResp.StatusCode, spErr);
-                continue; // Do not attempt to insert price observation if store product failed
+                throw new InvalidOperationException($"Failed to upsert store product '{rawItem.SourceProductName}' (SKU {rawItem.SourceProductId}): HTTP {spResp.StatusCode} - {spErr}");
             }
 
             if (storeProductId == Guid.Empty)
             {
-                continue;
+                throw new InvalidOperationException($"Supabase upsert did not return a valid StoreProductId for SKU {rawItem.SourceProductId}");
             }
 
             // Insert price observation
@@ -333,24 +356,59 @@ public class SupabaseStorageService : IStorageService
                 observed_at = rawItem.ObservedAt,
                 source_url = rawItem.ProductUrl
             };
-            obsReq.Content = new StringContent(JsonSerializer.Serialize(obsPayload), Encoding.UTF8, "application/json");
+            obsReq.Content = new StringContent(JsonSerializer.Serialize(obsPayload, JsonOptions), Encoding.UTF8, "application/json");
             using var obsResp = await _httpClient.SendAsync(obsReq, cancellationToken);
             if (!obsResp.IsSuccessStatusCode)
             {
                 var obsErr = await obsResp.Content.ReadAsStringAsync(cancellationToken);
                 _logger.LogError("Failed to insert price observation for SKU {SKU}: HTTP {Status} - {Error}", 
                     rawItem.SourceProductId, obsResp.StatusCode, obsErr);
+                throw new InvalidOperationException($"Failed to insert price observation for SKU {rawItem.SourceProductId}: HTTP {obsResp.StatusCode} - {obsErr}");
             }
+
+            // Upsert product_matches audit record
+            using var pmReq = CreatePostgRestRequest(HttpMethod.Post, "product_matches?on_conflict=product_id,store_product_id");
+            pmReq.Headers.Add("Prefer", "resolution=merge-duplicates,return=representation");
+            var pmPayload = new
+            {
+                product_id = canonical.Id,
+                store_product_id = storeProductId,
+                match_method = matchResult.MatchMethod,
+                confidence = matchResult.Confidence,
+                verification_status = matchResult.VerificationStatus
+            };
+            pmReq.Content = new StringContent(JsonSerializer.Serialize(pmPayload, JsonOptions), Encoding.UTF8, "application/json");
+            using var pmResp = await _httpClient.SendAsync(pmReq, cancellationToken);
+            if (!pmResp.IsSuccessStatusCode)
+            {
+                var pmErr = await pmResp.Content.ReadAsStringAsync(cancellationToken);
+                _logger.LogError("Failed to upsert product match for product {ProdId} and store product {StoreProdId}: HTTP {Status} - {Error}",
+                    canonical.Id, storeProductId, pmResp.StatusCode, pmErr);
+                throw new InvalidOperationException($"Failed to upsert product match for product {canonical.Id}: HTTP {pmResp.StatusCode} - {pmErr}");
+            }
+
+            persistedCount++;
         }
+
+        _logger.LogInformation("Successfully persisted {Count} verified store products, observations, and matches to Supabase for {Name}.",
+            persistedCount, supermarket.Name);
+    }
+
+    private class StoreLocationDto
+    {
+        [JsonPropertyName("id")]
+        public Guid Id { get; set; }
     }
 
     private class StoreProductDto
     {
+        [JsonPropertyName("id")]
         public Guid Id { get; set; }
     }
 
     private class StoreProductRefDto
     {
+        [JsonPropertyName("product_id")]
         public Guid? ProductId { get; set; }
     }
 }

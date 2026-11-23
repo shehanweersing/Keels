@@ -83,15 +83,13 @@ public class Program
             logger.LogInformation("-------------------------------------------------");
             logger.LogInformation("Running collector for {Name} ({Slug})...", collector.SupermarketName, collector.SupermarketSlug);
 
-            var superEntity = supermarkets.FirstOrDefault(s => string.Equals(s.Slug, collector.SupermarketSlug, StringComparison.OrdinalIgnoreCase))
-                ?? new Supermarket
-                {
-                    Name = collector.SupermarketName,
-                    Slug = collector.SupermarketSlug,
-                    WebsiteUrl = collector.WebsiteUrl,
-                    IntegrationStatus = collector.IntegrationStatus,
-                    StatusReason = collector.StatusReason
-                };
+            var superEntity = supermarkets.FirstOrDefault(s => string.Equals(s.Slug, collector.SupermarketSlug, StringComparison.OrdinalIgnoreCase));
+            if (superEntity == null)
+            {
+                logger.LogError("[FATAL DATABASE ERROR] Supermarket '{Slug}' not found in database catalog! Cannot associate collector run or products without a valid database foreign key.", collector.SupermarketSlug);
+                overallExitCode = 1;
+                continue;
+            }
 
             var run = new CollectorRun
             {
@@ -109,12 +107,28 @@ public class Program
             run.ProductsUpdated = result.ProductsUpdated;
             run.ErrorMessage = result.ErrorMessage;
 
-            await storage.SaveCollectorRunAsync(run);
+            try
+            {
+                await storage.SaveCollectorRunAsync(run);
+            }
+            catch (Exception ex)
+            {
+                logger.LogError(ex, "Failed to persist collector run audit record for {Name}: {Message}", collector.SupermarketName, ex.Message);
+                overallExitCode = 1;
+            }
 
             if (result.Success && result.Products.Count > 0)
             {
-                await storage.SaveCollectedProductsAsync(superEntity, result.Products);
-                logger.LogInformation("Successfully persisted {Count} verified observations for {Name}.", result.Products.Count, collector.SupermarketName);
+                try
+                {
+                    await storage.SaveCollectedProductsAsync(superEntity, result.Products);
+                    logger.LogInformation("Successfully persisted {Count} verified observations for {Name}.", result.Products.Count, collector.SupermarketName);
+                }
+                catch (Exception ex)
+                {
+                    logger.LogError(ex, "FATAL: Database persistence failed for {Name}: {Message}", collector.SupermarketName, ex.Message);
+                    overallExitCode = 1;
+                }
             }
             else if (result.Status == "blocked")
             {

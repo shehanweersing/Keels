@@ -61,4 +61,56 @@ public class StorageTests
         Assert.DoesNotContain("mySecretPass123", masked);
         Assert.Equal(expectedMasked, masked);
     }
+
+    [Fact]
+    public void Supermarket_Deserialization_FromSupabaseJson_MustPopulateProperties()
+    {
+        var json = "[{\"id\":\"a1000000-0000-0000-0000-000000000001\",\"name\":\"Cargills Food City\",\"slug\":\"cargills\",\"website_url\":\"https://cargillsonline.com/Web/\",\"integration_status\":\"active\",\"status_reason\":\"test\",\"created_at\":\"2026-11-22T14:01:51.252428+00:00\"}]";
+        
+        var list = System.Text.Json.JsonSerializer.Deserialize<System.Collections.Generic.List<PriceWise.Collector.Models.Supermarket>>(json);
+        
+        Assert.NotNull(list);
+        Assert.Single(list);
+        Assert.Equal(Guid.Parse("a1000000-0000-0000-0000-000000000001"), list[0].Id);
+        Assert.Equal("Cargills Food City", list[0].Name);
+        Assert.Equal("cargills", list[0].Slug);
+        Assert.Equal("https://cargillsonline.com/Web/", list[0].WebsiteUrl);
+        Assert.Equal("active", list[0].IntegrationStatus);
+    }
+
+    [Fact]
+    public void Product_Deserialization_FromSupabaseJson_MustPopulateProperties()
+    {
+        var json = "[{\"id\":\"692f46ab-bd3f-4f4f-9f9b-f1742b0235df\",\"canonical_name\":\"Milkmaid Condensed Milk\",\"brand\":\"Milkmaid\",\"barcode\":\"123456\",\"quantity\":510.00,\"unit\":\"g\",\"category\":\"Dairy\",\"created_at\":\"2026-11-23T04:42:17.106383+00:00\"}]";
+        
+        var list = System.Text.Json.JsonSerializer.Deserialize<System.Collections.Generic.List<PriceWise.Collector.Models.Product>>(json);
+        
+        Assert.NotNull(list);
+        Assert.Single(list);
+        Assert.Equal(Guid.Parse("692f46ab-bd3f-4f4f-9f9b-f1742b0235df"), list[0].Id);
+        Assert.Equal("Milkmaid Condensed Milk", list[0].CanonicalName);
+        Assert.Equal("Milkmaid", list[0].Brand);
+        Assert.Equal(510.00m, list[0].Quantity);
+        Assert.Equal("g", list[0].Unit);
+    }
+
+    [Fact]
+    public void CollectorRun_Serialization_MustEmitSnakeCasePayload()
+    {
+        var run = new PriceWise.Collector.Models.CollectorRun
+        {
+            Id = Guid.Parse("c1000000-0000-0000-0000-000000000001"),
+            SupermarketId = Guid.Parse("a1000000-0000-0000-0000-000000000001"),
+            StartedAt = new DateTime(2026, 11, 23, 4, 39, 0, DateTimeKind.Utc),
+            Status = "success",
+            ProductsChecked = 50,
+            ProductsUpdated = 45
+        };
+
+        var json = System.Text.Json.JsonSerializer.Serialize(run);
+
+        Assert.Contains("\"supermarket_id\":", json);
+        Assert.Contains("\"products_checked\":50", json);
+        Assert.Contains("\"products_updated\":45", json);
+    }
 }
