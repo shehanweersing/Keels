@@ -123,21 +123,58 @@ public class Program
                 {
                     await storage.SaveCollectedProductsAsync(superEntity, result.Products);
                     logger.LogInformation("Successfully persisted {Count} verified observations for {Name}.", result.Products.Count, collector.SupermarketName);
+
+                    var activeReason = $"{collector.StatusReason} Last verified persistence: {result.Products.Count} products at {DateTime.UtcNow:yyyy-MM-dd HH:mm:ss} UTC.";
+                    await storage.UpdateSupermarketStatusAsync(superEntity.Id, "active", activeReason);
                 }
                 catch (Exception ex)
                 {
                     logger.LogError(ex, "FATAL: Database persistence failed for {Name}: {Message}", collector.SupermarketName, ex.Message);
+                    overallExitCode = 1;
+                    try
+                    {
+                        await storage.UpdateSupermarketStatusAsync(
+                            superEntity.Id,
+                            "maintenance",
+                            $"Temporarily degraded/stale (database persistence failed at {DateTime.UtcNow:yyyy-MM-dd HH:mm:ss} UTC): {ex.Message}");
+                    }
+                    catch { /* Best-effort status sync */ }
+                }
+            }
+            else if (result.Success && result.Products.Count == 0)
+            {
+                logger.LogWarning("Collector for {Name} completed with 0 verified products.", collector.SupermarketName);
+                await storage.UpdateSupermarketStatusAsync(
+                    superEntity.Id,
+                    "maintenance",
+                    $"Collector returned 0 verified products at {DateTime.UtcNow:yyyy-MM-dd HH:mm:ss} UTC; prior catalog data retained as temporarily stale.");
+                if (selectedCollectors.Count == 1)
+                {
                     overallExitCode = 1;
                 }
             }
             else if (result.Status == "blocked")
             {
                 logger.LogWarning("Collector for {Name} reported status BLOCKED: {Error}", collector.SupermarketName, result.ErrorMessage);
+                await storage.UpdateSupermarketStatusAsync(
+                    superEntity.Id,
+                    "blocked",
+                    $"Access blocked at {DateTime.UtcNow:yyyy-MM-dd HH:mm:ss} UTC: {result.ErrorMessage}");
+
+                // Explicitly targeting a single blocked supermarket must not report a misleading green success
+                if (selectedCollectors.Count == 1)
+                {
+                    overallExitCode = 1;
+                }
             }
             else
             {
                 logger.LogError("Collector for {Name} failed: {Error}", collector.SupermarketName, result.ErrorMessage);
                 overallExitCode = 1;
+                await storage.UpdateSupermarketStatusAsync(
+                    superEntity.Id,
+                    "maintenance",
+                    $"Temporarily degraded/stale (collection failed at {DateTime.UtcNow:yyyy-MM-dd HH:mm:ss} UTC): {result.ErrorMessage}");
             }
         }
 

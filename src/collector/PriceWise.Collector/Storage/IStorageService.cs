@@ -9,6 +9,11 @@ public interface IStorageService
 {
     Task<List<Product>> GetCanonicalProductsAsync(CancellationToken cancellationToken = default);
     Task<List<Supermarket>> GetSupermarketsAsync(CancellationToken cancellationToken = default);
+    Task UpdateSupermarketStatusAsync(
+        Guid supermarketId,
+        string integrationStatus,
+        string statusReason,
+        CancellationToken cancellationToken = default);
     Task SaveCollectorRunAsync(CollectorRun run, CancellationToken cancellationToken = default);
     Task SaveCollectedProductsAsync(
         Supermarket supermarket,

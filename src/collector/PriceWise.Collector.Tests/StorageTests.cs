@@ -113,4 +113,45 @@ public class StorageTests
         Assert.Contains("\"products_checked\":50", json);
         Assert.Contains("\"products_updated\":45", json);
     }
+
+    [Fact]
+    public async System.Threading.Tasks.Task UpdateSupermarketStatusAsync_SendsPatchWithSnakeCaseStatusAndReason()
+    {
+        HttpRequestMessage? capturedReq = null;
+        string? capturedBody = null;
+        var handler = new TestHttpMessageHandler(async (req, ct) =>
+        {
+            capturedReq = req;
+            capturedBody = await req.Content!.ReadAsStringAsync(ct);
+            return new HttpResponseMessage(System.Net.HttpStatusCode.OK)
+            {
+                Content = new StringContent("[]")
+            };
+        });
+
+        var client = new HttpClient(handler);
+        var storage = new SupabaseStorageService(
+            client,
+            "https://testproject.supabase.co",
+            "sb_secret_test_key",
+            new PriceWise.Collector.Matching.ProductMatcher(),
+            Microsoft.Extensions.Logging.Abstractions.NullLogger<SupabaseStorageService>.Instance);
+
+        var id = Guid.Parse("a3000000-0000-0000-0000-000000000003");
+        await storage.UpdateSupermarketStatusAsync(id, "active", "Verified 322 Keells products.");
+
+        Assert.NotNull(capturedReq);
+        Assert.Equal(HttpMethod.Patch, capturedReq!.Method);
+        Assert.Contains($"supermarkets?id=eq.{id}", capturedReq.RequestUri!.ToString());
+        Assert.Contains("\"integration_status\":\"active\"", capturedBody);
+        Assert.Contains("\"status_reason\":\"Verified 322 Keells products.\"", capturedBody);
+    }
+
+    private class TestHttpMessageHandler : HttpMessageHandler
+    {
+        private readonly Func<HttpRequestMessage, System.Threading.CancellationToken, System.Threading.Tasks.Task<HttpResponseMessage>> _fn;
+        public TestHttpMessageHandler(Func<HttpRequestMessage, System.Threading.CancellationToken, System.Threading.Tasks.Task<HttpResponseMessage>> fn) => _fn = fn;
+        protected override System.Threading.Tasks.Task<HttpResponseMessage> SendAsync(HttpRequestMessage request, System.Threading.CancellationToken cancellationToken)
+            => _fn(request, cancellationToken);
+    }
 }

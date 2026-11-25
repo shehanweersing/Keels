@@ -146,8 +146,8 @@ public class SupabaseStorageService : IStorageService
                 Name = "Keells Super",
                 Slug = "keells",
                 WebsiteUrl = "https://www.keellssuper.com/",
-                IntegrationStatus = "blocked",
-                StatusReason = "Direct API calls to zebraliveback require encrypted client session tokens and anti-bot challenge cookies. Automated collection blocked pending authorized enterprise data feed."
+                IntegrationStatus = "pending",
+                StatusReason = "Pending initial verified Guest Browsing collection."
             }
         };
 
@@ -183,6 +183,34 @@ public class SupabaseStorageService : IStorageService
             _logger.LogError(ex, "Could not auto-seed supermarkets into Supabase: {Message}", ex.Message);
             throw;
         }
+    }
+
+    public async Task UpdateSupermarketStatusAsync(
+        Guid supermarketId,
+        string integrationStatus,
+        string statusReason,
+        CancellationToken cancellationToken = default)
+    {
+        using var req = CreatePostgRestRequest(HttpMethod.Patch, $"supermarkets?id=eq.{supermarketId}");
+        req.Headers.Add("Prefer", "return=representation");
+
+        var payload = new
+        {
+            integration_status = integrationStatus,
+            status_reason = statusReason
+        };
+        req.Content = new StringContent(JsonSerializer.Serialize(payload, JsonOptions), Encoding.UTF8, "application/json");
+
+        using var response = await _httpClient.SendAsync(req, cancellationToken);
+        if (!response.IsSuccessStatusCode)
+        {
+            var err = await response.Content.ReadAsStringAsync(cancellationToken);
+            _logger.LogError("Failed to update supermarket {SupermarketId} status to '{Status}': HTTP {HttpStatus} - {Error}",
+                supermarketId, integrationStatus, response.StatusCode, err);
+            throw new InvalidOperationException($"Failed to update supermarket status: HTTP {response.StatusCode} - {err}");
+        }
+
+        _logger.LogInformation("Updated supermarket {SupermarketId} integration_status to '{Status}'.", supermarketId, integrationStatus);
     }
 
     public async Task SaveCollectorRunAsync(CollectorRun run, CancellationToken cancellationToken = default)

@@ -34,9 +34,16 @@ export const StatusBadge: React.FC<StatusBadgeProps> = ({ status, label, classNa
         </span>
       );
 
+    case 'maintenance':
+      return (
+        <span className={`inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full text-xs font-semibold bg-amber-50 text-amber-800 border border-amber-200 ${className}`}>
+          <Clock className="w-3.5 h-3.5 text-amber-600" />
+          <span>{label || 'Degraded / Stale'}</span>
+        </span>
+      );
+
     case 'running':
     case 'pending':
-    case 'maintenance':
     default:
       return (
         <span className={`inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full text-xs font-semibold bg-slate-100 text-slate-700 border border-slate-200 ${className}`}>

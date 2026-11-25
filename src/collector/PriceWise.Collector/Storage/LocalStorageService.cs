@@ -102,6 +102,22 @@ public class LocalStorageService : IStorageService
         return Task.FromResult(_supermarkets.ToList());
     }
 
+    public Task UpdateSupermarketStatusAsync(
+        Guid supermarketId,
+        string integrationStatus,
+        string statusReason,
+        CancellationToken cancellationToken = default)
+    {
+        var existing = _supermarkets.FirstOrDefault(s => s.Id == supermarketId);
+        if (existing != null)
+        {
+            existing.IntegrationStatus = integrationStatus;
+            existing.StatusReason = statusReason;
+            PersistJson("supermarkets.json", _supermarkets);
+        }
+        return Task.CompletedTask;
+    }
+
     public Task SaveCollectorRunAsync(CollectorRun run, CancellationToken cancellationToken = default)
     {
         _collectorRuns.Add(run);
