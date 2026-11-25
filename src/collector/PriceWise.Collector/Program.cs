@@ -331,7 +331,7 @@ public class Program
         services.AddTransient<ISupermarketCollector, KeellsCollector>(sp =>
         {
             var client = sp.GetRequiredService<IHttpClientFactory>().CreateClient(nameof(KeellsCollector));
-            client.Timeout = TimeSpan.FromSeconds(20);
+            client.Timeout = TimeSpan.FromSeconds(35);
             var logger = sp.GetRequiredService<ILogger<KeellsCollector>>();
             return new KeellsCollector(client, logger);
         });

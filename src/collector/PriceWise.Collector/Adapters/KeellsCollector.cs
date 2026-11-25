@@ -26,7 +26,7 @@ public class KeellsCollectorOptions
     public string SubDepartmentCode { get; set; } = "ALL";
     public int RequestDelayMs { get; set; } = 1500;
     public int MaxRetries { get; set; } = 2;
-    public int TimeoutSeconds { get; set; } = 20;
+    public int TimeoutSeconds { get; set; } = 35;
 }
 
 public class KeellsCollector : ISupermarketCollector
@@ -210,42 +210,67 @@ public class KeellsCollector : ISupermarketCollector
     {
         const string guestLoginUrl = "https://zebraliveback.keellssuper.com/1.0/Login/GuestLogin";
 
-        using var request = new HttpRequestMessage(HttpMethod.Post, guestLoginUrl);
-        request.Headers.Add("User-Agent", "Mozilla/5.0 (Windows NT 10.0; Win64; x64) PriceWiseLK/1.0 (+https://github.com/shehanweersing/Keels)");
-        request.Headers.Add("Accept", "application/json");
-        request.Headers.Add("Origin", "https://www.keellssuper.com");
-        request.Headers.Add("Referer", "https://www.keellssuper.com/");
-        request.Content = new StringContent("{}", Encoding.UTF8, "application/json");
-
-        try
+        for (int attempt = 0; attempt <= _options.MaxRetries; attempt++)
         {
-            using var response = await _httpClient.SendAsync(request, cancellationToken);
-            if (response.StatusCode == HttpStatusCode.Unauthorized || response.StatusCode == HttpStatusCode.Forbidden)
-            {
-                return (null, null, response.StatusCode, $"HTTP {(int)response.StatusCode} {response.StatusCode}");
-            }
+            using var request = new HttpRequestMessage(HttpMethod.Post, guestLoginUrl);
+            request.Headers.Add("User-Agent", "Mozilla/5.0 (Windows NT 10.0; Win64; x64) PriceWiseLK/1.0 (+https://github.com/shehanweersing/Keels)");
+            request.Headers.Add("Accept", "application/json");
+            request.Headers.Add("Origin", "https://www.keellssuper.com");
+            request.Headers.Add("Referer", "https://www.keellssuper.com/");
+            request.Content = new StringContent("{}", Encoding.UTF8, "application/json");
 
-            if (!response.IsSuccessStatusCode)
+            try
             {
+                using var response = await _httpClient.SendAsync(request, cancellationToken);
+                if (response.StatusCode == HttpStatusCode.Unauthorized || response.StatusCode == HttpStatusCode.Forbidden)
+                {
+                    return (null, null, response.StatusCode, $"HTTP {(int)response.StatusCode} {response.StatusCode}");
+                }
+
+                if (response.IsSuccessStatusCode)
+                {
+                    var json = await response.Content.ReadAsStringAsync(cancellationToken);
+                    var parsed = JsonSerializer.Deserialize<KeellsGuestLoginResponse>(json, JsonOptions);
+                    var sessionId = parsed?.Result?.UserSessionID;
+                    var outlet = parsed?.Result?.PreferredOutlet;
+
+                    if (string.IsNullOrWhiteSpace(sessionId))
+                    {
+                        return (null, null, response.StatusCode, "GuestLogin succeeded but did not return userSessionID.");
+                    }
+
+                    return (sessionId.Trim(), outlet?.Trim(), response.StatusCode, null);
+                }
+
+                if (((int)response.StatusCode == 429 || (int)response.StatusCode >= 500) && attempt < _options.MaxRetries)
+                {
+                    await Task.Delay(1000 * (attempt + 1), cancellationToken);
+                    continue;
+                }
+
                 return (null, null, response.StatusCode, $"GuestLogin returned HTTP {(int)response.StatusCode} {response.StatusCode}");
             }
-
-            var json = await response.Content.ReadAsStringAsync(cancellationToken);
-            var parsed = JsonSerializer.Deserialize<KeellsGuestLoginResponse>(json, JsonOptions);
-            var sessionId = parsed?.Result?.UserSessionID;
-            var outlet = parsed?.Result?.PreferredOutlet;
-
-            if (string.IsNullOrWhiteSpace(sessionId))
+            catch (OperationCanceledException) when (!cancellationToken.IsCancellationRequested && attempt < _options.MaxRetries)
             {
-                return (null, null, response.StatusCode, "GuestLogin succeeded but did not return userSessionID.");
+                _logger.LogWarning("Keells GuestLogin timed out on attempt {Attempt}; retrying...", attempt + 1);
+                await Task.Delay(1000 * (attempt + 1), cancellationToken);
             }
+            catch (OperationCanceledException) when (!cancellationToken.IsCancellationRequested)
+            {
+                return (null, null, null, "Keells GuestLogin request timed out after bounded retries.");
+            }
+            catch (HttpRequestException ex) when (attempt < _options.MaxRetries)
+            {
+                _logger.LogWarning("Transient HTTP error on Keells GuestLogin attempt {Attempt}: {Message}", attempt + 1, ex.Message);
+                await Task.Delay(1000 * (attempt + 1), cancellationToken);
+            }
+            catch (HttpRequestException ex)
+            {
+                return (null, null, null, ex.Message);
+            }
+        }
 
-            return (sessionId.Trim(), outlet?.Trim(), response.StatusCode, null);
-        }
-        catch (HttpRequestException ex)
-        {
-            return (null, null, null, ex.Message);
-        }
+        return (null, null, null, "Exceeded maximum GuestLogin retry attempts.");
     }
 
     private async Task<(HttpStatusCode? StatusCode, string? Body, string? Error)> FetchWithBoundedRetriesAsync(
@@ -286,6 +311,15 @@ public class KeellsCollector : ISupermarketCollector
                 }
 
                 return (response.StatusCode, null, $"HTTP {(int)response.StatusCode} {response.StatusCode}");
+            }
+            catch (OperationCanceledException) when (!cancellationToken.IsCancellationRequested && attempt < _options.MaxRetries)
+            {
+                _logger.LogWarning("Keells GetItemDetails timed out on attempt {Attempt}; retrying...", attempt + 1);
+                await Task.Delay(1000 * (attempt + 1), cancellationToken);
+            }
+            catch (OperationCanceledException) when (!cancellationToken.IsCancellationRequested)
+            {
+                return (null, null, "Keells GetItemDetails request timed out after bounded retries.");
             }
             catch (HttpRequestException ex) when (attempt < _options.MaxRetries)
             {

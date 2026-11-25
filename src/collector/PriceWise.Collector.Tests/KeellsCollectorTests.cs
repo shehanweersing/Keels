@@ -291,6 +291,51 @@ public class KeellsCollectorTests
         Assert.Empty(result.Products);
     }
 
+    [Fact]
+    public async Task CollectProductsAsync_RetriesGuestLoginTimeout_AndSucceeds()
+    {
+        int loginCalls = 0;
+        var handler = new StubHttpMessageHandler((req, _) =>
+        {
+            if (req.RequestUri!.ToString().Contains("GuestLogin"))
+            {
+                loginCalls++;
+                if (loginCalls == 1)
+                {
+                    throw new TaskCanceledException("Simulated HttpClient 35s timeout");
+                }
+
+                return Task.FromResult(new HttpResponseMessage(HttpStatusCode.OK)
+                {
+                    Content = new StringContent(GuestLoginOkJson, Encoding.UTF8, "application/json")
+                });
+            }
+
+            var page = """
+            {
+              "statusCode": 200,
+              "result": {
+                "itemDetailsList": [
+                  { "itemID": 55, "itemCode": "C55", "name": "Retry Milk 500ml", "amount": 420, "isAvailable": true, "stockInHand": 5 }
+                ]
+              }
+            }
+            """;
+            return Task.FromResult(new HttpResponseMessage(HttpStatusCode.OK)
+            {
+                Content = new StringContent(page, Encoding.UTF8, "application/json")
+            });
+        });
+
+        var collector = CreateCollector(handler, new KeellsCollectorOptions { MaxRetries = 1, PageSize = 20, RequestDelayMs = 0 });
+        var result = await collector.CollectProductsAsync(new[] { "milk" });
+
+        Assert.True(result.Success);
+        Assert.Equal("success", result.Status);
+        Assert.Equal(2, loginCalls);
+        Assert.Single(result.Products);
+    }
+
     private static KeellsCollector CreateCollector(HttpMessageHandler handler, KeellsCollectorOptions? options = null)
     {
         var client = new HttpClient(handler);
