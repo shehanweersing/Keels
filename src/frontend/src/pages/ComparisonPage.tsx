@@ -87,6 +87,8 @@ export const ComparisonPage: React.FC<ComparisonPageProps> = ({
           {displayProducts.map(product => {
             const cargillsOffer = product.Offers.find(o => o.SupermarketSlug === 'cargills');
             const arpicoOffer = product.Offers.find(o => o.SupermarketSlug === 'arpico');
+            const keellsOffer = product.Offers.find(o => o.SupermarketSlug === 'keells');
+            const keellsStatus = supermarkets.find(s => s.Slug === 'keells')?.IntegrationStatus ?? 'blocked';
             const hasSavings = product.PriceDifference > 0;
 
             return (
@@ -199,14 +201,48 @@ export const ComparisonPage: React.FC<ComparisonPageProps> = ({
                   </div>
 
                   {/* Keells Column */}
-                  <div className="p-3.5 rounded-xl border bg-amber-50/40 border-amber-200/80">
+                  <div className={`p-3.5 rounded-xl border ${
+                    keellsOffer && keellsOffer.CurrentPrice === product.MinPrice
+                      ? 'bg-emerald-50/60 border-emerald-300 ring-1 ring-emerald-300'
+                      : keellsOffer
+                        ? 'bg-slate-50 border-slate-200'
+                        : 'bg-amber-50/40 border-amber-200/80'
+                  }`}>
                     <div className="flex items-center justify-between text-xs mb-1">
                       <span className="font-bold text-slate-700">Keells</span>
-                      <span className="text-amber-700 bg-amber-100 text-[10px] font-semibold px-1.5 py-0.2 rounded">Blocked</span>
+                      {keellsOffer ? (
+                        keellsOffer.CurrentPrice === product.MinPrice && (
+                          <span className="bg-emerald-600 text-white text-[10px] font-bold px-1.5 py-0.2 rounded">Cheapest</span>
+                        )
+                      ) : keellsStatus === 'blocked' ? (
+                        <span className="text-amber-700 bg-amber-100 text-[10px] font-semibold px-1.5 py-0.2 rounded">Blocked</span>
+                      ) : null}
                     </div>
-                    <span className="text-xs text-slate-500 italic block mt-2">
-                      Feed pending authorization
-                    </span>
+                    {keellsOffer ? (
+                      <div>
+                        <span className="text-base font-extrabold text-slate-900">
+                          {formatPrice(keellsOffer.CurrentPrice)}
+                        </span>
+                        {keellsOffer.OriginalPrice && keellsOffer.OriginalPrice > keellsOffer.CurrentPrice && (
+                          <span className="text-[11px] text-slate-400 line-through block">
+                            {formatPrice(keellsOffer.OriginalPrice)}
+                          </span>
+                        )}
+                        <a
+                          href={keellsOffer.ProductUrl}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="mt-2 text-[11px] text-emerald-600 hover:text-emerald-800 font-medium flex items-center gap-1"
+                        >
+                          <span>Store Link</span>
+                          <ExternalLink className="w-3 h-3" />
+                        </a>
+                      </div>
+                    ) : (
+                      <span className="text-xs text-slate-500 italic block mt-2">
+                        {keellsStatus === 'blocked' ? 'Feed pending authorization' : 'Not listed'}
+                      </span>
+                    )}
                   </div>
                 </div>
 

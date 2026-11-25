@@ -157,6 +157,12 @@ public class Program
         });
 
         services.AddHttpClient();
+        services.AddHttpClient<KeellsCollector>()
+            .ConfigurePrimaryHttpMessageHandler(() => new HttpClientHandler
+            {
+                UseCookies = true,
+                CookieContainer = new System.Net.CookieContainer()
+            });
         services.AddSingleton<ProductMatcher>();
 
         // Storage service configuration
@@ -287,7 +293,7 @@ public class Program
 
         services.AddTransient<ISupermarketCollector, KeellsCollector>(sp =>
         {
-            var client = sp.GetRequiredService<IHttpClientFactory>().CreateClient();
+            var client = sp.GetRequiredService<IHttpClientFactory>().CreateClient(nameof(KeellsCollector));
             client.Timeout = TimeSpan.FromSeconds(20);
             var logger = sp.GetRequiredService<ILogger<KeellsCollector>>();
             return new KeellsCollector(client, logger);

@@ -26,8 +26,8 @@ VALUES
         'Keells Super',
         'keells',
         'https://www.keellssuper.com/',
-        'blocked',
-        'Direct API calls to zebraliveback require encrypted client session tokens and anti-bot challenge cookies. Automated collection blocked pending authorized enterprise data feed.'
+        'active',
+        'Live public Guest Browsing JSON API (Login/GuestLogin + 2.0/Web/GetItemDetails) with outlet-scoped LKR pricing.'
     )
 ON CONFLICT (slug) DO UPDATE SET
     website_url = EXCLUDED.website_url,
