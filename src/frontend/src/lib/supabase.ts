@@ -4,7 +4,18 @@ import type { VerifiedProduct, Supermarket, CollectorRun } from '../types';
 const supabaseUrl = import.meta.env.VITE_SUPABASE_URL;
 const supabaseAnonKey = import.meta.env.VITE_SUPABASE_ANON_KEY;
 
-export const supabase = (supabaseUrl && supabaseAnonKey && !supabaseUrl.includes('your-project'))
+const isSecretKeyMistake = Boolean(
+  supabaseAnonKey &&
+  (supabaseAnonKey.startsWith('sb_secret_') || supabaseAnonKey.startsWith('ssb_secret_'))
+);
+
+if (isSecretKeyMistake) {
+  console.error(
+    '[PriceWise LK] VITE_SUPABASE_ANON_KEY appears to be a secret key instead of the public anon/publishable key. Browser client disabled for security.'
+  );
+}
+
+export const supabase = (supabaseUrl && supabaseAnonKey && !isSecretKeyMistake && !supabaseUrl.includes('your-project'))
   ? createClient(supabaseUrl, supabaseAnonKey)
   : null;
 
@@ -14,44 +25,67 @@ export function getDataSourceMode(): 'supabase_live' | 'local_snapshot' {
 
 export async function fetchVerifiedCatalog(): Promise<VerifiedProduct[]> {
   try {
-    // 1. If Supabase is configured, fetch from Supabase
+    // 1. If Supabase is configured, fetch all products using PostgREST pagination (avoids 1,000-row cap)
     if (supabase) {
-      const { data, error } = await supabase
-        .from('products')
-        .select(`
-          id,
-          canonical_name,
-          brand,
-          barcode,
-          quantity,
-          unit,
-          category,
-          store_products (
-            id,
-            supermarket_id,
-            source_product_id,
-            source_product_name,
-            product_url,
-            image_url,
-            availability_status,
-            last_observed_at,
-            supermarkets (
-              id,
-              name,
-              slug
-            ),
-            price_observations (
-              price,
-              original_price,
-              currency,
-              observed_at
-            )
-          )
-        `);
+      const pageSize = 1000;
+      const allRows: any[] = [];
+      let from = 0;
 
-      if (!error && data && data.length > 0) {
+      while (true) {
+        const { data, error } = await supabase
+          .from('products')
+          .select(`
+            id,
+            canonical_name,
+            brand,
+            barcode,
+            quantity,
+            unit,
+            category,
+            store_products (
+              id,
+              supermarket_id,
+              source_product_id,
+              source_product_name,
+              product_url,
+              image_url,
+              availability_status,
+              last_observed_at,
+              supermarkets (
+                id,
+                name,
+                slug
+              ),
+              price_observations (
+                price,
+                original_price,
+                currency,
+                observed_at
+              )
+            )
+          `)
+          .order('created_at', { ascending: true })
+          .range(from, from + pageSize - 1);
+
+        if (error) {
+          console.error('Supabase products query error:', error.message);
+          break;
+        }
+
+        if (!data || data.length === 0) {
+          break;
+        }
+
+        allRows.push(...data);
+        if (data.length < pageSize) {
+          break;
+        }
+        from += pageSize;
+      }
+
+      if (allRows.length > 0) {
         // Transform Supabase relational data into VerifiedProduct view
-        return data.map((p: any) => {
+        return allRows.map((p: any) => {
           const offers = (p.store_products || []).map((sp: any) => {
             const obs = (sp.price_observations || []).sort(
               (a: any, b: any) => new Date(b.observed_at).getTime() - new Date(a.observed_at).getTime()

@@ -3,9 +3,11 @@ name: Build and Deploy Frontend to Cloudflare Pages
 on:
   push:
     branches:
+      - master
       - main
   pull_request:
     branches:
+      - master
       - main
   workflow_dispatch:
 
@@ -37,7 +39,7 @@ jobs:
         run: npm run build
 
       - name: Deploy to Cloudflare Pages
-        if: github.ref == 'refs/heads/main' && github.event_name == 'push' && secrets.CLOUDFLARE_API_TOKEN != ''
+        if: (github.ref == 'refs/heads/master' || github.ref == 'refs/heads/main') && github.event_name == 'push' && secrets.CLOUDFLARE_API_TOKEN != ''
         uses: cloudflare/pages-action@v1
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
