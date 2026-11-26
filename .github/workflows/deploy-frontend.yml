@@ -87,9 +87,8 @@ jobs:
 
       - name: Deploy to Cloudflare Pages
         if: (((github.ref == 'refs/heads/master' || github.ref == 'refs/heads/main') && github.event_name == 'push') || (github.event_name == 'workflow_dispatch' && inputs.deploy)) && env.CLOUDFLARE_API_TOKEN != '' && env.CLOUDFLARE_ACCOUNT_ID != ''
-        uses: cloudflare/pages-action@v1
+        uses: cloudflare/wrangler-action@v4
         with:
           apiToken: ${{ env.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ env.CLOUDFLARE_ACCOUNT_ID }}
-          projectName: 'pricewise-lk'
-          directory: 'src/frontend/dist'
+          command: pages deploy src/frontend/dist --project-name=pricewise-lk
