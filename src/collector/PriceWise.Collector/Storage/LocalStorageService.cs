@@ -134,23 +134,32 @@ public class LocalStorageService : IStorageService
 
         foreach (var rawItem in items)
         {
-            // Evaluate cross-store canonical match only against products that do NOT already have a listing from THIS supermarket.
-            // A supermarket does not sell the exact same physical product under two distinct SKUs at different prices.
-            var candidateCatalog = _products
-                .Where(p => !_storeProducts.Any(sp => sp.ProductId == p.Id && sp.SupermarketId == supermarket.Id))
-                .ToList();
-
-            var matchResult = _matcher.MatchOrCreateProduct(rawItem, candidateCatalog);
-            var canonical = matchResult.CanonicalProduct;
-
-            if (matchResult.IsNewProduct)
-            {
-                _products.Add(canonical);
-            }
-
             // Find or create StoreProduct
             var existingStoreProduct = _storeProducts.FirstOrDefault(sp =>
                 sp.SupermarketId == supermarket.Id && sp.SourceProductId == rawItem.SourceProductId);
+
+            Product canonical;
+            ProductMatcher.MatchEvaluationResult? matchResult = null;
+
+            if (existingStoreProduct?.ProductId != null &&
+                _products.FirstOrDefault(p => p.Id == existingStoreProduct.ProductId.Value) is Product existingCanonical)
+            {
+                canonical = existingCanonical;
+            }
+            else
+            {
+                var candidateCatalog = _products
+                    .Where(p => !_storeProducts.Any(sp => sp.ProductId == p.Id && sp.SupermarketId == supermarket.Id))
+                    .ToList();
+
+                matchResult = _matcher.MatchOrCreateProduct(rawItem, candidateCatalog);
+                canonical = matchResult.CanonicalProduct;
+
+                if (matchResult.IsNewProduct)
+                {
+                    _products.Add(canonical);
+                }
+            }
 
             if (existingStoreProduct == null)
             {
@@ -192,22 +201,25 @@ public class LocalStorageService : IStorageService
             };
             _observations.Add(observation);
 
-            // Record match audit record
-            var existingMatch = _productMatches.FirstOrDefault(pm =>
-                pm.ProductId == canonical.Id && pm.StoreProductId == existingStoreProduct.Id);
-
-            if (existingMatch == null)
+            // Record match audit record for cross-store matches
+            if (matchResult != null && !matchResult.IsNewProduct)
             {
-                _productMatches.Add(new ProductMatch
+                var existingMatch = _productMatches.FirstOrDefault(pm =>
+                    pm.ProductId == canonical.Id && pm.StoreProductId == existingStoreProduct.Id);
+
+                if (existingMatch == null)
                 {
-                    Id = Guid.NewGuid(),
-                    ProductId = canonical.Id,
-                    StoreProductId = existingStoreProduct.Id,
-                    MatchMethod = matchResult.MatchMethod,
-                    Confidence = matchResult.Confidence,
-                    VerificationStatus = matchResult.VerificationStatus,
-                    CreatedAt = DateTime.UtcNow
-                });
+                    _productMatches.Add(new ProductMatch
+                    {
+                        Id = Guid.NewGuid(),
+                        ProductId = canonical.Id,
+                        StoreProductId = existingStoreProduct.Id,
+                        MatchMethod = matchResult.MatchMethod,
+                        Confidence = matchResult.Confidence,
+                        VerificationStatus = matchResult.VerificationStatus,
+                        CreatedAt = DateTime.UtcNow
+                    });
+                }
             }
         }
 

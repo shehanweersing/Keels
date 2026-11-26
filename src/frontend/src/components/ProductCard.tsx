@@ -60,7 +60,7 @@ export const ProductCard: React.FC<ProductCardProps> = ({ product, onSelect }) =
             {product.Category}
           </span>
           <span className="font-semibold text-slate-600">
-            {product.Quantity > 0 ? `${product.Quantity} ${product.Unit}` : product.Unit}
+            {product.Quantity > 0 ? `${product.Quantity} ${product.Unit}` : 'Unit unspecified'}
           </span>
         </div>
 

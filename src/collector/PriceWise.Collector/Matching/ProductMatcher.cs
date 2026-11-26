@@ -22,6 +22,51 @@ public class ProductMatcher
         public bool IsNewProduct { get; init; }
     }
 
+    private static readonly string[] KnownBrands =
+    {
+        "Elephant House", "Happy Hen", "Surf Excel", "Harpic", "Coca-Cola", "Coca Cola", "Sprite", "Fanta", "Pepsi",
+        "Milkmaid", "Ambewela", "Maliban", "Munchee", "Dilmah", "Watawala", "Highland", "Kotmale", "Anchor",
+        "Pelwatte", "Richlife", "Nestomalt", "Nescafe", "Nestle", "Milo", "Maggi", "Knorr", "Kist", "MD",
+        "Prima", "Sunlight", "Dettol", "Lifebuoy", "Signal", "Closeup", "Sunsilk", "Dove", "Lux", "Pears",
+        "Astra", "Flora", "Meadowlea", "Harischandra", "Samaposha", "Ritzbury", "Kandos", "Edinborough",
+        "Marina", "Fortune", "Araliya", "Nipuna", "Cic", "Raigam", "Motha", "Keells", "Cargills", "Arpico",
+        "Krest", "Samahan", "Iodex", "Lipton", "Zesta", "Necto", "EGB", "Sera", "Kothmale", "Kraft",
+        "Sanitarium", "Bega", "Ceylon Biscuits", "Little Lion", "Magic", "4Rever", "Kandos"
+    };
+
+    private static readonly Dictionary<string, string> AbbreviationMap = new(StringComparer.OrdinalIgnoreCase)
+    {
+        ["choc"] = "chocolate",
+        ["choco"] = "chocolate",
+        ["van"] = "vanilla",
+        ["straw"] = "strawberry",
+        ["fc"] = "full cream",
+        ["f/c"] = "full cream",
+        ["pkt"] = "pack",
+        ["packet"] = "pack",
+        ["btl"] = "bottle",
+        ["tb"] = "tetra",
+        ["flav"] = "flavoured",
+        ["flavored"] = "flavoured",
+        ["cond"] = "condensed",
+        ["pwd"] = "powder",
+        ["powd"] = "powder"
+    };
+
+    public static string ExtractBrandFromName(string name)
+    {
+        if (string.IsNullOrWhiteSpace(name))
+            return "Unknown";
+
+        foreach (var brand in KnownBrands)
+        {
+            if (Regex.IsMatch(name, $@"(?:^|\b){Regex.Escape(brand)}(?:\b|$)", RegexOptions.IgnoreCase))
+                return brand;
+        }
+
+        return "Unknown";
+    }
+
     public MatchEvaluationResult MatchOrCreateProduct(RawProductItem rawItem, IReadOnlyList<Product> existingCatalog)
     {
         // 1. Exact Barcode Match (Tier 1)
@@ -45,59 +90,58 @@ public class ProductMatcher
         }
 
         // 2. Brand + Unit + Quantity + Title Similarity Match (Tier 2 & 3)
-        var rawBrand = rawItem.Brand ?? "Generic";
+        var rawBrand = string.IsNullOrWhiteSpace(rawItem.Brand) ? "Unknown" : rawItem.Brand.Trim();
         var rawTokens = Tokenize(rawItem.SourceProductName, rawBrand);
+
+        bool rawIsUnknownBrand = string.Equals(rawBrand, "Unknown", StringComparison.OrdinalIgnoreCase)
+                              || string.Equals(rawBrand, "Generic", StringComparison.OrdinalIgnoreCase);
 
         Product? bestCandidate = null;
         decimal highestScore = 0;
         string bestMethod = "new_product";
 
-        foreach (var existing in existingCatalog)
+        // Never auto-match items whose brand or quantity is unverified
+        if (!rawIsUnknownBrand && rawItem.Quantity > 0)
         {
-            // CRITICAL RULE: Quantity and Unit MUST match. Different sizes/quantities are separate products.
-            if (!AreQuantitiesAndUnitsEquivalent(rawItem.Quantity, rawItem.Unit, existing.Quantity, existing.Unit))
+            foreach (var existing in existingCatalog)
             {
-                continue;
-            }
+                if (existing.Quantity <= 0)
+                    continue;
 
-            // Strict Brand Check:
-            // 1. If one product is branded and the other is unbranded/generic, NEVER match.
-            // 2. If both are branded, brands must match exactly.
-            bool rawIsGeneric = string.Equals(rawBrand, "Generic", StringComparison.OrdinalIgnoreCase);
-            bool existingIsGeneric = string.Equals(existing.Brand, "Generic", StringComparison.OrdinalIgnoreCase);
-
-            if (rawIsGeneric != existingIsGeneric)
-            {
-                // One is branded, one is generic -> never match
-                continue;
-            }
-
-            if (!rawIsGeneric && !string.Equals(rawBrand, existing.Brand, StringComparison.OrdinalIgnoreCase))
-            {
-                // Different brands -> never match
-                continue;
-            }
-
-            var existingTokens = Tokenize(existing.CanonicalName, existing.Brand);
-            var similarity = ComputeJaccardSimilarity(rawTokens, existingTokens);
-
-            if (similarity >= 0.95m)
-            {
-                // Exact or near-exact title match
-                return new MatchEvaluationResult
+                // CRITICAL RULE: Quantity and Unit MUST match. Different sizes/quantities are separate products.
+                if (!AreQuantitiesAndUnitsEquivalent(rawItem.Quantity, rawItem.Unit, existing.Quantity, existing.Unit))
                 {
-                    CanonicalProduct = existing,
-                    MatchMethod = "brand_name_unit_exact",
-                    Confidence = 0.98m,
-                    VerificationStatus = "verified",
-                    IsNewProduct = false
-                };
-            }
-            else if (similarity >= 0.80m && similarity > highestScore)
-            {
-                highestScore = similarity;
-                bestCandidate = existing;
-                bestMethod = "high_confidence_heuristic";
+                    continue;
+                }
+
+                bool existingIsUnknownBrand = string.Equals(existing.Brand, "Unknown", StringComparison.OrdinalIgnoreCase)
+                                           || string.Equals(existing.Brand, "Generic", StringComparison.OrdinalIgnoreCase);
+
+                if (existingIsUnknownBrand || !string.Equals(rawBrand, existing.Brand, StringComparison.OrdinalIgnoreCase))
+                {
+                    continue;
+                }
+
+                var existingTokens = Tokenize(existing.CanonicalName, existing.Brand);
+                var similarity = ComputeJaccardSimilarity(rawTokens, existingTokens);
+
+                if (similarity >= 0.95m)
+                {
+                    return new MatchEvaluationResult
+                    {
+                        CanonicalProduct = existing,
+                        MatchMethod = "brand_name_unit_exact",
+                        Confidence = 0.98m,
+                        VerificationStatus = "verified",
+                        IsNewProduct = false
+                    };
+                }
+                else if (similarity >= 0.80m && similarity > highestScore)
+                {
+                    highestScore = similarity;
+                    bestCandidate = existing;
+                    bestMethod = "high_confidence_heuristic";
+                }
             }
         }
 
@@ -181,14 +225,17 @@ public class ProductMatcher
         var tokens = new HashSet<string>(StringComparer.OrdinalIgnoreCase);
         foreach (var t in rawTokens)
         {
-            if (t.Length <= 1 || StopWords.Contains(t) || string.Equals(t, brand, StringComparison.OrdinalIgnoreCase))
-                continue;
+            var mapped = AbbreviationMap.TryGetValue(t, out var expanded) ? expanded : t;
+            foreach (var sub in mapped.Split(' ', StringSplitOptions.RemoveEmptyEntries))
+            {
+                if (sub.Length <= 1 || StopWords.Contains(sub) || string.Equals(sub, brand, StringComparison.OrdinalIgnoreCase))
+                    continue;
 
-            // Remove purely numeric tokens (quantity already validated separately)
-            if (decimal.TryParse(t, out _))
-                continue;
+                if (decimal.TryParse(sub, out _))
+                    continue;
 
-            tokens.Add(t);
+                tokens.Add(sub);
+            }
         }
 
         return tokens;

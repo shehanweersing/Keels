@@ -147,6 +147,124 @@ public class StorageTests
         Assert.Contains("\"status_reason\":\"Verified 322 Keells products.\"", capturedBody);
     }
 
+    [Fact]
+    public async System.Threading.Tasks.Task SaveCollectedProductsAsync_RepeatedCollection_IsIdempotent_AndReusesCanonicalProductId()
+    {
+        var supermarket = new PriceWise.Collector.Models.Supermarket
+        {
+            Id = Guid.Parse("a1000000-0000-0000-0000-000000000001"),
+            Name = "Cargills Food City",
+            Slug = "cargills",
+            WebsiteUrl = "https://cargillsonline.com/Web/"
+        };
+
+        var storedProducts = new System.Collections.Generic.List<object>();
+        var storedStoreProducts = new System.Collections.Generic.List<object>();
+        int productInserts = 0;
+        int observationInserts = 0;
+
+        var handler = new TestHttpMessageHandler(async (req, ct) =>
+        {
+            var uri = req.RequestUri!.ToString();
+            if (req.Method == HttpMethod.Get && uri.Contains("products?"))
+            {
+                return new HttpResponseMessage(System.Net.HttpStatusCode.OK)
+                {
+                    Content = new StringContent(System.Text.Json.JsonSerializer.Serialize(storedProducts))
+                };
+            }
+            if (req.Method == HttpMethod.Get && uri.Contains("store_locations?"))
+            {
+                return new HttpResponseMessage(System.Net.HttpStatusCode.OK) { Content = new StringContent("[]") };
+            }
+            if (req.Method == HttpMethod.Get && uri.Contains("store_products?"))
+            {
+                return new HttpResponseMessage(System.Net.HttpStatusCode.OK)
+                {
+                    Content = new StringContent(System.Text.Json.JsonSerializer.Serialize(storedStoreProducts))
+                };
+            }
+            if (req.Method == HttpMethod.Post && uri.EndsWith("/rest/v1/products"))
+            {
+                productInserts++;
+                var body = await req.Content!.ReadAsStringAsync(ct);
+                var doc = System.Text.Json.JsonDocument.Parse(body).RootElement;
+                storedProducts.Add(new
+                {
+                    id = doc.GetProperty("id").GetGuid(),
+                    canonical_name = doc.GetProperty("canonical_name").GetString(),
+                    brand = doc.GetProperty("brand").GetString(),
+                    barcode = (string?)null,
+                    quantity = doc.GetProperty("quantity").GetDecimal(),
+                    unit = doc.GetProperty("unit").GetString(),
+                    category = doc.GetProperty("category").GetString(),
+                    created_at = DateTime.UtcNow
+                });
+                return new HttpResponseMessage(System.Net.HttpStatusCode.Created) { Content = new StringContent("[]") };
+            }
+            if (req.Method == HttpMethod.Post && uri.Contains("store_products?on_conflict"))
+            {
+                var body = await req.Content!.ReadAsStringAsync(ct);
+                var doc = System.Text.Json.JsonDocument.Parse(body).RootElement;
+                var spId = Guid.NewGuid();
+                if (storedStoreProducts.Count == 0)
+                {
+                    storedStoreProducts.Add(new
+                    {
+                        source_product_id = doc.GetProperty("source_product_id").GetString(),
+                        product_id = doc.GetProperty("product_id").GetGuid()
+                    });
+                }
+                return new HttpResponseMessage(System.Net.HttpStatusCode.Created)
+                {
+                    Content = new StringContent($"[{{\"id\":\"{spId}\"}}]")
+                };
+            }
+            if (req.Method == HttpMethod.Post && uri.EndsWith("/rest/v1/price_observations"))
+            {
+                observationInserts++;
+                return new HttpResponseMessage(System.Net.HttpStatusCode.Created) { Content = new StringContent("[]") };
+            }
+
+            return new HttpResponseMessage(System.Net.HttpStatusCode.OK) { Content = new StringContent("[]") };
+        });
+
+        var storage = new SupabaseStorageService(
+            new HttpClient(handler),
+            "https://testproject.supabase.co",
+            "sb_secret_test_key",
+            new PriceWise.Collector.Matching.ProductMatcher(),
+            Microsoft.Extensions.Logging.Abstractions.NullLogger<SupabaseStorageService>.Instance);
+
+        var items = new[]
+        {
+            new PriceWise.Collector.Models.RawProductItem
+            {
+                SourceSupermarketSlug = "cargills",
+                SourceProductId = "BV20102",
+                SourceProductName = "Milkmaid Condensed Milk",
+                Price = 990m,
+                ProductUrl = "https://cargillsonline.com/Web/ProductDetails?ID=1",
+                Brand = "Milkmaid",
+                Quantity = 510m,
+                Unit = "g",
+                Category = "Grocery",
+                AvailabilityStatus = "unknown",
+                ObservedAt = DateTime.UtcNow
+            }
+        };
+
+        // Run 1: creates 1 canonical product + 1 observation
+        await storage.SaveCollectedProductsAsync(supermarket, items);
+        Assert.Equal(1, productInserts);
+        Assert.Equal(1, observationInserts);
+
+        // Run 2: same SKU collected again -> MUST NOT insert a new canonical product!
+        await storage.SaveCollectedProductsAsync(supermarket, items);
+        Assert.Equal(1, productInserts);
+        Assert.Equal(2, observationInserts);
+    }
+
     private class TestHttpMessageHandler : HttpMessageHandler
     {
         private readonly Func<HttpRequestMessage, System.Threading.CancellationToken, System.Threading.Tasks.Task<HttpResponseMessage>> _fn;

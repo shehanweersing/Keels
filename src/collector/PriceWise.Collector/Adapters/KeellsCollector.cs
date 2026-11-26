@@ -389,7 +389,7 @@ public class KeellsCollector : ISupermarketCollector
             if (string.IsNullOrWhiteSpace(cleanName))
                 continue;
 
-            var (quantity, unit) = DataValidator.ParseQuantityAndUnit(cleanName, 1, "pcs");
+            var (quantity, unit) = DataValidator.ParseQuantityAndUnit(cleanName, 0, "pcs");
 
             var availability = (dto.IsAvailable, dto.StockInHand) switch
             {
@@ -417,7 +417,7 @@ public class KeellsCollector : ISupermarketCollector
                 Currency = "LKR",
                 ProductUrl = productUrl,
                 ImageUrl = imageUrl,
-                Brand = ExtractBrandFromName(cleanName),
+                Brand = Matching.ProductMatcher.ExtractBrandFromName(cleanName),
                 Barcode = null,
                 Quantity = quantity,
                 Unit = unit,

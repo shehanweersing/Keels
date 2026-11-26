@@ -126,7 +126,7 @@ public class ArpicoCollector : ISupermarketCollector
                     if (currentPrice <= 0)
                         continue;
 
-                    var (quantity, unit) = DataValidator.ParseQuantityAndUnit(cleanTitle);
+                    var (quantity, unit) = DataValidator.ParseQuantityAndUnit(cleanTitle, 0, "pcs");
 
                     var rawItem = new RawProductItem
                     {
@@ -138,12 +138,12 @@ public class ArpicoCollector : ISupermarketCollector
                         Currency = "LKR",
                         ProductUrl = productUrl,
                         ImageUrl = imageUrl,
-                        Brand = ExtractBrandFromName(cleanTitle),
+                        Brand = Matching.ProductMatcher.ExtractBrandFromName(cleanTitle),
                         Barcode = null,
                         Quantity = quantity,
                         Unit = unit,
                         Category = "General Grocery",
-                        AvailabilityStatus = "in_stock",
+                        AvailabilityStatus = "unknown", // OpenCart search cards do not expose verified stock levels
                         ObservedAt = DateTime.UtcNow
                     };
 

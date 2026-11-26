@@ -52,7 +52,7 @@ export const DetailsPage: React.FC<DetailsPageProps> = ({ product, onBack }) => 
                 {product.Category}
               </span>
               <span className="text-xs font-semibold text-slate-600 bg-slate-100 px-2.5 py-0.5 rounded-full">
-                {product.Quantity > 0 ? `${product.Quantity} ${product.Unit}` : product.Unit}
+                {product.Quantity > 0 ? `${product.Quantity} ${product.Unit}` : 'Unit unspecified'}
               </span>
             </div>
 

@@ -92,7 +92,7 @@ public class CargillsCollector : ISupermarketCollector
                     if (string.IsNullOrWhiteSpace(cleanName))
                         continue;
 
-                    decimal quantity = 1;
+                    decimal quantity = 0;
                     if (decimal.TryParse(dto.UnitSize, out var parsedQty) && parsedQty > 0)
                         quantity = parsedQty;
 
@@ -101,6 +101,10 @@ public class CargillsCollector : ISupermarketCollector
                     {
                         var (_, parsedUnit) = DataValidator.ParseQuantityAndUnit($"1 {dto.Uom.Trim()}");
                         unit = parsedUnit;
+                    }
+                    else if (quantity == 0)
+                    {
+                        (quantity, unit) = DataValidator.ParseQuantityAndUnit(cleanName, 0, "pcs");
                     }
 
                     var productUrl = !string.IsNullOrWhiteSpace(dto.EnId)
@@ -121,12 +125,12 @@ public class CargillsCollector : ISupermarketCollector
                         Currency = "LKR",
                         ProductUrl = productUrl,
                         ImageUrl = imageUrl,
-                        Brand = ExtractBrandFromName(cleanName),
+                        Brand = Matching.ProductMatcher.ExtractBrandFromName(cleanName),
                         Barcode = null,
                         Quantity = quantity,
                         Unit = unit,
                         Category = dto.MenuCategoryName ?? "Grocery",
-                        AvailabilityStatus = "in_stock",
+                        AvailabilityStatus = "unknown", // SearchBar API does not expose verified stock levels
                         ObservedAt = DateTime.UtcNow
                     };
 

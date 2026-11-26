@@ -71,17 +71,33 @@ public class SupabaseStorageService : IStorageService
     {
         try
         {
-            using var request = CreatePostgRestRequest(HttpMethod.Get, "products?select=*");
-            using var response = await _httpClient.SendAsync(request, cancellationToken);
-            if (!response.IsSuccessStatusCode)
+            const int pageSize = 1000;
+            var allProducts = new List<Product>();
+            int offset = 0;
+
+            while (true)
             {
-                var err = await response.Content.ReadAsStringAsync(cancellationToken);
-                _logger.LogError("Failed to fetch products from Supabase: HTTP {Status} - {Error}", response.StatusCode, err);
-                throw new InvalidOperationException($"Failed to fetch products from Supabase: HTTP {response.StatusCode} - {err}");
+                using var request = CreatePostgRestRequest(HttpMethod.Get, $"products?select=*&order=created_at.asc&limit={pageSize}&offset={offset}");
+
+                using var response = await _httpClient.SendAsync(request, cancellationToken);
+                if (!response.IsSuccessStatusCode)
+                {
+                    var err = await response.Content.ReadAsStringAsync(cancellationToken);
+                    _logger.LogError("Failed to fetch products from Supabase: HTTP {Status} - {Error}", response.StatusCode, err);
+                    throw new InvalidOperationException($"Failed to fetch products from Supabase: HTTP {response.StatusCode} - {err}");
+                }
+
+                var json = await response.Content.ReadAsStringAsync(cancellationToken);
+                var batch = JsonSerializer.Deserialize<List<Product>>(json, JsonOptions) ?? new List<Product>();
+                allProducts.AddRange(batch);
+
+                if (batch.Count < pageSize)
+                    break;
+
+                offset += pageSize;
             }
 
-            var json = await response.Content.ReadAsStringAsync(cancellationToken);
-            return JsonSerializer.Deserialize<List<Product>>(json, JsonOptions) ?? new List<Product>();
+            return allProducts;
         }
         catch (Exception ex) when (ex is not InvalidOperationException)
         {
@@ -263,67 +279,103 @@ public class SupabaseStorageService : IStorageService
             _logger.LogWarning(ex, "Could not fetch store location for supermarket {Name}: {Message}", supermarket.Name, ex.Message);
         }
 
-        // Fetch existing store_products to prevent same-supermarket multiple offers on one canonical product
-        var existingStoreProducts = new HashSet<Guid>();
+        // Fetch existing store_products for this supermarket (paginated) to:
+        // 1. Reuse existing canonical product_id for already-known source_product_id (prevents duplicate/orphan products!)
+        // 2. Prevent same-supermarket multiple offers on one canonical product
+        var existingBySourceId = new Dictionary<string, Guid>(StringComparer.OrdinalIgnoreCase);
+        var existingProductIds = new HashSet<Guid>();
+        var catalogById = existingCatalog.ToDictionary(p => p.Id);
+
         try
         {
-            using var req = CreatePostgRestRequest(HttpMethod.Get, $"store_products?supermarket_id=eq.{supermarket.Id}&select=product_id");
-            using var resp = await _httpClient.SendAsync(req, cancellationToken);
-            if (resp.IsSuccessStatusCode)
+            const int pageSize = 1000;
+            int offset = 0;
+            while (true)
             {
-                var json = await resp.Content.ReadAsStringAsync(cancellationToken);
-                var list = JsonSerializer.Deserialize<List<StoreProductRefDto>>(json, JsonOptions);
-                if (list != null)
+                using var req = CreatePostgRestRequest(HttpMethod.Get, $"store_products?supermarket_id=eq.{supermarket.Id}&select=source_product_id,product_id&limit={pageSize}&offset={offset}");
+                using var resp = await _httpClient.SendAsync(req, cancellationToken);
+                if (!resp.IsSuccessStatusCode)
                 {
-                    foreach (var item in list)
+                    var err = await resp.Content.ReadAsStringAsync(cancellationToken);
+                    throw new InvalidOperationException($"Failed to fetch existing store products for {supermarket.Name}: HTTP {resp.StatusCode} - {err}");
+                }
+
+                var json = await resp.Content.ReadAsStringAsync(cancellationToken);
+                var list = JsonSerializer.Deserialize<List<StoreProductRefDto>>(json, JsonOptions) ?? new List<StoreProductRefDto>();
+                foreach (var item in list)
+                {
+                    if (item.ProductId.HasValue)
                     {
-                        if (item.ProductId.HasValue) existingStoreProducts.Add(item.ProductId.Value);
+                        existingProductIds.Add(item.ProductId.Value);
+                        if (!string.IsNullOrWhiteSpace(item.SourceProductId))
+                        {
+                            existingBySourceId[item.SourceProductId.Trim()] = item.ProductId.Value;
+                        }
                     }
                 }
+
+                if (list.Count < pageSize)
+                    break;
+
+                offset += pageSize;
             }
         }
-        catch (Exception ex)
+        catch (Exception ex) when (ex is not InvalidOperationException)
         {
-            _logger.LogWarning(ex, "Failed to fetch existing store products for supermarket {Name}: {Message}", supermarket.Name, ex.Message);
+            throw new InvalidOperationException($"Failed to load existing store products for {supermarket.Name}: {ex.Message}", ex);
         }
 
         int persistedCount = 0;
         foreach (var rawItem in items)
         {
-            // Only consider canonical products that do NOT already have an offer from this supermarket
-            var candidateProducts = existingCatalog
-                .Where(p => !existingStoreProducts.Contains(p.Id))
-                .ToList();
+            Product canonical;
+            ProductMatcher.MatchEvaluationResult? matchResult = null;
 
-            var matchResult = _matcher.MatchOrCreateProduct(rawItem, candidateProducts);
-            var canonical = matchResult.CanonicalProduct;
-            existingStoreProducts.Add(canonical.Id);
-
-            if (matchResult.IsNewProduct)
+            if (existingBySourceId.TryGetValue(rawItem.SourceProductId.Trim(), out var existingProdId) &&
+                catalogById.TryGetValue(existingProdId, out var existingCanonical))
             {
-                // Insert new canonical product
-                using var pReq = CreatePostgRestRequest(HttpMethod.Post, "products");
-                var pPayload = new
+                // Reuse existing canonical product identity — idempotent across repeated runs
+                canonical = existingCanonical;
+            }
+            else
+            {
+                // Only consider canonical products that do NOT already have an offer from this supermarket
+                var candidateProducts = existingCatalog
+                    .Where(p => !existingProductIds.Contains(p.Id))
+                    .ToList();
+
+                matchResult = _matcher.MatchOrCreateProduct(rawItem, candidateProducts);
+                canonical = matchResult.CanonicalProduct;
+                existingProductIds.Add(canonical.Id);
+                existingBySourceId[rawItem.SourceProductId.Trim()] = canonical.Id;
+
+                if (matchResult.IsNewProduct)
                 {
-                    id = canonical.Id,
-                    canonical_name = canonical.CanonicalName,
-                    brand = canonical.Brand,
-                    barcode = canonical.Barcode,
-                    quantity = canonical.Quantity,
-                    unit = canonical.Unit,
-                    category = canonical.Category
-                };
-                pReq.Content = new StringContent(JsonSerializer.Serialize(pPayload, JsonOptions), Encoding.UTF8, "application/json");
-                using var pResp = await _httpClient.SendAsync(pReq, cancellationToken);
-                if (pResp.IsSuccessStatusCode)
-                {
-                    existingCatalog.Add(canonical);
-                }
-                else
-                {
-                    var pErr = await pResp.Content.ReadAsStringAsync(cancellationToken);
-                    _logger.LogError("Failed to insert canonical product '{Name}': HTTP {Status} - {Error}", canonical.CanonicalName, pResp.StatusCode, pErr);
-                    throw new InvalidOperationException($"Failed to insert canonical product '{canonical.CanonicalName}': HTTP {pResp.StatusCode} - {pErr}");
+                    // Insert new canonical product
+                    using var pReq = CreatePostgRestRequest(HttpMethod.Post, "products");
+                    var pPayload = new
+                    {
+                        id = canonical.Id,
+                        canonical_name = canonical.CanonicalName,
+                        brand = canonical.Brand,
+                        barcode = canonical.Barcode,
+                        quantity = canonical.Quantity,
+                        unit = canonical.Unit,
+                        category = canonical.Category
+                    };
+                    pReq.Content = new StringContent(JsonSerializer.Serialize(pPayload, JsonOptions), Encoding.UTF8, "application/json");
+                    using var pResp = await _httpClient.SendAsync(pReq, cancellationToken);
+                    if (pResp.IsSuccessStatusCode)
+                    {
+                        existingCatalog.Add(canonical);
+                        catalogById[canonical.Id] = canonical;
+                    }
+                    else
+                    {
+                        var pErr = await pResp.Content.ReadAsStringAsync(cancellationToken);
+                        _logger.LogError("Failed to insert canonical product '{Name}': HTTP {Status} - {Error}", canonical.CanonicalName, pResp.StatusCode, pErr);
+                        throw new InvalidOperationException($"Failed to insert canonical product '{canonical.CanonicalName}': HTTP {pResp.StatusCode} - {pErr}");
+                    }
                 }
             }
 
@@ -394,8 +446,8 @@ public class SupabaseStorageService : IStorageService
                 throw new InvalidOperationException($"Failed to insert price observation for SKU {rawItem.SourceProductId}: HTTP {obsResp.StatusCode} - {obsErr}");
             }
 
-            // Upsert product_matches audit record for cross-supermarket matches (only for matched products, not new_product)
-            if (!matchResult.IsNewProduct && !string.Equals(matchResult.MatchMethod, "new_product", StringComparison.OrdinalIgnoreCase))
+            // Upsert product_matches audit record for cross-supermarket matches (only for newly matched products)
+            if (matchResult != null && !matchResult.IsNewProduct && !string.Equals(matchResult.MatchMethod, "new_product", StringComparison.OrdinalIgnoreCase))
             {
                 using var pmReq = CreatePostgRestRequest(HttpMethod.Post, "product_matches?on_conflict=product_id,store_product_id");
                 pmReq.Headers.Add("Prefer", "resolution=merge-duplicates,return=representation");
@@ -439,6 +491,9 @@ public class SupabaseStorageService : IStorageService
 
     private class StoreProductRefDto
     {
+        [JsonPropertyName("source_product_id")]
+        public string? SourceProductId { get; set; }
+
         [JsonPropertyName("product_id")]
         public Guid? ProductId { get; set; }
     }

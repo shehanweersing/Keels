@@ -51,7 +51,7 @@ export const HomePage: React.FC<HomePageProps> = ({
           </h1>
 
           <p className="text-sm sm:text-base text-slate-300 max-w-xl mx-auto">
-            Compare verified shelf prices across Cargills Food City and Arpico Supercentre. Audited data with zero simulated or fabricated prices.
+            Compare verified shelf prices across Cargills Food City, Arpico Supercentre, and Keells Super. Audited data with zero simulated or fabricated prices.
           </p>
 
           {/* Search Bar */}
