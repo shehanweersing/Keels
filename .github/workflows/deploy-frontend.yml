@@ -10,11 +10,20 @@ on:
       - master
       - main
   workflow_dispatch:
+    inputs:
+      deploy:
+        description: 'Deploy built frontend to Cloudflare Pages'
+        required: true
+        default: true
+        type: boolean
 
 jobs:
   build:
     name: Build & Verify Frontend
     runs-on: ubuntu-latest
+    env:
+      CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+      CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
 
     steps:
       - name: Checkout Repository
@@ -27,6 +36,27 @@ jobs:
           cache: 'npm'
           cache-dependency-path: src/frontend/package.json
 
+      - name: Validate Frontend Supabase Configuration
+        env:
+          VITE_SUPABASE_URL: ${{ secrets.VITE_SUPABASE_URL }}
+          VITE_SUPABASE_ANON_KEY: ${{ secrets.VITE_SUPABASE_ANON_KEY }}
+        run: |
+          if [ -z "$VITE_SUPABASE_URL" ]; then
+            echo "::error::Missing required GitHub Secret: VITE_SUPABASE_URL"
+            exit 1
+          fi
+          if [ -z "$VITE_SUPABASE_ANON_KEY" ]; then
+            echo "::error::Missing required GitHub Secret: VITE_SUPABASE_ANON_KEY"
+            exit 1
+          fi
+          case "$VITE_SUPABASE_ANON_KEY" in
+            sb_secret_*|ssb_secret_*)
+              echo "::error::VITE_SUPABASE_ANON_KEY must be the public publishable/anon key, never a backend secret key."
+              exit 1
+              ;;
+          esac
+          echo "Frontend Supabase configuration validated (public key format)."
+
       - name: Install Frontend Dependencies
         working-directory: src/frontend
         run: npm ci
@@ -38,11 +68,28 @@ jobs:
           VITE_SUPABASE_ANON_KEY: ${{ secrets.VITE_SUPABASE_ANON_KEY }}
         run: npm run build
 
+      - name: Validate Cloudflare Deployment Credentials
+        if: (((github.ref == 'refs/heads/master' || github.ref == 'refs/heads/main') && github.event_name == 'push') || (github.event_name == 'workflow_dispatch' && inputs.deploy))
+        run: |
+          missing=0
+          if [ -z "$CLOUDFLARE_API_TOKEN" ]; then
+            echo "::error::Missing GitHub Secret CLOUDFLARE_API_TOKEN. Configure it in Repository Settings -> Secrets and variables -> Actions."
+            missing=1
+          fi
+          if [ -z "$CLOUDFLARE_ACCOUNT_ID" ]; then
+            echo "::error::Missing GitHub Secret CLOUDFLARE_ACCOUNT_ID. Configure it in Repository Settings -> Secrets and variables -> Actions."
+            missing=1
+          fi
+          if [ "$missing" -ne 0 ]; then
+            exit 1
+          fi
+          echo "Cloudflare deployment credentials verified."
+
       - name: Deploy to Cloudflare Pages
-        if: (github.ref == 'refs/heads/master' || github.ref == 'refs/heads/main') && github.event_name == 'push' && secrets.CLOUDFLARE_API_TOKEN != ''
+        if: (((github.ref == 'refs/heads/master' || github.ref == 'refs/heads/main') && github.event_name == 'push') || (github.event_name == 'workflow_dispatch' && inputs.deploy)) && env.CLOUDFLARE_API_TOKEN != '' && env.CLOUDFLARE_ACCOUNT_ID != ''
         uses: cloudflare/pages-action@v1
         with:
-          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
-          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          apiToken: ${{ env.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ env.CLOUDFLARE_ACCOUNT_ID }}
           projectName: 'pricewise-lk'
           directory: 'src/frontend/dist'
